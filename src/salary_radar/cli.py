@@ -11,7 +11,7 @@ from __future__ import annotations
 import argparse
 import sys
 
-from . import config, db, report, sources
+from . import bot, config, db, report, sources
 from .analyze import classify_role, is_no_code_friendly, summarize
 
 
@@ -81,6 +81,10 @@ def build_parser() -> argparse.ArgumentParser:
     run.add_argument("--offline", action="store_true")
     run.add_argument("--sample", action="store_true")
     run.set_defaults(func=cmd_run)
+
+    dig = sub.add_parser("bot", help="Send/pring the daily no-code Telegram digest.")
+    dig.add_argument("--dry", action="store_true", help="Print digest without sending.")
+    dig.set_defaults(func=lambda a: bot.run_digest(dry=a.dry))
 
     return parser
 

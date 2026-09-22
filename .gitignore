@@ -22,3 +22,6 @@ outputs/*
 .env
 .env.*
 *.pem
+
+# Local backups
+.bak/

@@ -18,6 +18,12 @@ A tiny, zero-dependency Python pipeline that runs **daily on GitHub Actions**:
 The result is a living dataset: which remote roles are hiring this week, what they
 pay, and which of them don't require live coding.
 
+The dashboard doubles as a **viral "what are you worth?" widget**:
+an interactive salary calculator (driven by the real scraped medians), a
+shareable "MY WORTH" stat card (Telegram / VK / copy), a daily **loot-elf**
+digest signup, a 5-week gamified quest list, and "other path" success stories
+built on the live numbers.
+
 ## Why it exists
 
 The 2026 IT job market is divided: **junior engineering is crowded**
@@ -38,6 +44,9 @@ env python3 main.py run --sample
 # Individual steps
 env python3 main.py collect --sample
 env python3 main.py report
+
+# Telegram loot-elf digest — prints, or sends when TG_BOT_TOKEN/TG_CHAT_ID are set
+env python3 main.py bot --dry
 ```
 
 No `pip install` needed — **standard library only** (Python ≥ 3.10).
@@ -85,8 +94,9 @@ salary-radar/
 │   ├── sources.py           # HTTP clients + normalizers + fallback
 │   ├── db.py                # SQLite upsert store
 │   ├── analyze.py           # role classification + stats
-│   ├── report.py            # HTML / CSV / JSON exports
-│   └── cli.py               # collect | report | run
+│   ├── report.py            # HTML / CSV / JSON exports (+ worth calculator, quests, stories)
+│   ├── bot.py               # Telegram loot-elf digest (stdlib only)
+│   └── cli.py               # collect | report | run | bot
 ├── data/sample/             # offline fixtures per source
 ├── tests/                   # offline unit + pipeline tests
 ├── outputs/                 # generated (gitignored, committed by CI)

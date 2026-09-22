@@ -7,10 +7,10 @@ import unittest
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
-from src.salary_radar import config, sources
+from src.salary_radar import bot, config, sources
 from src.salary_radar.analyze import classify_role, is_no_code_friendly, summarize
 from src.salary_radar.db import RadarDB
-from src.salary_radar.report import write_all_summary_artifacts
+from src.salary_radar.report import render_html, write_all_summary_artifacts
 
 
 class TestSources(unittest.TestCase):
@@ -68,6 +68,68 @@ class TestPipeline(unittest.TestCase):
         self.assertTrue(os.path.exists(config.REPORT_HTML))
         self.assertTrue(os.path.exists(config.REPORT_JSON))
         store.close()
+
+
+class TestViralDashboard(unittest.TestCase):
+    """The dashboard must ship the conversion-facing hooks, not just tables."""
+
+    @staticmethod
+    def _build():
+        fetched = sources.scrape_all(offline=True, sample=True)
+        store = RadarDB(config.DB_PATH if False else os.path.join(tempfile.mkdtemp(), "t.db"))
+        for jobs in fetched.values():
+            for job in jobs:
+                role = classify_role(job.title)
+                no_code = is_no_code_friendly(job.title, job.category, job.tags)
+                store.upsert(job, role, no_code)
+        rows = store.all_jobs()
+        summary = summarize(rows)
+        store.close()
+        return summary, rows
+
+    def test_dashboard_has_viral_hooks(self):
+        summary, rows = self._build()
+        page = render_html(summary, rows, [])
+        for probe in [
+            "What are you worth?",
+            "Check my price",
+            "WORTH_DATA",
+            "MY WORTH",
+            "loot-elf",
+            "5-week quest",
+            "other path",
+            "shareTG",
+            "copyWorth",
+        ]:
+            self.assertIn(probe, page, f"missing hook: {probe}")
+        self.assertIn(str(summary["total"]), page)
+
+    def test_dashboard_passes_real_role_medians_to_calc(self):
+        summary, rows = self._build()
+        page = render_html(summary, rows, [])
+        # the client-side widget is fed by the real scraped medians via JSON
+        self.assertIn("QA / Testing", page)
+        self.assertIn("fallback_min", page)
+
+
+class TestBotDigest(unittest.TestCase):
+    def test_digest_prefers_no_code_with_salary(self):
+        summary = {"total": 3, "no_code_total": 1}
+        rows = [
+            {"title": "Manual QA Engineer", "company": "Testify", "role": "QA / Testing",
+             "no_code": 1, "salary_min": 40000, "salary_max": 60000, "url": "https://x"},
+            {"title": "Backend Engineer", "company": "R", "role": "Engineering",
+             "no_code": 0, "salary_min": None, "salary_max": None, "url": "https://y"},
+        ]
+        text = bot.build_digest_text(summary, rows)
+        self.assertIn("Loot-Elf", text)
+        self.assertIn("Manual QA Engineer", text)
+        self.assertIn("$40,000–$60,000", text)
+        self.assertNotIn("Backend Engineer", text)
+
+    def test_digest_handles_empty(self):
+        text = bot.build_digest_text({"total": 0, "no_code_total": 0}, [])
+        self.assertIn("Loot-Elf", text)
 
 
 if __name__ == "__main__":
