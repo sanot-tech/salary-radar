@@ -1,0 +1,253 @@
+{
+  "total": 321,
+  "no_code_total": 208,
+  "no_code_share": 0.65,
+  "by_source": {
+    "jobicy": 200,
+    "remoteok": 99,
+    "remotive": 18,
+    "arcdev": 4
+  },
+  "roles": [
+    {
+      "role": "Engineering",
+      "count": 60,
+      "companies": 49,
+      "no_code_count": 23,
+      "no_code_share": 0.38,
+      "salary_min_median": 150000,
+      "salary_max_median": 225000,
+      "top_company": "Lemon.io",
+      "top_tags": [
+        "Full-Time",
+        "engineer",
+        "golang",
+        "dev",
+        "digital nomad",
+        "exec",
+        "design",
+        "sys admin"
+      ]
+    },
+    {
+      "role": "QA / Testing",
+      "count": 6,
+      "companies": 5,
+      "no_code_count": 4,
+      "no_code_share": 0.67,
+      "salary_min_median": 30000,
+      "salary_max_median": 40000,
+      "top_company": "Welo Global",
+      "top_tags": [
+        "quality assurance",
+        "golang",
+        "testing",
+        "Full-Time",
+        "ai",
+        "data annotation",
+        "education",
+        "marketing"
+      ]
+    },
+    {
+      "role": "Data",
+      "count": 7,
+      "companies": 6,
+      "no_code_count": 4,
+      "no_code_share": 0.57,
+      "salary_min_median": 95000,
+      "salary_max_median": 130000,
+      "top_company": "Mactores",
+      "top_tags": [
+        "Full-Time",
+        "saas",
+        "customer support",
+        "marketing",
+        "exec",
+        "ops",
+        "sales",
+        "analyst"
+      ]
+    },
+    {
+      "role": "Support",
+      "count": 20,
+      "companies": 15,
+      "no_code_count": 19,
+      "no_code_share": 0.95,
+      "salary_min_median": 115000,
+      "salary_max_median": 142550,
+      "top_company": "DeleteMe",
+      "top_tags": [
+        "Full-Time",
+        "customer support",
+        "exec",
+        "travel",
+        "education",
+        "medical",
+        "saas",
+        "technical"
+      ]
+    },
+    {
+      "role": "Sysadmin / DevOps",
+      "count": 7,
+      "companies": 6,
+      "no_code_count": 1,
+      "no_code_share": 0.14,
+      "salary_min_median": 255500,
+      "salary_max_median": 332500,
+      "top_company": "OpenAI",
+      "top_tags": [
+        "Full-Time",
+        ".Net",
+        "android",
+        "AWS",
+        "azure",
+        "C",
+        "C#",
+        "C++"
+      ]
+    },
+    {
+      "role": "Cybersecurity",
+      "count": 20,
+      "companies": 17,
+      "no_code_count": 7,
+      "no_code_share": 0.35,
+      "salary_min_median": 155000,
+      "salary_max_median": 189250,
+      "top_company": "Fastly",
+      "top_tags": [
+        "Full-Time",
+        "marketing",
+        "technical",
+        "content writing",
+        "customer support",
+        "exec",
+        "senior",
+        "ops"
+      ]
+    },
+    {
+      "role": "Design (UI/UX)",
+      "count": 17,
+      "companies": 13,
+      "no_code_count": 17,
+      "no_code_share": 1.0,
+      "salary_min_median": 50000,
+      "salary_max_median": 125000,
+      "top_company": "Interaction Design Foundation",
+      "top_tags": [
+        "design",
+        "content writing",
+        "designer",
+        "digital nomad",
+        "technical",
+        "customer support",
+        "senior",
+        "engineer"
+      ]
+    },
+    {
+      "role": "Product / PM",
+      "count": 5,
+      "companies": 5,
+      "no_code_count": 5,
+      "no_code_share": 1.0,
+      "salary_min_median": 116415,
+      "salary_max_median": 158269,
+      "top_company": "DomainTools",
+      "top_tags": [
+        "Full-Time",
+        "product manager",
+        "exec",
+        "infosec",
+        "marketing",
+        "design",
+        "web dev",
+        "scrum"
+      ]
+    },
+    {
+      "role": "Sales / SDR",
+      "count": 28,
+      "companies": 25,
+      "no_code_count": 23,
+      "no_code_share": 0.82,
+      "salary_min_median": 122500,
+      "salary_max_median": 158633,
+      "top_company": "Ping Identity",
+      "top_tags": [
+        "Full-Time",
+        "exec",
+        "marketing",
+        "sales",
+        "finance",
+        "recruiter",
+        "digital nomad",
+        "customer support"
+      ]
+    },
+    {
+      "role": "Marketing",
+      "count": 21,
+      "companies": 17,
+      "no_code_count": 17,
+      "no_code_share": 0.81,
+      "salary_min_median": 137000,
+      "salary_max_median": 200000,
+      "top_company": "DeleteMe",
+      "top_tags": [
+        "Full-Time",
+        "customer support",
+        "marketing",
+        "exec",
+        "dev",
+        "content writing",
+        "ops",
+        "digital nomad"
+      ]
+    },
+    {
+      "role": "HR",
+      "count": 2,
+      "companies": 2,
+      "no_code_count": 1,
+      "no_code_share": 0.5,
+      "salary_min_median": 70000,
+      "salary_max_median": 80000,
+      "top_company": "Law Offices of Sabrina Li",
+      "top_tags": [
+        "hr",
+        "education",
+        "customer support",
+        "marketing",
+        "finance",
+        "c",
+        "exec",
+        "content writing"
+      ]
+    },
+    {
+      "role": "Unknown",
+      "count": 128,
+      "companies": 96,
+      "no_code_count": 87,
+      "no_code_share": 0.68,
+      "salary_min_median": 120000,
+      "salary_max_median": 159500,
+      "top_company": "Wpromote",
+      "top_tags": [
+        "Full-Time",
+        "exec",
+        "customer support",
+        "marketing",
+        "digital nomad",
+        "ops",
+        "education",
+        "dev"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Salary Radar — Remote IT salary dashboard</title>
+<style>
+:root { color-scheme: dark; }
+body { margin:0; font:15px/1.5 system-ui, sans-serif; background:#0d1117; color:#e6edf3; }
+.wrap { max-width:1060px; margin:0 auto; padding:24px 20px 60px; }
+h1 { font-size:30px; margin:6px 0 2px; }
+h2 { font-size:19px; margin:30px 0 10px; border-bottom:1px solid #21262d; padding-bottom:6px; }
+.sub { color:#8b949e; }
+.cards { display:flex; gap:12px; margin:18px 0; flex-wrap:wrap; }
+.card { flex:1 1 200px; background:#161b22; border:1px solid #21262d; border-radius:10px; padding:14px 18px; }
+.card b { font-size:26px; display:block; }
+.badge { display:inline-block; padding:2px 10px; border-radius:999px; background:#1f6feb22; color:#58a6ff; font-size:13px; }
+.ok { color:#3fb950; font-size:12px; font-weight:600; }
+table { width:100%; border-collapse:collapse; background:#161b22; border-radius:10px; overflow:hidden; }
+th, td { text-align:left; padding:9px 12px; border-bottom:1px solid #21262d; vertical-align:top; }
+th { font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:#8b949e; }
+a { color:#58a6ff; text-decoration:none; } a:hover { text-decoration:underline; }
+.tag { display:inline-block; margin:2px 2px; padding:1px 8px; border-radius:999px; background:#161b22; border:1px solid #30363d; font-size:12px; color:#8b949e; }
+.bar-cell { width:80px; }
+.bar { background:#21262d; border-radius:4px; height:8px; }
+.bar-fill { background:linear-gradient(90deg,#1f6feb,#3fb950); height:8px; border-radius:4px; }
+footer { margin-top:40px; color:#8b949e; font-size:12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>💹 Salary Radar</h1>
+  <p class="sub">Remote IT salary dashboard · English job boards · generated 2026-09-22 01:16 UTC</p>
+
+  <div class="cards">
+    <div class="card"><b>321</b> listings tracked</div>
+    <div class="card"><b>208</b><span class="badge">no-code friendly</span></div>
+    <div class="card"><b>4</b> job sources</div>
+    <div class="card"><b>daily</b> auto-updated via GitHub Actions</div>
+  </div>
+  <div><span class="tag">jobicy: 200</span><span class="tag">remoteok: 99</span><span class="tag">remotive: 18</span><span class="tag">arcdev: 4</span></div>
+
+  <h2>Roles &amp; salary medians (USD)</h2>
+  <table>
+    <tr><th>Role</th><th>Listings</th><th>Companies</th><th>No-code</th><th>Min $</th><th>Max $</th><th>Top company</th><th>Share</th></tr>
+    
+            <tr>
+              <td class="role">Engineering</td>
+              <td>60</td>
+              <td>49</td>
+              <td>✓</td>
+              <td>$150,000</td>
+              <td>$225,000</td>
+              <td>Lemon.io</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:47%"></div></div></td>
+            </tr>
+            <tr>
+              <td class="role">QA / Testing</td>
+              <td>6</td>
+              <td>5</td>
+              <td>✓</td>
+              <td>$30,000</td>
+              <td>$40,000</td>
+              <td>Welo Global</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:5%"></div></div></td>
+            </tr>
+            <tr>
+              <td class="role">Data</td>
+              <td>7</td>
+              <td>6</td>
+              <td>✓</td>
+              <td>$95,000</td>
+              <td>$130,000</td>
+              <td>Mactores</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:5%"></div></div></td>
+            </tr>
+            <tr>
+              <td class="role">Support</td>
+              <td>20</td>
+              <td>15</td>
+              <td>✓</td>
+              <td>$115,000</td>
+              <td>$142,550</td>
+              <td>DeleteMe</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:16%"></div></div></td>
+            </tr>
+            <tr>
+              <td class="role">Sysadmin / DevOps</td>
+              <td>7</td>
+              <td>6</td>
+              <td>✓</td>
+              <td>$255,500</td>
+              <td>$332,500</td>
+              <td>OpenAI</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:5%"></div></div></td>
+            </tr>
+            <tr>
+              <td class="role">Cybersecurity</td>
+              <td>20</td>
+              <td>17</td>
+              <td>✓</td>
+              <td>$155,000</td>
+              <td>$189,250</td>
+              <td>Fastly</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:16%"></div></div></td>
+            </tr>
+            <tr>
+              <td class="role">Design (UI/UX)</td>
+              <td>17</td>
+              <td>13</td>
+              <td>✓</td>
+              <td>$50,000</td>
+              <td>$125,000</td>
+              <td>Interaction Design Foundation</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:13%"></div></div></td>
+            </tr>
+            <tr>
+              <td class="role">Product / PM</td>
+              <td>5</td>
+              <td>5</td>
+              <td>✓</td>
+              <td>$116,415</td>
+              <td>$158,269</td>
+              <td>DomainTools</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:4%"></div></div></td>
+            </tr>
+            <tr>
+              <td class="role">Sales / SDR</td>
+              <td>28</td>
+              <td>25</td>
+              <td>✓</td>
+              <td>$122,500</td>
+              <td>$158,633</td>
+              <td>Ping Identity</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:22%"></div></div></td>
+            </tr>
+            <tr>
+              <td class="role">Marketing</td>
+              <td>21</td>
+              <td>17</td>
+              <td>✓</td>
+              <td>$137,000</td>
+              <td>$200,000</td>
+              <td>DeleteMe</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:16%"></div></div></td>
+            </tr>
+            <tr>
+              <td class="role">HR</td>
+              <td>2</td>
+              <td>2</td>
+              <td>✓</td>
+              <td>$70,000</td>
+              <td>$80,000</td>
+              <td>Law Offices of Sabrina Li</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:2%"></div></div></td>
+            </tr>
+            <tr>
+              <td class="role">Unknown</td>
+              <td>128</td>
+              <td>96</td>
+              <td>✓</td>
+              <td>$120,000</td>
+              <td>$159,500</td>
+              <td>Wpromote</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:100%"></div></div></td>
+            </tr>
+  </table>
+
+  <h2>Latest listings</h2>
+  <table>
+    <tr><th>Title</th><th>Company</th><th>Role</th><th>Level</th><th>Salary $</th><th>Tags</th></tr>
+    
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-senior-net-software-engineer-okwhen-1137411">Senior .NET Software Engineer</a></td>
+              <td>OkWhen</td>
+              <td>Engineering</td>
+              <td><span class="ok">no-code</span></td>
+              <td>—-—</td>
+              <td><span class="tag">dev</span><span class="tag">design</span><span class="tag">c sharp</span><span class="tag">saas</span><span class="tag">sys admin</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-frontend-engineer-bjak-1137410">Frontend Engineer</a></td>
+              <td>Bjak </td>
+              <td>Engineering</td>
+              <td><span class="ok">no-code</span></td>
+              <td>—-—</td>
+              <td><span class="tag">front end</span><span class="tag">design</span><span class="tag">react</span><span class="tag">graphql</span><span class="tag">react.js</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-backend-software-engineer-airspace-link-1137409">Backend Software Engineer</a></td>
+              <td>Airspace Link</td>
+              <td>Engineering</td>
+              <td></td>
+              <td>—-—</td>
+              <td><span class="tag">golang</span><span class="tag">dev</span><span class="tag">engineer</span><span class="tag">backend</span><span class="tag">digital nomad</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-software-deployment-engineer-kpi-solutions-1137408">Software Deployment Engineer</a></td>
+              <td>KPI Solutions</td>
+              <td>Engineering</td>
+              <td><span class="ok">no-code</span></td>
+              <td>—-—</td>
+              <td><span class="tag">dev</span><span class="tag">design</span><span class="tag">sys admin</span><span class="tag">education</span><span class="tag">consulting</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-vp-pricing-packaging-delinea-1137407">VP Pricing &amp; Packaging</a></td>
+              <td>Delinea</td>
+              <td>Unknown</td>
+              <td><span class="ok">no-code</span></td>
+              <td>$300,000-$340,000</td>
+              <td><span class="tag">design</span><span class="tag">saas</span><span class="tag">salesforce</span><span class="tag">infosec</span><span class="tag">vfx</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-customer-success-manager-mexico-jumpcloud-1137406">Customer Success Manager Mexico</a></td>
+              <td>JumpCloud</td>
+              <td>Support</td>
+              <td><span class="ok">no-code</span></td>
+              <td>—-—</td>
+              <td><span class="tag">customer support</span><span class="tag">exec</span><span class="tag">saas</span><span class="tag">sys admin</span><span class="tag">swift</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-senior-shopify-developer-sanctuary-computer-1137405">Senior Shopify Developer</a></td>
+              <td>Sanctuary Computer</td>
+              <td>Engineering</td>
+              <td></td>
+              <td>$80,000-$250,000</td>
+              <td><span class="tag">dev</span><span class="tag">engineer</span><span class="tag">senior</span><span class="tag">front end</span><span class="tag">shopify</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-golang-kubernetes-engineer-arango-1137400">Golang Kubernetes Engineer</a></td>
+              <td>Arango</td>
+              <td>Engineering</td>
+              <td></td>
+              <td>—-—</td>
+              <td><span class="tag">golang</span><span class="tag">golang</span><span class="tag">engineer</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-ai-agent-engineer-sticker-mule-1137399">AI agent engineer</a></td>
+              <td>Sticker Mule</td>
+              <td>Engineering</td>
+              <td></td>
+              <td>$150,000-$250,000</td>
+              <td><span class="tag">ai</span><span class="tag">golang</span><span class="tag">javascript</span><span class="tag">typescript</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-ai-trainer-image-qa-evaluator-imerit-technology-1137398">AI Trainer Image QA Evaluator</a></td>
+              <td>iMerit Technology</td>
+              <td>QA / Testing</td>
+              <td><span class="ok">no-code</span></td>
+              <td>$30,000-$40,000</td>
+              <td><span class="tag">ai</span><span class="tag">data annotation</span><span class="tag">quality assurance</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-principal-product-manager-domaintools-1137396">Principal Product Manager</a></td>
+              <td>DomainTools</td>
+              <td>Product / PM</td>
+              <td><span class="ok">no-code</span></td>
+              <td>—-—</td>
+              <td><span class="tag">product manager</span><span class="tag">exec</span><span class="tag">infosec</span><span class="tag">marketing</span><span class="tag">design</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-sr-solutions-architect-extrahop-1137394">Sr Solutions Architect</a></td>
+              <td>ExtraHop</td>
+              <td>Unknown</td>
+              <td><span class="ok">no-code</span></td>
+              <td>—-—</td>
+              <td><span class="tag">architecture</span><span class="tag">design</span><span class="tag">infosec</span><span class="tag">python</span><span class="tag">technical</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-junior-payroll-assistant-sleek-1137391">Junior Payroll Assistant</a></td>
+              <td>Sleek</td>
+              <td>Unknown</td>
+              <td><span class="ok">no-code</span></td>
+              <td>—-—</td>
+              <td><span class="tag">payroll</span><span class="tag">virtual assistant</span><span class="tag">education</span><span class="tag">technical</span><span class="tag">supervisor</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-technical-product-lead-ai-finance-app-bjak-1137388">Technical Product Lead AI Finance App</a></td>
+              <td>Bjak </td>
+              <td>Unknown</td>
+              <td><span class="ok">no-code</span></td>
+              <td>—-—</td>
+              <td><span class="tag">design</span><span class="tag">sys admin</span><span class="tag">infosec</span><span class="tag">exec</span><span class="tag">technical</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-software-engineer-mirantis-1137387">Software Engineer</a></td>
+              <td>Mirantis</td>
+              <td>Engineering</td>
+              <td></td>
+              <td>—-—</td>
+              <td><span class="tag">golang</span><span class="tag">dev</span><span class="tag">engineer</span><span class="tag">digital nomad</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-hr-operations-specialist-law-offices-of-sabrina-li-1137386">HR Operations Specialist</a></td>
+              <td>Law Offices of Sabrina Li</td>
+              <td>HR</td>
+              <td><span class="ok">no-code</span></td>
+              <td>—-—</td>
+              <td><span class="tag">hr</span><span class="tag">education</span><span class="tag">customer support</span><span class="tag">marketing</span><span class="tag">finance</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-marketing-student-assistant-copenhagen-optimization-1137381">Marketing Student Assistant</a></td>
+              <td>Copenhagen Optimization</td>
+              <td>Marketing</td>
+              <td><span class="ok">no-code</span></td>
+              <td>—-—</td>
+              <td><span class="tag">virtual assistant</span><span class="tag">strategy</span><span class="tag">customer support</span><span class="tag">dev</span><span class="tag">marketing</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-engineering-manager-tlm-platform-harper-1137380">Engineering Manager TLM Platform</a></td>
+              <td>Harper</td>
+              <td>Engineering</td>
+              <td><span class="ok">no-code</span></td>
+              <td>—-—</td>
+              <td><span class="tag">exec</span><span class="tag">design</span><span class="tag">sys admin</span><span class="tag">docker</span><span class="tag">technical</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-senior-communications-officer-strategic-communications-givewell-1137379">Senior Communications Officer Strategic Communications</a></td>
+              <td>GiveWell</td>
+              <td>Unknown</td>
+              <td></td>
+              <td>—-—</td>
+              <td><span class="tag">exec</span><span class="tag">senior</span><span class="tag">medical</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-senior-people-talent-operations-partner-testgorilla-1137378">Senior People &amp; Talent Operations Partner</a></td>
+              <td>TestGorilla</td>
+              <td>HR</td>
+              <td></td>
+              <td>$70,000-$80,000</td>
+              <td><span class="tag">hr</span><span class="tag">non tech</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-external-data-specialist-eclinical-solutions-1137375">External Data Specialist</a></td>
+              <td>eClinical Solutions</td>
+              <td>Unknown</td>
+              <td></td>
+              <td>—-—</td>
+              <td><span class="tag">cloud</span><span class="tag">exec</span><span class="tag">stats</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-business-development-manager-libertex-group-1137373">Business Development Manager</a></td>
+              <td>Libertex Group</td>
+              <td>Sales / SDR</td>
+              <td><span class="ok">no-code</span></td>
+              <td>—-—</td>
+              <td><span class="tag">product manager</span><span class="tag">exec</span><span class="tag">design</span><span class="tag">crypto</span><span class="tag">marketing</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-quality-dispense-technician-north-thatchers-cider-1137374">Quality Dispense Technician North</a></td>
+              <td>Thatchers Cider</td>
+              <td>QA / Testing</td>
+              <td><span class="ok">no-code</span></td>
+              <td>—-—</td>
+              <td><span class="tag">education</span><span class="tag">marketing</span><span class="tag">finance</span><span class="tag">exec</span><span class="tag">excel</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-social-comms-nope-1137314">Social Comms</a></td>
+              <td>NOPE</td>
+              <td>Cybersecurity</td>
+              <td><span class="ok">no-code</span></td>
+              <td>$90,000-$150,000</td>
+              <td><span class="tag">marketing</span><span class="tag">education</span><span class="tag">technical</span><span class="tag">content writing</span><span class="tag">social media</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-ai-response-analyst-imerit-technology-1137309">AI Response Analyst</a></td>
+              <td>iMerit Technology</td>
+              <td>Unknown</td>
+              <td><span class="ok">no-code</span></td>
+              <td>$20,000-$20,000</td>
+              <td><span class="tag">content writing</span><span class="tag">quality assurance</span><span class="tag">ai</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-junior-crypto-analyst-trader-empire-assets-1137307">Junior Crypto Analyst &amp; Trader</a></td>
+              <td>Empire Assets</td>
+              <td>Unknown</td>
+              <td><span class="ok">no-code</span></td>
+              <td>$60,000-$80,000</td>
+              <td><span class="tag">part time</span><span class="tag">junior</span><span class="tag">analyst</span><span class="tag">crypto</span><span class="tag">other</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-customer-support-success-specialist-warehance-1137302">Customer Support &amp; Success Specialist</a></td>
+              <td>Warehance</td>
+              <td>Support</td>
+              <td><span class="ok">no-code</span></td>
+              <td>$50,000-$70,000</td>
+              <td><span class="tag">customer support</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-regional-sales-manager-orderyoyo-1137279">Regional Sales Manager</a></td>
+              <td>OrderYOYO</td>
+              <td>Sales / SDR</td>
+              <td><span class="ok">no-code</span></td>
+              <td>—-—</td>
+              <td><span class="tag">exec</span><span class="tag">customer support</span><span class="tag">marketing</span><span class="tag">scheme</span><span class="tag">mobile</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-ai-engineer-data-apis-benzinga-1137224">AI Engineer Data APIs</a></td>
+              <td>Benzinga</td>
+              <td>Engineering</td>
+              <td></td>
+              <td>—-—</td>
+              <td><span class="tag">golang</span><span class="tag">video</span><span class="tag">engineer</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-programmatic-campaign-operations-specialist-trader-virtuhire-1137169">Programmatic Campaign Operations Specialist Trader</a></td>
+              <td>VirtuHire</td>
+              <td>Unknown</td>
+              <td><span class="ok">no-code</span></td>
+              <td>—-—</td>
+              <td><span class="tag">amazon</span><span class="tag">technical</span><span class="tag">customer support</span><span class="tag">quality assurance</span><span class="tag">video</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-principal-engineer-the-ai-whistleblower-initiative-1137162">Principal Engineer</a></td>
+              <td>The AI Whistleblower Initiative</td>
+              <td>Engineering</td>
+              <td></td>
+              <td>—-—</td>
+              <td><span class="tag">golang</span><span class="tag">engineer</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-senior-level-designer-blackbird-interactive-1137156">Senior Level Designer</a></td>
+              <td>Blackbird Interactive</td>
+              <td>Design (UI/UX)</td>
+              <td><span class="ok">no-code</span></td>
+              <td>—-—</td>
+              <td><span class="tag">design</span><span class="tag">game dev</span><span class="tag">designer</span><span class="tag">technical</span><span class="tag">customer support</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-oracle-fusion-cloud-lead-logistics-supply-chain-management-tessera-labs-1137155">Oracle Fusion Cloud Lead â Logistics &amp; Supply Chain Management</a></td>
+              <td>Tessera Labs</td>
+              <td>Unknown</td>
+              <td><span class="ok">no-code</span></td>
+              <td>$30-$36</td>
+              <td><span class="tag">design</span><span class="tag">sys admin</span><span class="tag">consulting</span><span class="tag">testing</span><span class="tag">exec</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-course-director-ux-ui-and-ai-interaction-design-foundation-1137139">Course Director UX UI and AI</a></td>
+              <td>Interaction Design Foundation</td>
+              <td>Design (UI/UX)</td>
+              <td><span class="ok">no-code</span></td>
+              <td>$10,000-$750,000</td>
+              <td><span class="tag">education</span><span class="tag">design</span><span class="tag">content writing</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-education-designer-ux-ui-and-ai-interaction-design-foundation-1137138">Education Designer UX UI and AI</a></td>
+              <td>Interaction Design Foundation</td>
+              <td>Design (UI/UX)</td>
+              <td><span class="ok">no-code</span></td>
+              <td>$10,000-$750,000</td>
+              <td><span class="tag">design</span><span class="tag">content writing</span><span class="tag">education</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-course-writer-and-editor-ux-ui-and-ai-interaction-design-foundation-1137136">Course Writer and Editor UX UI and AI</a></td>
+              <td>Interaction Design Foundation</td>
+              <td>Design (UI/UX)</td>
+              <td><span class="ok">no-code</span></td>
+              <td>$10,000-$750,000</td>
+              <td><span class="tag">design</span><span class="tag">content writing</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-renewables-project-scheduler-transportation-partners-amp-logistics-1137194">Renewables Project Scheduler</a></td>
+              <td>Transportation Partners &amp;amp; Logistics</td>
+              <td>Unknown</td>
+              <td><span class="ok">no-code</span></td>
+              <td>—-—</td>
+              <td><span class="tag">sys admin</span><span class="tag">technical</span><span class="tag">customer support</span><span class="tag">testing</span><span class="tag">travel</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-build-ai-agents-salesforge-1137114">Senior Backend Engineer Build AI Agents</a></td>
+              <td>Salesforge</td>
+              <td>Design (UI/UX)</td>
+              <td><span class="ok">no-code</span></td>
+              <td>—-—</td>
+              <td><span class="tag">golang</span><span class="tag">senior</span><span class="tag">sales</span><span class="tag">engineer</span><span class="tag">backend</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-senior-specialist-global-qms-orca-bio-1137072">Senior Specialist Global QMS</a></td>
+              <td>Orca Bio</td>
+              <td>Unknown</td>
+              <td><span class="ok">no-code</span></td>
+              <td>—-—</td>
+              <td><span class="tag">hr</span><span class="tag">sys admin</span><span class="tag">customer support</span><span class="tag">marketing</span><span class="tag">education</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://remoteOK.com/remote-jobs/remote-desarrollador-full-stack-kruger-nearshore-llc-rekluti-1137062">DESARROLLADOR FULL STACK</a></td>
+              <td>Kruger NearShore LLC - Rekluti</td>
+              <td>Unknown</td>
+              <td><span class="ok">no-code</span></td>
+              <td>—-—</td>
+              <td><span class="tag">full stack</span><span class="tag">front end</span><span class="tag">python</span><span class="tag">dev</span><span class="tag">testing</span></td>
+            </tr>
+  </table>
+
+  
+        <section>
+          <h2>Trend (last 14 d)</h2>
+          <table><tr><th>Date</th><th>Listings</th><th>No-code</th></tr><tr><td>2026-09-22</td><td>321</td><td>208</td></tr></table>
+        </section>
+
+  <footer>
+    Salary Radar · filtered from public English APIs · code:% y% · only stdlib.
+  </footer>
+</div>
+</body>
+</html>
