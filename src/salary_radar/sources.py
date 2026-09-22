@@ -46,6 +46,17 @@ class JobRecord:
         return f"{self.source}:{self.external_id}"
 
 
+def _flatten_tags(tags) -> list[str]:
+    """Flatten potentially nested/mixed tag payloads from live APIs into strings."""
+    out: list[str] = []
+    for tag in tags or []:
+        if isinstance(tag, list):
+            out.extend(str(x) for x in tag)
+        elif tag is not None:
+            out.append(str(tag))
+    return out
+
+
 def _parse_salary(raw) -> tuple[int | None, int | None]:
     """Turn a messy salary field into (min, max) USD integers when possible."""
     if isinstance(raw, (int, float)):
@@ -220,7 +231,13 @@ def scrape_source(
     if sample or not records:
         records = _load_sample(source)
 
-    jobs = [r for r in (normalizer(x) for x in records) if r is not None]
+    jobs = []
+    for rec in records:
+        job = normalizer(rec)
+        if job is None:
+            continue
+        job.tags = _flatten_tags(job.tags)
+        jobs.append(job)
     return jobs
 
 
