@@ -35,11 +35,21 @@ def classify_role(title: str) -> str:
 
 
 def is_no_code_friendly(title: str, category: str, tags: list[str] | None) -> bool:
-    """Heuristic: does this listing look doable without live coding skills?"""
+    """Heuristic: does this listing look doable without live coding skills?
+
+    Live APIs sometimes return nested categories/tags, so every value is
+    flattened into strings defensively.
+    """
+
+    def as_str(value) -> str:
+        if isinstance(value, list):
+            return " ".join(str(v) for v in value if v is not None)
+        return str(value or "")
+
     haystack = " ".join([
         title,
-        category or "",
-        " ".join(tags or []),
+        as_str(category),
+        " ".join(as_str(x) for x in (tags or []) if x is not None),
     ]).lower()
     return any(kw in haystack for kw in config.NO_CODE_KEYWORDS)
 

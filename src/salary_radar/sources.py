@@ -237,6 +237,8 @@ def scrape_source(
         if job is None:
             continue
         job.tags = _flatten_tags(job.tags)
+        if isinstance(job.category, list):
+            job.category = ", ".join(_flatten_tags(job.category))
         jobs.append(job)
     return jobs
 
