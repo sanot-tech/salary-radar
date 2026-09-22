@@ -8,6 +8,10 @@ data/*.db
 data/*.db-*
 outputs/*
 !outputs/.gitkeep
+!outputs/index.html
+!outputs/report.json
+!outputs/jobs.csv
+!outputs/history.json
 
 # Editors / OS
 .vscode/
