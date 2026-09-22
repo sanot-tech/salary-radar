@@ -4,7 +4,7 @@
 > **no-code friendly** roles worth targeting (QA, analyst, support,
 > sysadmin, design, sales, marketing).
 
-![pipeline](https://github.com/<OWNER>/salary-radar/actions/workflows/daily.yml/badge.svg)
+![pipeline](https://github.com/sanot-tech/salary-radar/actions/workflows/daily.yml/badge.svg)
 
 A tiny, zero-dependency Python pipeline that runs **daily on GitHub Actions**:
 
