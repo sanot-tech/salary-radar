@@ -1,7 +1,7 @@
 {
   "total": 321,
-  "no_code_total": 208,
-  "no_code_share": 0.65,
+  "no_code_total": 216,
+  "no_code_share": 0.67,
   "by_source": {
     "jobicy": 200,
     "remoteok": 99,
@@ -11,12 +11,12 @@
   "roles": [
     {
       "role": "Engineering",
-      "count": 61,
-      "companies": 50,
-      "no_code_count": 23,
-      "no_code_share": 0.38,
+      "count": 65,
+      "companies": 53,
+      "no_code_count": 26,
+      "no_code_share": 0.4,
       "salary_min_median": 150000,
-      "salary_max_median": 224650,
+      "salary_max_median": 220000,
       "top_company": "Lemon.io",
       "top_tags": [
         "Full-Time",
@@ -31,33 +31,33 @@
     },
     {
       "role": "QA / Testing",
-      "count": 6,
+      "count": 8,
       "companies": 5,
-      "no_code_count": 4,
-      "no_code_share": 0.67,
-      "salary_min_median": 30000,
-      "salary_max_median": 40000,
+      "no_code_count": 6,
+      "no_code_share": 0.75,
+      "salary_min_median": 80000,
+      "salary_max_median": 73000,
       "top_company": "Welo Global",
       "top_tags": [
+        "Full-Time",
+        "quality assurance",
         "golang",
         "testing",
-        "quality assurance",
-        "Full-Time",
+        "ai",
+        "data annotation",
         "education",
-        "marketing",
-        "finance",
-        "exec"
+        "marketing"
       ]
     },
     {
       "role": "Data",
-      "count": 7,
+      "count": 6,
       "companies": 6,
       "no_code_count": 4,
-      "no_code_share": 0.57,
+      "no_code_share": 0.67,
       "salary_min_median": 95000,
       "salary_max_median": 130000,
-      "top_company": "Mactores",
+      "top_company": "Ruby Labs",
       "top_tags": [
         "Full-Time",
         "saas",
@@ -71,22 +71,22 @@
     },
     {
       "role": "Support",
-      "count": 20,
-      "companies": 15,
-      "no_code_count": 19,
+      "count": 22,
+      "companies": 17,
+      "no_code_count": 21,
       "no_code_share": 0.95,
-      "salary_min_median": 115000,
-      "salary_max_median": 142550,
+      "salary_min_median": 99000,
+      "salary_max_median": 120000,
       "top_company": "DeleteMe",
       "top_tags": [
         "Full-Time",
         "customer support",
         "exec",
-        "education",
         "travel",
+        "education",
         "medical",
-        "design",
-        "recruiter"
+        "saas",
+        "technical"
       ]
     },
     {
@@ -100,22 +100,22 @@
       "top_company": "OpenAI",
       "top_tags": [
         "Full-Time",
+        "Contract",
         ".Net",
         "android",
         "AWS",
         "azure",
         "C",
-        "C#",
-        "C++"
+        "C#"
       ]
     },
     {
       "role": "Cybersecurity",
-      "count": 21,
-      "companies": 18,
-      "no_code_count": 8,
-      "no_code_share": 0.38,
-      "salary_min_median": 153000,
+      "count": 16,
+      "companies": 14,
+      "no_code_count": 7,
+      "no_code_share": 0.44,
+      "salary_min_median": 157000,
       "salary_max_median": 178500,
       "top_company": "Fastly",
       "top_tags": [
@@ -131,22 +131,22 @@
     },
     {
       "role": "Design (UI/UX)",
-      "count": 17,
-      "companies": 13,
-      "no_code_count": 17,
+      "count": 16,
+      "companies": 12,
+      "no_code_count": 16,
       "no_code_share": 1.0,
-      "salary_min_median": 50000,
-      "salary_max_median": 125000,
+      "salary_min_median": 30000,
+      "salary_max_median": 437500,
       "top_company": "Interaction Design Foundation",
       "top_tags": [
         "design",
         "content writing",
         "designer",
         "digital nomad",
+        "Contract",
         "technical",
         "customer support",
-        "senior",
-        "engineer"
+        "senior"
       ]
     },
     {
@@ -157,7 +157,7 @@
       "no_code_share": 1.0,
       "salary_min_median": 116415,
       "salary_max_median": 158269,
-      "top_company": "Goodleap",
+      "top_company": "Airtm",
       "top_tags": [
         "Full-Time",
         "product manager",
@@ -173,11 +173,11 @@
       "role": "Sales / SDR",
       "count": 28,
       "companies": 25,
-      "no_code_count": 23,
-      "no_code_share": 0.82,
-      "salary_min_median": 122500,
-      "salary_max_median": 158633,
-      "top_company": "Ping Identity",
+      "no_code_count": 24,
+      "no_code_share": 0.86,
+      "salary_min_median": 150000,
+      "salary_max_median": 170133,
+      "top_company": "Chainguard",
       "top_tags": [
         "Full-Time",
         "exec",
@@ -191,12 +191,12 @@
     },
     {
       "role": "Marketing",
-      "count": 21,
+      "count": 20,
       "companies": 17,
-      "no_code_count": 17,
-      "no_code_share": 0.81,
+      "no_code_count": 18,
+      "no_code_share": 0.9,
       "salary_min_median": 137000,
-      "salary_max_median": 200000,
+      "salary_max_median": 235000,
       "top_company": "DeleteMe",
       "top_tags": [
         "Full-Time",
@@ -232,11 +232,11 @@
     {
       "role": "Unknown",
       "count": 126,
-      "companies": 96,
-      "no_code_count": 86,
-      "no_code_share": 0.68,
-      "salary_min_median": 130000,
-      "salary_max_median": 162500,
+      "companies": 100,
+      "no_code_count": 87,
+      "no_code_share": 0.69,
+      "salary_min_median": 120000,
+      "salary_max_median": 159500,
       "top_company": "Wpromote",
       "top_tags": [
         "Full-Time",
