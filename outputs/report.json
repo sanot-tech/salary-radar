@@ -11,12 +11,12 @@
   "roles": [
     {
       "role": "Engineering",
-      "count": 60,
-      "companies": 49,
+      "count": 61,
+      "companies": 50,
       "no_code_count": 23,
       "no_code_share": 0.38,
       "salary_min_median": 150000,
-      "salary_max_median": 225000,
+      "salary_max_median": 224650,
       "top_company": "Lemon.io",
       "top_tags": [
         "Full-Time",
@@ -39,14 +39,14 @@
       "salary_max_median": 40000,
       "top_company": "Welo Global",
       "top_tags": [
-        "quality assurance",
         "golang",
         "testing",
+        "quality assurance",
         "Full-Time",
-        "ai",
-        "data annotation",
         "education",
-        "marketing"
+        "marketing",
+        "finance",
+        "exec"
       ]
     },
     {
@@ -82,11 +82,11 @@
         "Full-Time",
         "customer support",
         "exec",
-        "travel",
         "education",
+        "travel",
         "medical",
-        "saas",
-        "technical"
+        "design",
+        "recruiter"
       ]
     },
     {
@@ -111,12 +111,12 @@
     },
     {
       "role": "Cybersecurity",
-      "count": 20,
-      "companies": 17,
-      "no_code_count": 7,
-      "no_code_share": 0.35,
-      "salary_min_median": 155000,
-      "salary_max_median": 189250,
+      "count": 21,
+      "companies": 18,
+      "no_code_count": 8,
+      "no_code_share": 0.38,
+      "salary_min_median": 153000,
+      "salary_max_median": 178500,
       "top_company": "Fastly",
       "top_tags": [
         "Full-Time",
@@ -157,7 +157,7 @@
       "no_code_share": 1.0,
       "salary_min_median": 116415,
       "salary_max_median": 158269,
-      "top_company": "DomainTools",
+      "top_company": "Goodleap",
       "top_tags": [
         "Full-Time",
         "product manager",
@@ -231,12 +231,12 @@
     },
     {
       "role": "Unknown",
-      "count": 128,
+      "count": 126,
       "companies": 96,
-      "no_code_count": 87,
+      "no_code_count": 86,
       "no_code_share": 0.68,
-      "salary_min_median": 120000,
-      "salary_max_median": 159500,
+      "salary_min_median": 130000,
+      "salary_max_median": 162500,
       "top_company": "Wpromote",
       "top_tags": [
         "Full-Time",

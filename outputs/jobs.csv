@@ -1,15 +1,4 @@
 source,role,no_code,title,company,salary_min_usd,salary_max_usd,location,url
-remoteok,Engineering,1,Senior .NET Software Engineer,OkWhen,0,0,Remote,https://remoteOK.com/remote-jobs/remote-senior-net-software-engineer-okwhen-1137411
-remoteok,Engineering,1,Frontend Engineer,Bjak ,0,0,Ireland,https://remoteOK.com/remote-jobs/remote-frontend-engineer-bjak-1137410
-remoteok,Engineering,0,Backend Software Engineer,Airspace Link,0,0,Remote,https://remoteOK.com/remote-jobs/remote-backend-software-engineer-airspace-link-1137409
-remoteok,Engineering,1,Software Deployment Engineer,KPI Solutions,0,0,Cincinnati,https://remoteOK.com/remote-jobs/remote-software-deployment-engineer-kpi-solutions-1137408
-remoteok,Unknown,1,VP Pricing & Packaging,Delinea,300000,340000,Redwood City,https://remoteOK.com/remote-jobs/remote-vp-pricing-packaging-delinea-1137407
-remoteok,Support,1,Customer Success Manager Mexico,JumpCloud,0,0,"Mexico City, Mexico - Remote",https://remoteOK.com/remote-jobs/remote-customer-success-manager-mexico-jumpcloud-1137406
-remoteok,Engineering,0,Senior Shopify Developer,Sanctuary Computer,80000,250000,Remote,https://remoteOK.com/remote-jobs/remote-senior-shopify-developer-sanctuary-computer-1137405
-remoteok,Engineering,0,Golang Kubernetes Engineer,Arango,0,0,Remote,https://remoteOK.com/remote-jobs/remote-golang-kubernetes-engineer-arango-1137400
-remoteok,Engineering,0,AI agent engineer,Sticker Mule,150000,250000,Remote,https://remoteOK.com/remote-jobs/remote-ai-agent-engineer-sticker-mule-1137399
-remoteok,QA / Testing,1,AI Trainer Image QA Evaluator,iMerit Technology,30000,40000,Remote,https://remoteOK.com/remote-jobs/remote-ai-trainer-image-qa-evaluator-imerit-technology-1137398
-remoteok,Product / PM,1,Principal Product Manager,DomainTools,0,0,Remote,https://remoteOK.com/remote-jobs/remote-principal-product-manager-domaintools-1137396
 remoteok,Unknown,1,Sr Solutions Architect,ExtraHop,0,0,Remote,https://remoteOK.com/remote-jobs/remote-sr-solutions-architect-extrahop-1137394
 remoteok,Unknown,1,Junior Payroll Assistant,Sleek,0,0,Remote,https://remoteOK.com/remote-jobs/remote-junior-payroll-assistant-sleek-1137391
 remoteok,Unknown,1,Technical Product Lead AI Finance App,Bjak ,0,0,Seoul,https://remoteOK.com/remote-jobs/remote-technical-product-lead-ai-finance-app-bjak-1137388
@@ -153,7 +142,6 @@ jobicy,Engineering,1,Account Development Representative - France,Samsara,,,Franc
 jobicy,Design (UI/UX),1,Creative (Graphic Designer),Superside,,,LATAM,https://jobicy.com/jobs/153808-creative-graphic-designer
 jobicy,Unknown,1,"Account Executive, Enterprise - Texas",Motive,230000,300000,USA,https://jobicy.com/jobs/153806-account-executive-enterprise-texas-2
 jobicy,Unknown,1,"Enterprise Account Executive, Dept. of Transportation",Databricks,272000,374000,USA,https://jobicy.com/jobs/153805-enterprise-account-executive-dept-of-transportation
-jobicy,Unknown,0,Psychiatrist (Part-Time) - Contract,Headspace,185,195,USA,https://jobicy.com/jobs/153810-psychiatrist-part-time-contract
 jobicy,Unknown,0,"Kansas- Remote Mental Health Licensed Therapist, 1099 Contractor",Headspace,69,74,USA,https://jobicy.com/jobs/153807-kansas-remote-mental-health-licensed-therapist-1099-contractor-2
 jobicy,Marketing,1,"Director, Marketing Planning and Operations",Life360,137000,252000,USA,https://jobicy.com/jobs/153800-director-marketing-planning-and-operations
 jobicy,Unknown,0,"Director, IT",Life360,167000,245000,USA,https://jobicy.com/jobs/153795-director-it
@@ -309,14 +297,26 @@ jobicy,Engineering,0,"Senior Software Engineer, Data & Platform Services",LivePe
 jobicy,Unknown,1,Chief Technology and Product Officer,saas.group,,,Europe,https://jobicy.com/jobs/153689-chief-technology-and-product-officer
 jobicy,Unknown,1,"Client Success Manager, Pharma",Doximity,,,USA,https://jobicy.com/jobs/153696-client-success-manager-pharma
 jobicy,Unknown,1,GTM - Healthcare,Kalshi,,,USA,https://jobicy.com/jobs/153694-gtm-healthcare
-jobicy,Unknown,1,"Accounts Receivable Analyst, Order- to- Cash",Doximity,75000,85000,USA,https://jobicy.com/jobs/153690-accounts-receivable-analyst-order-to-cash
 jobicy,Data,0,AWS Data Engineer (Senior),Mactores,,,USA,https://jobicy.com/jobs/151146-aws-data-engineer-senior
 jobicy,Marketing,1,"Senior Product Marketing Manager, Cloud Platform & Drupal","Acquia, Inc.",130000,150000,USA,https://jobicy.com/jobs/151261-senior-product-marketing-manager-cloud-platform-drupal
 jobicy,Cybersecurity,0,"Generative Media Engineer, AI Social - US",Luxury Presence,,,USA,https://jobicy.com/jobs/151260-generative-media-engineer-ai-social-us
 jobicy,Marketing,1,Partner Marketing Director,"Acquia, Inc.",174000,200000,USA,https://jobicy.com/jobs/151259-partner-marketing-director
 jobicy,Cybersecurity,0,"Generative Media Engineer, AI Social - CANADA",Luxury Presence,,,Canada,https://jobicy.com/jobs/151258-generative-media-engineer-ai-social-canada
 jobicy,Design (UI/UX),1,Product Designer II,Built Technologies,100000,125000,USA,https://jobicy.com/jobs/151073-product-designer-ii
+jobicy,Cybersecurity,1,Staff Social Strategy & Operations Manager,ClickUp,110000,169000,USA,https://jobicy.com/jobs/151262-staff-social-strategy-operations-manager
+jobicy,Engineering,0,Senior Analytics Engineer - US,Luxury Presence,150000,190000,USA,https://jobicy.com/jobs/151266-senior-analytics-engineer-us
 arcdev,Cybersecurity,1,Security Analyst (SOC),Guardrails AI,80000,110000,Remote,https://example.com/job/arc-221
 arcdev,Data,0,Data Engineer (SQL / ETL),Pipelineworks,95000,130000,Remote,https://example.com/job/arc-222
 arcdev,Engineering,0,Frontend Engineer (React),Nimbusdev,90000,120000,Remote,https://example.com/job/arc-223
 arcdev,Design (UI/UX),1,Recruiter / Talent Acquisition Partner,Hirewise,50000,65000,Remote,https://example.com/job/arc-224
+remoteok,Product / PM,1,Principal Product Manager,DomainTools,0,0,Remote,https://remoteOK.com/remote-jobs/remote-principal-product-manager-domaintools-1137396
+remoteok,QA / Testing,1,AI Trainer Image QA Evaluator,iMerit Technology,30000,40000,Remote,https://remoteOK.com/remote-jobs/remote-ai-trainer-image-qa-evaluator-imerit-technology-1137398
+remoteok,Engineering,1,Frontend Engineer,Bjak ,0,0,Ireland,https://remoteOK.com/remote-jobs/remote-frontend-engineer-bjak-1137410
+remoteok,Engineering,0,Backend Software Engineer,Airspace Link,0,0,Remote,https://remoteOK.com/remote-jobs/remote-backend-software-engineer-airspace-link-1137409
+remoteok,Engineering,1,Software Deployment Engineer,KPI Solutions,0,0,Cincinnati,https://remoteOK.com/remote-jobs/remote-software-deployment-engineer-kpi-solutions-1137408
+remoteok,Unknown,1,VP Pricing & Packaging,Delinea,300000,340000,Redwood City,https://remoteOK.com/remote-jobs/remote-vp-pricing-packaging-delinea-1137407
+remoteok,Support,1,Customer Success Manager Mexico,JumpCloud,0,0,"Mexico City, Mexico - Remote",https://remoteOK.com/remote-jobs/remote-customer-success-manager-mexico-jumpcloud-1137406
+remoteok,Engineering,0,Senior Shopify Developer,Sanctuary Computer,80000,250000,Remote,https://remoteOK.com/remote-jobs/remote-senior-shopify-developer-sanctuary-computer-1137405
+remoteok,Engineering,0,Golang Kubernetes Engineer,Arango,0,0,Remote,https://remoteOK.com/remote-jobs/remote-golang-kubernetes-engineer-arango-1137400
+remoteok,Engineering,0,AI agent engineer,Sticker Mule,150000,250000,Remote,https://remoteOK.com/remote-jobs/remote-ai-agent-engineer-sticker-mule-1137399
+remoteok,Engineering,1,Senior .NET Software Engineer,OkWhen,0,0,Remote,https://remoteOK.com/remote-jobs/remote-senior-net-software-engineer-okwhen-1137411
