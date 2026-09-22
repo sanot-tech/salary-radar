@@ -1,0 +1,59 @@
+[
+  {
+    "source": "remoteok",
+    "attribution": "RemoteOK API",
+    "lastUpdated": "2026-09-21"
+  },
+  {
+    "id": "rok-8001",
+    "position": "Manual QA Engineer (Remote)",
+    "company": "Testify",
+    "url": "https://example.com/job/rok-8001",
+    "location": "Worldwide",
+    "category": "QA",
+    "tags": ["manual", "qa", "english"],
+    "salary_min": 40000,
+    "salary_max": 60000,
+    "description": "Write and execute test cases, log defects, verify fixes.",
+    "date": "2026-09-20"
+  },
+  {
+    "id": "rok-8002",
+    "position": "Business Intelligence Analyst",
+    "company": "Inline",
+    "url": "https://example.com/job/rok-8002",
+    "location": "Remote - Americas",
+    "category": "Data",
+    "tags": ["sql", "power bi", "remote"],
+    "salary_min": 70000,
+    "salary_max": 90000,
+    "description": "Build dashboards and SQL queries for product leaders.",
+    "date": "2026-09-19"
+  },
+  {
+    "id": "rok-8003",
+    "position": "Senior Full-Stack Engineer",
+    "company": "Rocketlabs",
+    "url": "https://example.com/job/rok-8003",
+    "location": "Worldwide",
+    "category": "Engineering",
+    "tags": ["react", "node", "typescript"],
+    "salary_min": 120000,
+    "salary_max": 160000,
+    "description": "Own features end to end.",
+    "date": "2026-09-18"
+  },
+  {
+    "id": "rok-8004",
+    "position": "Customer Success Manager",
+    "company": "Trueline",
+    "url": "https://example.com/job/rok-8004",
+    "location": "EU",
+    "category": "Support",
+    "tags": ["support", "english", "crm"],
+    "salary_min": 45000,
+    "salary_max": 55000,
+    "description": "Onboard and support enterprise customers.",
+    "date": "2026-09-17"
+  }
+]

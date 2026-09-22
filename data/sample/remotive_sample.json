@@ -1,0 +1,49 @@
+{
+  "job-count": 4,
+  "jobs": [
+    {
+      "id": 7001,
+      "title": "QA Analyst (Manual + API)",
+      "company_name": "Datacraft",
+      "url": "https://example.com/job/rem-7001",
+      "candidate_required_location": "Remote - Global",
+      "category": "QA",
+      "tags": ["api", "sql", "manual"],
+      "description": "<p>API testing, postman collections, SQL checks.</p>",
+      "publication_date": "2026-09-19T10:00:00Z"
+    },
+    {
+      "id": 7002,
+      "title": "Data Analyst",
+      "company_name": "Sheetly",
+      "url": "https://example.com/job/rem-7002",
+      "candidate_required_location": "Europe",
+      "category": "Data Analysis",
+      "tags": ["sql", "excel", "looker"],
+      "description": "<p>Analyze KPI trends, build reports.</p>",
+      "publication_date": "2026-09-18T09:00:00Z"
+    },
+    {
+      "id": 7003,
+      "title": "Sales Development Representative (SDR)",
+      "company_name": "Pipeliner",
+      "url": "https://example.com/job/rem-7003",
+      "candidate_required_location": "Americas",
+      "category": "Sales",
+      "tags": ["outbound", "hubspot", "english"],
+      "description": "<p>Cold outreach and discovery calls.</p>",
+      "publication_date": "2026-09-17T08:00:00Z"
+    },
+    {
+      "id": 7004,
+      "title": "Software Engineer (Backend, Go)",
+      "company_name": "Fastlane",
+      "url": "https://example.com/job/rem-7004",
+      "candidate_required_location": "Remote - Global",
+      "category": "Software Development",
+      "tags": ["golang", "postgres", "kafka"],
+      "description": "<p>Build distributed services.</p>",
+      "publication_date": "2026-09-16T07:00:00Z"
+    }
+  ]
+}

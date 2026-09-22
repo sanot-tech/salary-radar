@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "jobs": [
+    {
+      "id": 9001,
+      "jobTitle": "IT Support Specialist (L1)",
+      "companyName": "Serveleven",
+      "url": "https://example.com/job/jobicy-9001",
+      "jobGeo": "Worldwide",
+      "jobIndustry": "Support",
+      "jobType": "fulltime",
+      "salaryMin": "$42000",
+      "salaryMax": "$52000",
+      "jobExcerpt": "Handle service desk tickets and onboarding.",
+      "pubDate": "2026-09-19T12:00:00Z"
+    },
+    {
+      "id": 9002,
+      "jobTitle": "Product Designer (UI/UX)",
+      "companyName": "Frameflow",
+      "url": "https://example.com/job/jobicy-9002",
+      "jobGeo": "Europe",
+      "jobIndustry": "Design",
+      "jobType": "fulltime",
+      "salaryMin": "$65000",
+      "salaryMax": "$85000",
+      "jobExcerpt": "Figma components, prototypes, design systems.",
+      "pubDate": "2026-09-18T11:00:00Z"
+    },
+    {
+      "id": 9003,
+      "jobTitle": "Marketing Coordinator (Growth)",
+      "companyName": "BotanicX",
+      "url": "https://example.com/job/jobicy-9003",
+      "jobGeo": "Remote - Global",
+      "jobIndustry": "Marketing",
+      "jobType": "fulltime",
+      "salaryMin": "$38000",
+      "salaryMax": "$48000",
+      "jobExcerpt": "Run campaigns, manage social, measure ROAS.",
+      "pubDate": "2026-09-17T10:00:00Z"
+    },
+    {
+      "id": 9004,
+      "jobTitle": "DevOps Engineer",
+      "companyName": "Orbitstack",
+      "url": "https://example.com/job/jobicy-9004",
+      "jobGeo": "Remote - Global",
+      "jobIndustry": "DevOps",
+      "jobType": "fulltime",
+      "salaryMin": "$100000",
+      "salaryMax": "$140000",
+      "jobExcerpt": "Kubernetes, Terraform, CI/CD pipelines.",
+      "pubDate": "2026-09-16T09:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "success": true,
+  "jobs": [
+    {
+      "id": "arc-221",
+      "title": "Security Analyst (SOC)",
+      "company": { "name": "Guardrails AI" },
+      "url": "https://example.com/job/arc-221",
+      "jobType": "Remote",
+      "category": "Cybersecurity",
+      "keywords": ["security", "soc", "english"],
+      "compensation": { "currency": "USD", "min": 80000, "max": 110000 },
+      "description": "Triage alerts, respond to incidents.",
+      "createdAt": "2026-09-18T08:00:00Z"
+    },
+    {
+      "id": "arc-222",
+      "title": "Data Engineer (SQL / ETL)",
+      "company": { "name": "Pipelineworks" },
+      "url": "https://example.com/job/arc-222",
+      "jobType": "Remote",
+      "category": "Data",
+      "keywords": ["sql", "etl", "dbt"],
+      "compensation": { "currency": "USD", "min": 95000, "max": 130000 },
+      "description": "Model warehouses and maintain ELT jobs.",
+      "createdAt": "2026-09-17T08:00:00Z"
+    },
+    {
+      "id": "arc-223",
+      "title": "Frontend Engineer (React)",
+      "company": { "name": "Nimbusdev" },
+      "url": "https://example.com/job/arc-223",
+      "jobType": "Remote",
+      "category": "Engineering",
+      "keywords": ["react", "typescript", "css"],
+      "compensation": { "currency": "USD", "min": 90000, "max": 120000 },
+      "description": "Ship web product surfaces.",
+      "createdAt": "2026-09-16T08:00:00Z"
+    },
+    {
+      "id": "arc-224",
+      "title": "Recruiter / Talent Acquisition Partner",
+      "company": { "name": "Hirewise" },
+      "url": "https://example.com/job/arc-224",
+      "jobType": "Remote",
+      "category": "HR",
+      "keywords": ["recruiting", "hr", "sourcing"],
+      "compensation": { "currency": "USD", "min": 50000, "max": 65000 },
+      "description": "Own full cycle recruiting.",
+      "createdAt": "2026-09-15T08:00:00Z"
+    }
+  ]
+}
