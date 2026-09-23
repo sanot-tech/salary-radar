@@ -23,11 +23,8 @@ from typing import Any
 
 from . import config
 
-# Roles that are realistically reachable without live coding skills.
-NO_CODE_ROLES = {
-    "QA / Testing", "Business Analyst", "Support", "Sales / SDR",
-    "Marketing", "HR", "Design (UI/UX)", "Product / PM", "Data",
-}
+# The vibe core: every role a Vibe Coder (super-universal) can occupy.
+VIBE_ROLES = {"AI / Vibe Dev"}
 
 
 def _clean(rows: list[Any]) -> list[dict[str, Any]]:
@@ -43,7 +40,7 @@ def _clean(rows: list[Any]) -> list[dict[str, Any]]:
             "salary_max": r["salary_max"],
             "currency": r["currency"],
             "role": r["role"],
-            "no_code": bool(r["no_code"]),
+            "vibe": bool(r["vibe"]),
             "tags": (r["tags"] or "").split(","),
             "first_seen": r["first_seen"],
         })
@@ -56,12 +53,12 @@ def export_csv(path: Any, rows: list[Any]) -> None:
     with open(path, "w", newline="", encoding="utf-8") as fh:
         writer = csv.writer(fh)
         writer.writerow([
-            "source", "role", "no_code", "title", "company",
+            "source", "role", "vibe", "title", "company",
             "salary_min_usd", "salary_max_usd", "location", "url",
         ])
         for r in rows:
             writer.writerow([
-                r["source"], r["role"], r["no_code"], r["title"], r["company"],
+                r["source"], r["role"], r["vibe"], r["title"], r["company"],
                 r["salary_min"], r["salary_max"], r["location"], r["url"],
             ])
 
@@ -84,7 +81,7 @@ def update_history(summary: dict[str, Any]) -> list[dict[str, Any]]:
     history.append({
         "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "total": summary["total"],
-        "no_code_total": summary["no_code_total"],
+        "vibe_total": summary["vibe_total"],
     })
     history = history[-90:]  # keep the last 90 days
     path.write_text(json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -117,7 +114,7 @@ def _calc_script(roles: list[dict[str, Any]]) -> str:
     data = {
         "roles": [{
             "role": r["role"],
-            "no_code": r["role"] in NO_CODE_ROLES,
+            "vibe": r["role"] in VIBE_ROLES,
             "min": r.get("salary_min_median"),
             "max": r.get("salary_max_median"),
         } for r in roles],
@@ -139,13 +136,13 @@ def _calc_script(roles: list[dict[str, Any]]) -> str:
         "  else if (exp === 1) { lo = r.min || WORTH_DATA.fallback_min; hi = r.max || WORTH_DATA.fallback_max; }\n"
         "  else if (exp === 2) { lo = r.max || WORTH_DATA.fallback_max; hi = Math.round((r.max || WORTH_DATA.fallback_max) * 1.15); }\n"
         "  else { lo = Math.round((r.max || WORTH_DATA.fallback_max) * 1.15); hi = Math.round((r.max || WORTH_DATA.fallback_max) * 1.32); }\n"
-        "  return { role: roleKey, no_code: !!r.no_code, lo: Math.max(lo,1000), hi: Math.max(hi, lo) };\n"
+        "  return { role: roleKey, vibe: !!r.vibe, lo: Math.max(lo,1000), hi: Math.max(hi, lo) };\n"
         "}\n"
         "function renderWorth(){\n"
         "  const role = document.getElementById('worth-role').value;\n"
         "  const exp = parseInt(document.getElementById('worth-exp').value, 10);\n"
         "  const w = worthFor(role, exp);\n"
-        "  const badge = w.no_code ? '<span class=\"ok\">no-code entry ✓</span>' : '<span class=\"tag\">may need code</span>';\n"
+        "  const badge = w.vibe ? '<span class=\"ok\">vibe coder ✓</span>' : '<span class=\"tag\">classic path</span>';\n"
         "  const barW = exp===0 ? 12 : exp===1 ? 35 : exp===2 ? 65 : 92;\n"
         "  document.getElementById('worth-out').innerHTML =\n"
         "    '<div class=\"worth-card\">' +\n"
@@ -164,7 +161,7 @@ def _calc_script(roles: list[dict[str, Any]]) -> str:
         "  const role = document.getElementById('worth-role').value;\n"
         "  const exp = parseInt(document.getElementById('worth-exp').value, 10);\n"
         "  const w = worthFor(role, exp);\n"
-        "  return '⚡ MY WORTH via Salary Radar: ' + w.role + ' → ' + fmt(w.lo) + '–' + fmt(w.hi) + ' /mo (' + (w.no_code?'no-code entry ✓':'career path') + '). Check yours: ' + location.href;\n"
+        "  return '⚡ MY WORTH via Salary Radar: ' + w.role + ' → ' + fmt(w.lo) + '–' + fmt(w.hi) + ' /mo (' + (w.vibe?'vibe coder ✓':'career path') + '). Check yours: ' + location.href;\n"
         "}\n"
         "function shareTG(){ const t = worthText(); const u = 'https://t.me/share/url?url=' + encodeURIComponent(location.href) + '&text=' + encodeURIComponent(t); window.open(u,'_blank'); }\n"
         "function shareVK(){ const t = worthText(); const u = 'https://vk.com/share.php?url=' + encodeURIComponent(location.href) + '&title=' + encodeURIComponent(t); window.open(u,'_blank'); }\n"
@@ -173,23 +170,24 @@ def _calc_script(roles: list[dict[str, Any]]) -> str:
     )
 
 
-def _track_of(role: str) -> str | None:
+def _track_of(role: str, title: str = "", category: str = "", tags=None) -> str | None:
     from . import config as _config
+    from .analyze import row_track
 
-    return _config.ROLE_TO_TRACK.get(role or "")
+    return row_track(role, title, category, tags)
 
 
 def _track_script(role_rows: list[dict[str, Any]]) -> str:
-    """Client-side toggle logic for the priority-track checkboxes.
+    """Client-side toggle logic for the vibe sub-track checkboxes.
 
     Hides filtered role rows, swaps track-card styling, and recalcs the
-    displayed no-code total + percentage from the real scraped numbers.
+    displayed vibe total + percentage from the real scraped numbers.
     """
     roles = [{
         "role": r["role"],
         "track": _track_of(r["role"]) or "",
         "count": r["count"],
-        "no_code": r["no_code_count"],
+        "vibe": r["vibe_count"],
     } for r in role_rows]
     payload = json.dumps(roles, ensure_ascii=True).replace("</", "<\\/")
     return """
@@ -207,21 +205,21 @@ function toggleTrack(track, on) {
     rows.forEach(function (r) { r.style.display = 'none'; });
     if (card) { card.classList.add('off'); }
   }
-  recalcNoCode();
+  recalcVibe();
 }
-function recalcNoCode() {
-  var totalView = document.getElementById('nocode-total');
-  var pctView = document.getElementById('nocode-pct');
+function recalcVibe() {
+  var totalView = document.getElementById('vibe-total');
+  var pctView = document.getElementById('vibe-pct');
   if (!totalView || !pctView) { return; }
-  var nocode = 0, total = 0;
+  var vibe = 0, total = 0;
   TRACK_ROLES.forEach(function (r) {
     var cb = r.track && document.querySelector('input[data-track="' + r.track + '"]');
     if (cb && !cb.checked) { return; }
     total += r.count;
-    nocode += r.no_code;
+    vibe += r.vibe;
   });
-  totalView.textContent = nocode;
-  pctView.textContent = Math.round(100 * nocode / Math.max(total, 1)) + '% no-code friendly';
+  totalView.textContent = vibe;
+  pctView.textContent = Math.round(100 * vibe / Math.max(total, 1)) + '% vibe-friendly';
 }
 </script>"""
 
@@ -230,8 +228,8 @@ def render_html(summary: dict[str, Any], rows: list[Any], history: list[dict[str
     """Render the standalone dashboard. Dark theme, no external assets."""
     role_rows = summary["roles"]
     max_count = max((r["count"] for r in role_rows), default=1)
-    no_code_pct = int(round(summary.get("no_code_share", 0) * 100))
-    many_no_code = sum(1 for r in role_rows if r["role"] in NO_CODE_ROLES)
+    vibe_pct = int(round(summary.get("vibe_share", 0) * 100))
+    many_vibe = sum(1 for r in role_rows if r["role"] in VIBE_ROLES)
     with_salary = sum(1 for r in role_rows if r.get("salary_max_median"))
 
     def sal(v: int | None) -> str:
@@ -239,14 +237,14 @@ def render_html(summary: dict[str, Any], rows: list[Any], history: list[dict[str
 
     roles_html = []
     for rr in role_rows:
-        noc = "✓" if rr["no_code_count"] else ""
+        vib = "✓" if rr["vibe_count"] else ""
         roles_html.append(
             f"""
             <tr data-track="{_track_of(rr['role']) or ''}">
               <td class="role">{html.escape(rr['role'])}</td>
               <td>{rr['count']}</td>
               <td>{rr['companies']}</td>
-              <td>{noc}</td>
+              <td>{vib}</td>
               <td>{sal(rr['salary_min_median'])}</td>
               <td>{sal(rr['salary_max_median'])}</td>
               <td>{html.escape(rr['top_company'] or '—')}</td>
@@ -254,12 +252,13 @@ def render_html(summary: dict[str, Any], rows: list[Any], history: list[dict[str
             </tr>"""
         )
 
-    # Any role outside the known ordering goes to 'Other'.
+    # Vibe sub-track cards (a Vibe Coder can specialise in any of these).
     track_meta = {
-        "vibe_ai": ("✨", "Vibe / AI"),
-        "support": ("🎧", "Key Support"),
-        "qa": ("🐞", "QA / Testing"),
-        "data": ("📊", "Data / Analytics"),
+        "ai_agents": ("🤖", "AI Agents / Automation"),
+        "prompt_eng": ("🗣️", "Prompt & AI Interfaces"),
+        "builders": ("🧱", "Visual / Low-Code Builders"),
+        "ai_creative": ("🎨", "Generative Creative"),
+        "ai_product": ("🚀", "AI Product (Super-Universal)"),
     }
     track_counts = summary.get("track_counts", {})
     if not track_counts and role_rows:
@@ -267,13 +266,13 @@ def render_html(summary: dict[str, Any], rows: list[Any], history: list[dict[str
         for rr in role_rows:
             t = _track_of(rr["role"])
             if t:
-                track_counts.setdefault(t, {"count": 0, "no_code": 0, "enabled": True})
+                track_counts.setdefault(t, {"count": 0, "vibe": 0, "enabled": True})
                 track_counts[t]["count"] += rr["count"]
-                track_counts[t]["no_code"] += rr["no_code_count"]
+                track_counts[t]["vibe"] += rr["vibe_count"]
 
     track_cards_html = []
     for tid, (icon, label) in track_meta.items():
-        info = track_counts.get(tid, {"count": 0, "no_code": 0, "enabled": True})
+        info = track_counts.get(tid, {"count": 0, "vibe": 0, "enabled": True})
         checked = " checked" if info.get("enabled", True) else ""
         track_cards_html.append(
             f"""
@@ -282,7 +281,7 @@ def render_html(summary: dict[str, Any], rows: list[Any], history: list[dict[str
               <span class="track-ic">{icon}</span>
               <span class="track-lb">{label}</span>
               <b id="track-cnt-{tid}">{info.get('count', 0)}</b>
-              <span class="muted" id="track-nc-{tid}">· {info.get('no_code', 0)} no-code</span>
+              <span class="muted" id="track-nc-{tid}">· {info.get('vibe', 0)} vibe</span>
             </label>"""
         )
 
@@ -299,7 +298,7 @@ def render_html(summary: dict[str, Any], rows: list[Any], history: list[dict[str
               <td><a href="{html.escape(j['url'])}">{html.escape(j['title'])}</a></td>
               <td>{html.escape(j['company'])}</td>
               <td>{html.escape(j['role'])}</td>
-              <td>{'<span class="ok">no-code</span>' if j['no_code'] else ''}</td>
+              <td>{'<span class="ok">vibe 🚀</span>' if j['vibe'] else ''}</td>
               <td>{sal(j['salary_min'])}-{sal(j['salary_max'])}</td>
               <td>{tag_badges}</td>
             </tr>"""
@@ -313,13 +312,13 @@ def render_html(summary: dict[str, Any], rows: list[Any], history: list[dict[str
     history_html = ""
     if history:
         day_rows = "".join(
-            f"<tr><td>{h['date']}</td><td>{h['total']}</td><td>{h['no_code_total']}</td></tr>"
+            f"<tr><td>{h['date']}</td><td>{h['total']}</td><td>{h['vibe_total']}</td></tr>"
             for h in history[-14:]
         )
         history_html = f"""
         <section>
           <h2>Trend (last 14 d)</h2>
-          <table><tr><th>Date</th><th>Listings</th><th>No-code</th></tr>{day_rows}</table>
+          <table><tr><th>Date</th><th>Listings</th><th>Vibe</th></tr>{day_rows}</table>
         </section>"""
 
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
@@ -341,8 +340,8 @@ renderWorth();
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta name="description" content="Salary Radar — see how much you are worth in remote IT. {summary['no_code_total']} no-code friendly listings from public English job boards."/>
-<title>Salary Radar — What are you worth?</title>
+<meta name="description" content="Vibe Coder Salary Radar — see how much you are worth in remote AI-era IT. {summary['vibe_total']} vibe-friendly listings from public English job boards."/>
+<title>Vibe Coder Salary Radar — What are you worth?</title>
 <style>
 :root {{ color-scheme: dark; }}
 body {{ margin:0; font:15px/1.5 system-ui, sans-serif; background:#0d1117; color:#e6edf3; }}
@@ -401,30 +400,30 @@ footer {{ margin-top:40px; color:#8b949e; font-size:12px; }}
 <body>
 <div class="wrap">
 
-  <h1>💹 Salary Radar</h1>
-  <p class="sub">Remote IT salary dashboard · English job boards · auto-updated · generated {html.escape(generated_at)}</p>
+  <h1>🚀 Vibe Coder Salary Radar</h1>
+  <p class="sub">Remote AI-era IT salary dashboard · English job boards · auto-updated · generated {html.escape(generated_at)}</p>
 
   <div class="hero">
-    <h2>⚡ See how much YOU are worth</h2>
-    <div class="big">Your first remote IT salary <b>without code</b>: <b>$500 – $1,500/mo</b></div>
-    <div class="sub">€0 spent on courses. 4–6 weeks. Free daily digest of no-code openings to prove the road — not just talk about it.</div>
+    <h2>⚡ See how much YOU are worth as a Vibe Coder</h2>
+    <div class="big"><b>Architect 🏗️ + Programmer 💻 + Businessman 💼</b> — all in one. Your first remote AI-era salary: <b>$500 – $1,500/mo</b></div>
+    <div class="sub">The super-universal path. Free daily digest of vibe openings to prove the road — not just talk about it.</div>
     <a class="cta" href="#calc">💰 Check my price</a>
-    <a class="cta" style="background:#3fb950;color:#0d1117" href="#lead">📬 Get the daily top-3</a>
+    <a class="cta" style="background:#38d776;color:#0d1117" href="#lead">📬 Get the daily top-3</a>
   </div>
 
   <section>
-    <h2 style="margin-top:26px">🎯 Priority tracks <span class="muted">(toggle manually — live recalc)</span></h2>
+    <h2 style="margin-top:26px">🎯 Vibe sub-tracks <span class="muted">(toggle manually — live recalc)</span></h2>
     <div class="track-cards">
       {''.join(track_cards_html)}
     </div>
-    <p class="track-off-note">Switching a track off hides those roles below and removes them from the no-code count — the underlying data stays intact.</p>
+    <p class="track-off-note">Switching a sub-track off hides those roles below and removes them from the vibe count — the underlying data stays intact.</p>
   </section>
 
   <div class="cards">
     <div class="card"><b>{summary['total']}</b> listings tracked</div>
-    <div class="card"><b id="nocode-total">{summary['no_code_total']}</b><span class="badge" id="nocode-pct">{no_code_pct}% no-code friendly</span></div>
+    <div class="card"><b id="vibe-total">{summary['vibe_total']}</b><span class="badge" id="vibe-pct">{vibe_pct}% vibe-friendly</span></div>
     <div class="card"><b>{len(summary['by_source'])}</b> job sources</div>
-    <div class="card"><b>{many_no_code}/{len(role_rows)}</b> roles reachable without code</div>
+    <div class="card"><b>{many_vibe}/{len(role_rows)}</b> roles on the vibe path</div>
   </div>
   <div>{source_spans}</div>
 
@@ -453,7 +452,7 @@ footer {{ margin-top:40px; color:#8b949e; font-size:12px; }}
 
   <section class="lead" id="lead">
     <h2 style="border:none;margin-top:0">📬 The daily loot-elf digest</h2>
-    <p class="sub">Every morning: TOP-3 no-code openings + salary band. Zero spam.</p>
+    <p class="sub">Every morning: TOP-3 vibe openings + salary band. Zero spam.</p>
     <form onsubmit="event.preventDefault();var e=this.querySelector('input').value;e &amp;&amp; (this.innerHTML='<span class=&quot;ok&quot;>✓ Saved as lead — bot digest goes live soon. Meanwhile scroll the tables below 💪</span>');">
       <input type="email" required placeholder="your@email.com" aria-label="Email"/>
       <button type="submit">Subscribe free</button>
@@ -462,43 +461,43 @@ footer {{ margin-top:40px; color:#8b949e; font-size:12px; }}
   </section>
 
   <section>
-    <h2>🎮 Your 5-week quest to a first role</h2>
+    <h2>🎮 Your 5-week quest to first vibe income</h2>
     <div class="quests">
-      <div class="quest"><span class="n">WEEK 1</span><br/>Pick a no-code track above. 20 min/day free tutorials. Save 3 sample answers per common interview Q.</div>
-      <div class="quest"><span class="n">WEEK 2</span><br/>Build 2 small prove-it pieces: a checklist, a mini-report, or a free dashboard of your own.</div>
-      <div class="quest"><span class="n">WEEK 3</span><br/>Rewrite your CV around deliverables + numbers you collected here. Publish your GitHub repo.</div>
-      <div class="quest"><span class="n">WEEK 4</span><br/>Send 25-40 tailored replies/week with 2 metrics each ("I track 300+ listings, 65% need no code").</div>
+      <div class="quest"><span class="n">WEEK 1</span><br/>Pick a vibe sub-track above. Ship one tiny thing with an AI copilot: a landing, a bot, an automation.</div>
+      <div class="quest"><span class="n">WEEK 2</span><br/>Build 2 small prove-it pieces: an AI agent, a visual app in Bubble/Webflow, or an n8n workflow.</div>
+      <div class="quest"><span class="n">WEEK 3</span><br/>Rewrite your CV around shipped products + revenue + numbers. Publish your GitHub repo.</div>
+      <div class="quest"><span class="n">WEEK 4</span><br/>Send 25-40 tailored replies/week with 2 metrics each ("I shipped X products, Y users").</div>
       <div class="quest"><span class="n">WEEK 5</span><br/>Take the interviews, log the feedback as data, iterate. First paid remote role = quest complete 🏆</div>
     </div>
   </section>
 
   <section>
-    <h2>🧭 The other path (stories build on market data)</h2>
+    <h2>🧭 Super-universal stories (grounded in market data)</h2>
     <div class="cards">
-      <div class="story">🎮 <b>Gamer → QA Analyst</b><br/>Turned "testing 40 hrs/week" habit into a QA checklist portfolio. Hired remotely in ~7 weeks. Survey: QA is the top no-code-friendly entry ({sal(_top_no_code_median(role_rows))}/mo median).</div>
-      <div class="story">🍽️ <b>Waiter → Customer Success</b><br/>Shifted people-skills from the floor to support tickets. CS roles show {sal(_top_support_median(role_rows))}/mo on this radar. ~9 weeks.</div>
-      <div class="story">🛍️ <b>Retail assistant → Data Analyst</b><br/>Borrowed the shop's Excel chaos, rebuilt it as a dashboard → the "BI / Data" band on this page. ~11 weeks.</div>
+      <div class="story">🤖 <b>Support agent → AI Agent Builder</b><br/>Turned ticket-flows into automation scripts powered by copilots. Hired remotely in ~7 weeks. AI agents are today's top vibe-friendly entry ({sal(_top_vibe_median(role_rows))}/mo median).</div>
+      <div class="story">🎨 <b>Barista → Visual App Builder</b><br/>Rebuilt the coffee shop's loyalty flow in Bubble → paid app for a local brand. Consultant now at {sal(_top_builder_median(role_rows))}/mo on this radar.</div>
+      <div class="story">🛍️ <b>Retail seller → AI Product MVP</b><br/>Launched a niche AI MVP in public, first 50 users, then a "build in public" brand. AI product band on this page. ~11 weeks.</div>
     </div>
     <p class="notes">Archetypal illustrations grounded in real listing data — paths differ per person. The numbers above are live medians from today's scrape.</p>
   </section>
 
   <h2>Roles &amp; salary medians (USD)</h2>
   <table>
-    <tr><th>Role</th><th>Listings</th><th>Companies</th><th>No-code</th><th>Min $</th><th>Max $</th><th>Top company</th><th>Share</th></tr>
+    <tr><th>Role</th><th>Listings</th><th>Companies</th><th>Vibe</th><th>Min $</th><th>Max $</th><th>Top company</th><th>Share</th></tr>
     {''.join(roles_html)}
   </table>
   {f'<p class="notes">{with_salary} of {len(role_rows)} roles carry live salary bands this run.</p>' if with_salary < len(role_rows) else ''}
 
   <h2>Latest listings</h2>
   <table>
-    <tr><th>Title</th><th>Company</th><th>Role</th><th>Level</th><th>Salary $</th><th>Tags</th></tr>
+    <tr><th>Title</th><th>Company</th><th>Role</th><th>Vibe</th><th>Salary $</th><th>Tags</th></tr>
     {''.join(jobs_html) if jobs_html else '<tr><td colspan="6">No data yet — run: <code>env python3 main.py collect</code></td></tr>'}
   </table>
 
   {history_html}
 
   <footer>
-    Salary Radar · filtered from public English APIs · zero dependencies (Python stdlib only) ·
+    Vibe Coder Salary Radar · filtered from public English APIs · zero dependencies (Python stdlib only) ·
     open source · <a href="#calc">worth calculator</a> · share the <a href="#calc">worth card</a>
   </footer>
 </div>
@@ -509,18 +508,18 @@ footer {{ margin-top:40px; color:#8b949e; font-size:12px; }}
 </html>"""
 
 
-def _top_no_code_median(role_rows: list[dict[str, Any]]) -> int | None:
+def _top_vibe_median(role_rows: list[dict[str, Any]]) -> int | None:
     for r in role_rows:
-        if r["role"] == "QA / Testing":
+        if r["role"] == "AI / Vibe Dev":
+            return r.get("salary_max_median")
+    return 65000
+
+
+def _top_builder_median(role_rows: list[dict[str, Any]]) -> int | None:
+    for r in role_rows:
+        if r["role"] in ("AI / Vibe Dev", "Design (UI/UX)"):
             return r.get("salary_max_median")
     return 55000
-
-
-def _top_support_median(role_rows: list[dict[str, Any]]) -> int | None:
-    for r in role_rows:
-        if r["role"] == "Support":
-            return r.get("salary_max_median")
-    return 48000
 
 
 def write_all_summary_artifacts(summary: dict[str, Any], rows: list[Any], history: list[dict[str, Any]]) -> None:
