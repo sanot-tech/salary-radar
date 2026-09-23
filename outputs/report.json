@@ -1,205 +1,225 @@
 {
-  "total": 115,
-  "no_code_total": 94,
-  "no_code_share": 0.82,
+  "total": 322,
+  "no_code_total": 202,
+  "no_code_share": 0.63,
   "by_source": {
-    "remoteok": 103,
-    "remotive": 4,
-    "jobicy": 4,
+    "jobicy": 200,
+    "remoteok": 99,
+    "remotive": 19,
     "arcdev": 4
   },
   "roles": [
     {
       "role": "Engineering",
-      "count": 26,
-      "companies": 24,
-      "no_code_count": 12,
-      "no_code_share": 0.46,
-      "salary_min_median": 135000,
-      "salary_max_median": 202500,
-      "top_company": "Bjak ",
+      "count": 88,
+      "companies": 53,
+      "no_code_count": 32,
+      "no_code_share": 0.36,
+      "salary_min_median": 172500,
+      "salary_max_median": 212000,
+      "top_company": "Canonical",
       "top_tags": [
+        "Full-Time",
         "engineer",
         "golang",
         "dev",
         "digital nomad",
         "exec",
         "design",
-        "sys admin",
-        "technical"
+        "sys admin"
       ]
     },
     {
       "role": "QA / Testing",
-      "count": 5,
+      "count": 6,
       "companies": 5,
-      "no_code_count": 5,
+      "no_code_count": 6,
       "no_code_share": 1.0,
-      "salary_min_median": 35000,
-      "salary_max_median": 50000,
-      "top_company": "iMerit Technology",
+      "salary_min_median": 80000,
+      "salary_max_median": 73000,
+      "top_company": "Welo Global",
       "top_tags": [
         "quality assurance",
-        "manual",
+        "golang",
+        "testing",
+        "Full-Time",
         "ai",
         "data annotation",
         "education",
-        "marketing",
-        "finance",
-        "exec"
+        "marketing"
       ]
     },
     {
       "role": "Data",
-      "count": 4,
-      "companies": 4,
-      "no_code_count": 3,
-      "no_code_share": 0.75,
-      "salary_min_median": 95000,
-      "salary_max_median": 130000,
-      "top_company": "Arabian Private Holdings",
+      "count": 9,
+      "companies": 9,
+      "no_code_count": 5,
+      "no_code_share": 0.56,
+      "salary_min_median": 145000,
+      "salary_max_median": 175000,
+      "top_company": "SEAhub Asia",
       "top_tags": [
+        "Full-Time",
         "saas",
         "customer support",
         "marketing",
         "exec",
         "ops",
         "sales",
-        "analyst",
-        "virtual assistant"
+        "analyst"
       ]
     },
     {
-      "role": "Support",
-      "count": 6,
-      "companies": 6,
-      "no_code_count": 6,
-      "no_code_share": 1.0,
-      "salary_min_median": 45000,
-      "salary_max_median": 55000,
-      "top_company": "Wing",
-      "top_tags": [
-        "customer support",
-        "exec",
-        "education",
-        "travel",
-        "medical",
-        "design",
-        "recruiter",
-        "finance"
-      ]
-    },
-    {
-      "role": "Sysadmin / DevOps",
-      "count": 1,
-      "companies": 1,
-      "no_code_count": 0,
-      "no_code_share": 0.0,
-      "salary_min_median": 100000,
-      "salary_max_median": 140000,
-      "top_company": "Orbitstack",
-      "top_tags": [
-        "fulltime"
-      ]
-    },
-    {
-      "role": "Cybersecurity",
-      "count": 4,
-      "companies": 4,
-      "no_code_count": 4,
-      "no_code_share": 1.0,
-      "salary_min_median": 85000,
-      "salary_max_median": 130000,
-      "top_company": "NOPE",
-      "top_tags": [
-        "marketing",
-        "technical",
-        "content writing",
-        "customer support",
-        "exec",
-        "senior",
-        "ops",
-        "education"
-      ]
-    },
-    {
-      "role": "Design (UI/UX)",
-      "count": 11,
-      "companies": 9,
-      "no_code_count": 11,
-      "no_code_share": 1.0,
-      "salary_min_median": 10000,
-      "salary_max_median": 750000,
-      "top_company": "Interaction Design Foundation",
-      "top_tags": [
-        "design",
-        "content writing",
-        "digital nomad",
-        "designer",
-        "customer support",
-        "technical",
-        "marketing",
-        "senior"
-      ]
-    },
-    {
-      "role": "Product / PM",
+      "role": "Business Analyst",
       "count": 1,
       "companies": 1,
       "no_code_count": 1,
       "no_code_share": 1.0,
-      "salary_min_median": null,
-      "salary_max_median": null,
-      "top_company": "DomainTools",
+      "salary_min_median": 62500,
+      "salary_max_median": 75000,
+      "top_company": "Precision Medicine Group",
       "top_tags": [
-        "product manager",
-        "exec",
-        "infosec",
-        "marketing",
-        "design",
-        "web dev",
-        "scrum",
-        "cloud"
+        "Full-Time"
       ]
     },
     {
-      "role": "Sales / SDR",
-      "count": 6,
-      "companies": 6,
-      "no_code_count": 6,
-      "no_code_share": 1.0,
-      "salary_min_median": null,
-      "salary_max_median": null,
-      "top_company": "GROW10X",
+      "role": "Support",
+      "count": 13,
+      "companies": 13,
+      "no_code_count": 12,
+      "no_code_share": 0.92,
+      "salary_min_median": 84500,
+      "salary_max_median": 107500,
+      "top_company": "JumpCloud",
       "top_tags": [
-        "marketing",
-        "exec",
-        "sales",
+        "Full-Time",
         "customer support",
-        "finance",
-        "digital nomad",
-        "recruiter",
+        "exec",
+        "travel",
+        "education",
+        "medical",
+        "saas",
         "technical"
       ]
     },
     {
-      "role": "Marketing",
-      "count": 5,
-      "companies": 5,
-      "no_code_count": 5,
-      "no_code_share": 1.0,
-      "salary_min_median": 38000,
-      "salary_max_median": 48000,
-      "top_company": "Lyric",
+      "role": "Sysadmin / DevOps",
+      "count": 4,
+      "companies": 4,
+      "no_code_count": 1,
+      "no_code_share": 0.25,
+      "salary_min_median": 310500,
+      "salary_max_median": 415000,
+      "top_company": "Lemon.io",
       "top_tags": [
+        "Full-Time",
+        ".Net",
+        "android",
+        "AWS",
+        "azure",
+        "C",
+        "C#",
+        "C++"
+      ]
+    },
+    {
+      "role": "Cybersecurity",
+      "count": 22,
+      "companies": 14,
+      "no_code_count": 11,
+      "no_code_share": 0.5,
+      "salary_min_median": 80000,
+      "salary_max_median": 113000,
+      "top_company": "Canonical",
+      "top_tags": [
+        "Full-Time",
+        "Contract",
+        "golang",
+        "infosec",
+        "dev",
+        "full time",
+        "digital nomad",
+        "marketing"
+      ]
+    },
+    {
+      "role": "Design (UI/UX)",
+      "count": 20,
+      "companies": 12,
+      "no_code_count": 13,
+      "no_code_share": 0.65,
+      "salary_min_median": 30000,
+      "salary_max_median": 496000,
+      "top_company": "Canonical",
+      "top_tags": [
+        "Full-Time",
+        "design",
+        "content writing",
+        "designer",
+        "senior",
+        "engineer",
+        "digital nomad",
+        "technical"
+      ]
+    },
+    {
+      "role": "Product / PM",
+      "count": 6,
+      "companies": 6,
+      "no_code_count": 6,
+      "no_code_share": 1.0,
+      "salary_min_median": 200850,
+      "salary_max_median": 266850,
+      "top_company": "Magic Eden",
+      "top_tags": [
+        "Full-Time",
+        "product manager",
         "marketing",
+        "exec",
+        "design",
+        "engineer",
+        "digital nomad",
+        "crypto"
+      ]
+    },
+    {
+      "role": "Sales / SDR",
+      "count": 20,
+      "companies": 15,
+      "no_code_count": 19,
+      "no_code_share": 0.95,
+      "salary_min_median": 123000,
+      "salary_max_median": 148500,
+      "top_company": "Canonical",
+      "top_tags": [
+        "Full-Time",
+        "exec",
+        "marketing",
+        "sales",
+        "finance",
+        "recruiter",
+        "digital nomad",
+        "customer support"
+      ]
+    },
+    {
+      "role": "Marketing",
+      "count": 13,
+      "companies": 12,
+      "no_code_count": 11,
+      "no_code_share": 0.85,
+      "salary_min_median": 124550,
+      "salary_max_median": 156072,
+      "top_company": "PadSplit",
+      "top_tags": [
+        "Full-Time",
         "customer support",
+        "marketing",
         "exec",
         "dev",
-        "travel",
         "content writing",
         "ops",
-        "sales"
+        "digital nomad"
       ]
     },
     {
@@ -224,22 +244,22 @@
     },
     {
       "role": "Unknown",
-      "count": 44,
-      "companies": 44,
-      "no_code_count": 40,
-      "no_code_share": 0.91,
-      "salary_min_median": 65000,
-      "salary_max_median": 85000,
-      "top_company": "GROW10X",
+      "count": 118,
+      "companies": 89,
+      "no_code_count": 84,
+      "no_code_share": 0.71,
+      "salary_min_median": 136365,
+      "salary_max_median": 155000,
+      "top_company": "Canonical",
       "top_tags": [
+        "Full-Time",
         "exec",
         "customer support",
-        "marketing",
-        "digital nomad",
         "ops",
+        "digital nomad",
+        "marketing",
         "education",
-        "dev",
-        "medical"
+        "dev"
       ]
     }
   ],
@@ -250,18 +270,18 @@
       "enabled": true
     },
     "support": {
+      "count": 13,
+      "no_code": 12,
+      "enabled": true
+    },
+    "qa": {
       "count": 6,
       "no_code": 6,
       "enabled": true
     },
-    "qa": {
-      "count": 5,
-      "no_code": 5,
-      "enabled": true
-    },
     "data": {
-      "count": 4,
-      "no_code": 3,
+      "count": 10,
+      "no_code": 6,
       "enabled": true
     }
   }
