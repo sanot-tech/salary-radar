@@ -168,11 +168,99 @@ def _normalize_arcdev(rec: RawRecord) -> JobRecord | None:
     )
 
 
+def _normalize_himalayas(rec: RawRecord) -> JobRecord | None:
+    uid = rec.get("id") or rec.get("slug")
+    if not uid and not rec.get("title"):
+        return None
+    lo, hi = _parse_salary(rec.get("salary_min")), _parse_salary(rec.get("salary_max"))
+    return JobRecord(
+        source="himalayas",
+        external_id=str(uid or rec.get("title")),
+        title=rec.get("title") or "Unknown",
+        company=rec.get("company") or rec.get("companyName") or "Unknown",
+        url=rec.get("url") or rec.get("apply_url") or rec.get("applyUrl") or "",
+        location=rec.get("location") or rec.get("workplace") or "Remote",
+        category=rec.get("category") or rec.get("type") or "",
+        tags=(rec.get("tags") or rec.get("skills") or rec.get("keywords") or [])[:8],
+        salary_min=lo[0] or _parse_salary(rec.get("salary"))[0],
+        salary_max=hi[1] or _parse_salary(rec.get("salary"))[1],
+        description=rec.get("description") or rec.get("summary") or "",
+        published=rec.get("datePosted") or rec.get("published") or "",
+    )
+
+
+def _normalize_aidevboard(rec: RawRecord) -> JobRecord | None:
+    uid = rec.get("id") or rec.get("slug")
+    if not uid and not rec.get("title"):
+        return None
+    lo, hi = _parse_salary(rec.get("salary_min")), _parse_salary(rec.get("salary_max"))
+    return JobRecord(
+        source="aidevboard",
+        external_id=str(uid or rec.get("title")),
+        title=rec.get("title") or "Unknown",
+        company=rec.get("company_name") or rec.get("companyName") or "Unknown",
+        url=rec.get("url") or rec.get("apply_url") or f"https://aidevboard.com/jobs/{rec.get('slug','')}",
+        location=(rec.get("location") or rec.get("workplace") or "Remote"),
+        category=rec.get("category") or rec.get("tags") and ",".join(str(t) for t in rec["tags"][:3]) or "",
+        tags=list(rec.get("tags") or rec.get("skills") or [])[:8],
+        salary_min=lo[0],
+        salary_max=hi[1],
+        description=rec.get("description") or "",
+        published=rec.get("published") or rec.get("datePosted") or "",
+    )
+
+
+def _normalize_nocodejobs(rec: RawRecord) -> JobRecord | None:
+    uid = rec.get("id") or rec.get("slug") or rec.get("url")
+    if not uid and not rec.get("title"):
+        return None
+    lo, hi = _parse_salary(rec.get("salary")), _parse_salary(rec.get("salary_range"))
+    return JobRecord(
+        source="nocodejobs",
+        external_id=str(uid or rec.get("title")),
+        title=rec.get("title") or "Unknown",
+        company=rec.get("company") or "Unknown",
+        url=rec.get("url") or rec.get("application_url") or "",
+        location=rec.get("location") or "Remote",
+        category=rec.get("category") or rec.get("platform") or "",
+        tags=list(rec.get("platforms") or rec.get("tags") or [])[:8],
+        salary_min=lo[0] if lo[0] is not None else None,
+        salary_max=hi[1] if hi[1] is not None else None,
+        description=rec.get("description") or "",
+        published=rec.get("date") or rec.get("published") or "",
+    )
+
+
+def _normalize_workingnomads(rec: RawRecord) -> JobRecord | None:
+    uid = rec.get("id") or rec.get("slug") or rec.get("title")
+    if not uid:
+        return None
+    lo, hi = _parse_salary(rec.get("salary")), _parse_salary(rec.get("salary_range"))
+    return JobRecord(
+        source="workingnomads",
+        external_id=str(uid),
+        title=rec.get("title") or "Unknown",
+        company=rec.get("company_name") or rec.get("company") or "Unknown",
+        url=rec.get("url") or rec.get("apply_url") or "",
+        location=rec.get("location") or rec.get("locations") and str(rec["locations"][0]) or "Remote",
+        category=rec.get("category") or "",
+        tags=list(rec.get("tags") or [])[:8],
+        salary_min=lo[0] if lo[0] is not None else None,
+        salary_max=hi[1] if hi[1] is not None else None,
+        description=rec.get("description") or rec.get("brief") or "",
+        published=rec.get("created_at") or rec.get("date") or "",
+    )
+
+
 NORMALIZERS: dict[str, Callable[[RawRecord], JobRecord | None]] = {
     "remoteok": _normalize_remoteok,
     "remotive": _normalize_remotive,
     "jobicy": _normalize_jobicy,
     "arcdev": _normalize_arcdev,
+    "himalayas": _normalize_himalayas,
+    "aidevboard": _normalize_aidevboard,
+    "nocodejobs": _normalize_nocodejobs,
+    "workingnomads": _normalize_workingnomads,
 }
 
 
