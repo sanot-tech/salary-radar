@@ -24,7 +24,7 @@ from .analyze import resolve_tracks, track_enabled
 
 API = "https://api.telegram.org/bot{token}/sendMessage"
 
-DIGEST_HEADER = "🎮 Loot-Elf digest — today's TOP no-code drops"
+DIGEST_HEADER = "🚀 Vibe Radar digest — today's TOP vibe drops"
 
 
 def build_digest_text(summary: dict[str, Any], rows: list[Any]) -> str:
@@ -35,7 +35,7 @@ def build_digest_text(summary: dict[str, Any], rows: list[Any]) -> str:
     """
     candidates = []
     for r in rows:
-        if not r["no_code"]:
+        if not r["vibe"]:
             continue
         score = r["salary_max"] or r["salary_min"] or 0
         candidates.append((score, r))
@@ -54,8 +54,8 @@ def build_digest_text(summary: dict[str, Any], rows: list[Any]) -> str:
         lines.append("")
 
     total = summary.get("total", 0)
-    no_code = summary.get("no_code_total", 0)
-    lines.append(f"📡 Radar: {total} tracked · {no_code} no-code friendly · daily auto-update")
+    vibe = summary.get("vibe_total", 0)
+    lines.append(f"📡 Vibe Radar: {total} tracked · {vibe} vibe-friendly · daily auto-update")
     return "\n".join(lines)
 
 

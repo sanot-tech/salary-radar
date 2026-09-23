@@ -13,7 +13,7 @@ import os
 import sys
 
 from . import bot, config, db, report, sources
-from .analyze import classify_role, is_no_code_friendly, resolve_tracks, summarize
+from .analyze import classify_role, is_vibe_friendly, resolve_tracks, summarize
 
 
 def _log(msg: str) -> None:
@@ -39,8 +39,8 @@ def cmd_collect(args: argparse.Namespace) -> int:
         per_source[source_name] = len(jobs)
         for job in jobs:
             role = classify_role(job.title)
-            no_code = is_no_code_friendly(job.title, job.category, job.tags)
-            if store.upsert(job, role, no_code):
+            vibe = is_vibe_friendly(job.title, job.category, job.tags)
+            if store.upsert(job, role, vibe):
                 total_new += 1
         _log(f"{source_name}: {len(jobs)} listings")
 
@@ -61,8 +61,8 @@ def cmd_report(args: argparse.Namespace) -> int:
     disabled = [k for k, v in tracks.items() if not v]
     _log(
         f"report written: total={summary['total']} "
-        f"no-code={summary['no_code_total']} -> {config.REPORT_HTML}"
-        + (f" (tracks off: {', '.join(disabled)})" if disabled else "")
+        f"vibe={summary['vibe_total']} -> {config.REPORT_HTML}"
+        + (f" (sub-tracks off: {', '.join(disabled)})" if disabled else "")
     )
     return 0
 
@@ -89,8 +89,8 @@ def build_parser() -> argparse.ArgumentParser:
     report = sub.add_parser("report", help="Render dashboard + exports from the store.")
     report.add_argument(
         "--tracks",
-        help="Comma list of tracks to ENABLE (others off): vibe,ai,support,qa,data. "
-             "Prefix with ! or -off to disable a single one, e.g. vibe,!support.",
+        help="Comma list of vibe sub-tracks to ENABLE (others off): agents,prompt,build,creative,product. "
+             "Prefix with ! or -off to disable a single one, e.g. agents,!prompt.",
     )
     report.set_defaults(func=cmd_report)
 
@@ -99,11 +99,11 @@ def build_parser() -> argparse.ArgumentParser:
     run.add_argument("--sample", action="store_true")
     run.add_argument(
         "--tracks",
-        help="Comma list of tracks to ENABLE (see report --tracks).",
+        help="Comma list of vibe sub-tracks to ENABLE (see report --tracks).",
     )
     run.set_defaults(func=cmd_run)
 
-    dig = sub.add_parser("bot", help="Send/pring the daily no-code Telegram digest.")
+    dig = sub.add_parser("bot", help="Send/pring the daily vibe Telegram digest.")
     dig.add_argument("--dry", action="store_true", help="Print digest without sending.")
     dig.set_defaults(func=lambda a: bot.run_digest(dry=a.dry))
 
