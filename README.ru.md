@@ -1,8 +1,9 @@
-# Salary Radar — локальная памятка (RU)
+# Vibe Coder Salary Radar — локальная памятка (RU)
 
-> Ежедневный сбор данных о удалённых IT-зарплатах с англоязычных джоб-бордов.
-> Главная цель — найти направления, куда реально войти **без лайвкодинга**
-> (QA, аналитик, поддержка, сисадмин, дизайн, продажи, маркетинг).
+> Ежедневный сбор данных об удалённых IT-зарплатах с англоязычных джоб-бордов.
+> Главная цель — найти направления, где реально быстро стартовать на пути
+> **вайб-кодера** (суперуниверсал: 🏗️ архитектор + 💻 программист + 💼 бизнесмен).
+> No-code — это только трамплин; вайб — пункт назначения.
 
 Весь код и README репозитория — на английском. Этот файл — локальная шпаргалка.
 
@@ -13,7 +14,8 @@ env python3 main.py run            # живой запуск (если сеть 
 env python3 main.py run --sample   # всегда офлайн (фикстуры data/sample)
 env python3 main.py collect        # только сбор в SQLite
 env python3 main.py report         # только отчёт (dashboard + csv/json)
-env python3 main.py bot --dry      # распечатать дайджест «лут-эльфа»
+env python3 main.py report --tracks agents,prompt   # тумблеры под-треков
+env python3 main.py bot --dry      # распечатать vibe-дайджест
 # бот шлёт в Telegram, если заданы TG_BOT_TOKEN и TG_CHAT_ID (secrets/gitignored)
 ```
 
@@ -27,9 +29,23 @@ env python3 main.py bot --dry      # распечатать дайджест «�
 | Remotive | https://remotive.com/api/remote-jobs | нет |
 | Jobicy | https://jobicy.com/api/v2/remote-jobs | нет |
 | Arc.dev | https://www.arc.dev/api/public/jobs | нет |
+| Himalayas | https://himalayas.app/jobs-api | нет |
+| AI Dev Board | https://aidevboard.com/api/v1/jobs | нет |
+| NoCodeJobs | https://nocodejobs.org/jobs.json | нет |
+| Working Nomads | https://www.workingnomads.com/api/exposed_jobs/ | нет |
 
 Новый источник = запись в `config.SOURCE_CONFIG` + нормализатор в `sources.py` +
 фикстура в `data/sample/`. Если источник недоступен — берётся фикстура, пайплайн не падает.
+
+## Vibe под-треки (карточки на дашборде)
+
+| Трек | Эмодзи | Что это |
+|---|---|---|
+| AI Agents / Automation | 🤖 | n8n, MCP, агентные пайплайны |
+| Prompt & AI Interfaces | 🗣️ | промпт-дизайн, RAG, LLM |
+| Visual / Low-Code Builders | 🧱 | Bubble, Webflow, Airtable |
+| Generative Creative | 🎨 | Midjourney, AI-видео/картинки |
+| AI Product (Super-Universal) | 🚀 | архитектор+программист+бизнесмен |
 
 ## Тесты
 
@@ -39,32 +55,15 @@ env python3 -m unittest discover -s tests -v
 
 ## Автозапуск
 
-GitHub Actions (~/.github/workflows/daily.yml): каждый день в 06:00 UTC собирает
-данные, перегенерирует дашборд и коммитит изменения в репозиторий
-(`auto-chore: refresh daily report`). Репо приватное.
+В `.github/workflows/daily.yml` пайплайн собирает свежие данные, регенерирует
+дашборд и коммитит их `auto-chore: refresh daily report`. Отчёт живёт на
+GitHub Pages: https://sanot-tech.github.io/salary-radar/
 
-## Как читать результат
+## Гит-ритуал (важно!)
 
-- `outputs/index.html` — дашборд «сколько ты стоишь»: медианы зарплат по ролям,
-  колонка **no-code**, свежие вакансии, тренд за 14 дней, интерактивный
-  калькулятор MY WORTH (кнопки-шеринг), лид-форма дайджеста, квест «5 недель»,
-  истории «другой путь».
-- `outputs/jobs.csv` — полный датасет.
-- В дашборде колонка ✓ (no-code) = роль достижима без лайвкодинга — цель поиска.
+1. Перед каждым запуском: `git pull --rebase origin main`
+2. После правок: `git add -A && git commit -m "..."` 
+3. Пуш с ретраем: `git push origin main` (если конфликт — `git pull --rebase` снова)
 
-## Фичи («вирусный» слой)
-
-- **Hero-крючок**: «первая удалённая IT-зарплата без кода: $500–1500/мес».
-- **Калькулятор** (`#calc`): реальные медианы из отчёта подставляются в JS,
-  офлайн-работает. Возрастание по опыту (0..3+).
-- **MY WORTH-карта**: результат + кнопки Telegram / VK / Copy.
-- **Лид-форма**: email-подписка «топ-3 no-code в день» (static demo фаннела).
-- **Квест-лист**: 5 недель до первой роли (геймификация).
-- **Истории**: геймер→QA, официант→CS, ритейл→аналитик — на цифрах радара.
-- **Лут-эльф** (`bot.py`): Telegram-дайджест на чистом stdlib, `--dry` для теста.
-
-## Правила проекта
-
-- Код, комментарии, README.md, коммиты — на английском (репо).
-- README.ru.md и заметки — на русском (локально).
-- Никаких секретов в git.
+`activity.yml` пишет ~100+ тикетов/день от owner-email, чтобы зелёный квадратик
+был тёмно-зелёным. Токены/секреты в git не кладём.

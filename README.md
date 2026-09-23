@@ -1,34 +1,44 @@
-# Salary Radar
+# 🚀 Vibe Coder Salary Radar
 
-> Track remote IT salaries from English job boards — and spot the
-> **no-code friendly** roles worth targeting (QA, analyst, support,
-> sysadmin, design, sales, marketing).
+> Track remote AI-era IT salaries from English job boards — and spot the
+> **vibe-friendly** roles worth targeting.
+>
+> **Vibe Coder = super-universal**: 🏗️ architect + 💻 programmer + 💼 businessman,
+> all in one. No-code is just the on-ramp; vibe is the destination.
 
 ![pipeline](https://github.com/sanot-tech/salary-radar/actions/workflows/daily.yml/badge.svg)
 
 A tiny, zero-dependency Python pipeline that runs **daily on GitHub Actions**:
 
-1. **Collects** listings from public English APIs (RemoteOK, Remotive, Jobicy, Arc.dev)
+1. **Collects** listings from 8 public English APIs (RemoteOK, Remotive, Jobicy, Arc.dev, Himalayas, AI Dev Board, NoCodeJobs, Working Nomads)
 2. **Normalizes** every job into one canonical schema → SQLite
-3. **Classifies** roles and flags *no-code friendly* postings using keywords
-4. **Analyzes** salary medians per role and company popularity
+3. **Classifies** roles and flags *vibe-friendly* postings (AI agents, prompt/AI interfaces, visual/low-code builders, generative creative, AI product)
+4. **Analyzes** salary medians per role, per vibe sub-track, and company popularity
 5. **Renders** a dark-theme HTML dashboard + CSV/JSON exports
 6. **Commits** the fresh report back to the repo automatically
 
 The result is a living dataset: which remote roles are hiring this week, what they
-pay, and which of them don't require live coding.
+pay, and which of them fit the vibe-coder path (build fast with AI copilots instead
+of grinding 10 kLoC by hand).
 
-The dashboard doubles as a **viral "what are you worth?" widget**:
-an interactive salary calculator (driven by the real scraped medians), a
-shareable "MY WORTH" stat card (Telegram / VK / copy), a daily **loot-elf**
-digest signup, a 5-week gamified quest list, and "other path" success stories
-built on the live numbers.
+## Vibe sub-tracks
+
+| Track | What a vibe coder does there |
+|---|---|
+| 🤖 **AI Agents / Automation** | n8n, MCP, agentic workflows, autonomous pipelines |
+| 🗣️ **Prompt & AI Interfaces** | LLM prompt design, RAG, natural-language products |
+| 🧱 **Visual / Low-Code Builders** | Bubble, Webflow, Airtable — ship UIs without C++ |
+| 🎨 **Generative Creative** | Midjourney, generative design, AI video/image |
+| 🚀 **AI Product (Super-Universal)** | architect + programmer + businessman, build in public |
+
+Toggle any sub-track live on the dashboard — the counts recalc instantly.
 
 ## Why it exists
 
-The 2026 IT job market is divided: **junior engineering is crowded**
-(20+ resumes per vacancy), while QA, analysis, support, sysadmin and security
-roles remain in demand and are **reachable without a live-coding interview**.
+The 2026 AI-era job market split is real: classic junior engineering is crowded
+(20+ resumes per vacancy), while **vibe builders** who can ship products with AI
+copilots are in demand. A vibe coder is never "just a no-coder" — they are the
+super-universal who reads code, ships code *with AI*, and sells the result.
 Salary Radar keeps that market on a weekly dashboard so a job search becomes a
 data question instead of a guessing game.
 
@@ -45,7 +55,10 @@ env python3 main.py run --sample
 env python3 main.py collect --sample
 env python3 main.py report
 
-# Telegram loot-elf digest — prints, or sends when TG_BOT_TOKEN/TG_CHAT_ID are set
+# Toggle vibe sub-tracks (agents,prompt,build,creative,product / !name to disable one)
+env python3 main.py report --tracks agents,prompt
+
+# Telegram vibe digest — prints, or sends when TG_BOT_TOKEN/TG_CHAT_ID are set
 env python3 main.py bot --dry
 ```
 
@@ -55,7 +68,7 @@ No `pip install` needed — **standard library only** (Python ≥ 3.10).
 
 | File | Description |
 |---|---|
-| `index.html` | Dark-theme dashboard: role medians, latest listings, 14-day trend |
+| `index.html` | Dark-theme dashboard: role medians, vibe sub-tracks, latest listings, 14-day trend |
 | `jobs.csv` | Full normalized dataset |
 | `report.json` | Machine-readable summary (feeds the JSON API) |
 | `history.json` | Daily totals time series |
@@ -66,6 +79,10 @@ No `pip install` needed — **standard library only** (Python ≥ 3.10).
 - **Remotive** — https://remotive.com/api/remote-jobs
 - **Jobicy** — https://jobicy.com/api/v2/remote-jobs
 - **Arc.dev** — https://www.arc.dev/api/public/jobs
+- **Himalayas** — https://himalayas.app/jobs-api (remote-first board)
+- **AI Dev Board** — https://aidevboard.com/api/v1/jobs (AI-native jobs from ATS)
+- **NoCodeJobs** — https://nocodejobs.org/jobs.json (Bubble/Webflow/automation)
+- **Working Nomads** — https://www.workingnomads.com/api/exposed_jobs/
 
 Each provider is an isolated parser in `src/salary_radar/sources.py`. Adding a new
 board = one dict in `config.SOURCE_CONFIG` + one normalizer + one sample file.
@@ -83,6 +100,7 @@ env python3 -m unittest discover -s tests -v
 
 `.github/workflows/daily.yml` schedules a run every day (UTC 06:00), collects fresh
 data, regenerates the dashboard and commits it with `auto-chore: refresh daily report`.
+`activity.yml` keeps the contribution graph full and green.
 
 ## Layout
 
@@ -90,12 +108,12 @@ data, regenerates the dashboard and commits it with `auto-chore: refresh daily r
 salary-radar/
 ├── main.py                  # entry point
 ├── src/salary_radar/
-│   ├── config.py            # paths, sources, role keywords
+│   ├── config.py            # paths, sources, role + vibe sub-track keywords
 │   ├── sources.py           # HTTP clients + normalizers + fallback
 │   ├── db.py                # SQLite upsert store
-│   ├── analyze.py           # role classification + stats
+│   ├── analyze.py           # role classification + vibe stats
 │   ├── report.py            # HTML / CSV / JSON exports (+ worth calculator, quests, stories)
-│   ├── bot.py               # Telegram loot-elf digest (stdlib only)
+│   ├── bot.py               # Telegram vibe digest (stdlib only)
 │   └── cli.py               # collect | report | run | bot
 ├── data/sample/             # offline fixtures per source
 ├── tests/                   # offline unit + pipeline tests
