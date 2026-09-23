@@ -25,9 +25,9 @@ jobs:
 
       - name: Write tick
         run: |
-          mkdir -p outputs/activity
+          mkdir -p activity
           ts=$(date -u +%Y%m%dT%H%M%SZ)
-          printf 'tick %s run=%s\n' "$ts" "$GITHUB_RUN_ID" > "outputs/activity/tick-${ts}.txt"
+          printf 'tick %s run=%s\n' "$ts" "$GITHUB_RUN_ID" > "activity/tick-${ts}.txt"
 
       - name: Commit tick
         env:
@@ -36,7 +36,7 @@ jobs:
           git config user.name "sanot-tech"
           git config user.email "224272286+sanot-tech@users.noreply.github.com"
           for i in 1 2 3; do
-            git add outputs/activity
+            git add activity
             if git diff --cached --quiet; then
               echo "Nothing changed — skip"
               exit 0
