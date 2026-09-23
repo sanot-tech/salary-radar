@@ -8,7 +8,14 @@ import unittest
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from src.salary_radar import bot, config, sources
-from src.salary_radar.analyze import classify_role, is_no_code_friendly, summarize
+from src.salary_radar.analyze import (
+    classify_role,
+    evaluate_no_code,
+    is_no_code_friendly,
+    resolve_tracks,
+    summarize,
+    track_enabled,
+)
 from src.salary_radar.db import RadarDB
 from src.salary_radar.report import render_html, write_all_summary_artifacts
 
@@ -70,6 +77,54 @@ class TestPipeline(unittest.TestCase):
         store.close()
 
 
+class TestVibeTracks(unittest.TestCase):
+    """Vibe-coding guard + priority tracks with manual toggles."""
+
+    def test_vibe_classification_guards_engineers(self):
+        self.assertEqual(classify_role("Prompt Engineer for LLM Apps"), "AI / Vibe Dev")
+        self.assertEqual(classify_role("LLM Engineer"), "Engineering")
+        self.assertEqual(classify_role("AI Agent Engineer"), "Engineering")
+        self.assertEqual(classify_role("AI Horse Engineer"), "Engineering")
+        self.assertTrue(is_no_code_friendly("Prompt Engineer (LLM)", "AI", ["ai"]))
+        self.assertFalse(is_no_code_friendly("AI Agent Engineer", "", ["ai"]))
+        self.assertFalse(is_no_code_friendly("LLM Engineer", "", []))
+
+    def test_resolve_tracks(self):
+        only_vibe = resolve_tracks("vibe")
+        self.assertTrue(only_vibe["vibe_ai"])
+        self.assertFalse(only_vibe["support"])
+        all_but_support = resolve_tracks("!support")
+        self.assertTrue(all_but_support["vibe_ai"])
+        self.assertFalse(all_but_support["support"])
+        env_style = resolve_tracks("vibe,qa")
+        self.assertTrue(env_style["vibe_ai"])
+        self.assertTrue(env_style["qa"])
+        self.assertFalse(env_style["data"])
+        self.assertEqual(resolve_tracks(None), dict(config.TRACKS))
+
+    def test_track_toggle_kills_nocode_count(self):
+        rows = [
+            {"role": "Support", "no_code": 1, "company": "A", "source": "x",
+             "tags": "", "title": "t", "salary_min": None, "salary_max": None},
+            {"role": "Engineering", "no_code": 0, "company": "B", "source": "x",
+             "tags": "", "title": "t", "salary_min": None, "salary_max": None},
+        ]
+        s_all = summarize(rows, resolve_tracks(None))
+        self.assertEqual(s_all["no_code_total"], 1)
+        s_off = summarize(rows, resolve_tracks("!support"))
+        self.assertEqual(s_off["no_code_total"], 0)
+        self.assertFalse(s_off["track_counts"]["support"]["enabled"])
+
+    def test_evaluate_no_code_respects_track(self):
+        self.assertTrue(track_enabled("Support", None))
+        self.assertTrue(track_enabled("Support", resolve_tracks(None)))
+        self.assertFalse(track_enabled("Support", resolve_tracks("!support")))
+        # even a strong no-code title must be excluded when its track is off
+        self.assertFalse(evaluate_no_code("Manual QA Analyst", "", [],
+                                          role="QA / Testing",
+                                          tracks=resolve_tracks("!qa")))
+
+
 class TestViralDashboard(unittest.TestCase):
     """The dashboard must ship the conversion-facing hooks, not just tables."""
 
@@ -103,6 +158,11 @@ class TestViralDashboard(unittest.TestCase):
         ]:
             self.assertIn(probe, page, f"missing hook: {probe}")
         self.assertIn(str(summary["total"]), page)
+        # priority-track section with manual toggles must render
+        if summary.get("track_counts"):
+            self.assertIn("Priority tracks", page)
+            self.assertIn("toggleTrack", page)
+            self.assertIn("recalcNoCode", page)
 
     def test_dashboard_passes_real_role_medians_to_calc(self):
         summary, rows = self._build()

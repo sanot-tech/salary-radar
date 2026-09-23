@@ -50,6 +50,9 @@ SOURCE_CONFIG = {
 # Role categories are guesses from the job title.
 # They power the "no-code friendly" analysis.
 ROLE_KEYWORDS = {
+    "AI / Vibe Dev": ["prompt engineer", "vibe", "ai developer", "ai agent",
+                      "natural language", "copilot", "llm", "genai",
+                      "generative ai", "ai tools", "chatgpt", "cursor"],
     "QA / Testing": ["qa", "quality", "test", "tester", "automation test"],
     "Business Analyst": ["business analyst", "data analyst", "product analyst"],
     "Data": ["data engineer", "data scientist", "data analysis", "data analyst",
@@ -64,6 +67,76 @@ ROLE_KEYWORDS = {
     "HR": ["recruiter", "talent", "hr ", "people ops"],
     "Engineering": ["engineer", "developer", "software", "backend", "frontend", "full-stack", "dev"],
 }
+
+# --- Priority tracks (toggleable manually per run) -------------------------
+# Key = track id (used in --tracks / RADAR_TRACKS / dashboard checkboxes)
+# Value = default on/off. Every track can also be re-enabled at runtime.
+TRACKS: dict[str, bool] = {
+    "vibe_ai": True,   # ✨ vibe coding / AI-assisted roles
+    "support": True,   # 🎧 key support / customer success
+    "qa": True,        # 🐞 QA / testing
+    "data": True,      # 📊 data / analytics
+}
+
+# Which role maps onto which track (used for manual toggles + card counts).
+ROLE_TO_TRACK: dict[str, str] = {
+    "AI / Vibe Dev": "vibe_ai",
+    "Support": "support",
+    "QA / Testing": "qa",
+    "Data": "data",
+    "Business Analyst": "data",  # analyst is part of the data track
+}
+
+# Friendly aliases accepted in --tracks / env RADAR_TRACKS.
+TRACK_ALIASES: dict[str, str] = {
+    "vibe": "vibe_ai",
+    "ai": "vibe_ai",
+    "vibe_ai": "vibe_ai",
+    "support": "support",
+    "key_support": "support",
+    "qa": "qa",
+    "data": "data",
+    "analytics": "data",
+}
+
+# Strong vibe-coding signals: these phrases ALWAYS count as no-code / vibe
+# ("Prompt Engineer" stays vibe even though it contains the word "engineer").
+VIBE_KEYWORDS_STRONG: list[str] = [
+    "prompt engineer",
+    "natural language",
+    "vibe",
+    "vibe coder",
+    "genai",
+    "generative ai",
+    "copilot",
+    "no-code",
+    "low-code",
+]
+
+# Advisory vibe signals: count as no-code ONLY when no hard coding word
+# (engineer/developer/...) is present, so "LLM Engineer" stays engineering.
+VIBE_KEYWORDS_GENERIC: list[str] = [
+    "llm",
+    "ai agent",
+    "ai tools",
+    "chatgpt",
+    "cursor",
+    "ai developer",
+    "build with ai",
+]
+
+# Hard coding words: when present in the title, generic vibe signals lose.
+CODE_WORDS: list[str] = [
+    "engineer",
+    "developer",
+    "software",
+    "backend",
+    "frontend",
+    "full-stack",
+    "programmer",
+    "devops",
+    "sre",
+]
 
 # English keywords that signal a manual / no-code-first role.
 NO_CODE_KEYWORDS = [
@@ -80,9 +153,13 @@ NO_CODE_KEYWORDS = [
     "success",
     "administrator",
     "security analyst",
+    "prompt engineer",
+    "vibe",
+    "natural language",
 ]
 
 ROLE_ORDER = [
+    "AI / Vibe Dev",
     "Engineering",
     "QA / Testing",
     "Data",

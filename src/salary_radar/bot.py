@@ -20,6 +20,8 @@ import urllib.parse
 import urllib.request
 from typing import Any
 
+from .analyze import resolve_tracks, track_enabled
+
 API = "https://api.telegram.org/bot{token}/sendMessage"
 
 DIGEST_HEADER = "🎮 Loot-Elf digest — today's TOP no-code drops"
@@ -79,11 +81,13 @@ def run_digest(*, dry: bool = False) -> int:
     from . import db, report
     from .analyze import summarize
 
+    tracks = resolve_tracks(os.environ.get("RADAR_TRACKS"))
     store = db.RadarDB()
     try:
         rows = store.all_jobs()
-        summary = summarize(rows)
-        text = build_digest_text(summary, rows)
+        summary = summarize(rows, tracks=tracks)
+        visible = [r for r in rows if track_enabled(r["role"], tracks)]
+        text = build_digest_text(summary, visible)
     finally:
         store.close()
 

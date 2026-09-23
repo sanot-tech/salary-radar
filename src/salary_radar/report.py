@@ -173,6 +173,59 @@ def _calc_script(roles: list[dict[str, Any]]) -> str:
     )
 
 
+def _track_of(role: str) -> str | None:
+    from . import config as _config
+
+    return _config.ROLE_TO_TRACK.get(role or "")
+
+
+def _track_script(role_rows: list[dict[str, Any]]) -> str:
+    """Client-side toggle logic for the priority-track checkboxes.
+
+    Hides filtered role rows, swaps track-card styling, and recalcs the
+    displayed no-code total + percentage from the real scraped numbers.
+    """
+    roles = [{
+        "role": r["role"],
+        "track": _track_of(r["role"]) or "",
+        "count": r["count"],
+        "no_code": r["no_code_count"],
+    } for r in role_rows]
+    payload = json.dumps(roles, ensure_ascii=True).replace("</", "<\\/")
+    return """
+<script>
+var TRACK_ROLES = """ + payload + """;
+function toggleTrack(track, on) {
+  var rows = document.querySelectorAll('tr[data-track="' + track + '"]');
+  var cnt = document.getElementById('track-cnt-' + track);
+  var nc = document.getElementById('track-nc-' + track);
+  var card = document.getElementById('track-' + track);
+  if (on) {
+    rows.forEach(function (r) { r.style.display = ''; });
+    if (card) { card.classList.remove('off'); }
+  } else {
+    rows.forEach(function (r) { r.style.display = 'none'; });
+    if (card) { card.classList.add('off'); }
+  }
+  recalcNoCode();
+}
+function recalcNoCode() {
+  var totalView = document.getElementById('nocode-total');
+  var pctView = document.getElementById('nocode-pct');
+  if (!totalView || !pctView) { return; }
+  var nocode = 0, total = 0;
+  TRACK_ROLES.forEach(function (r) {
+    var cb = r.track && document.querySelector('input[data-track="' + r.track + '"]');
+    if (cb && !cb.checked) { return; }
+    total += r.count;
+    nocode += r.no_code;
+  });
+  totalView.textContent = nocode;
+  pctView.textContent = Math.round(100 * nocode / Math.max(total, 1)) + '% no-code friendly';
+}
+</script>"""
+
+
 def render_html(summary: dict[str, Any], rows: list[Any], history: list[dict[str, Any]]) -> str:
     """Render the standalone dashboard. Dark theme, no external assets."""
     role_rows = summary["roles"]
@@ -189,7 +242,7 @@ def render_html(summary: dict[str, Any], rows: list[Any], history: list[dict[str
         noc = "✓" if rr["no_code_count"] else ""
         roles_html.append(
             f"""
-            <tr>
+            <tr data-track="{_track_of(rr['role']) or ''}">
               <td class="role">{html.escape(rr['role'])}</td>
               <td>{rr['count']}</td>
               <td>{rr['companies']}</td>
@@ -200,6 +253,40 @@ def render_html(summary: dict[str, Any], rows: list[Any], history: list[dict[str
               <td class="bar-cell">{_bar(rr['count'], max_count)}</td>
             </tr>"""
         )
+
+    # Any role outside the known ordering goes to 'Other'.
+    track_meta = {
+        "vibe_ai": ("✨", "Vibe / AI"),
+        "support": ("🎧", "Key Support"),
+        "qa": ("🐞", "QA / Testing"),
+        "data": ("📊", "Data / Analytics"),
+    }
+    track_counts = summary.get("track_counts", {})
+    if not track_counts and role_rows:
+        # Back-compat: derive from role rows when old summary arrives.
+        for rr in role_rows:
+            t = _track_of(rr["role"])
+            if t:
+                track_counts.setdefault(t, {"count": 0, "no_code": 0, "enabled": True})
+                track_counts[t]["count"] += rr["count"]
+                track_counts[t]["no_code"] += rr["no_code_count"]
+
+    track_cards_html = []
+    for tid, (icon, label) in track_meta.items():
+        info = track_counts.get(tid, {"count": 0, "no_code": 0, "enabled": True})
+        checked = " checked" if info.get("enabled", True) else ""
+        track_cards_html.append(
+            f"""
+            <label class="track-card" id="track-{tid}">
+              <input type="checkbox" data-track="{tid}" {checked} onchange="toggleTrack('{tid}', this.checked)"/>
+              <span class="track-ic">{icon}</span>
+              <span class="track-lb">{label}</span>
+              <b id="track-cnt-{tid}">{info.get('count', 0)}</b>
+              <span class="muted" id="track-nc-{tid}">· {info.get('no_code', 0)} no-code</span>
+            </label>"""
+        )
+
+    track_script = _track_script(role_rows)
 
     jobs_html = []
     for j in _clean(rows)[:40]:
@@ -271,6 +358,14 @@ h2 {{ font-size:19px; margin:30px 0 10px; border-bottom:1px solid #21262d; paddi
 .cards {{ display:flex; gap:12px; margin:18px 0; flex-wrap:wrap; }}
 .card {{ flex:1 1 200px; background:#161b22; border:1px solid #21262d; border-radius:10px; padding:14px 18px; }}
 .card b {{ font-size:26px; display:block; }}
+.track-cards {{ display:flex; gap:10px; margin:16px 0 20px; flex-wrap:wrap; }}
+.track-card {{ flex:1 1 220px; display:flex; align-items:center; gap:8px; background:#10181f; border:1px solid #21262d; border-radius:10px; padding:12px 14px; cursor:pointer; transition:border-color .15s; }}
+.track-card:hover {{ border-color:#3fb95066; }}
+.track-card input {{ accent-color:#3fb950; width:16px; height:16px; }}
+.track-card.off {{ opacity:.5; border-color:#21262d; }}
+.track-ic {{ font-size:18px; }}
+.track-lb {{ font-weight:600; }}
+.track-off-note {{ color:#8b949e; font-size:12px; }}
 .badge {{ display:inline-block; padding:2px 10px; border-radius:999px; background:#1f6feb22; color:#58a6ff; font-size:13px; }}
 .ok {{ color:#3fb950; font-size:12px; font-weight:600; }}
 .calc {{ display:flex; gap:16px; flex-wrap:wrap; align-items:flex-start; margin:14px 0; }}
@@ -317,9 +412,17 @@ footer {{ margin-top:40px; color:#8b949e; font-size:12px; }}
     <a class="cta" style="background:#3fb950;color:#0d1117" href="#lead">📬 Get the daily top-3</a>
   </div>
 
+  <section>
+    <h2 style="margin-top:26px">🎯 Priority tracks <span class="muted">(toggle manually — live recalc)</span></h2>
+    <div class="track-cards">
+      {''.join(track_cards_html)}
+    </div>
+    <p class="track-off-note">Switching a track off hides those roles below and removes them from the no-code count — the underlying data stays intact.</p>
+  </section>
+
   <div class="cards">
     <div class="card"><b>{summary['total']}</b> listings tracked</div>
-    <div class="card"><b>{summary['no_code_total']}</b><span class="badge">{no_code_pct}% no-code friendly</span></div>
+    <div class="card"><b id="nocode-total">{summary['no_code_total']}</b><span class="badge" id="nocode-pct">{no_code_pct}% no-code friendly</span></div>
     <div class="card"><b>{len(summary['by_source'])}</b> job sources</div>
     <div class="card"><b>{many_no_code}/{len(role_rows)}</b> roles reachable without code</div>
   </div>
@@ -400,6 +503,7 @@ footer {{ margin-top:40px; color:#8b949e; font-size:12px; }}
   </footer>
 </div>
 {calc_script}
+{track_script}
 {boot_script}
 </body>
 </html>"""
