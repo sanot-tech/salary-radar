@@ -42,7 +42,14 @@ jobs:
           git add outputs data
           if git diff --cached --quiet; then
             echo "Nothing changed — skipping commit."
-          else
-            git commit -m "auto-chore: refresh daily report"
-            git push
+            exit 0
           fi
+          git commit -m "auto-chore: refresh daily report"
+          # The activity workflow commits ticks all day long; rebase+retry
+          # so a slow push never dies because of a concurrent tick commit.
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push; then
+              break
+            fi
+            sleep 10
+          done
