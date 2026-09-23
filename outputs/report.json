@@ -1,287 +1,235 @@
 {
-  "total": 322,
-  "no_code_total": 202,
-  "no_code_share": 0.63,
+  "total": 28,
+  "vibe_total": 8,
+  "vibe_share": 0.29,
   "by_source": {
-    "jobicy": 200,
-    "remoteok": 99,
-    "remotive": 19,
-    "arcdev": 4
+    "remoteok": 4,
+    "remotive": 4,
+    "jobicy": 4,
+    "arcdev": 4,
+    "himalayas": 3,
+    "aidevboard": 3,
+    "nocodejobs": 3,
+    "workingnomads": 3
   },
   "roles": [
     {
-      "role": "Engineering",
-      "count": 88,
-      "companies": 53,
-      "no_code_count": 32,
-      "no_code_share": 0.36,
-      "salary_min_median": 172500,
-      "salary_max_median": 212000,
-      "top_company": "Canonical",
+      "role": "AI / Vibe Dev",
+      "count": 8,
+      "companies": 8,
+      "vibe_count": 8,
+      "vibe_share": 1.0,
+      "salary_min_median": 62500,
+      "salary_max_median": 94500,
+      "top_company": "Nebula Labs",
       "top_tags": [
-        "Full-Time",
-        "engineer",
+        "ai agents",
+        "n8n",
+        "bubble",
+        "automation",
+        "llm",
+        "prompt",
+        "rag",
+        "mcp"
+      ]
+    },
+    {
+      "role": "Engineering",
+      "count": 4,
+      "companies": 4,
+      "vibe_count": 0,
+      "vibe_share": 0.0,
+      "salary_min_median": 100000,
+      "salary_max_median": 140000,
+      "top_company": "Rocketlabs",
+      "top_tags": [
+        "react",
+        "typescript",
+        "node",
         "golang",
-        "dev",
-        "digital nomad",
-        "exec",
-        "design",
-        "sys admin"
+        "postgres",
+        "kafka",
+        "css",
+        "go"
       ]
     },
     {
       "role": "QA / Testing",
-      "count": 6,
-      "companies": 5,
-      "no_code_count": 6,
-      "no_code_share": 1.0,
-      "salary_min_median": 80000,
-      "salary_max_median": 73000,
-      "top_company": "Welo Global",
+      "count": 3,
+      "companies": 3,
+      "vibe_count": 0,
+      "vibe_share": 0.0,
+      "salary_min_median": 42500,
+      "salary_max_median": 60000,
+      "top_company": "Testify",
       "top_tags": [
-        "quality assurance",
-        "golang",
-        "testing",
-        "Full-Time",
-        "ai",
-        "data annotation",
-        "education",
-        "marketing"
+        "manual",
+        "qa",
+        "english",
+        "api",
+        "sql",
+        "automation test"
       ]
     },
     {
       "role": "Data",
-      "count": 9,
-      "companies": 9,
-      "no_code_count": 5,
-      "no_code_share": 0.56,
-      "salary_min_median": 145000,
-      "salary_max_median": 175000,
-      "top_company": "SEAhub Asia",
+      "count": 1,
+      "companies": 1,
+      "vibe_count": 0,
+      "vibe_share": 0.0,
+      "salary_min_median": 95000,
+      "salary_max_median": 130000,
+      "top_company": "Pipelineworks",
       "top_tags": [
-        "Full-Time",
-        "saas",
-        "customer support",
-        "marketing",
-        "exec",
-        "ops",
-        "sales",
-        "analyst"
+        "sql",
+        "etl",
+        "dbt"
       ]
     },
     {
       "role": "Business Analyst",
       "count": 1,
       "companies": 1,
-      "no_code_count": 1,
-      "no_code_share": 1.0,
-      "salary_min_median": 62500,
-      "salary_max_median": 75000,
-      "top_company": "Precision Medicine Group",
+      "vibe_count": 0,
+      "vibe_share": 0.0,
+      "salary_min_median": null,
+      "salary_max_median": null,
+      "top_company": "Sheetly",
       "top_tags": [
-        "Full-Time"
+        "sql",
+        "excel",
+        "looker"
       ]
     },
     {
       "role": "Support",
-      "count": 13,
-      "companies": 13,
-      "no_code_count": 12,
-      "no_code_share": 0.92,
-      "salary_min_median": 84500,
-      "salary_max_median": 107500,
-      "top_company": "JumpCloud",
+      "count": 4,
+      "companies": 4,
+      "vibe_count": 0,
+      "vibe_share": 0.0,
+      "salary_min_median": 41000,
+      "salary_max_median": 55000,
+      "top_company": "Trueline",
       "top_tags": [
-        "Full-Time",
-        "customer support",
-        "exec",
-        "travel",
-        "education",
-        "medical",
-        "saas",
-        "technical"
+        "support",
+        "english",
+        "crm",
+        "fulltime",
+        "customer success"
       ]
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 4,
-      "companies": 4,
-      "no_code_count": 1,
-      "no_code_share": 0.25,
-      "salary_min_median": 310500,
-      "salary_max_median": 415000,
-      "top_company": "Lemon.io",
+      "count": 1,
+      "companies": 1,
+      "vibe_count": 0,
+      "vibe_share": 0.0,
+      "salary_min_median": 100000,
+      "salary_max_median": 140000,
+      "top_company": "Orbitstack",
       "top_tags": [
-        "Full-Time",
-        ".Net",
-        "android",
-        "AWS",
-        "azure",
-        "C",
-        "C#",
-        "C++"
+        "fulltime"
       ]
     },
     {
       "role": "Cybersecurity",
-      "count": 22,
-      "companies": 14,
-      "no_code_count": 11,
-      "no_code_share": 0.5,
+      "count": 1,
+      "companies": 1,
+      "vibe_count": 0,
+      "vibe_share": 0.0,
       "salary_min_median": 80000,
-      "salary_max_median": 113000,
-      "top_company": "Canonical",
+      "salary_max_median": 110000,
+      "top_company": "Guardrails AI",
       "top_tags": [
-        "Full-Time",
-        "Contract",
-        "golang",
-        "infosec",
-        "dev",
-        "full time",
-        "digital nomad",
-        "marketing"
+        "security",
+        "soc",
+        "english"
       ]
     },
     {
       "role": "Design (UI/UX)",
-      "count": 20,
-      "companies": 12,
-      "no_code_count": 13,
-      "no_code_share": 0.65,
-      "salary_min_median": 30000,
-      "salary_max_median": 496000,
-      "top_company": "Canonical",
+      "count": 2,
+      "companies": 2,
+      "vibe_count": 0,
+      "vibe_share": 0.0,
+      "salary_min_median": 57500,
+      "salary_max_median": 75000,
+      "top_company": "Frameflow",
       "top_tags": [
-        "Full-Time",
-        "design",
-        "content writing",
-        "designer",
-        "senior",
-        "engineer",
-        "digital nomad",
-        "technical"
-      ]
-    },
-    {
-      "role": "Product / PM",
-      "count": 6,
-      "companies": 6,
-      "no_code_count": 6,
-      "no_code_share": 1.0,
-      "salary_min_median": 200850,
-      "salary_max_median": 266850,
-      "top_company": "Magic Eden",
-      "top_tags": [
-        "Full-Time",
-        "product manager",
-        "marketing",
-        "exec",
-        "design",
-        "engineer",
-        "digital nomad",
-        "crypto"
+        "fulltime",
+        "recruiting",
+        "hr",
+        "sourcing"
       ]
     },
     {
       "role": "Sales / SDR",
-      "count": 20,
-      "companies": 15,
-      "no_code_count": 19,
-      "no_code_share": 0.95,
-      "salary_min_median": 123000,
-      "salary_max_median": 148500,
-      "top_company": "Canonical",
+      "count": 1,
+      "companies": 1,
+      "vibe_count": 0,
+      "vibe_share": 0.0,
+      "salary_min_median": null,
+      "salary_max_median": null,
+      "top_company": "Pipeliner",
       "top_tags": [
-        "Full-Time",
-        "exec",
-        "marketing",
-        "sales",
-        "finance",
-        "recruiter",
-        "digital nomad",
-        "customer support"
+        "outbound",
+        "hubspot",
+        "english"
       ]
     },
     {
       "role": "Marketing",
-      "count": 13,
-      "companies": 12,
-      "no_code_count": 11,
-      "no_code_share": 0.85,
-      "salary_min_median": 124550,
-      "salary_max_median": 156072,
-      "top_company": "PadSplit",
+      "count": 1,
+      "companies": 1,
+      "vibe_count": 0,
+      "vibe_share": 0.0,
+      "salary_min_median": 38000,
+      "salary_max_median": 48000,
+      "top_company": "BotanicX",
       "top_tags": [
-        "Full-Time",
-        "customer support",
-        "marketing",
-        "exec",
-        "dev",
-        "content writing",
-        "ops",
-        "digital nomad"
-      ]
-    },
-    {
-      "role": "HR",
-      "count": 2,
-      "companies": 2,
-      "no_code_count": 1,
-      "no_code_share": 0.5,
-      "salary_min_median": 70000,
-      "salary_max_median": 80000,
-      "top_company": "Law Offices of Sabrina Li",
-      "top_tags": [
-        "hr",
-        "education",
-        "customer support",
-        "marketing",
-        "finance",
-        "c",
-        "exec",
-        "content writing"
+        "fulltime"
       ]
     },
     {
       "role": "Unknown",
-      "count": 118,
-      "companies": 89,
-      "no_code_count": 84,
-      "no_code_share": 0.71,
-      "salary_min_median": 136365,
-      "salary_max_median": 155000,
-      "top_company": "Canonical",
+      "count": 1,
+      "companies": 1,
+      "vibe_count": 0,
+      "vibe_share": 0.0,
+      "salary_min_median": 70000,
+      "salary_max_median": 90000,
+      "top_company": "Inline",
       "top_tags": [
-        "Full-Time",
-        "exec",
-        "customer support",
-        "ops",
-        "digital nomad",
-        "marketing",
-        "education",
-        "dev"
+        "sql",
+        "power bi",
+        "remote"
       ]
     }
   ],
   "track_counts": {
-    "vibe_ai": {
-      "count": 0,
-      "no_code": 0,
+    "ai_agents": {
+      "count": 2,
+      "vibe": 2,
       "enabled": true
     },
-    "support": {
-      "count": 13,
-      "no_code": 12,
+    "prompt_eng": {
+      "count": 1,
+      "vibe": 1,
       "enabled": true
     },
-    "qa": {
-      "count": 6,
-      "no_code": 6,
+    "builders": {
+      "count": 3,
+      "vibe": 3,
       "enabled": true
     },
-    "data": {
-      "count": 10,
-      "no_code": 6,
+    "ai_creative": {
+      "count": 1,
+      "vibe": 1,
+      "enabled": true
+    },
+    "ai_product": {
+      "count": 1,
+      "vibe": 1,
       "enabled": true
     }
   }

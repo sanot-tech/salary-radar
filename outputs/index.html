@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta name="description" content="Salary Radar — see how much you are worth in remote IT. 202 no-code friendly listings from public English job boards."/>
-<title>Salary Radar — What are you worth?</title>
+<meta name="description" content="Vibe Coder Salary Radar — see how much you are worth in remote AI-era IT. 8 vibe-friendly listings from public English job boards."/>
+<title>Vibe Coder Salary Radar — What are you worth?</title>
 <style>
 :root { color-scheme: dark; }
 body { margin:0; font:15px/1.5 system-ui, sans-serif; background:#0d1117; color:#e6edf3; }
@@ -63,60 +63,67 @@ footer { margin-top:40px; color:#8b949e; font-size:12px; }
 <body>
 <div class="wrap">
 
-  <h1>💹 Salary Radar</h1>
-  <p class="sub">Remote IT salary dashboard · English job boards · auto-updated · generated 2026-09-23 18:42 UTC</p>
+  <h1>🚀 Vibe Coder Salary Radar</h1>
+  <p class="sub">Remote AI-era IT salary dashboard · English job boards · auto-updated · generated 2026-09-23 19:24 UTC</p>
 
   <div class="hero">
-    <h2>⚡ See how much YOU are worth</h2>
-    <div class="big">Your first remote IT salary <b>without code</b>: <b>$500 – $1,500/mo</b></div>
-    <div class="sub">€0 spent on courses. 4–6 weeks. Free daily digest of no-code openings to prove the road — not just talk about it.</div>
+    <h2>⚡ See how much YOU are worth as a Vibe Coder</h2>
+    <div class="big"><b>Architect 🏗️ + Programmer 💻 + Businessman 💼</b> — all in one. Your first remote AI-era salary: <b>$500 – $1,500/mo</b></div>
+    <div class="sub">The super-universal path. Free daily digest of vibe openings to prove the road — not just talk about it.</div>
     <a class="cta" href="#calc">💰 Check my price</a>
-    <a class="cta" style="background:#3fb950;color:#0d1117" href="#lead">📬 Get the daily top-3</a>
+    <a class="cta" style="background:#38d776;color:#0d1117" href="#lead">📬 Get the daily top-3</a>
   </div>
 
   <section>
-    <h2 style="margin-top:26px">🎯 Priority tracks <span class="muted">(toggle manually — live recalc)</span></h2>
+    <h2 style="margin-top:26px">🎯 Vibe sub-tracks <span class="muted">(toggle manually — live recalc)</span></h2>
     <div class="track-cards">
       
-            <label class="track-card" id="track-vibe_ai">
-              <input type="checkbox" data-track="vibe_ai"  checked onchange="toggleTrack('vibe_ai', this.checked)"/>
-              <span class="track-ic">✨</span>
-              <span class="track-lb">Vibe / AI</span>
-              <b id="track-cnt-vibe_ai">0</b>
-              <span class="muted" id="track-nc-vibe_ai">· 0 no-code</span>
+            <label class="track-card" id="track-ai_agents">
+              <input type="checkbox" data-track="ai_agents"  checked onchange="toggleTrack('ai_agents', this.checked)"/>
+              <span class="track-ic">🤖</span>
+              <span class="track-lb">AI Agents / Automation</span>
+              <b id="track-cnt-ai_agents">2</b>
+              <span class="muted" id="track-nc-ai_agents">· 2 vibe</span>
             </label>
-            <label class="track-card" id="track-support">
-              <input type="checkbox" data-track="support"  checked onchange="toggleTrack('support', this.checked)"/>
-              <span class="track-ic">🎧</span>
-              <span class="track-lb">Key Support</span>
-              <b id="track-cnt-support">13</b>
-              <span class="muted" id="track-nc-support">· 12 no-code</span>
+            <label class="track-card" id="track-prompt_eng">
+              <input type="checkbox" data-track="prompt_eng"  checked onchange="toggleTrack('prompt_eng', this.checked)"/>
+              <span class="track-ic">🗣️</span>
+              <span class="track-lb">Prompt & AI Interfaces</span>
+              <b id="track-cnt-prompt_eng">1</b>
+              <span class="muted" id="track-nc-prompt_eng">· 1 vibe</span>
             </label>
-            <label class="track-card" id="track-qa">
-              <input type="checkbox" data-track="qa"  checked onchange="toggleTrack('qa', this.checked)"/>
-              <span class="track-ic">🐞</span>
-              <span class="track-lb">QA / Testing</span>
-              <b id="track-cnt-qa">6</b>
-              <span class="muted" id="track-nc-qa">· 6 no-code</span>
+            <label class="track-card" id="track-builders">
+              <input type="checkbox" data-track="builders"  checked onchange="toggleTrack('builders', this.checked)"/>
+              <span class="track-ic">🧱</span>
+              <span class="track-lb">Visual / Low-Code Builders</span>
+              <b id="track-cnt-builders">3</b>
+              <span class="muted" id="track-nc-builders">· 3 vibe</span>
             </label>
-            <label class="track-card" id="track-data">
-              <input type="checkbox" data-track="data"  checked onchange="toggleTrack('data', this.checked)"/>
-              <span class="track-ic">📊</span>
-              <span class="track-lb">Data / Analytics</span>
-              <b id="track-cnt-data">10</b>
-              <span class="muted" id="track-nc-data">· 6 no-code</span>
+            <label class="track-card" id="track-ai_creative">
+              <input type="checkbox" data-track="ai_creative"  checked onchange="toggleTrack('ai_creative', this.checked)"/>
+              <span class="track-ic">🎨</span>
+              <span class="track-lb">Generative Creative</span>
+              <b id="track-cnt-ai_creative">1</b>
+              <span class="muted" id="track-nc-ai_creative">· 1 vibe</span>
+            </label>
+            <label class="track-card" id="track-ai_product">
+              <input type="checkbox" data-track="ai_product"  checked onchange="toggleTrack('ai_product', this.checked)"/>
+              <span class="track-ic">🚀</span>
+              <span class="track-lb">AI Product (Super-Universal)</span>
+              <b id="track-cnt-ai_product">1</b>
+              <span class="muted" id="track-nc-ai_product">· 1 vibe</span>
             </label>
     </div>
-    <p class="track-off-note">Switching a track off hides those roles below and removes them from the no-code count — the underlying data stays intact.</p>
+    <p class="track-off-note">Switching a sub-track off hides those roles below and removes them from the vibe count — the underlying data stays intact.</p>
   </section>
 
   <div class="cards">
-    <div class="card"><b>322</b> listings tracked</div>
-    <div class="card"><b id="nocode-total">202</b><span class="badge" id="nocode-pct">63% no-code friendly</span></div>
-    <div class="card"><b>4</b> job sources</div>
-    <div class="card"><b>9/13</b> roles reachable without code</div>
+    <div class="card"><b>28</b> listings tracked</div>
+    <div class="card"><b id="vibe-total">8</b><span class="badge" id="vibe-pct">29% vibe-friendly</span></div>
+    <div class="card"><b>8</b> job sources</div>
+    <div class="card"><b>1/12</b> roles on the vibe path</div>
   </div>
-  <div><span class="tag">jobicy: 200</span><span class="tag">remoteok: 99</span><span class="tag">remotive: 19</span><span class="tag">arcdev: 4</span></div>
+  <div><span class="tag">remoteok: 4</span><span class="tag">remotive: 4</span><span class="tag">jobicy: 4</span><span class="tag">arcdev: 4</span><span class="tag">himalayas: 3</span><span class="tag">aidevboard: 3</span><span class="tag">nocodejobs: 3</span><span class="tag">workingnomads: 3</span></div>
 
   <section id="calc">
     <h2>💰 What are you worth? (real market medians)</h2>
@@ -124,7 +131,7 @@ footer { margin-top:40px; color:#8b949e; font-size:12px; }
       <div>
         <label for="worth-role">Your track</label>
         <select id="worth-role" onchange="renderWorth()">
-          <option value="Engineering">Engineering</option><option value="QA / Testing">QA / Testing</option><option value="Data">Data</option><option value="Business Analyst">Business Analyst</option><option value="Support">Support</option><option value="Sysadmin / DevOps">Sysadmin / DevOps</option><option value="Cybersecurity">Cybersecurity</option><option value="Design (UI/UX)">Design (UI/UX)</option><option value="Product / PM">Product / PM</option><option value="Sales / SDR">Sales / SDR</option><option value="Marketing">Marketing</option><option value="HR">HR</option><option value="Unknown">Unknown</option>
+          <option value="AI / Vibe Dev">AI / Vibe Dev</option><option value="Engineering">Engineering</option><option value="QA / Testing">QA / Testing</option><option value="Data">Data</option><option value="Business Analyst">Business Analyst</option><option value="Support">Support</option><option value="Sysadmin / DevOps">Sysadmin / DevOps</option><option value="Cybersecurity">Cybersecurity</option><option value="Design (UI/UX)">Design (UI/UX)</option><option value="Sales / SDR">Sales / SDR</option><option value="Marketing">Marketing</option><option value="Unknown">Unknown</option>
         </select>
       </div>
       <div>
@@ -143,7 +150,7 @@ footer { margin-top:40px; color:#8b949e; font-size:12px; }
 
   <section class="lead" id="lead">
     <h2 style="border:none;margin-top:0">📬 The daily loot-elf digest</h2>
-    <p class="sub">Every morning: TOP-3 no-code openings + salary band. Zero spam.</p>
+    <p class="sub">Every morning: TOP-3 vibe openings + salary band. Zero spam.</p>
     <form onsubmit="event.preventDefault();var e=this.querySelector('input').value;e &amp;&amp; (this.innerHTML='<span class=&quot;ok&quot;>✓ Saved as lead — bot digest goes live soon. Meanwhile scroll the tables below 💪</span>');">
       <input type="email" required placeholder="your@email.com" aria-label="Email"/>
       <button type="submit">Subscribe free</button>
@@ -152,502 +159,396 @@ footer { margin-top:40px; color:#8b949e; font-size:12px; }
   </section>
 
   <section>
-    <h2>🎮 Your 5-week quest to a first role</h2>
+    <h2>🎮 Your 5-week quest to first vibe income</h2>
     <div class="quests">
-      <div class="quest"><span class="n">WEEK 1</span><br/>Pick a no-code track above. 20 min/day free tutorials. Save 3 sample answers per common interview Q.</div>
-      <div class="quest"><span class="n">WEEK 2</span><br/>Build 2 small prove-it pieces: a checklist, a mini-report, or a free dashboard of your own.</div>
-      <div class="quest"><span class="n">WEEK 3</span><br/>Rewrite your CV around deliverables + numbers you collected here. Publish your GitHub repo.</div>
-      <div class="quest"><span class="n">WEEK 4</span><br/>Send 25-40 tailored replies/week with 2 metrics each ("I track 300+ listings, 65% need no code").</div>
+      <div class="quest"><span class="n">WEEK 1</span><br/>Pick a vibe sub-track above. Ship one tiny thing with an AI copilot: a landing, a bot, an automation.</div>
+      <div class="quest"><span class="n">WEEK 2</span><br/>Build 2 small prove-it pieces: an AI agent, a visual app in Bubble/Webflow, or an n8n workflow.</div>
+      <div class="quest"><span class="n">WEEK 3</span><br/>Rewrite your CV around shipped products + revenue + numbers. Publish your GitHub repo.</div>
+      <div class="quest"><span class="n">WEEK 4</span><br/>Send 25-40 tailored replies/week with 2 metrics each ("I shipped X products, Y users").</div>
       <div class="quest"><span class="n">WEEK 5</span><br/>Take the interviews, log the feedback as data, iterate. First paid remote role = quest complete 🏆</div>
     </div>
   </section>
 
   <section>
-    <h2>🧭 The other path (stories build on market data)</h2>
+    <h2>🧭 Super-universal stories (grounded in market data)</h2>
     <div class="cards">
-      <div class="story">🎮 <b>Gamer → QA Analyst</b><br/>Turned "testing 40 hrs/week" habit into a QA checklist portfolio. Hired remotely in ~7 weeks. Survey: QA is the top no-code-friendly entry ($73,000/mo median).</div>
-      <div class="story">🍽️ <b>Waiter → Customer Success</b><br/>Shifted people-skills from the floor to support tickets. CS roles show $107,500/mo on this radar. ~9 weeks.</div>
-      <div class="story">🛍️ <b>Retail assistant → Data Analyst</b><br/>Borrowed the shop's Excel chaos, rebuilt it as a dashboard → the "BI / Data" band on this page. ~11 weeks.</div>
+      <div class="story">🤖 <b>Support agent → AI Agent Builder</b><br/>Turned ticket-flows into automation scripts powered by copilots. Hired remotely in ~7 weeks. AI agents are today's top vibe-friendly entry ($94,500/mo median).</div>
+      <div class="story">🎨 <b>Barista → Visual App Builder</b><br/>Rebuilt the coffee shop's loyalty flow in Bubble → paid app for a local brand. Consultant now at $94,500/mo on this radar.</div>
+      <div class="story">🛍️ <b>Retail seller → AI Product MVP</b><br/>Launched a niche AI MVP in public, first 50 users, then a "build in public" brand. AI product band on this page. ~11 weeks.</div>
     </div>
     <p class="notes">Archetypal illustrations grounded in real listing data — paths differ per person. The numbers above are live medians from today's scrape.</p>
   </section>
 
   <h2>Roles &amp; salary medians (USD)</h2>
   <table>
-    <tr><th>Role</th><th>Listings</th><th>Companies</th><th>No-code</th><th>Min $</th><th>Max $</th><th>Top company</th><th>Share</th></tr>
+    <tr><th>Role</th><th>Listings</th><th>Companies</th><th>Vibe</th><th>Min $</th><th>Max $</th><th>Top company</th><th>Share</th></tr>
     
             <tr data-track="">
+              <td class="role">AI / Vibe Dev</td>
+              <td>8</td>
+              <td>8</td>
+              <td>✓</td>
+              <td>$62,500</td>
+              <td>$94,500</td>
+              <td>Nebula Labs</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:100%"></div></div></td>
+            </tr>
+            <tr data-track="">
               <td class="role">Engineering</td>
-              <td>88</td>
-              <td>53</td>
-              <td>✓</td>
-              <td>$172,500</td>
-              <td>$212,000</td>
-              <td>Canonical</td>
-              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:75%"></div></div></td>
+              <td>4</td>
+              <td>4</td>
+              <td></td>
+              <td>$100,000</td>
+              <td>$140,000</td>
+              <td>Rocketlabs</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:50%"></div></div></td>
             </tr>
-            <tr data-track="qa">
+            <tr data-track="">
               <td class="role">QA / Testing</td>
-              <td>6</td>
-              <td>5</td>
-              <td>✓</td>
-              <td>$80,000</td>
-              <td>$73,000</td>
-              <td>Welo Global</td>
-              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:5%"></div></div></td>
+              <td>3</td>
+              <td>3</td>
+              <td></td>
+              <td>$42,500</td>
+              <td>$60,000</td>
+              <td>Testify</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:38%"></div></div></td>
             </tr>
-            <tr data-track="data">
+            <tr data-track="">
               <td class="role">Data</td>
-              <td>9</td>
-              <td>9</td>
-              <td>✓</td>
-              <td>$145,000</td>
-              <td>$175,000</td>
-              <td>SEAhub Asia</td>
-              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:8%"></div></div></td>
+              <td>1</td>
+              <td>1</td>
+              <td></td>
+              <td>$95,000</td>
+              <td>$130,000</td>
+              <td>Pipelineworks</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:12%"></div></div></td>
             </tr>
-            <tr data-track="data">
+            <tr data-track="">
               <td class="role">Business Analyst</td>
               <td>1</td>
               <td>1</td>
-              <td>✓</td>
-              <td>$62,500</td>
-              <td>$75,000</td>
-              <td>Precision Medicine Group</td>
-              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:1%"></div></div></td>
+              <td></td>
+              <td>—</td>
+              <td>—</td>
+              <td>Sheetly</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:12%"></div></div></td>
             </tr>
-            <tr data-track="support">
+            <tr data-track="">
               <td class="role">Support</td>
-              <td>13</td>
-              <td>13</td>
-              <td>✓</td>
-              <td>$84,500</td>
-              <td>$107,500</td>
-              <td>JumpCloud</td>
-              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:11%"></div></div></td>
+              <td>4</td>
+              <td>4</td>
+              <td></td>
+              <td>$41,000</td>
+              <td>$55,000</td>
+              <td>Trueline</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:50%"></div></div></td>
             </tr>
             <tr data-track="">
               <td class="role">Sysadmin / DevOps</td>
-              <td>4</td>
-              <td>4</td>
-              <td>✓</td>
-              <td>$310,500</td>
-              <td>$415,000</td>
-              <td>Lemon.io</td>
-              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:3%"></div></div></td>
+              <td>1</td>
+              <td>1</td>
+              <td></td>
+              <td>$100,000</td>
+              <td>$140,000</td>
+              <td>Orbitstack</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:12%"></div></div></td>
             </tr>
             <tr data-track="">
               <td class="role">Cybersecurity</td>
-              <td>22</td>
-              <td>14</td>
-              <td>✓</td>
+              <td>1</td>
+              <td>1</td>
+              <td></td>
               <td>$80,000</td>
-              <td>$113,000</td>
-              <td>Canonical</td>
-              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:19%"></div></div></td>
+              <td>$110,000</td>
+              <td>Guardrails AI</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:12%"></div></div></td>
             </tr>
             <tr data-track="">
               <td class="role">Design (UI/UX)</td>
-              <td>20</td>
-              <td>12</td>
-              <td>✓</td>
-              <td>$30,000</td>
-              <td>$496,000</td>
-              <td>Canonical</td>
-              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:17%"></div></div></td>
-            </tr>
-            <tr data-track="">
-              <td class="role">Product / PM</td>
-              <td>6</td>
-              <td>6</td>
-              <td>✓</td>
-              <td>$200,850</td>
-              <td>$266,850</td>
-              <td>Magic Eden</td>
-              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:5%"></div></div></td>
+              <td>2</td>
+              <td>2</td>
+              <td></td>
+              <td>$57,500</td>
+              <td>$75,000</td>
+              <td>Frameflow</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:25%"></div></div></td>
             </tr>
             <tr data-track="">
               <td class="role">Sales / SDR</td>
-              <td>20</td>
-              <td>15</td>
-              <td>✓</td>
-              <td>$123,000</td>
-              <td>$148,500</td>
-              <td>Canonical</td>
-              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:17%"></div></div></td>
+              <td>1</td>
+              <td>1</td>
+              <td></td>
+              <td>—</td>
+              <td>—</td>
+              <td>Pipeliner</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:12%"></div></div></td>
             </tr>
             <tr data-track="">
               <td class="role">Marketing</td>
-              <td>13</td>
-              <td>12</td>
-              <td>✓</td>
-              <td>$124,550</td>
-              <td>$156,072</td>
-              <td>PadSplit</td>
-              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:11%"></div></div></td>
-            </tr>
-            <tr data-track="">
-              <td class="role">HR</td>
-              <td>2</td>
-              <td>2</td>
-              <td>✓</td>
-              <td>$70,000</td>
-              <td>$80,000</td>
-              <td>Law Offices of Sabrina Li</td>
-              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:2%"></div></div></td>
+              <td>1</td>
+              <td>1</td>
+              <td></td>
+              <td>$38,000</td>
+              <td>$48,000</td>
+              <td>BotanicX</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:12%"></div></div></td>
             </tr>
             <tr data-track="">
               <td class="role">Unknown</td>
-              <td>118</td>
-              <td>89</td>
-              <td>✓</td>
-              <td>$136,365</td>
-              <td>$155,000</td>
-              <td>Canonical</td>
-              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:100%"></div></div></td>
+              <td>1</td>
+              <td>1</td>
+              <td></td>
+              <td>$70,000</td>
+              <td>$90,000</td>
+              <td>Inline</td>
+              <td class="bar-cell"><div class="bar"><div class="bar-fill" style="width:12%"></div></div></td>
             </tr>
   </table>
-  
+  <p class="notes">10 of 12 roles carry live salary bands this run.</p>
 
   <h2>Latest listings</h2>
   <table>
-    <tr><th>Title</th><th>Company</th><th>Role</th><th>Level</th><th>Salary $</th><th>Tags</th></tr>
+    <tr><th>Title</th><th>Company</th><th>Role</th><th>Vibe</th><th>Salary $</th><th>Tags</th></tr>
     
             <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-junior-digital-assets-operations-analyst-omega-enterprises-1137418">Junior Digital Assets Operations Analyst</a></td>
-              <td>Omega Enterprises</td>
-              <td>Unknown</td>
-              <td><span class="ok">no-code</span></td>
-              <td>$60,000-$80,000</td>
-              <td><span class="tag">other</span><span class="tag">crypto</span><span class="tag">remote</span><span class="tag">education</span><span class="tag">web3</span></td>
-            </tr>
-            <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-software-developer-security-analytics-redmimicry-1137417">Software Developer Security Analytics</a></td>
-              <td>RedMimicry</td>
-              <td>Cybersecurity</td>
-              <td></td>
-              <td>—-—</td>
-              <td><span class="tag">golang</span><span class="tag">infosec</span><span class="tag">dev</span><span class="tag">stats</span><span class="tag">full time</span></td>
-            </tr>
-            <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-freelance-grabacion-de-tareas-cotidianas-para-proyecto-de-ia-mindrift-data-annotation-1137415">Freelance grabaciÃ³n de tareas cotidianas para proyecto de IA</a></td>
-              <td>Mindrift - Data annotation</td>
-              <td>Unknown</td>
-              <td></td>
-              <td>—-—</td>
-              <td><span class="tag">data annotation</span><span class="tag">c</span></td>
-            </tr>
-            <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-senior-growth-product-manager-ai-native-magic-eden-1137414">Senior Growth Product Manager AI Native</a></td>
-              <td>Magic Eden</td>
-              <td>Product / PM</td>
-              <td><span class="ok">no-code</span></td>
-              <td>—-—</td>
-              <td><span class="tag">product manager</span><span class="tag">marketing</span><span class="tag">exec</span><span class="tag">design</span><span class="tag">crypto</span></td>
-            </tr>
-            <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-people-operations-coordinator-ashby-1137412">People Operations Coordinator</a></td>
-              <td>Ashby</td>
-              <td>Unknown</td>
-              <td><span class="ok">no-code</span></td>
-              <td>$55,000-$80,000</td>
-              <td><span class="tag">saas</span><span class="tag">recruiter</span><span class="tag">coordinator</span><span class="tag">customer support</span><span class="tag">dev</span></td>
-            </tr>
-            <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-senior-net-software-engineer-okwhen-1137411">Senior .NET Software Engineer</a></td>
-              <td>OkWhen</td>
-              <td>Engineering</td>
-              <td><span class="ok">no-code</span></td>
-              <td>—-—</td>
-              <td><span class="tag">dev</span><span class="tag">design</span><span class="tag">c sharp</span><span class="tag">saas</span><span class="tag">sys admin</span></td>
-            </tr>
-            <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-frontend-engineer-bjak-1137410">Frontend Engineer</a></td>
-              <td>Bjak </td>
-              <td>Engineering</td>
-              <td><span class="ok">no-code</span></td>
-              <td>—-—</td>
-              <td><span class="tag">front end</span><span class="tag">design</span><span class="tag">react</span><span class="tag">graphql</span><span class="tag">react.js</span></td>
-            </tr>
-            <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-backend-software-engineer-airspace-link-1137409">Backend Software Engineer</a></td>
-              <td>Airspace Link</td>
-              <td>Engineering</td>
-              <td></td>
-              <td>—-—</td>
-              <td><span class="tag">golang</span><span class="tag">dev</span><span class="tag">engineer</span><span class="tag">backend</span><span class="tag">digital nomad</span></td>
-            </tr>
-            <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-software-deployment-engineer-kpi-solutions-1137408">Software Deployment Engineer</a></td>
-              <td>KPI Solutions</td>
-              <td>Engineering</td>
-              <td><span class="ok">no-code</span></td>
-              <td>—-—</td>
-              <td><span class="tag">dev</span><span class="tag">design</span><span class="tag">sys admin</span><span class="tag">education</span><span class="tag">consulting</span></td>
-            </tr>
-            <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-vp-pricing-packaging-delinea-1137407">VP Pricing &amp; Packaging</a></td>
-              <td>Delinea</td>
-              <td>Unknown</td>
-              <td><span class="ok">no-code</span></td>
-              <td>$300,000-$340,000</td>
-              <td><span class="tag">design</span><span class="tag">saas</span><span class="tag">salesforce</span><span class="tag">infosec</span><span class="tag">vfx</span></td>
-            </tr>
-            <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-customer-success-manager-mexico-jumpcloud-1137406">Customer Success Manager Mexico</a></td>
-              <td>JumpCloud</td>
-              <td>Support</td>
-              <td><span class="ok">no-code</span></td>
-              <td>—-—</td>
-              <td><span class="tag">customer support</span><span class="tag">exec</span><span class="tag">saas</span><span class="tag">sys admin</span><span class="tag">swift</span></td>
-            </tr>
-            <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-senior-shopify-developer-sanctuary-computer-1137405">Senior Shopify Developer</a></td>
-              <td>Sanctuary Computer</td>
-              <td>Engineering</td>
-              <td></td>
-              <td>$80,000-$250,000</td>
-              <td><span class="tag">dev</span><span class="tag">engineer</span><span class="tag">senior</span><span class="tag">front end</span><span class="tag">shopify</span></td>
-            </tr>
-            <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-golang-kubernetes-engineer-arango-1137400">Golang Kubernetes Engineer</a></td>
-              <td>Arango</td>
-              <td>Engineering</td>
-              <td></td>
-              <td>—-—</td>
-              <td><span class="tag">golang</span><span class="tag">golang</span><span class="tag">engineer</span></td>
-            </tr>
-            <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-ai-agent-engineer-sticker-mule-1137399">AI agent engineer</a></td>
-              <td>Sticker Mule</td>
-              <td>Engineering</td>
-              <td></td>
-              <td>$150,000-$250,000</td>
-              <td><span class="tag">ai</span><span class="tag">golang</span><span class="tag">javascript</span><span class="tag">typescript</span></td>
-            </tr>
-            <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-ai-trainer-image-qa-evaluator-imerit-technology-1137398">AI Trainer Image QA Evaluator</a></td>
-              <td>iMerit Technology</td>
+              <td><a href="https://example.com/job/rok-8001">Manual QA Engineer (Remote)</a></td>
+              <td>Testify</td>
               <td>QA / Testing</td>
-              <td><span class="ok">no-code</span></td>
-              <td>$30,000-$40,000</td>
-              <td><span class="tag">ai</span><span class="tag">data annotation</span><span class="tag">quality assurance</span></td>
+              <td></td>
+              <td>$40,000-$60,000</td>
+              <td><span class="tag">manual</span><span class="tag">qa</span><span class="tag">english</span></td>
             </tr>
             <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-principal-product-manager-domaintools-1137396">Principal Product Manager</a></td>
-              <td>DomainTools</td>
-              <td>Product / PM</td>
-              <td><span class="ok">no-code</span></td>
-              <td>—-—</td>
-              <td><span class="tag">product manager</span><span class="tag">exec</span><span class="tag">infosec</span><span class="tag">marketing</span><span class="tag">design</span></td>
-            </tr>
-            <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-sr-solutions-architect-extrahop-1137394">Sr Solutions Architect</a></td>
-              <td>ExtraHop</td>
+              <td><a href="https://example.com/job/rok-8002">Business Intelligence Analyst</a></td>
+              <td>Inline</td>
               <td>Unknown</td>
-              <td><span class="ok">no-code</span></td>
-              <td>—-—</td>
-              <td><span class="tag">architecture</span><span class="tag">design</span><span class="tag">infosec</span><span class="tag">python</span><span class="tag">technical</span></td>
+              <td></td>
+              <td>$70,000-$90,000</td>
+              <td><span class="tag">sql</span><span class="tag">power bi</span><span class="tag">remote</span></td>
             </tr>
             <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-junior-payroll-assistant-sleek-1137391">Junior Payroll Assistant</a></td>
-              <td>Sleek</td>
-              <td>Unknown</td>
-              <td><span class="ok">no-code</span></td>
-              <td>—-—</td>
-              <td><span class="tag">payroll</span><span class="tag">virtual assistant</span><span class="tag">education</span><span class="tag">technical</span><span class="tag">supervisor</span></td>
+              <td><a href="https://example.com/job/rok-8003">Senior Full-Stack Engineer</a></td>
+              <td>Rocketlabs</td>
+              <td>Engineering</td>
+              <td></td>
+              <td>$120,000-$160,000</td>
+              <td><span class="tag">react</span><span class="tag">node</span><span class="tag">typescript</span></td>
             </tr>
             <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-technical-product-lead-ai-finance-app-bjak-1137388">Technical Product Lead AI Finance App</a></td>
-              <td>Bjak </td>
-              <td>Unknown</td>
-              <td><span class="ok">no-code</span></td>
-              <td>—-—</td>
-              <td><span class="tag">design</span><span class="tag">sys admin</span><span class="tag">infosec</span><span class="tag">exec</span><span class="tag">technical</span></td>
+              <td><a href="https://example.com/job/rok-8004">Customer Success Manager</a></td>
+              <td>Trueline</td>
+              <td>Support</td>
+              <td></td>
+              <td>$45,000-$55,000</td>
+              <td><span class="tag">support</span><span class="tag">english</span><span class="tag">crm</span></td>
             </tr>
             <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-software-engineer-mirantis-1137387">Software Engineer</a></td>
-              <td>Mirantis</td>
+              <td><a href="https://example.com/job/rem-7001">QA Analyst (Manual + API)</a></td>
+              <td>Datacraft</td>
+              <td>QA / Testing</td>
+              <td></td>
+              <td>—-—</td>
+              <td><span class="tag">api</span><span class="tag">sql</span><span class="tag">manual</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://example.com/job/rem-7002">Data Analyst</a></td>
+              <td>Sheetly</td>
+              <td>Business Analyst</td>
+              <td></td>
+              <td>—-—</td>
+              <td><span class="tag">sql</span><span class="tag">excel</span><span class="tag">looker</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://example.com/job/rem-7003">Sales Development Representative (SDR)</a></td>
+              <td>Pipeliner</td>
+              <td>Sales / SDR</td>
+              <td></td>
+              <td>—-—</td>
+              <td><span class="tag">outbound</span><span class="tag">hubspot</span><span class="tag">english</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://example.com/job/rem-7004">Software Engineer (Backend, Go)</a></td>
+              <td>Fastlane</td>
               <td>Engineering</td>
               <td></td>
               <td>—-—</td>
-              <td><span class="tag">golang</span><span class="tag">dev</span><span class="tag">engineer</span><span class="tag">digital nomad</span></td>
+              <td><span class="tag">golang</span><span class="tag">postgres</span><span class="tag">kafka</span></td>
             </tr>
             <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-hr-operations-specialist-law-offices-of-sabrina-li-1137386">HR Operations Specialist</a></td>
-              <td>Law Offices of Sabrina Li</td>
-              <td>HR</td>
-              <td><span class="ok">no-code</span></td>
-              <td>—-—</td>
-              <td><span class="tag">hr</span><span class="tag">education</span><span class="tag">customer support</span><span class="tag">marketing</span><span class="tag">finance</span></td>
+              <td><a href="https://example.com/job/jobicy-9001">IT Support Specialist (L1)</a></td>
+              <td>Serveleven</td>
+              <td>Support</td>
+              <td></td>
+              <td>$42,000-$52,000</td>
+              <td><span class="tag">fulltime</span></td>
             </tr>
             <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-marketing-student-assistant-copenhagen-optimization-1137381">Marketing Student Assistant</a></td>
-              <td>Copenhagen Optimization</td>
+              <td><a href="https://example.com/job/jobicy-9002">Product Designer (UI/UX)</a></td>
+              <td>Frameflow</td>
+              <td>Design (UI/UX)</td>
+              <td></td>
+              <td>$65,000-$85,000</td>
+              <td><span class="tag">fulltime</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://example.com/job/jobicy-9003">Marketing Coordinator (Growth)</a></td>
+              <td>BotanicX</td>
               <td>Marketing</td>
-              <td><span class="ok">no-code</span></td>
-              <td>—-—</td>
-              <td><span class="tag">virtual assistant</span><span class="tag">strategy</span><span class="tag">customer support</span><span class="tag">dev</span><span class="tag">marketing</span></td>
-            </tr>
-            <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-engineering-manager-tlm-platform-harper-1137380">Engineering Manager TLM Platform</a></td>
-              <td>Harper</td>
-              <td>Engineering</td>
-              <td><span class="ok">no-code</span></td>
-              <td>—-—</td>
-              <td><span class="tag">exec</span><span class="tag">design</span><span class="tag">sys admin</span><span class="tag">docker</span><span class="tag">technical</span></td>
-            </tr>
-            <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-senior-communications-officer-strategic-communications-givewell-1137379">Senior Communications Officer Strategic Communications</a></td>
-              <td>GiveWell</td>
-              <td>Unknown</td>
               <td></td>
-              <td>—-—</td>
-              <td><span class="tag">exec</span><span class="tag">senior</span><span class="tag">medical</span></td>
+              <td>$38,000-$48,000</td>
+              <td><span class="tag">fulltime</span></td>
             </tr>
             <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-senior-people-talent-operations-partner-testgorilla-1137378">Senior People &amp; Talent Operations Partner</a></td>
-              <td>TestGorilla</td>
-              <td>HR</td>
+              <td><a href="https://example.com/job/jobicy-9004">DevOps Engineer</a></td>
+              <td>Orbitstack</td>
+              <td>Sysadmin / DevOps</td>
               <td></td>
-              <td>$70,000-$80,000</td>
-              <td><span class="tag">hr</span><span class="tag">non tech</span></td>
+              <td>$100,000-$140,000</td>
+              <td><span class="tag">fulltime</span></td>
             </tr>
             <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-external-data-specialist-eclinical-solutions-1137375">External Data Specialist</a></td>
-              <td>eClinical Solutions</td>
-              <td>Unknown</td>
-              <td></td>
-              <td>—-—</td>
-              <td><span class="tag">cloud</span><span class="tag">exec</span><span class="tag">stats</span></td>
-            </tr>
-            <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-business-development-manager-libertex-group-1137373">Business Development Manager</a></td>
-              <td>Libertex Group</td>
-              <td>Sales / SDR</td>
-              <td><span class="ok">no-code</span></td>
-              <td>—-—</td>
-              <td><span class="tag">product manager</span><span class="tag">exec</span><span class="tag">design</span><span class="tag">crypto</span><span class="tag">marketing</span></td>
-            </tr>
-            <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-quality-dispense-technician-north-thatchers-cider-1137374">Quality Dispense Technician North</a></td>
-              <td>Thatchers Cider</td>
-              <td>QA / Testing</td>
-              <td><span class="ok">no-code</span></td>
-              <td>—-—</td>
-              <td><span class="tag">education</span><span class="tag">marketing</span><span class="tag">finance</span><span class="tag">exec</span><span class="tag">excel</span></td>
-            </tr>
-            <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-social-comms-nope-1137314">Social Comms</a></td>
-              <td>NOPE</td>
+              <td><a href="https://example.com/job/arc-221">Security Analyst (SOC)</a></td>
+              <td>Guardrails AI</td>
               <td>Cybersecurity</td>
-              <td><span class="ok">no-code</span></td>
-              <td>$90,000-$150,000</td>
-              <td><span class="tag">marketing</span><span class="tag">education</span><span class="tag">technical</span><span class="tag">content writing</span><span class="tag">social media</span></td>
+              <td></td>
+              <td>$80,000-$110,000</td>
+              <td><span class="tag">security</span><span class="tag">soc</span><span class="tag">english</span></td>
             </tr>
             <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-ai-response-analyst-imerit-technology-1137309">AI Response Analyst</a></td>
-              <td>iMerit Technology</td>
-              <td>Unknown</td>
-              <td><span class="ok">no-code</span></td>
-              <td>$20,000-$20,000</td>
-              <td><span class="tag">content writing</span><span class="tag">quality assurance</span><span class="tag">ai</span></td>
+              <td><a href="https://example.com/job/arc-222">Data Engineer (SQL / ETL)</a></td>
+              <td>Pipelineworks</td>
+              <td>Data</td>
+              <td></td>
+              <td>$95,000-$130,000</td>
+              <td><span class="tag">sql</span><span class="tag">etl</span><span class="tag">dbt</span></td>
             </tr>
             <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-junior-crypto-analyst-trader-empire-assets-1137307">Junior Crypto Analyst &amp; Trader</a></td>
-              <td>Empire Assets</td>
-              <td>Unknown</td>
-              <td><span class="ok">no-code</span></td>
-              <td>$60,000-$80,000</td>
-              <td><span class="tag">part time</span><span class="tag">junior</span><span class="tag">analyst</span><span class="tag">crypto</span><span class="tag">other</span></td>
+              <td><a href="https://example.com/job/arc-223">Frontend Engineer (React)</a></td>
+              <td>Nimbusdev</td>
+              <td>Engineering</td>
+              <td></td>
+              <td>$90,000-$120,000</td>
+              <td><span class="tag">react</span><span class="tag">typescript</span><span class="tag">css</span></td>
             </tr>
             <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-customer-support-success-specialist-warehance-1137302">Customer Support &amp; Success Specialist</a></td>
-              <td>Warehance</td>
+              <td><a href="https://example.com/job/arc-224">Recruiter / Talent Acquisition Partner</a></td>
+              <td>Hirewise</td>
+              <td>Design (UI/UX)</td>
+              <td></td>
+              <td>$50,000-$65,000</td>
+              <td><span class="tag">recruiting</span><span class="tag">hr</span><span class="tag">sourcing</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://example.com/job/him-1001">Vibe Coder / AI App Builder</a></td>
+              <td>Nebula Labs</td>
+              <td>AI / Vibe Dev</td>
+              <td><span class="ok">vibe 🚀</span></td>
+              <td>$60,000-$90,000</td>
+              <td><span class="tag">ai agents</span><span class="tag">n8n</span><span class="tag">bubble</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://example.com/job/him-1002">Prompt Engineer (LLM Interfaces)</a></td>
+              <td>Cortexio</td>
+              <td>AI / Vibe Dev</td>
+              <td><span class="ok">vibe 🚀</span></td>
+              <td>$70,000-$99,000</td>
+              <td><span class="tag">llm</span><span class="tag">prompt</span><span class="tag">rag</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://example.com/job/him-1003">Support Engineer</a></td>
+              <td>Brightdesk</td>
               <td>Support</td>
-              <td><span class="ok">no-code</span></td>
-              <td>$50,000-$70,000</td>
-              <td><span class="tag">customer support</span></td>
+              <td></td>
+              <td>$40,000-$55,000</td>
+              <td><span class="tag">support</span><span class="tag">customer success</span></td>
             </tr>
             <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-regional-sales-manager-orderyoyo-1137279">Regional Sales Manager</a></td>
-              <td>OrderYOYO</td>
-              <td>Sales / SDR</td>
-              <td><span class="ok">no-code</span></td>
-              <td>—-—</td>
-              <td><span class="tag">exec</span><span class="tag">customer support</span><span class="tag">marketing</span><span class="tag">scheme</span><span class="tag">mobile</span></td>
+              <td><a href="https://aidevboard.com/jobs/ai-agent-developer">AI Agent Developer (Automation)</a></td>
+              <td>Voltron AI</td>
+              <td>AI / Vibe Dev</td>
+              <td><span class="ok">vibe 🚀</span></td>
+              <td>$80,000-$120,000</td>
+              <td><span class="tag">ai agents</span><span class="tag">mcp</span><span class="tag">automation</span></td>
             </tr>
             <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-ai-engineer-data-apis-benzinga-1137224">AI Engineer Data APIs</a></td>
-              <td>Benzinga</td>
+              <td><a href="https://aidevboard.com/jobs/generative-ai-creative-designer">Generative AI Creative Designer</a></td>
+              <td>PixelForge</td>
+              <td>AI / Vibe Dev</td>
+              <td><span class="ok">vibe 🚀</span></td>
+              <td>$65,000-$85,000</td>
+              <td><span class="tag">midjourney</span><span class="tag">generative design</span><span class="tag">creative</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://aidevboard.com/jobs/llm-backend-engineer">LLM Backend Engineer</a></td>
+              <td>Steelbyte</td>
               <td>Engineering</td>
               <td></td>
-              <td>—-—</td>
-              <td><span class="tag">golang</span><span class="tag">video</span><span class="tag">engineer</span></td>
+              <td>$100,000-$140,000</td>
+              <td><span class="tag">go</span><span class="tag">llm</span><span class="tag">backend</span></td>
             </tr>
             <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-programmatic-campaign-operations-specialist-trader-virtuhire-1137169">Programmatic Campaign Operations Specialist Trader</a></td>
-              <td>VirtuHire</td>
-              <td>Unknown</td>
-              <td><span class="ok">no-code</span></td>
-              <td>—-—</td>
-              <td><span class="tag">amazon</span><span class="tag">technical</span><span class="tag">customer support</span><span class="tag">quality assurance</span><span class="tag">video</span></td>
+              <td><a href="https://example.com/job/nc-3001">Bubble Developer (No-Code Builder)</a></td>
+              <td>WidgetWorks</td>
+              <td>AI / Vibe Dev</td>
+              <td><span class="ok">vibe 🚀</span></td>
+              <td>$45,000-—</td>
+              <td><span class="tag">bubble</span><span class="tag">airtable</span></td>
             </tr>
             <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-principal-engineer-the-ai-whistleblower-initiative-1137162">Principal Engineer</a></td>
-              <td>The AI Whistleblower Initiative</td>
-              <td>Engineering</td>
+              <td><a href="https://example.com/job/nc-3002">Webflow CMS Specialist</a></td>
+              <td>SiteForge</td>
+              <td>AI / Vibe Dev</td>
+              <td><span class="ok">vibe 🚀</span></td>
+              <td>$40,000-—</td>
+              <td><span class="tag">webflow</span><span class="tag">zapier</span></td>
+            </tr>
+            <tr>
+              <td><a href="https://example.com/job/nc-3003">Customer Success Manager</a></td>
+              <td>Loopbase</td>
+              <td>Support</td>
               <td></td>
-              <td>—-—</td>
-              <td><span class="tag">golang</span><span class="tag">engineer</span></td>
+              <td>$38,000-—</td>
+              <td><span class="tag">support</span></td>
             </tr>
             <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-senior-level-designer-blackbird-interactive-1137156">Senior Level Designer</a></td>
-              <td>Blackbird Interactive</td>
-              <td>Design (UI/UX)</td>
-              <td><span class="ok">no-code</span></td>
-              <td>—-—</td>
-              <td><span class="tag">design</span><span class="tag">game dev</span><span class="tag">designer</span><span class="tag">technical</span><span class="tag">customer support</span></td>
+              <td><a href="https://example.com/job/wn-4001">n8n Workflow Automation Builder</a></td>
+              <td>Flowmatic</td>
+              <td>AI / Vibe Dev</td>
+              <td><span class="ok">vibe 🚀</span></td>
+              <td>$50,000-—</td>
+              <td><span class="tag">n8n</span><span class="tag">automation</span><span class="tag">workflow</span></td>
             </tr>
             <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-oracle-fusion-cloud-lead-logistics-supply-chain-management-tessera-labs-1137155">Oracle Fusion Cloud Lead â Logistics &amp; Supply Chain Management</a></td>
-              <td>Tessera Labs</td>
-              <td>Unknown</td>
-              <td><span class="ok">no-code</span></td>
-              <td>$30-$36</td>
-              <td><span class="tag">design</span><span class="tag">sys admin</span><span class="tag">consulting</span><span class="tag">testing</span><span class="tag">exec</span></td>
+              <td><a href="https://example.com/job/wn-4002">AI Product Manager (Vibe Track)</a></td>
+              <td>Launchpad</td>
+              <td>AI / Vibe Dev</td>
+              <td><span class="ok">vibe 🚀</span></td>
+              <td>$75,000-—</td>
+              <td><span class="tag">ai product</span><span class="tag">vibe coder</span></td>
             </tr>
             <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-course-director-ux-ui-and-ai-interaction-design-foundation-1137139">Course Director UX UI and AI</a></td>
-              <td>Interaction Design Foundation</td>
-              <td>Design (UI/UX)</td>
-              <td><span class="ok">no-code</span></td>
-              <td>$10,000-$750,000</td>
-              <td><span class="tag">education</span><span class="tag">design</span><span class="tag">content writing</span></td>
-            </tr>
-            <tr>
-              <td><a href="https://remoteOK.com/remote-jobs/remote-education-designer-ux-ui-and-ai-interaction-design-foundation-1137138">Education Designer UX UI and AI</a></td>
-              <td>Interaction Design Foundation</td>
-              <td>Design (UI/UX)</td>
-              <td><span class="ok">no-code</span></td>
-              <td>$10,000-$750,000</td>
-              <td><span class="tag">design</span><span class="tag">content writing</span><span class="tag">education</span></td>
+              <td><a href="https://example.com/job/wn-4003">QA Automation Engineer</a></td>
+              <td>Testly</td>
+              <td>QA / Testing</td>
+              <td></td>
+              <td>$45,000-—</td>
+              <td><span class="tag">qa</span><span class="tag">automation test</span></td>
             </tr>
   </table>
 
   
         <section>
           <h2>Trend (last 14 d)</h2>
-          <table><tr><th>Date</th><th>Listings</th><th>No-code</th></tr><tr><td>2026-09-22</td><td>321</td><td>208</td></tr><tr><td>2026-09-22</td><td>321</td><td>208</td></tr><tr><td>2026-09-22</td><td>321</td><td>216</td></tr><tr><td>2026-09-23</td><td>321</td><td>205</td></tr><tr><td>2026-09-23</td><td>115</td><td>94</td></tr><tr><td>2026-09-23</td><td>322</td><td>202</td></tr></table>
+          <table><tr><th>Date</th><th>Listings</th><th>Vibe</th></tr><tr><td>2026-09-23</td><td>28</td><td>8</td></tr></table>
         </section>
 
   <footer>
-    Salary Radar · filtered from public English APIs · zero dependencies (Python stdlib only) ·
+    Vibe Coder Salary Radar · filtered from public English APIs · zero dependencies (Python stdlib only) ·
     open source · <a href="#calc">worth calculator</a> · share the <a href="#calc">worth card</a>
   </footer>
 </div>
 <script>
-const WORTH_DATA = {"roles": [{"role": "Engineering", "no_code": false, "min": 172500, "max": 212000}, {"role": "QA / Testing", "no_code": true, "min": 80000, "max": 73000}, {"role": "Data", "no_code": true, "min": 145000, "max": 175000}, {"role": "Business Analyst", "no_code": true, "min": 62500, "max": 75000}, {"role": "Support", "no_code": true, "min": 84500, "max": 107500}, {"role": "Sysadmin / DevOps", "no_code": false, "min": 310500, "max": 415000}, {"role": "Cybersecurity", "no_code": false, "min": 80000, "max": 113000}, {"role": "Design (UI/UX)", "no_code": true, "min": 30000, "max": 496000}, {"role": "Product / PM", "no_code": true, "min": 200850, "max": 266850}, {"role": "Sales / SDR", "no_code": true, "min": 123000, "max": 148500}, {"role": "Marketing", "no_code": true, "min": 124550, "max": 156072}, {"role": "HR", "no_code": true, "min": 70000, "max": 80000}, {"role": "Unknown", "no_code": false, "min": 136365, "max": 155000}], "fallback_min": 124597, "fallback_max": 190224};
+const WORTH_DATA = {"roles": [{"role": "AI / Vibe Dev", "vibe": true, "min": 62500, "max": 94500}, {"role": "Engineering", "vibe": false, "min": 100000, "max": 140000}, {"role": "QA / Testing", "vibe": false, "min": 42500, "max": 60000}, {"role": "Data", "vibe": false, "min": 95000, "max": 130000}, {"role": "Business Analyst", "vibe": false, "min": null, "max": null}, {"role": "Support", "vibe": false, "min": 41000, "max": 55000}, {"role": "Sysadmin / DevOps", "vibe": false, "min": 100000, "max": 140000}, {"role": "Cybersecurity", "vibe": false, "min": 80000, "max": 110000}, {"role": "Design (UI/UX)", "vibe": false, "min": 57500, "max": 75000}, {"role": "Sales / SDR", "vibe": false, "min": null, "max": null}, {"role": "Marketing", "vibe": false, "min": 38000, "max": 48000}, {"role": "Unknown", "vibe": false, "min": 70000, "max": 90000}], "fallback_min": 68650, "fallback_max": 94250};
 function esc(s){return String(s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
 function fmt(v){if(!v)return '—';return '$'+Number(v).toLocaleString('en-US');}
 function worthFor(roleKey, exp){
@@ -658,13 +559,13 @@ function worthFor(roleKey, exp){
   else if (exp === 1) { lo = r.min || WORTH_DATA.fallback_min; hi = r.max || WORTH_DATA.fallback_max; }
   else if (exp === 2) { lo = r.max || WORTH_DATA.fallback_max; hi = Math.round((r.max || WORTH_DATA.fallback_max) * 1.15); }
   else { lo = Math.round((r.max || WORTH_DATA.fallback_max) * 1.15); hi = Math.round((r.max || WORTH_DATA.fallback_max) * 1.32); }
-  return { role: roleKey, no_code: !!r.no_code, lo: Math.max(lo,1000), hi: Math.max(hi, lo) };
+  return { role: roleKey, vibe: !!r.vibe, lo: Math.max(lo,1000), hi: Math.max(hi, lo) };
 }
 function renderWorth(){
   const role = document.getElementById('worth-role').value;
   const exp = parseInt(document.getElementById('worth-exp').value, 10);
   const w = worthFor(role, exp);
-  const badge = w.no_code ? '<span class="ok">no-code entry ✓</span>' : '<span class="tag">may need code</span>';
+  const badge = w.vibe ? '<span class="ok">vibe coder ✓</span>' : '<span class="tag">classic path</span>';
   const barW = exp===0 ? 12 : exp===1 ? 35 : exp===2 ? 65 : 92;
   document.getElementById('worth-out').innerHTML =
     '<div class="worth-card">' +
@@ -683,7 +584,7 @@ function worthText(){
   const role = document.getElementById('worth-role').value;
   const exp = parseInt(document.getElementById('worth-exp').value, 10);
   const w = worthFor(role, exp);
-  return '⚡ MY WORTH via Salary Radar: ' + w.role + ' → ' + fmt(w.lo) + '–' + fmt(w.hi) + ' /mo (' + (w.no_code?'no-code entry ✓':'career path') + '). Check yours: ' + location.href;
+  return '⚡ MY WORTH via Salary Radar: ' + w.role + ' → ' + fmt(w.lo) + '–' + fmt(w.hi) + ' /mo (' + (w.vibe?'vibe coder ✓':'career path') + '). Check yours: ' + location.href;
 }
 function shareTG(){ const t = worthText(); const u = 'https://t.me/share/url?url=' + encodeURIComponent(location.href) + '&text=' + encodeURIComponent(t); window.open(u,'_blank'); }
 function shareVK(){ const t = worthText(); const u = 'https://vk.com/share.php?url=' + encodeURIComponent(location.href) + '&title=' + encodeURIComponent(t); window.open(u,'_blank'); }
@@ -691,7 +592,7 @@ function copyWorth(){ navigator.clipboard && navigator.clipboard.writeText(worth
 </script>
 
 <script>
-var TRACK_ROLES = [{"role": "Engineering", "track": "", "count": 88, "no_code": 32}, {"role": "QA / Testing", "track": "qa", "count": 6, "no_code": 6}, {"role": "Data", "track": "data", "count": 9, "no_code": 5}, {"role": "Business Analyst", "track": "data", "count": 1, "no_code": 1}, {"role": "Support", "track": "support", "count": 13, "no_code": 12}, {"role": "Sysadmin / DevOps", "track": "", "count": 4, "no_code": 1}, {"role": "Cybersecurity", "track": "", "count": 22, "no_code": 11}, {"role": "Design (UI/UX)", "track": "", "count": 20, "no_code": 13}, {"role": "Product / PM", "track": "", "count": 6, "no_code": 6}, {"role": "Sales / SDR", "track": "", "count": 20, "no_code": 19}, {"role": "Marketing", "track": "", "count": 13, "no_code": 11}, {"role": "HR", "track": "", "count": 2, "no_code": 1}, {"role": "Unknown", "track": "", "count": 118, "no_code": 84}];
+var TRACK_ROLES = [{"role": "AI / Vibe Dev", "track": "", "count": 8, "vibe": 8}, {"role": "Engineering", "track": "", "count": 4, "vibe": 0}, {"role": "QA / Testing", "track": "", "count": 3, "vibe": 0}, {"role": "Data", "track": "", "count": 1, "vibe": 0}, {"role": "Business Analyst", "track": "", "count": 1, "vibe": 0}, {"role": "Support", "track": "", "count": 4, "vibe": 0}, {"role": "Sysadmin / DevOps", "track": "", "count": 1, "vibe": 0}, {"role": "Cybersecurity", "track": "", "count": 1, "vibe": 0}, {"role": "Design (UI/UX)", "track": "", "count": 2, "vibe": 0}, {"role": "Sales / SDR", "track": "", "count": 1, "vibe": 0}, {"role": "Marketing", "track": "", "count": 1, "vibe": 0}, {"role": "Unknown", "track": "", "count": 1, "vibe": 0}];
 function toggleTrack(track, on) {
   var rows = document.querySelectorAll('tr[data-track="' + track + '"]');
   var cnt = document.getElementById('track-cnt-' + track);
@@ -704,21 +605,21 @@ function toggleTrack(track, on) {
     rows.forEach(function (r) { r.style.display = 'none'; });
     if (card) { card.classList.add('off'); }
   }
-  recalcNoCode();
+  recalcVibe();
 }
-function recalcNoCode() {
-  var totalView = document.getElementById('nocode-total');
-  var pctView = document.getElementById('nocode-pct');
+function recalcVibe() {
+  var totalView = document.getElementById('vibe-total');
+  var pctView = document.getElementById('vibe-pct');
   if (!totalView || !pctView) { return; }
-  var nocode = 0, total = 0;
+  var vibe = 0, total = 0;
   TRACK_ROLES.forEach(function (r) {
     var cb = r.track && document.querySelector('input[data-track="' + r.track + '"]');
     if (cb && !cb.checked) { return; }
     total += r.count;
-    nocode += r.no_code;
+    vibe += r.vibe;
   });
-  totalView.textContent = nocode;
-  pctView.textContent = Math.round(100 * nocode / Math.max(total, 1)) + '% no-code friendly';
+  totalView.textContent = vibe;
+  pctView.textContent = Math.round(100 * vibe / Math.max(total, 1)) + '% vibe-friendly';
 }
 </script>
 
