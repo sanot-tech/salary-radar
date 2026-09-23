@@ -10,11 +10,12 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 from src.salary_radar import bot, config, sources
 from src.salary_radar.analyze import (
     classify_role,
-    evaluate_no_code,
-    is_no_code_friendly,
+    evaluate_vibe,
+    is_vibe_friendly,
     resolve_tracks,
     summarize,
     track_enabled,
+    vibe_subcategory,
 )
 from src.salary_radar.db import RadarDB
 from src.salary_radar.report import render_html, write_all_summary_artifacts
@@ -23,6 +24,10 @@ from src.salary_radar.report import render_html, write_all_summary_artifacts
 class TestSources(unittest.TestCase):
     def test_all_sources_parse_samples(self):
         fetched = sources.scrape_all(offline=True, sample=True)
+        self.assertIn("himalayas", fetched)
+        self.assertIn("aidevboard", fetched)
+        self.assertIn("nocodejobs", fetched)
+        self.assertIn("workingnomads", fetched)
         for name, jobs in fetched.items():
             self.assertGreater(len(jobs), 0, f"{name} returned nothing")
             for job in jobs:
@@ -43,9 +48,10 @@ class TestAnalyze(unittest.TestCase):
         self.assertEqual(classify_role("Sales Development Representative"), "Sales / SDR")
         self.assertEqual(classify_role("Backend Developer"), "Engineering")
 
-    def test_no_code_heuristic(self):
-        self.assertTrue(is_no_code_friendly("Manual QA Analyst", "QA", ["manual"]))
-        self.assertFalse(is_no_code_friendly("Senior Backend Engineer", "Software", ["go"]))
+    def test_vibe_heuristic(self):
+        self.assertTrue(is_vibe_friendly("Vibe Coder (AI App Builder)", "AI", ["ai"]))
+        self.assertTrue(is_vibe_friendly("Prompt Engineer", "AI", ["llm"]))
+        self.assertFalse(is_vibe_friendly("Senior Backend Engineer", "Software", ["go"]))
 
 
 class TestPipeline(unittest.TestCase):
@@ -64,13 +70,13 @@ class TestPipeline(unittest.TestCase):
         for jobs in fetched.values():
             for job in jobs:
                 role = classify_role(job.title)
-                no_code = is_no_code_friendly(job.title, job.category, job.tags)
-                store.upsert(job, role, no_code)
+                vibe = is_vibe_friendly(job.title, job.category, job.tags)
+                store.upsert(job, role, vibe)
         rows = store.all_jobs()
         self.assertGreater(len(rows), 0)
         summary = summarize(rows)
         self.assertEqual(summary["total"], len(rows))
-        self.assertGreaterEqual(summary["no_code_total"], 0)
+        self.assertGreaterEqual(summary["vibe_total"], 0)
         write_all_summary_artifacts(summary, rows, [])
         self.assertTrue(os.path.exists(config.REPORT_HTML))
         self.assertTrue(os.path.exists(config.REPORT_JSON))
@@ -78,51 +84,65 @@ class TestPipeline(unittest.TestCase):
 
 
 class TestVibeTracks(unittest.TestCase):
-    """Vibe-coding guard + priority tracks with manual toggles."""
+    """Vibe-coding guard + sub-track toggles for the super-universal."""
 
     def test_vibe_classification_guards_engineers(self):
         self.assertEqual(classify_role("Prompt Engineer for LLM Apps"), "AI / Vibe Dev")
+        self.assertEqual(classify_role("Vibe Coder (Bubble Builder)"), "AI / Vibe Dev")
         self.assertEqual(classify_role("LLM Engineer"), "Engineering")
         self.assertEqual(classify_role("AI Agent Engineer"), "Engineering")
-        self.assertEqual(classify_role("AI Horse Engineer"), "Engineering")
-        self.assertTrue(is_no_code_friendly("Prompt Engineer (LLM)", "AI", ["ai"]))
-        self.assertFalse(is_no_code_friendly("AI Agent Engineer", "", ["ai"]))
-        self.assertFalse(is_no_code_friendly("LLM Engineer", "", []))
+        self.assertTrue(is_vibe_friendly("Prompt Engineer (LLM)", "AI", ["ai"]))
+        self.assertTrue(is_vibe_friendly("AI Agent Developer (Automation)", "", ["ai agent"]))
+        self.assertFalse(is_vibe_friendly("AI Agent Engineer", "", ["ai"]))
+        self.assertFalse(is_vibe_friendly("LLM Engineer", "", []))
+
+    def test_vibe_subcategory(self):
+        self.assertEqual(vibe_subcategory("Vibe Coder / AI App Builder"), "ai_product")
+        self.assertEqual(vibe_subcategory("Prompt Engineer (LLM)"), "prompt_eng")
+        self.assertEqual(vibe_subcategory("n8n Workflow Automation Builder"), "ai_agents")
+        self.assertEqual(vibe_subcategory("Bubble Developer (No-Code Builder)"), "builders")
+        self.assertEqual(vibe_subcategory("Generative AI Creative Designer"), "ai_creative")
+        self.assertIsNone(vibe_subcategory("Backend Engineer", "Software", ["go"]))
 
     def test_resolve_tracks(self):
-        only_vibe = resolve_tracks("vibe")
-        self.assertTrue(only_vibe["vibe_ai"])
-        self.assertFalse(only_vibe["support"])
-        all_but_support = resolve_tracks("!support")
-        self.assertTrue(all_but_support["vibe_ai"])
-        self.assertFalse(all_but_support["support"])
-        env_style = resolve_tracks("vibe,qa")
-        self.assertTrue(env_style["vibe_ai"])
-        self.assertTrue(env_style["qa"])
-        self.assertFalse(env_style["data"])
+        only_agents = resolve_tracks("agents")
+        self.assertTrue(only_agents["ai_agents"])
+        self.assertFalse(only_agents["prompt_eng"])
+        all_but_agents = resolve_tracks("!agents")
+        self.assertFalse(all_but_agents["ai_agents"])
+        self.assertTrue(all_but_agents["prompt_eng"])
+        vibe_all = resolve_tracks("vibe")
+        self.assertTrue(all(vibe_all.values()))
+        env_style = resolve_tracks("agents,prompt")
+        self.assertTrue(env_style["ai_agents"])
+        self.assertTrue(env_style["prompt_eng"])
+        self.assertFalse(env_style["builders"])
         self.assertEqual(resolve_tracks(None), dict(config.TRACKS))
 
-    def test_track_toggle_kills_nocode_count(self):
+    def test_track_toggle_kills_vibe_count(self):
         rows = [
-            {"role": "Support", "no_code": 1, "company": "A", "source": "x",
-             "tags": "", "title": "t", "salary_min": None, "salary_max": None},
-            {"role": "Engineering", "no_code": 0, "company": "B", "source": "x",
-             "tags": "", "title": "t", "salary_min": None, "salary_max": None},
+            {"role": "AI / Vibe Dev", "vibe": 1, "company": "A", "source": "x",
+             "tags": "", "title": "Prompt Engineer (LLM)", "category": "",
+             "salary_min": None, "salary_max": None},
+            {"role": "Engineering", "vibe": 0, "company": "B", "source": "x",
+             "tags": "", "title": "Backend Engineer", "category": "",
+             "salary_min": None, "salary_max": None},
         ]
         s_all = summarize(rows, resolve_tracks(None))
-        self.assertEqual(s_all["no_code_total"], 1)
-        s_off = summarize(rows, resolve_tracks("!support"))
-        self.assertEqual(s_off["no_code_total"], 0)
-        self.assertFalse(s_off["track_counts"]["support"]["enabled"])
+        self.assertEqual(s_all["vibe_total"], 1)
+        s_off = summarize(rows, resolve_tracks("!prompt_eng"))
+        self.assertEqual(s_off["vibe_total"], 0)
+        self.assertFalse(s_off["track_counts"]["prompt_eng"]["enabled"])
 
-    def test_evaluate_no_code_respects_track(self):
-        self.assertTrue(track_enabled("Support", None))
-        self.assertTrue(track_enabled("Support", resolve_tracks(None)))
-        self.assertFalse(track_enabled("Support", resolve_tracks("!support")))
-        # even a strong no-code title must be excluded when its track is off
-        self.assertFalse(evaluate_no_code("Manual QA Analyst", "", [],
-                                          role="QA / Testing",
-                                          tracks=resolve_tracks("!qa")))
+    def test_evaluate_vibe_respects_track(self):
+        self.assertTrue(track_enabled("AI / Vibe Dev", None))
+        self.assertTrue(track_enabled("AI / Vibe Dev", resolve_tracks(None),
+                                      title="Prompt Engineer (LLM)"))
+        self.assertFalse(track_enabled("AI / Vibe Dev", resolve_tracks("!prompt_eng"),
+                                       title="Prompt Engineer (LLM)"))
+        self.assertFalse(evaluate_vibe(
+            "Prompt Engineer", "", [], role="AI / Vibe Dev",
+            tracks=resolve_tracks("!prompt_eng")))
 
 
 class TestViralDashboard(unittest.TestCase):
@@ -135,8 +155,8 @@ class TestViralDashboard(unittest.TestCase):
         for jobs in fetched.values():
             for job in jobs:
                 role = classify_role(job.title)
-                no_code = is_no_code_friendly(job.title, job.category, job.tags)
-                store.upsert(job, role, no_code)
+                vibe = is_vibe_friendly(job.title, job.category, job.tags)
+                store.upsert(job, role, vibe)
         rows = store.all_jobs()
         summary = summarize(rows)
         store.close()
@@ -146,50 +166,51 @@ class TestViralDashboard(unittest.TestCase):
         summary, rows = self._build()
         page = render_html(summary, rows, [])
         for probe in [
+            "Vibe Coder Salary Radar",
             "What are you worth?",
             "Check my price",
             "WORTH_DATA",
             "MY WORTH",
             "loot-elf",
             "5-week quest",
-            "other path",
+            "super-universal",
             "shareTG",
             "copyWorth",
+            "vibe-total",
+            "recalcVibe",
         ]:
             self.assertIn(probe, page, f"missing hook: {probe}")
         self.assertIn(str(summary["total"]), page)
-        # priority-track section with manual toggles must render
         if summary.get("track_counts"):
-            self.assertIn("Priority tracks", page)
+            self.assertIn("Vibe sub-tracks", page)
             self.assertIn("toggleTrack", page)
-            self.assertIn("recalcNoCode", page)
+            self.assertIn("recalcVibe", page)
 
     def test_dashboard_passes_real_role_medians_to_calc(self):
         summary, rows = self._build()
         page = render_html(summary, rows, [])
-        # the client-side widget is fed by the real scraped medians via JSON
-        self.assertIn("QA / Testing", page)
+        self.assertIn("AI / Vibe Dev", page)
         self.assertIn("fallback_min", page)
 
 
 class TestBotDigest(unittest.TestCase):
-    def test_digest_prefers_no_code_with_salary(self):
-        summary = {"total": 3, "no_code_total": 1}
+    def test_digest_prefers_vibe_with_salary(self):
+        summary = {"total": 3, "vibe_total": 1}
         rows = [
-            {"title": "Manual QA Engineer", "company": "Testify", "role": "QA / Testing",
-             "no_code": 1, "salary_min": 40000, "salary_max": 60000, "url": "https://x"},
+            {"title": "Prompt Engineer", "company": "Cortexio", "role": "AI / Vibe Dev",
+             "vibe": 1, "salary_min": 40000, "salary_max": 60000, "url": "https://x"},
             {"title": "Backend Engineer", "company": "R", "role": "Engineering",
-             "no_code": 0, "salary_min": None, "salary_max": None, "url": "https://y"},
+             "vibe": 0, "salary_min": None, "salary_max": None, "url": "https://y"},
         ]
         text = bot.build_digest_text(summary, rows)
-        self.assertIn("Loot-Elf", text)
-        self.assertIn("Manual QA Engineer", text)
+        self.assertIn("Vibe Radar", text)
+        self.assertIn("Prompt Engineer", text)
         self.assertIn("$40,000–$60,000", text)
         self.assertNotIn("Backend Engineer", text)
 
     def test_digest_handles_empty(self):
-        text = bot.build_digest_text({"total": 0, "no_code_total": 0}, [])
-        self.assertIn("Loot-Elf", text)
+        text = bot.build_digest_text({"total": 0, "vibe_total": 0}, [])
+        self.assertIn("Vibe Radar", text)
 
 
 if __name__ == "__main__":
