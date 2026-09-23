@@ -1,0 +1,64 @@
+name: burst
+
+# Squeeze MANY owner-email tick commits in a single dispatched run, so the
+# contribution square turns dark green fast. Run it a few times after a big
+# feature: each run writes N unique tick files and commits them sequentially.
+on:
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "Tick commits to write in this run"
+        required: false
+        default: "20"
+        type: choice
+        options:
+          - "10"
+          - "20"
+          - "30"
+          - "50"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: salary-radar-burst
+  cancel-in-progress: false
+
+jobs:
+  burst:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Write + commit N ticks (owner email)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COUNT: ${{ github.event.inputs.count }}
+        run: |
+          git config user.name "sanot-tech"
+          git config user.email "224272286+sanot-tech@users.noreply.github.com"
+          N=$([ -n "$COUNT" ] && echo "$COUNT" || echo 20)
+          for i in $(seq 1 "$N"); do
+            mkdir -p activity
+            ts=$(date -u +%Y%m%dT%H%M%SZ)-$i
+            printf 'burst tick %s run=%s\n' "$ts" "$GITHUB_RUN_ID" > "activity/tick-${GITHUB_RUN_ID}-${i}.txt"
+            git add activity
+            for t in 1 2 3; do
+              if git commit -q -m "burst: contribution tick ${GITHUB_RUN_ID}/${i}"; then
+                break
+              fi
+              sleep 2
+            done
+          done
+
+      - name: Push (rebase + retry)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for t in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push; then
+              break
+            fi
+            sleep 10
+          done
