@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": "h1001",
+      "title": "Vibe Coder / AI App Builder",
+      "company": "Nebula Labs",
+      "url": "https://example.com/job/him-1001",
+      "location": "Remote - Americas",
+      "tags": ["ai agents", "n8n", "bubble"],
+      "salary_min": 60000,
+      "salary_max": 90000,
+      "description": "Build AI apps with copilots, automate workflows.",
+      "datePosted": "2026-09-20T12:00:00Z"
+    },
+    {
+      "id": "h1002",
+      "title": "Prompt Engineer (LLM Interfaces)",
+      "company": "Cortexio",
+      "url": "https://example.com/job/him-1002",
+      "location": "Remote - Global",
+      "tags": ["llm", "prompt", "rag"],
+      "salary_min": 70000,
+      "salary_max": 99000,
+      "description": "Design natural language interfaces for LLMs.",
+      "datePosted": "2026-09-19T11:00:00Z"
+    },
+    {
+      "id": "h1003",
+      "title": "Support Engineer",
+      "company": "Brightdesk",
+      "url": "https://example.com/job/him-1003",
+      "location": "Europe",
+      "tags": ["support", "customer success"],
+      "salary_min": 40000,
+      "salary_max": 55000,
+      "description": "Key support roles for enterprise users.",
+      "datePosted": "2026-09-18T10:00:00Z"
+    }
+  ]
+}

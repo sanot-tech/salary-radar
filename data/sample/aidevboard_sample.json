@@ -1,0 +1,46 @@
+{
+  "jobs": [
+    {
+      "id": "a2001",
+      "title": "AI Agent Developer (Automation)",
+      "company_name": "Voltron AI",
+      "slug": "ai-agent-developer",
+      "url": "https://aidevboard.com/jobs/ai-agent-developer",
+      "workplace": "remote",
+      "location": "Remote - Global",
+      "tags": ["ai agents", "mcp", "automation"],
+      "salary_min": 80000,
+      "salary_max": 120000,
+      "description": "Orchestrate AI agents and MCP workflows.",
+      "published": "2026-09-21T08:00:00Z"
+    },
+    {
+      "id": "a2002",
+      "title": "Generative AI Creative Designer",
+      "company_name": "PixelForge",
+      "slug": "generative-ai-creative-designer",
+      "url": "https://aidevboard.com/jobs/generative-ai-creative-designer",
+      "workplace": "remote",
+      "location": "Remote - Americas",
+      "tags": ["midjourney", "generative design", "creative"],
+      "salary_min": 65000,
+      "salary_max": 85000,
+      "description": "Create branded generative assets with AI.",
+      "published": "2026-09-20T09:00:00Z"
+    },
+    {
+      "id": "a2003",
+      "title": "LLM Backend Engineer",
+      "company_name": "Steelbyte",
+      "slug": "llm-backend-engineer",
+      "url": "https://aidevboard.com/jobs/llm-backend-engineer",
+      "workplace": "remote",
+      "location": "Remote - EU",
+      "tags": ["go", "llm", "backend"],
+      "salary_min": 100000,
+      "salary_max": 140000,
+      "description": "Backend engineering for LLM serving.",
+      "published": "2026-09-19T07:00:00Z"
+    }
+  ]
+}

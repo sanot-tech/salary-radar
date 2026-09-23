@@ -1,0 +1,35 @@
+[
+  {
+    "id": "w4001",
+    "title": "n8n Workflow Automation Builder",
+    "company": "Flowmatic",
+    "url": "https://example.com/job/wn-4001",
+    "location": "Remote",
+    "tags": ["n8n", "automation", "workflow"],
+    "salary": "$50,000 - $70,000",
+    "description": "Automate internal ops with n8n workflows.",
+    "created_at": "2026-09-21T09:00:00Z"
+  },
+  {
+    "id": "w4002",
+    "title": "AI Product Manager (Vibe Track)",
+    "company": "Launchpad",
+    "url": "https://example.com/job/wn-4002",
+    "location": "Remote - Global",
+    "tags": ["ai product", "vibe coder"],
+    "salary": "$75,000 - $95,000",
+    "description": "Launch AI products end-to-end, build in public.",
+    "created_at": "2026-09-20T08:00:00Z"
+  },
+  {
+    "id": "w4003",
+    "title": "QA Automation Engineer",
+    "company": "Testly",
+    "url": "https://example.com/job/wn-4003",
+    "location": "Remote - EU",
+    "tags": ["qa", "automation test"],
+    "salary": "$45,000 - $60,000",
+    "description": "Write and maintain automated test suites.",
+    "created_at": "2026-09-19T07:00:00Z"
+  }
+]

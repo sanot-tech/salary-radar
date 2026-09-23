@@ -1,0 +1,37 @@
+{
+  "jobs": [
+    {
+      "id": "n3001",
+      "title": "Bubble Developer (No-Code Builder)",
+      "company": "WidgetWorks",
+      "url": "https://example.com/job/nc-3001",
+      "location": "Remote - Global",
+      "platforms": ["bubble", "airtable"],
+      "salary": "$45,000 - $60,000",
+      "description": "Build product MVPs in Bubble, automate with Airtable.",
+      "date": "2026-09-20T10:00:00Z"
+    },
+    {
+      "id": "n3002",
+      "title": "Webflow CMS Specialist",
+      "company": "SiteForge",
+      "url": "https://example.com/job/nc-3002",
+      "location": "Remote - Global",
+      "platforms": ["webflow", "zapier"],
+      "salary": "$40,000 - $52,000",
+      "description": "Ship marketing sites in Webflow with Zapier automations.",
+      "date": "2026-09-19T09:00:00Z"
+    },
+    {
+      "id": "n3003",
+      "title": "Customer Success Manager",
+      "company": "Loopbase",
+      "url": "https://example.com/job/nc-3003",
+      "location": "Remote - EU",
+      "platforms": ["support"],
+      "salary": "$38,000 - $48,000",
+      "description": "Onboarding and key support for SaaS clients.",
+      "date": "2026-09-18T08:00:00Z"
+    }
+  ]
+}
