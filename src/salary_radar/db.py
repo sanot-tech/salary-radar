@@ -25,13 +25,13 @@ CREATE TABLE IF NOT EXISTS jobs (
     description  TEXT,
     published    TEXT,
     role         TEXT,
-    no_code      INTEGER DEFAULT 0,
+    vibe         INTEGER DEFAULT 0,
     first_seen   TEXT,
     last_seen    TEXT
 );
-CREATE INDEX IF NOT EXISTS idx_jobs_role   ON jobs (role);
+CREATE INDEX IF NOT EXISTS idx_jobs_role  ON jobs (role);
 CREATE INDEX IF NOT EXISTS idx_jobs_source ON jobs (source);
-CREATE INDEX IF NOT EXISTS idx_jobs_nocode ON jobs (no_code);
+CREATE INDEX IF NOT EXISTS idx_jobs_vibe  ON jobs (vibe);
 """
 
 
@@ -42,9 +42,19 @@ class RadarDB:
         self.conn = sqlite3.connect(self.path)
         self.conn.row_factory = sqlite3.Row
         self.conn.executescript(SCHEMA)
+        # Migration: the old schema used a 'no_code' column; rename in place
+        # so any pre-existing db works without a rebuild.
+        self._migrate()
         self.conn.commit()
 
-    def _insert_args(self, job: JobRecord, role: str, no_code: bool, seen: str) -> tuple:
+    def _migrate(self) -> None:
+        cols = {r[1] for r in self.conn.execute("PRAGMA table_info(jobs)").fetchall()}
+        if "vibe" not in cols and "no_code" in cols:
+            self.conn.execute("ALTER TABLE jobs RENAME COLUMN no_code TO vibe")
+        elif "vibe" not in cols:
+            self.conn.execute("ALTER TABLE jobs ADD COLUMN vibe INTEGER DEFAULT 0")
+
+    def _insert_args(self, job: JobRecord, role: str, vibe: bool, seen: str) -> tuple:
         return (
             job.uid(),
             job.source,
@@ -61,29 +71,29 @@ class RadarDB:
             job.description,
             job.published,
             role,
-            1 if no_code else 0,
+            1 if vibe else 0,
             seen,
             seen,
         )
 
-    def upsert(self, job: JobRecord, role: str, no_code: bool) -> bool:
+    def upsert(self, job: JobRecord, role: str, vibe: bool) -> bool:
         """Insert a new listing or refresh last_seen for a known one.
 
         Returns True when the record was new (helpful for metrics).
         """
         seen = datetime.now(timezone.utc).isoformat(timespec="seconds")
-        args = self._insert_args(job, role, no_code, seen)
+        args = self._insert_args(job, role, vibe, seen)
         cur = self.conn.execute(
             """
             INSERT INTO jobs (uid, source, external_id, title, company, url, location,
                               category, tags, salary_min, salary_max, currency,
-                              description, published, role, no_code, first_seen, last_seen)
+                              description, published, role, vibe, first_seen, last_seen)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ON CONFLICT(uid) DO UPDATE SET
                 title=excluded.title, company=excluded.company, url=excluded.url,
                 salary_min=excluded.salary_min, salary_max=excluded.salary_max,
                 tags=excluded.tags, description=excluded.description,
-                role=excluded.role, no_code=excluded.no_code, last_seen=excluded.last_seen
+                role=excluded.role, vibe=excluded.vibe, last_seen=excluded.last_seen
             """,
             args,
         )
