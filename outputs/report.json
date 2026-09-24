@@ -24,33 +24,33 @@
       "top_company": "NoCodeJobs",
       "top_tags": [
         "exec",
-        "virtual assistant",
         "customer support",
-        "marketing",
         "ops",
+        "marketing",
         "digital nomad",
-        "dev",
-        "finance"
+        "virtual assistant",
+        "finance",
+        "dev"
       ]
     },
     {
       "role": "Engineering",
       "count": 116,
-      "companies": 61,
+      "companies": 58,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 180000,
-      "salary_max_median": 235000,
+      "salary_min_median": 170000,
+      "salary_max_median": 237700,
       "top_company": "Canonical",
       "top_tags": [
         "Full-Time",
         "engineer",
         "a",
-        "e",
         "golang",
-        "dev",
         "digital nomad",
-        "c"
+        "e",
+        "dev",
+        "exec"
       ]
     },
     {
@@ -69,13 +69,13 @@
         "i",
         "r",
         "a",
-        "l",
-        "h"
+        "testing",
+        "quality assurance"
       ]
     },
     {
       "role": "Data",
-      "count": 13,
+      "count": 14,
       "companies": 12,
       "vibe_count": 0,
       "vibe_share": 0.0,
@@ -85,12 +85,12 @@
       "top_tags": [
         "Full-Time",
         "a",
+        "golang",
         "d",
         "t",
-        "golang",
-        "sql",
-        "etl",
-        "dbt"
+        ".Net",
+        "android",
+        "C"
       ]
     },
     {
@@ -101,86 +101,86 @@
       "vibe_share": 0.25,
       "salary_min_median": 69750,
       "salary_max_median": 87500,
-      "top_company": "Precision Medicine Group",
+      "top_company": "SEAhub Asia",
       "top_tags": [
         "Full-Time",
         "a",
-        "n",
-        "l",
-        "y",
-        "s",
-        "t",
-        "saas"
+        "saas",
+        "customer support",
+        "marketing",
+        "exec",
+        "ops",
+        "sales"
       ]
     },
     {
       "role": "Support",
-      "count": 14,
-      "companies": 14,
+      "count": 15,
+      "companies": 15,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 50000,
-      "salary_max_median": 105000,
-      "top_company": "Payoneer",
+      "salary_min_median": 72500,
+      "salary_max_median": 108500,
+      "top_company": "Warehance",
       "top_tags": [
         "Full-Time",
         "customer support",
         "exec",
-        "travel",
         "education",
+        "travel",
         "medical",
-        "saas",
-        "technical"
+        "design",
+        "recruiter"
       ]
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 5,
-      "companies": 5,
+      "count": 4,
+      "companies": 4,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 250000,
       "salary_max_median": 317000,
-      "top_company": "Ada",
+      "top_company": "Lemon.io",
       "top_tags": [
-        "Full-Time",
         "infrastructure",
-        "speech",
-        "cloud",
-        "distributed-systems",
-        "d",
-        "e",
-        "v"
+        ".Net",
+        "android",
+        "AWS",
+        "azure",
+        "C",
+        "C#",
+        "C++"
       ]
     },
     {
       "role": "Cybersecurity",
-      "count": 26,
-      "companies": 17,
+      "count": 29,
+      "companies": 18,
       "vibe_count": 1,
-      "vibe_share": 0.04,
-      "salary_min_median": 75000,
-      "salary_max_median": 98500,
+      "vibe_share": 0.03,
+      "salary_min_median": 80000,
+      "salary_max_median": 113000,
       "top_company": "Canonical",
       "top_tags": [
         "Full-Time",
         "Contract",
-        "marketing",
-        "technical",
-        "content writing",
         "customer support",
         "exec",
-        "senior"
+        "senior",
+        "ops",
+        "marketing",
+        "content writing"
       ]
     },
     {
       "role": "Design (UI/UX)",
-      "count": 27,
+      "count": 28,
       "companies": 15,
       "vibe_count": 1,
       "vibe_share": 0.04,
-      "salary_min_median": 50000,
-      "salary_max_median": 242000,
+      "salary_min_median": 30000,
+      "salary_max_median": 485000,
       "top_company": "Canonical",
       "top_tags": [
         "Full-Time",
@@ -195,32 +195,32 @@
     },
     {
       "role": "Product / PM",
-      "count": 6,
-      "companies": 6,
+      "count": 10,
+      "companies": 10,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 200850,
-      "salary_max_median": 266850,
-      "top_company": "Magic Eden",
+      "salary_min_median": 200000,
+      "salary_max_median": 232000,
+      "top_company": "Limbic",
       "top_tags": [
         "Full-Time",
         "product manager",
-        "marketing",
         "exec",
         "design",
         "engineer",
         "digital nomad",
-        "crypto"
+        "infosec",
+        "finance"
       ]
     },
     {
       "role": "Sales / SDR",
-      "count": 24,
-      "companies": 19,
+      "count": 26,
+      "companies": 21,
       "vibe_count": 1,
       "vibe_share": 0.04,
-      "salary_min_median": 126000,
-      "salary_max_median": 157000,
+      "salary_min_median": 147500,
+      "salary_max_median": 193500,
       "top_company": "Canonical",
       "top_tags": [
         "Full-Time",
@@ -228,20 +228,20 @@
         "c",
         "exec",
         "marketing",
-        "n",
         "sales",
-        "e"
+        "n",
+        "customer support"
       ]
     },
     {
       "role": "Marketing",
-      "count": 14,
-      "companies": 11,
+      "count": 12,
+      "companies": 10,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 119200,
-      "salary_max_median": 140000,
-      "top_company": "PadSplit",
+      "salary_max_median": 150000,
+      "top_company": "TELUS Digital",
       "top_tags": [
         "Full-Time",
         "e",
@@ -275,21 +275,21 @@
     },
     {
       "role": "Unknown",
-      "count": 137,
-      "companies": 97,
+      "count": 128,
+      "companies": 96,
       "vibe_count": 2,
-      "vibe_share": 0.01,
-      "salary_min_median": 138000,
-      "salary_max_median": 180000,
+      "vibe_share": 0.02,
+      "salary_min_median": 144000,
+      "salary_max_median": 183830,
       "top_company": "Canonical",
       "top_tags": [
         "Full-Time",
         "exec",
         "customer support",
-        "education",
-        "ops",
         "digital nomad",
+        "ops",
         "marketing",
+        "education",
         "dev"
       ]
     }
