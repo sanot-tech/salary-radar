@@ -189,7 +189,7 @@ VIBE_KEYWORDS_GENERIC: list[str] = [
     "chatgpt",
     "cursor",
     "chatbot",
-    "assistant",
+    "ai assistant",
     "automation",
 ]
 

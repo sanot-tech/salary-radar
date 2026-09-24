@@ -164,16 +164,17 @@ def is_vibe_friendly(title: str, category: str, tags: list[str] | None) -> bool:
         as_str(category),
         " ".join(as_str(x) for x in (tags or []) if x is not None),
     ]).lower()
+    title_text = " " + str(title or "").lower() + " "
 
     for kw in config.VIBE_KEYWORDS_STRONG:
         if kw in haystack:
             return True
-    if not _has_code_word(haystack):
+    if not _has_code_word(title_text):
         for kw in config.VIBE_KEYWORDS_GENERIC:
-            if kw in haystack:
+            if kw in title_text:
                 return True
 
-    return any(kw in haystack for kw in config.VIBE_KEYWORDS)
+    return any(kw in title_text for kw in config.VIBE_KEYWORDS)
 
 
 def _median(values: list[int]) -> int | None:
