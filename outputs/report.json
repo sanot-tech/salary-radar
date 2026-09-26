@@ -1,11 +1,11 @@
 {
-  "total": 412,
+  "total": 411,
   "vibe_total": 8,
   "vibe_share": 0.02,
   "by_source": {
     "jobicy": 200,
     "remoteok": 99,
-    "workingnomads": 53,
+    "workingnomads": 52,
     "aidevboard": 20,
     "remotive": 19,
     "nocodejobs": 14,
@@ -46,11 +46,11 @@
         "Full-Time",
         "engineer",
         "a",
-        "e",
         "golang",
         "digital nomad",
         "dev",
-        "t"
+        "t",
+        "e"
       ]
     },
     {
@@ -68,29 +68,29 @@
         "n",
         "g",
         "r",
-        "Contract",
-        "l",
-        "i"
+        "golang",
+        "testing",
+        "Contract"
       ]
     },
     {
       "role": "Data",
-      "count": 15,
+      "count": 14,
       "companies": 12,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 170000,
       "salary_max_median": 210000,
-      "top_company": "Tripadvisor",
+      "top_company": "Lemon.io",
       "top_tags": [
         "Full-Time",
         "a",
+        "golang",
         "d",
         "t",
-        "golang",
-        "Contract",
-        "sql",
-        "etl"
+        ".Net",
+        "android",
+        "C"
       ]
     },
     {
@@ -115,72 +115,72 @@
     },
     {
       "role": "Support",
-      "count": 16,
-      "companies": 16,
+      "count": 21,
+      "companies": 19,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 50000,
-      "salary_max_median": 70000,
-      "top_company": "Planet Labs Inc.",
+      "salary_min_median": 72500,
+      "salary_max_median": 91000,
+      "top_company": "Supabase",
       "top_tags": [
         "Full-Time",
         "customer support",
         "exec",
-        "travel",
         "education",
+        "travel",
         "medical",
-        "saas",
-        "technical"
+        "design",
+        "marketing"
       ]
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 5,
-      "companies": 5,
+      "count": 4,
+      "companies": 4,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 220000,
-      "salary_max_median": 314000,
-      "top_company": "Serve Robotics",
+      "salary_min_median": 235000,
+      "salary_max_median": 260000,
+      "top_company": "Lemon.io",
       "top_tags": [
-        "Full-Time",
         "infrastructure",
-        "speech",
-        "cloud",
-        "distributed-systems",
-        "d",
-        "e",
-        "v"
+        ".Net",
+        "android",
+        "AWS",
+        "azure",
+        "C",
+        "C#",
+        "C++"
       ]
     },
     {
       "role": "Cybersecurity",
-      "count": 20,
-      "companies": 18,
+      "count": 21,
+      "companies": 20,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 80000,
-      "salary_max_median": 110000,
+      "salary_min_median": 90000,
+      "salary_max_median": 150000,
       "top_company": "Docplanner",
       "top_tags": [
         "Full-Time",
-        "Part-Time",
         "c",
         "marketing",
         "technical",
         "content writing",
         "customer support",
-        "exec"
+        "exec",
+        "senior"
       ]
     },
     {
       "role": "Design (UI/UX)",
-      "count": 24,
-      "companies": 18,
+      "count": 25,
+      "companies": 19,
       "vibe_count": 1,
       "vibe_share": 0.04,
-      "salary_min_median": 70000,
-      "salary_max_median": 170000,
+      "salary_min_median": 73450,
+      "salary_max_median": 195000,
       "top_company": "NoCodeJobs",
       "top_tags": [
         "Full-Time",
@@ -215,13 +215,13 @@
     },
     {
       "role": "Sales / SDR",
-      "count": 27,
+      "count": 29,
       "companies": 24,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 75000,
-      "salary_max_median": 100000,
-      "top_company": "SOCi",
+      "salary_min_median": 70000,
+      "salary_max_median": 87500,
+      "top_company": "Semperis",
       "top_tags": [
         "Full-Time",
         "o",
@@ -235,12 +235,12 @@
     },
     {
       "role": "Marketing",
-      "count": 13,
-      "companies": 11,
+      "count": 12,
+      "companies": 10,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 129600,
-      "salary_max_median": 160000,
+      "salary_min_median": 140000,
+      "salary_max_median": 170000,
       "top_company": "TELUS Digital",
       "top_tags": [
         "Full-Time",
@@ -275,20 +275,20 @@
     },
     {
       "role": "Unknown",
-      "count": 145,
-      "companies": 100,
+      "count": 138,
+      "companies": 99,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 124000,
+      "salary_min_median": 123000,
       "salary_max_median": 170000,
-      "top_company": "Remote",
+      "top_company": "iMerit Technology",
       "top_tags": [
         "Full-Time",
         "exec",
         "customer support",
-        "digital nomad",
         "education",
         "marketing",
+        "digital nomad",
         "ops",
         "dev"
       ]
