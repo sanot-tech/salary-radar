@@ -1,11 +1,11 @@
 {
-  "total": 406,
+  "total": 408,
   "vibe_total": 11,
   "vibe_share": 0.03,
   "by_source": {
     "jobicy": 200,
     "remoteok": 99,
-    "workingnomads": 50,
+    "workingnomads": 52,
     "aidevboard": 20,
     "remotive": 16,
     "nocodejobs": 14,
@@ -24,23 +24,23 @@
       "top_company": "NoCodeJobs",
       "top_tags": [
         "Contract",
-        "design",
-        "customer support",
-        "testing",
-        "exec",
-        "ops",
-        "marketing",
-        "sales"
+        "Full-Time",
+        "ai agents",
+        "n8n",
+        "bubble",
+        "llm",
+        "prompt",
+        "rag"
       ]
     },
     {
       "role": "Engineering",
-      "count": 100,
-      "companies": 63,
+      "count": 103,
+      "companies": 64,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 154000,
-      "salary_max_median": 207000,
+      "salary_min_median": 152500,
+      "salary_max_median": 194750,
       "top_company": "Proxify",
       "top_tags": [
         "Full-Time",
@@ -67,30 +67,30 @@
         "n",
         "g",
         "r",
-        "quality assurance",
         "Contract",
         "l",
-        "i"
+        "i",
+        "h"
       ]
     },
     {
       "role": "Data",
-      "count": 10,
-      "companies": 9,
+      "count": 13,
+      "companies": 11,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 155000,
-      "salary_max_median": 185000,
-      "top_company": "Lemon.io",
+      "salary_min_median": 175000,
+      "salary_max_median": 200000,
+      "top_company": "Tiger Analytics",
       "top_tags": [
         "Full-Time",
         "a",
-        "golang",
         "d",
         "t",
-        "infosec",
-        "dev",
-        "stats"
+        "golang",
+        "sql",
+        "etl",
+        "dbt"
       ]
     },
     {
@@ -101,7 +101,7 @@
       "vibe_share": 0.0,
       "salary_min_median": null,
       "salary_max_median": null,
-      "top_company": "SEAhub Asia",
+      "top_company": "Peroptyx",
       "top_tags": [
         "saas",
         "customer support",
@@ -115,12 +115,12 @@
     },
     {
       "role": "Support",
-      "count": 19,
-      "companies": 16,
+      "count": 21,
+      "companies": 18,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 68125,
-      "salary_max_median": 87500,
+      "salary_min_median": 55000,
+      "salary_max_median": 70000,
       "top_company": "Canonical",
       "top_tags": [
         "Full-Time",
@@ -135,12 +135,12 @@
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 6,
-      "companies": 6,
+      "count": 4,
+      "companies": 4,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 169500,
-      "salary_max_median": 222000,
+      "salary_min_median": 194500,
+      "salary_max_median": 221000,
       "top_company": "Maze",
       "top_tags": [
         "Full-Time",
@@ -155,32 +155,32 @@
     },
     {
       "role": "Cybersecurity",
-      "count": 19,
-      "companies": 19,
+      "count": 17,
+      "companies": 17,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 120000,
-      "salary_max_median": 165000,
-      "top_company": "NOPE",
+      "salary_min_median": 110000,
+      "salary_max_median": 155000,
+      "top_company": "Maze",
       "top_tags": [
         "Full-Time",
+        "c",
         "marketing",
         "technical",
         "content writing",
         "customer support",
         "exec",
-        "senior",
-        "ops"
+        "senior"
       ]
     },
     {
       "role": "Design (UI/UX)",
-      "count": 22,
-      "companies": 18,
+      "count": 18,
+      "companies": 14,
       "vibe_count": 1,
-      "vibe_share": 0.05,
-      "salary_min_median": 99000,
-      "salary_max_median": 80000,
+      "vibe_share": 0.06,
+      "salary_min_median": 86500,
+      "salary_max_median": 102500,
       "top_company": "NoCodeJobs",
       "top_tags": [
         "Full-Time",
@@ -195,13 +195,13 @@
     },
     {
       "role": "Product / PM",
-      "count": 7,
-      "companies": 7,
+      "count": 6,
+      "companies": 6,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 95442,
-      "salary_max_median": 133603,
-      "top_company": "Bjak ",
+      "salary_min_median": 65641,
+      "salary_max_median": 99278,
+      "top_company": "Cobalt",
       "top_tags": [
         "product manager",
         "exec",
@@ -215,22 +215,22 @@
     },
     {
       "role": "Sales / SDR",
-      "count": 38,
-      "companies": 33,
+      "count": 41,
+      "companies": 35,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 140000,
-      "salary_max_median": 178750,
-      "top_company": "Cloudbeds",
+      "salary_min_median": 130000,
+      "salary_max_median": 150000,
+      "top_company": "Ajax Systems",
       "top_tags": [
         "Full-Time",
         "o",
         "c",
         "exec",
         "marketing",
-        "sales",
         "n",
-        "finance"
+        "sales",
+        "e"
       ]
     },
     {
@@ -239,18 +239,18 @@
       "companies": 12,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 115000,
-      "salary_max_median": 173750,
+      "salary_min_median": 150000,
+      "salary_max_median": 195000,
       "top_company": "TELUS Digital",
       "top_tags": [
         "Full-Time",
+        "e",
         "customer support",
         "marketing",
         "exec",
-        "e",
-        "dev",
-        "content writing",
-        "ops"
+        "s",
+        "o",
+        "b"
       ]
     },
     {
@@ -261,27 +261,27 @@
       "vibe_share": 0.0,
       "salary_min_median": 70000,
       "salary_max_median": 80000,
-      "top_company": "Law Offices of Sabrina Li",
+      "top_company": "saas.group",
       "top_tags": [
         "hr",
+        "Full-Time",
         "education",
         "customer support",
         "marketing",
         "finance",
         "c",
-        "exec",
-        "content writing"
+        "exec"
       ]
     },
     {
       "role": "Unknown",
       "count": 144,
-      "companies": 109,
+      "companies": 107,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 88500,
-      "salary_max_median": 128250,
-      "top_company": "Autodesk",
+      "salary_min_median": 124000,
+      "salary_max_median": 150000,
+      "top_company": "Think Academy US",
       "top_tags": [
         "Full-Time",
         "exec",
