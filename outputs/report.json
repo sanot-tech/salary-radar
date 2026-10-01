@@ -1,11 +1,11 @@
 {
-  "total": 407,
-  "vibe_total": 9,
-  "vibe_share": 0.02,
+  "total": 408,
+  "vibe_total": 12,
+  "vibe_share": 0.03,
   "by_source": {
     "jobicy": 200,
     "remoteok": 99,
-    "workingnomads": 51,
+    "workingnomads": 52,
     "aidevboard": 20,
     "remotive": 16,
     "nocodejobs": 14,
@@ -15,32 +15,32 @@
   "roles": [
     {
       "role": "AI / Vibe Dev",
-      "count": 8,
-      "companies": 5,
-      "vibe_count": 8,
+      "count": 11,
+      "companies": 7,
+      "vibe_count": 11,
       "vibe_share": 1.0,
-      "salary_min_median": 70000,
-      "salary_max_median": 99000,
+      "salary_min_median": 159500,
+      "salary_max_median": 226500,
       "top_company": "NoCodeJobs",
       "top_tags": [
+        "Full-Time",
         "ai agents",
         "n8n",
         "bubble",
         "llm",
         "prompt",
         "rag",
-        "design",
-        "customer support"
+        "design"
       ]
     },
     {
       "role": "Engineering",
-      "count": 107,
-      "companies": 70,
+      "count": 94,
+      "companies": 61,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 149000,
-      "salary_max_median": 209000,
+      "salary_min_median": 150000,
+      "salary_max_median": 208000,
       "top_company": "Proxify",
       "top_tags": [
         "Full-Time",
@@ -55,32 +55,32 @@
     },
     {
       "role": "QA / Testing",
-      "count": 9,
-      "companies": 7,
+      "count": 15,
+      "companies": 9,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 30000,
-      "salary_max_median": 40000,
+      "salary_min_median": 6,
+      "salary_max_median": 6,
       "top_company": "TELUS Digital",
       "top_tags": [
         "e",
         "n",
-        "g",
-        "r",
-        "l",
+        "s",
+        "a",
         "i",
         "h",
-        "a"
+        "g",
+        "r"
       ]
     },
     {
       "role": "Data",
-      "count": 16,
-      "companies": 15,
+      "count": 11,
+      "companies": 10,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 170000,
-      "salary_max_median": 208250,
+      "salary_min_median": 148000,
+      "salary_max_median": 216500,
       "top_company": "Lemon.io",
       "top_tags": [
         "Full-Time",
@@ -88,9 +88,9 @@
         "d",
         "t",
         "golang",
-        "sql",
-        "etl",
-        "dbt"
+        "mlops",
+        "agents",
+        "cloud"
       ]
     },
     {
@@ -99,8 +99,8 @@
       "companies": 4,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": null,
-      "salary_max_median": null,
+      "salary_min_median": 45000,
+      "salary_max_median": 55000,
       "top_company": "Peroptyx",
       "top_tags": [
         "saas",
@@ -119,9 +119,9 @@
       "companies": 17,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 70000,
-      "salary_max_median": 89000,
-      "top_company": "Cloudbeds",
+      "salary_min_median": 73000,
+      "salary_max_median": 106000,
+      "top_company": "Cohere Health",
       "top_tags": [
         "Full-Time",
         "customer support",
@@ -135,12 +135,12 @@
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 7,
-      "companies": 7,
+      "count": 6,
+      "companies": 6,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 225000,
-      "salary_max_median": 284500,
+      "salary_min_median": 230000,
+      "salary_max_median": 314000,
       "top_company": "Vapi",
       "top_tags": [
         "Full-Time",
@@ -155,22 +155,22 @@
     },
     {
       "role": "Cybersecurity",
-      "count": 13,
-      "companies": 12,
+      "count": 15,
+      "companies": 15,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 90000,
-      "salary_max_median": 130000,
-      "top_company": "Precision Medicine Group",
+      "salary_min_median": 160000,
+      "salary_max_median": 180000,
+      "top_company": "EliseAI",
       "top_tags": [
         "Full-Time",
         "c",
-        "marketing",
-        "technical",
-        "content writing",
         "customer support",
         "exec",
-        "senior"
+        "senior",
+        "ops",
+        "llm",
+        "rag"
       ]
     },
     {
@@ -179,8 +179,8 @@
       "companies": 14,
       "vibe_count": 1,
       "vibe_share": 0.06,
-      "salary_min_median": 182500,
-      "salary_max_median": 245000,
+      "salary_min_median": 120650,
+      "salary_max_median": 190700,
       "top_company": "NoCodeJobs",
       "top_tags": [
         "Full-Time",
@@ -195,13 +195,13 @@
     },
     {
       "role": "Product / PM",
-      "count": 6,
-      "companies": 6,
+      "count": 9,
+      "companies": 9,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 164599,
-      "salary_max_median": 239225,
-      "top_company": "Samsara",
+      "salary_min_median": 169000,
+      "salary_max_median": 246600,
+      "top_company": "Bjak ",
       "top_tags": [
         "Full-Time",
         "product manager",
@@ -215,12 +215,12 @@
     },
     {
       "role": "Sales / SDR",
-      "count": 33,
-      "companies": 26,
+      "count": 29,
+      "companies": 25,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 107500,
-      "salary_max_median": 107500,
+      "salary_min_median": 84000,
+      "salary_max_median": 130000,
       "top_company": "Chainguard",
       "top_tags": [
         "Full-Time",
@@ -236,11 +236,11 @@
     {
       "role": "Marketing",
       "count": 18,
-      "companies": 16,
+      "companies": 15,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 150000,
-      "salary_max_median": 210000,
+      "salary_min_median": 30000,
+      "salary_max_median": 32000,
       "top_company": "TELUS Digital",
       "top_tags": [
         "Full-Time",
@@ -261,27 +261,27 @@
       "vibe_share": 0.0,
       "salary_min_median": 70000,
       "salary_max_median": 80000,
-      "top_company": "Law Offices of Sabrina Li",
+      "top_company": "Truelogic",
       "top_tags": [
         "hr",
+        "Full-Time",
         "education",
         "customer support",
         "marketing",
         "finance",
         "c",
-        "exec",
-        "content writing"
+        "exec"
       ]
     },
     {
       "role": "Unknown",
-      "count": 147,
-      "companies": 110,
+      "count": 157,
+      "companies": 112,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 118650,
-      "salary_max_median": 150000,
-      "top_company": "Anduril",
+      "salary_min_median": 110000,
+      "salary_max_median": 140000,
+      "top_company": "Remote",
       "top_tags": [
         "Full-Time",
         "exec",
@@ -296,13 +296,13 @@
   ],
   "track_counts": {
     "ai_agents": {
-      "count": 5,
-      "vibe": 5,
+      "count": 7,
+      "vibe": 7,
       "enabled": true
     },
     "prompt_eng": {
-      "count": 1,
-      "vibe": 1,
+      "count": 2,
+      "vibe": 2,
       "enabled": true
     },
     "builders": {
