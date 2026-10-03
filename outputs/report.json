@@ -1,13 +1,13 @@
 {
-  "total": 411,
-  "vibe_total": 14,
-  "vibe_share": 0.03,
+  "total": 410,
+  "vibe_total": 10,
+  "vibe_share": 0.02,
   "by_source": {
     "jobicy": 200,
     "remoteok": 99,
     "workingnomads": 54,
     "aidevboard": 20,
-    "remotive": 17,
+    "remotive": 16,
     "nocodejobs": 14,
     "arcdev": 4,
     "himalayas": 3
@@ -15,12 +15,12 @@
   "roles": [
     {
       "role": "AI / Vibe Dev",
-      "count": 13,
-      "companies": 8,
-      "vibe_count": 13,
+      "count": 9,
+      "companies": 6,
+      "vibe_count": 9,
       "vibe_share": 1.0,
-      "salary_min_median": 70000,
-      "salary_max_median": 99000,
+      "salary_min_median": 60000,
+      "salary_max_median": 90000,
       "top_company": "NoCodeJobs",
       "top_tags": [
         "Full-Time",
@@ -35,13 +35,13 @@
     },
     {
       "role": "Engineering",
-      "count": 98,
-      "companies": 63,
+      "count": 106,
+      "companies": 60,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 157000,
-      "salary_max_median": 200000,
-      "top_company": "Proxify",
+      "salary_min_median": 165000,
+      "salary_max_median": 215000,
+      "top_company": "Canonical",
       "top_tags": [
         "Full-Time",
         "engineer",
@@ -55,73 +55,73 @@
     },
     {
       "role": "QA / Testing",
-      "count": 18,
-      "companies": 12,
+      "count": 14,
+      "companies": 11,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 15003,
-      "salary_max_median": 20003,
+      "salary_min_median": 84000,
+      "salary_max_median": 115500,
       "top_company": "TELUS Digital",
       "top_tags": [
         "e",
         "Full-Time",
         "n",
-        "Contract",
-        "g",
-        "i",
         "s",
-        "h"
+        "a",
+        "i",
+        "h",
+        "g"
       ]
     },
     {
       "role": "Data",
-      "count": 10,
-      "companies": 9,
+      "count": 14,
+      "companies": 11,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 180000,
       "salary_max_median": 220000,
-      "top_company": "Lemon.io",
+      "top_company": "Dataiku",
       "top_tags": [
-        "a",
         "Full-Time",
+        "a",
         "d",
         "t",
         "golang",
-        "s",
-        "c",
-        "i"
+        "sql",
+        "etl",
+        "dbt"
       ]
     },
     {
       "role": "Business Analyst",
-      "count": 7,
-      "companies": 6,
+      "count": 6,
+      "companies": 5,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 110000,
-      "salary_max_median": 140000,
+      "salary_min_median": 175000,
+      "salary_max_median": 225000,
       "top_company": "Binance",
       "top_tags": [
+        "Internship",
         "saas",
         "customer support",
         "marketing",
         "exec",
         "ops",
         "sales",
-        "analyst",
-        "virtual assistant"
+        "analyst"
       ]
     },
     {
       "role": "Support",
-      "count": 16,
+      "count": 17,
       "companies": 16,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 69500,
-      "salary_max_median": 88200,
-      "top_company": "Brightdesk",
+      "salary_min_median": 50000,
+      "salary_max_median": 78750,
+      "top_company": "PointClickCare",
       "top_tags": [
         "Full-Time",
         "customer support",
@@ -135,33 +135,33 @@
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 6,
+      "count": 10,
       "companies": 6,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 171000,
       "salary_max_median": 214000,
-      "top_company": "Proxify",
+      "top_company": "Canonical",
       "top_tags": [
         "Full-Time",
         "Contract",
+        "speech",
+        "cloud",
+        "distributed-systems",
+        "infrastructure",
         "d",
-        "e",
-        "v",
-        "o",
-        "p",
-        "s"
+        "e"
       ]
     },
     {
       "role": "Cybersecurity",
-      "count": 15,
-      "companies": 15,
+      "count": 12,
+      "companies": 11,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 160000,
-      "salary_max_median": 180000,
-      "top_company": "Beekman Social",
+      "salary_min_median": 100000,
+      "salary_max_median": 125000,
+      "top_company": "Canonical",
       "top_tags": [
         "Full-Time",
         "c",
@@ -169,18 +169,18 @@
         "exec",
         "senior",
         "ops",
-        "a",
-        "o"
+        "security",
+        "soc"
       ]
     },
     {
       "role": "Design (UI/UX)",
-      "count": 16,
+      "count": 17,
       "companies": 12,
       "vibe_count": 1,
       "vibe_share": 0.06,
       "salary_min_median": 112500,
-      "salary_max_median": 130000,
+      "salary_max_median": 132500,
       "top_company": "NoCodeJobs",
       "top_tags": [
         "design",
@@ -188,19 +188,19 @@
         "senior",
         "engineer",
         "digital nomad",
+        "Full-Time",
         "technical",
-        "customer support",
-        "content writing"
+        "customer support"
       ]
     },
     {
       "role": "Product / PM",
-      "count": 12,
-      "companies": 11,
+      "count": 11,
+      "companies": 10,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 140000,
-      "salary_max_median": 213200,
+      "salary_min_median": 155000,
+      "salary_max_median": 189000,
       "top_company": "Nebius",
       "top_tags": [
         "Full-Time",
@@ -216,72 +216,72 @@
     {
       "role": "Sales / SDR",
       "count": 39,
-      "companies": 29,
+      "companies": 30,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 100000,
-      "salary_max_median": 147166,
+      "salary_min_median": 108600,
+      "salary_max_median": 150000,
       "top_company": "Ajax Systems",
       "top_tags": [
         "Full-Time",
         "o",
         "c",
+        "n",
+        "sales",
         "exec",
         "marketing",
-        "sales",
-        "n",
-        "customer support"
+        "e"
       ]
     },
     {
       "role": "Marketing",
-      "count": 16,
-      "companies": 12,
+      "count": 23,
+      "companies": 19,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 150000,
-      "salary_max_median": 190000,
+      "salary_min_median": 130000,
+      "salary_max_median": 160000,
       "top_company": "TELUS Digital",
       "top_tags": [
         "Full-Time",
-        "e",
-        "o",
-        "m",
         "customer support",
         "marketing",
         "exec",
-        "n"
+        "o",
+        "m",
+        "e",
+        "dev"
       ]
     },
     {
       "role": "HR",
-      "count": 2,
-      "companies": 2,
+      "count": 5,
+      "companies": 3,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 70000,
       "salary_max_median": 80000,
-      "top_company": "Law Offices of Sabrina Li",
+      "top_company": "Canonical",
       "top_tags": [
+        "Full-Time",
         "hr",
         "education",
         "customer support",
         "marketing",
         "finance",
         "c",
-        "exec",
-        "content writing"
+        "exec"
       ]
     },
     {
       "role": "Unknown",
-      "count": 143,
-      "companies": 108,
+      "count": 127,
+      "companies": 97,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 110000,
-      "salary_max_median": 140000,
-      "top_company": "TELUS Digital",
+      "salary_min_median": 112500,
+      "salary_max_median": 150000,
+      "top_company": "Nebius",
       "top_tags": [
         "Full-Time",
         "exec",
@@ -296,13 +296,13 @@
   ],
   "track_counts": {
     "ai_agents": {
-      "count": 9,
-      "vibe": 9,
+      "count": 6,
+      "vibe": 6,
       "enabled": true
     },
     "prompt_eng": {
-      "count": 2,
-      "vibe": 2,
+      "count": 1,
+      "vibe": 1,
       "enabled": true
     },
     "builders": {
