@@ -1,13 +1,13 @@
 {
   "total": 409,
-  "vibe_total": 10,
+  "vibe_total": 8,
   "vibe_share": 0.02,
   "by_source": {
     "jobicy": 200,
     "remoteok": 99,
-    "workingnomads": 52,
+    "workingnomads": 51,
     "aidevboard": 20,
-    "remotive": 17,
+    "remotive": 18,
     "nocodejobs": 14,
     "arcdev": 4,
     "himalayas": 3
@@ -15,122 +15,122 @@
   "roles": [
     {
       "role": "AI / Vibe Dev",
-      "count": 9,
-      "companies": 6,
-      "vibe_count": 9,
+      "count": 7,
+      "companies": 4,
+      "vibe_count": 7,
       "vibe_share": 1.0,
-      "salary_min_median": 90000,
-      "salary_max_median": 122000,
+      "salary_min_median": 65000,
+      "salary_max_median": 94500,
       "top_company": "NoCodeJobs",
       "top_tags": [
-        "Full-Time",
         "ai agents",
         "n8n",
         "bubble",
         "llm",
         "prompt",
         "rag",
-        "design"
+        "design",
+        "customer support"
       ]
     },
     {
       "role": "Engineering",
-      "count": 103,
-      "companies": 70,
+      "count": 98,
+      "companies": 65,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 153815,
-      "salary_max_median": 220000,
+      "salary_min_median": 146000,
+      "salary_max_median": 195500,
       "top_company": "Proxify",
       "top_tags": [
         "Full-Time",
         "engineer",
-        "golang",
         "a",
+        "golang",
         "digital nomad",
         "dev",
-        "exec",
+        "react",
         "t"
       ]
     },
     {
       "role": "QA / Testing",
-      "count": 15,
-      "companies": 11,
+      "count": 13,
+      "companies": 8,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 30000,
-      "salary_max_median": 40000,
+      "salary_min_median": 26,
+      "salary_max_median": 20017,
       "top_company": "TELUS Digital",
       "top_tags": [
         "e",
         "n",
         "Contract",
-        "Full-Time",
         "s",
         "a",
         "i",
-        "h"
+        "h",
+        "g"
       ]
     },
     {
       "role": "Data",
-      "count": 15,
+      "count": 13,
       "companies": 12,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 131902,
-      "salary_max_median": 185109,
+      "salary_min_median": 173405,
+      "salary_max_median": 211542,
       "top_company": "Lemon.io",
       "top_tags": [
         "Full-Time",
         "a",
-        "golang",
-        "Contract",
         "d",
         "t",
-        ".Net",
-        "android"
+        "golang",
+        "Contract",
+        "sql",
+        "etl"
       ]
     },
     {
       "role": "Business Analyst",
-      "count": 4,
-      "companies": 4,
+      "count": 3,
+      "companies": 3,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 89100,
-      "salary_max_median": 148200,
-      "top_company": "SEAhub Asia",
+      "salary_min_median": null,
+      "salary_max_median": null,
+      "top_company": "Peroptyx",
       "top_tags": [
+        "a",
         "saas",
         "customer support",
         "marketing",
         "exec",
         "ops",
         "sales",
-        "analyst",
-        "virtual assistant"
+        "analyst"
       ]
     },
     {
       "role": "Support",
-      "count": 19,
+      "count": 20,
       "companies": 17,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 53750,
-      "salary_max_median": 55000,
-      "top_company": "AppSamurai",
+      "salary_min_median": 104500,
+      "salary_max_median": 120000,
+      "top_company": "Cribl",
       "top_tags": [
         "Full-Time",
-        "exec",
-        "education",
         "customer support",
+        "exec",
         "travel",
+        "education",
         "medical",
-        "design",
-        "recruiter"
+        "saas",
+        "technical"
       ]
     },
     {
@@ -139,8 +139,8 @@
       "companies": 6,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 123300,
-      "salary_max_median": 159500,
+      "salary_min_median": 205000,
+      "salary_max_median": 245000,
       "top_company": "Nebius",
       "top_tags": [
         "Full-Time",
@@ -155,102 +155,102 @@
     },
     {
       "role": "Cybersecurity",
-      "count": 12,
-      "companies": 11,
+      "count": 16,
+      "companies": 13,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 111000,
+      "salary_min_median": 126050,
       "salary_max_median": 157500,
-      "top_company": "CertiK",
+      "top_company": "Precision Medicine Group",
       "top_tags": [
         "Full-Time",
-        "exec",
-        "customer support",
-        "ops",
-        "senior",
         "c",
-        "design",
-        "architecture"
+        "customer support",
+        "exec",
+        "senior",
+        "ops",
+        "security",
+        "soc"
       ]
     },
     {
       "role": "Design (UI/UX)",
-      "count": 19,
-      "companies": 14,
+      "count": 17,
+      "companies": 13,
       "vibe_count": 1,
-      "vibe_share": 0.05,
-      "salary_min_median": 112375,
-      "salary_max_median": 179000,
+      "vibe_share": 0.06,
+      "salary_min_median": 115000,
+      "salary_max_median": 205000,
       "top_company": "NoCodeJobs",
       "top_tags": [
-        "Full-Time",
         "design",
         "designer",
-        "digital nomad",
         "senior",
         "engineer",
-        "marketing",
-        "customer support"
+        "digital nomad",
+        "technical",
+        "customer support",
+        "content writing"
       ]
     },
     {
       "role": "Product / PM",
-      "count": 8,
-      "companies": 8,
+      "count": 6,
+      "companies": 6,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 130000,
-      "salary_max_median": 200000,
+      "salary_min_median": 102000,
+      "salary_max_median": 138000,
       "top_company": "Udacity",
       "top_tags": [
-        "Full-Time",
         "product manager",
         "exec",
         "design",
         "engineer",
         "digital nomad",
         "infosec",
-        "finance"
+        "finance",
+        "marketing"
       ]
     },
     {
       "role": "Sales / SDR",
-      "count": 22,
-      "companies": 20,
+      "count": 43,
+      "companies": 34,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 82500,
-      "salary_max_median": 120000,
-      "top_company": "Canonical",
+      "salary_min_median": 59000,
+      "salary_max_median": 74000,
+      "top_company": "AppSamurai",
       "top_tags": [
         "Full-Time",
         "o",
         "c",
-        "marketing",
-        "exec",
-        "sales",
+        "Contract",
         "n",
-        "technical"
+        "exec",
+        "marketing",
+        "sales"
       ]
     },
     {
       "role": "Marketing",
-      "count": 19,
-      "companies": 15,
+      "count": 17,
+      "companies": 13,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 50000,
-      "salary_max_median": 54000,
+      "salary_min_median": 92500,
+      "salary_max_median": 105000,
       "top_company": "TELUS Digital",
       "top_tags": [
         "Full-Time",
         "customer support",
         "marketing",
         "exec",
-        "dev",
-        "travel",
-        "content writing",
-        "sales"
+        "o",
+        "m",
+        "e",
+        "dev"
       ]
     },
     {
@@ -275,19 +275,19 @@
     },
     {
       "role": "Unknown",
-      "count": 154,
+      "count": 146,
       "companies": 108,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 107646,
-      "salary_max_median": 156750,
-      "top_company": "Samsara",
+      "salary_min_median": 130000,
+      "salary_max_median": 165000,
+      "top_company": "Ramp",
       "top_tags": [
         "Full-Time",
         "exec",
         "customer support",
-        "education",
         "ops",
+        "education",
         "marketing",
         "digital nomad",
         "medical"
@@ -296,8 +296,8 @@
   ],
   "track_counts": {
     "ai_agents": {
-      "count": 6,
-      "vibe": 6,
+      "count": 4,
+      "vibe": 4,
       "enabled": true
     },
     "prompt_eng": {
