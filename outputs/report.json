@@ -1,13 +1,13 @@
 {
-  "total": 409,
+  "total": 410,
   "vibe_total": 8,
   "vibe_share": 0.02,
   "by_source": {
     "jobicy": 200,
     "remoteok": 99,
-    "workingnomads": 51,
+    "workingnomads": 53,
     "aidevboard": 20,
-    "remotive": 18,
+    "remotive": 17,
     "nocodejobs": 14,
     "arcdev": 4,
     "himalayas": 3
@@ -23,24 +23,24 @@
       "salary_max_median": 94500,
       "top_company": "NoCodeJobs",
       "top_tags": [
-        "ai agents",
-        "n8n",
-        "bubble",
-        "llm",
-        "prompt",
-        "rag",
         "design",
-        "customer support"
+        "customer support",
+        "testing",
+        "exec",
+        "ops",
+        "marketing",
+        "sales",
+        "medical"
       ]
     },
     {
       "role": "Engineering",
-      "count": 98,
-      "companies": 65,
+      "count": 101,
+      "companies": 60,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 146000,
-      "salary_max_median": 195500,
+      "salary_min_median": 170000,
+      "salary_max_median": 220000,
       "top_company": "Proxify",
       "top_tags": [
         "Full-Time",
@@ -49,48 +49,48 @@
         "golang",
         "digital nomad",
         "dev",
-        "react",
+        "e",
         "t"
       ]
     },
     {
       "role": "QA / Testing",
-      "count": 13,
-      "companies": 8,
+      "count": 12,
+      "companies": 9,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 26,
-      "salary_max_median": 20017,
+      "salary_min_median": 30000,
+      "salary_max_median": 40000,
       "top_company": "TELUS Digital",
       "top_tags": [
         "e",
         "n",
-        "Contract",
         "s",
         "a",
         "i",
         "h",
-        "g"
+        "g",
+        "r"
       ]
     },
     {
       "role": "Data",
-      "count": 13,
-      "companies": 12,
+      "count": 12,
+      "companies": 11,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 173405,
-      "salary_max_median": 211542,
+      "salary_min_median": 160950,
+      "salary_max_median": 196400,
       "top_company": "Lemon.io",
       "top_tags": [
         "Full-Time",
         "a",
+        "golang",
         "d",
         "t",
-        "golang",
-        "Contract",
-        "sql",
-        "etl"
+        "infosec",
+        "dev",
+        "stats"
       ]
     },
     {
@@ -101,27 +101,27 @@
       "vibe_share": 0.0,
       "salary_min_median": null,
       "salary_max_median": null,
-      "top_company": "Peroptyx",
+      "top_company": "SEAhub Asia",
       "top_tags": [
-        "a",
         "saas",
         "customer support",
         "marketing",
         "exec",
         "ops",
         "sales",
-        "analyst"
+        "analyst",
+        "virtual assistant"
       ]
     },
     {
       "role": "Support",
-      "count": 20,
-      "companies": 17,
+      "count": 16,
+      "companies": 15,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 104500,
-      "salary_max_median": 120000,
-      "top_company": "Cribl",
+      "salary_min_median": 100000,
+      "salary_max_median": 117500,
+      "top_company": "NoGigiddy",
       "top_tags": [
         "Full-Time",
         "customer support",
@@ -135,122 +135,122 @@
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 7,
-      "companies": 6,
+      "count": 5,
+      "companies": 5,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 205000,
-      "salary_max_median": 245000,
-      "top_company": "Nebius",
+      "salary_min_median": 153000,
+      "salary_max_median": 218000,
+      "top_company": "GoFasti",
       "top_tags": [
         "Full-Time",
+        "Contract",
         "speech",
         "cloud",
         "distributed-systems",
         "infrastructure",
         "d",
-        "e",
-        "v"
+        "e"
       ]
     },
     {
       "role": "Cybersecurity",
-      "count": 16,
-      "companies": 13,
+      "count": 18,
+      "companies": 15,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 126050,
-      "salary_max_median": 157500,
-      "top_company": "Precision Medicine Group",
+      "salary_min_median": 120000,
+      "salary_max_median": 162500,
+      "top_company": "Tenable",
       "top_tags": [
         "Full-Time",
-        "c",
+        "golang",
+        "infosec",
+        "engineer",
         "customer support",
         "exec",
         "senior",
-        "ops",
-        "security",
-        "soc"
+        "ops"
       ]
     },
     {
       "role": "Design (UI/UX)",
-      "count": 17,
-      "companies": 13,
+      "count": 25,
+      "companies": 19,
       "vibe_count": 1,
-      "vibe_share": 0.06,
-      "salary_min_median": 115000,
+      "vibe_share": 0.04,
+      "salary_min_median": 130000,
       "salary_max_median": 205000,
       "top_company": "NoCodeJobs",
       "top_tags": [
+        "Full-Time",
         "design",
         "designer",
         "senior",
         "engineer",
         "digital nomad",
         "technical",
-        "customer support",
-        "content writing"
+        "customer support"
       ]
     },
     {
       "role": "Product / PM",
-      "count": 6,
-      "companies": 6,
+      "count": 10,
+      "companies": 10,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 102000,
-      "salary_max_median": 138000,
-      "top_company": "Udacity",
+      "salary_min_median": 200000,
+      "salary_max_median": 250000,
+      "top_company": "Bjak ",
       "top_tags": [
+        "Full-Time",
         "product manager",
         "exec",
         "design",
         "engineer",
         "digital nomad",
         "infosec",
-        "finance",
-        "marketing"
+        "finance"
       ]
     },
     {
       "role": "Sales / SDR",
-      "count": 43,
-      "companies": 34,
+      "count": 41,
+      "companies": 33,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 59000,
-      "salary_max_median": 74000,
-      "top_company": "AppSamurai",
+      "salary_min_median": 77500,
+      "salary_max_median": 110000,
+      "top_company": "Flex",
       "top_tags": [
         "Full-Time",
         "o",
         "c",
-        "Contract",
-        "n",
         "exec",
         "marketing",
-        "sales"
+        "sales",
+        "p",
+        "e"
       ]
     },
     {
       "role": "Marketing",
-      "count": 17,
-      "companies": 13,
+      "count": 20,
+      "companies": 16,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 92500,
-      "salary_max_median": 105000,
+      "salary_min_median": 171000,
+      "salary_max_median": 216333,
       "top_company": "TELUS Digital",
       "top_tags": [
         "Full-Time",
         "customer support",
         "marketing",
         "exec",
-        "o",
-        "m",
-        "e",
-        "dev"
+        "dev",
+        "content writing",
+        "ops",
+        "digital nomad"
       ]
     },
     {
@@ -261,27 +261,27 @@
       "vibe_share": 0.0,
       "salary_min_median": 70000,
       "salary_max_median": 80000,
-      "top_company": "Canonical",
+      "top_company": "Law Offices of Sabrina Li",
       "top_tags": [
         "hr",
-        "Full-Time",
         "education",
         "customer support",
         "marketing",
         "finance",
         "c",
-        "exec"
+        "exec",
+        "content writing"
       ]
     },
     {
       "role": "Unknown",
-      "count": 146,
-      "companies": 108,
+      "count": 137,
+      "companies": 112,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 130000,
-      "salary_max_median": 165000,
-      "top_company": "Ramp",
+      "salary_min_median": 139600,
+      "salary_max_median": 175000,
+      "top_company": "Stripe",
       "top_tags": [
         "Full-Time",
         "exec",
