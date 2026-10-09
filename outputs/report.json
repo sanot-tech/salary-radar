@@ -1,13 +1,13 @@
 {
-  "total": 394,
-  "vibe_total": 8,
+  "total": 406,
+  "vibe_total": 10,
   "vibe_share": 0.02,
   "by_source": {
     "jobicy": 200,
     "remoteok": 99,
-    "workingnomads": 35,
+    "workingnomads": 49,
     "aidevboard": 20,
-    "remotive": 19,
+    "remotive": 17,
     "nocodejobs": 14,
     "arcdev": 4,
     "himalayas": 3
@@ -15,82 +15,82 @@
   "roles": [
     {
       "role": "AI / Vibe Dev",
-      "count": 7,
-      "companies": 4,
-      "vibe_count": 7,
+      "count": 9,
+      "companies": 6,
+      "vibe_count": 9,
       "vibe_share": 1.0,
-      "salary_min_median": 65000,
-      "salary_max_median": 94500,
+      "salary_min_median": 70000,
+      "salary_max_median": 99000,
       "top_company": "NoCodeJobs",
       "top_tags": [
+        "Full-Time",
         "ai agents",
         "n8n",
         "bubble",
         "llm",
         "prompt",
         "rag",
-        "design",
-        "customer support"
+        "design"
       ]
     },
     {
       "role": "Engineering",
-      "count": 89,
-      "companies": 63,
+      "count": 94,
+      "companies": 64,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 180000,
-      "salary_max_median": 240000,
-      "top_company": "ClickUp",
+      "salary_min_median": 170150,
+      "salary_max_median": 238575,
+      "top_company": "Proxify",
       "top_tags": [
         "Full-Time",
         "engineer",
         "golang",
-        "digital nomad",
         "dev",
-        "javascript",
-        "react",
-        "exec"
+        "digital nomad",
+        "e",
+        "t",
+        "a"
       ]
     },
     {
       "role": "QA / Testing",
-      "count": 12,
-      "companies": 9,
+      "count": 18,
+      "companies": 14,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 15009,
-      "salary_max_median": 20009,
+      "salary_min_median": 52500,
+      "salary_max_median": 115000,
       "top_company": "TELUS Digital",
       "top_tags": [
+        "Full-Time",
         "e",
         "n",
-        "s",
-        "h",
         "Contract",
-        "Full-Time",
         "a",
-        "i"
+        "r",
+        "i",
+        "g"
       ]
     },
     {
       "role": "Data",
-      "count": 10,
-      "companies": 9,
+      "count": 14,
+      "companies": 13,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 145000,
-      "salary_max_median": 220000,
+      "salary_min_median": 130000,
+      "salary_max_median": 195000,
       "top_company": "Lemon.io",
       "top_tags": [
         "Full-Time",
-        "golang",
         "a",
-        ".Net",
-        "android",
-        "C",
-        "C#",
-        "C++"
+        "d",
+        "t",
+        "golang",
+        "sql",
+        "etl",
+        "dbt"
       ]
     },
     {
@@ -115,12 +115,12 @@
     },
     {
       "role": "Support",
-      "count": 24,
-      "companies": 20,
+      "count": 28,
+      "companies": 22,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 80000,
-      "salary_max_median": 95000,
+      "salary_max_median": 98000,
       "top_company": "AlphaSense",
       "top_tags": [
         "Full-Time",
@@ -129,36 +129,39 @@
         "travel",
         "education",
         "medical",
-        "Part-Time",
-        "saas"
+        "saas",
+        "technical"
       ]
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 2,
-      "companies": 2,
+      "count": 3,
+      "companies": 3,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 142500,
-      "salary_max_median": 160000,
-      "top_company": "GoFasti",
+      "salary_min_median": 280000,
+      "salary_max_median": 314000,
+      "top_company": "Vapi",
       "top_tags": [
-        "Contract",
         "speech",
         "cloud",
         "distributed-systems",
-        "infrastructure"
+        "infrastructure",
+        "d",
+        "e",
+        "v",
+        "o"
       ]
     },
     {
       "role": "Cybersecurity",
-      "count": 14,
-      "companies": 13,
+      "count": 17,
+      "companies": 16,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 120000,
-      "salary_max_median": 180000,
-      "top_company": "Tenable",
+      "salary_min_median": 157000,
+      "salary_max_median": 187500,
+      "top_company": "YipitData",
       "top_tags": [
         "Full-Time",
         "c",
@@ -172,33 +175,33 @@
     },
     {
       "role": "Design (UI/UX)",
-      "count": 25,
-      "companies": 19,
+      "count": 17,
+      "companies": 13,
       "vibe_count": 1,
-      "vibe_share": 0.04,
-      "salary_min_median": 81921,
-      "salary_max_median": 100000,
+      "vibe_share": 0.06,
+      "salary_min_median": 74000,
+      "salary_max_median": 95000,
       "top_company": "NoCodeJobs",
       "top_tags": [
-        "Full-Time",
         "design",
         "designer",
         "senior",
         "engineer",
         "digital nomad",
+        "Full-Time",
         "technical",
         "customer support"
       ]
     },
     {
       "role": "Product / PM",
-      "count": 10,
-      "companies": 10,
+      "count": 9,
+      "companies": 9,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 200000,
-      "salary_max_median": 250000,
-      "top_company": "Dataiku",
+      "salary_min_median": 216500,
+      "salary_max_median": 293000,
+      "top_company": "Instructure",
       "top_tags": [
         "Full-Time",
         "exec",
@@ -213,31 +216,31 @@
     {
       "role": "Sales / SDR",
       "count": 30,
-      "companies": 24,
+      "companies": 25,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 106250,
-      "salary_max_median": 128250,
+      "salary_min_median": 150000,
+      "salary_max_median": 165000,
       "top_company": "Datadog",
       "top_tags": [
         "Full-Time",
         "o",
         "c",
+        "e",
         "p",
         "n",
         "exec",
-        "marketing",
-        "sales"
+        "marketing"
       ]
     },
     {
       "role": "Marketing",
-      "count": 19,
+      "count": 18,
       "companies": 15,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 171000,
-      "salary_max_median": 216333,
+      "salary_min_median": 155000,
+      "salary_max_median": 175000,
       "top_company": "TELUS Digital",
       "top_tags": [
         "Full-Time",
@@ -252,33 +255,33 @@
     },
     {
       "role": "HR",
-      "count": 3,
-      "companies": 3,
+      "count": 2,
+      "companies": 2,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 70000,
       "salary_max_median": 80000,
-      "top_company": "Flex",
+      "top_company": "Law Offices of Sabrina Li",
       "top_tags": [
         "hr",
-        "Full-Time",
         "education",
         "customer support",
         "marketing",
         "finance",
         "c",
-        "exec"
+        "exec",
+        "content writing"
       ]
     },
     {
       "role": "Unknown",
-      "count": 144,
-      "companies": 109,
+      "count": 142,
+      "companies": 104,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 130000,
-      "salary_max_median": 165500,
-      "top_company": "Stripe",
+      "salary_max_median": 152500,
+      "top_company": "Ashby",
       "top_tags": [
         "Full-Time",
         "exec",
@@ -293,8 +296,8 @@
   ],
   "track_counts": {
     "ai_agents": {
-      "count": 4,
-      "vibe": 4,
+      "count": 5,
+      "vibe": 5,
       "enabled": true
     },
     "prompt_eng": {
