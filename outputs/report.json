@@ -1,13 +1,13 @@
 {
-  "total": 406,
-  "vibe_total": 13,
-  "vibe_share": 0.03,
+  "total": 399,
+  "vibe_total": 14,
+  "vibe_share": 0.04,
   "by_source": {
     "jobicy": 200,
     "remoteok": 99,
-    "workingnomads": 48,
+    "workingnomads": 44,
     "aidevboard": 20,
-    "remotive": 18,
+    "remotive": 15,
     "nocodejobs": 14,
     "arcdev": 4,
     "himalayas": 3
@@ -24,23 +24,23 @@
       "top_company": "Appen",
       "top_tags": [
         "Full-Time",
-        "design",
-        "customer support",
-        "testing",
-        "exec",
-        "ops",
-        "marketing",
-        "sales"
+        "ai agents",
+        "n8n",
+        "bubble",
+        "llm",
+        "prompt",
+        "rag",
+        "design"
       ]
     },
     {
       "role": "Engineering",
-      "count": 94,
-      "companies": 63,
-      "vibe_count": 0,
-      "vibe_share": 0.0,
-      "salary_min_median": 161295,
-      "salary_max_median": 207500,
+      "count": 102,
+      "companies": 67,
+      "vibe_count": 1,
+      "vibe_share": 0.01,
+      "salary_min_median": 150000,
+      "salary_max_median": 195500,
       "top_company": "Proxify",
       "top_tags": [
         "Full-Time",
@@ -48,9 +48,9 @@
         "golang",
         "dev",
         "digital nomad",
-        "react",
         "javascript",
-        "e"
+        "e",
+        "t"
       ]
     },
     {
@@ -75,12 +75,12 @@
     },
     {
       "role": "Data",
-      "count": 10,
-      "companies": 8,
+      "count": 13,
+      "companies": 10,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 136750,
-      "salary_max_median": 154250,
+      "salary_min_median": 127000,
+      "salary_max_median": 166700,
       "top_company": "Lemon.io",
       "top_tags": [
         "Full-Time",
@@ -88,60 +88,60 @@
         "golang",
         "d",
         "t",
-        "infosec",
-        "dev",
-        "stats"
+        ".Net",
+        "android",
+        "C"
       ]
     },
     {
       "role": "Business Analyst",
-      "count": 4,
-      "companies": 4,
+      "count": 3,
+      "companies": 3,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 165000,
-      "salary_max_median": 225000,
-      "top_company": "SEAhub Asia",
+      "salary_min_median": null,
+      "salary_max_median": null,
+      "top_company": "Peroptyx",
       "top_tags": [
+        "a",
         "saas",
         "customer support",
         "marketing",
         "exec",
         "ops",
         "sales",
-        "analyst",
-        "virtual assistant"
+        "analyst"
       ]
     },
     {
       "role": "Support",
-      "count": 21,
-      "companies": 18,
+      "count": 26,
+      "companies": 23,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 117500,
-      "salary_max_median": 137500,
+      "salary_min_median": 78000,
+      "salary_max_median": 88250,
       "top_company": "Cloudbeds",
       "top_tags": [
         "Full-Time",
-        "customer support",
         "exec",
-        "travel",
         "education",
+        "customer support",
+        "travel",
         "medical",
-        "saas",
-        "technical"
+        "design",
+        "recruiter"
       ]
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 7,
-      "companies": 6,
+      "count": 5,
+      "companies": 5,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 205000,
-      "salary_max_median": 237000,
-      "top_company": "Nextiva",
+      "salary_min_median": 280000,
+      "salary_max_median": 314000,
+      "top_company": "Paddle",
       "top_tags": [
         "Full-Time",
         "speech",
@@ -155,32 +155,32 @@
     },
     {
       "role": "Cybersecurity",
-      "count": 22,
-      "companies": 15,
+      "count": 26,
+      "companies": 18,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 115000,
-      "salary_max_median": 155000,
+      "salary_min_median": 100000,
+      "salary_max_median": 137500,
       "top_company": "CertiK",
       "top_tags": [
         "Full-Time",
+        "c",
         "golang",
         "infosec",
         "engineer",
         "customer support",
         "exec",
-        "senior",
-        "ops"
+        "senior"
       ]
     },
     {
       "role": "Design (UI/UX)",
       "count": 23,
-      "companies": 17,
+      "companies": 18,
       "vibe_count": 1,
       "vibe_share": 0.04,
-      "salary_min_median": 144250,
-      "salary_max_median": 180250,
+      "salary_min_median": 50000,
+      "salary_max_median": 65000,
       "top_company": "NoCodeJobs",
       "top_tags": [
         "Full-Time",
@@ -195,13 +195,13 @@
     },
     {
       "role": "Product / PM",
-      "count": 13,
-      "companies": 10,
+      "count": 9,
+      "companies": 8,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 240000,
-      "salary_max_median": 315000,
-      "top_company": "Tremendous",
+      "salary_min_median": null,
+      "salary_max_median": null,
+      "top_company": "Canonical",
       "top_tags": [
         "Full-Time",
         "exec",
@@ -215,42 +215,42 @@
     },
     {
       "role": "Sales / SDR",
-      "count": 36,
-      "companies": 26,
+      "count": 43,
+      "companies": 29,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 148680,
-      "salary_max_median": 199678,
+      "salary_min_median": 154875,
+      "salary_max_median": 200000,
       "top_company": "Canonical",
       "top_tags": [
         "Full-Time",
         "o",
-        "c",
         "marketing",
+        "c",
+        "exec",
         "sales",
         "technical",
-        "exec",
-        "e"
+        "customer support"
       ]
     },
     {
       "role": "Marketing",
-      "count": 20,
-      "companies": 17,
+      "count": 16,
+      "companies": 13,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 154150,
-      "salary_max_median": 196000,
+      "salary_min_median": 144250,
+      "salary_max_median": 180250,
       "top_company": "TELUS Digital",
       "top_tags": [
         "Full-Time",
         "customer support",
         "marketing",
         "exec",
-        "o",
+        "Internship",
+        "c",
         "m",
-        "e",
-        "dev"
+        "n"
       ]
     },
     {
@@ -264,23 +264,23 @@
       "top_company": "Canonical",
       "top_tags": [
         "Full-Time",
+        "Contract",
         "hr",
         "education",
         "customer support",
         "marketing",
         "finance",
-        "c",
-        "exec"
+        "c"
       ]
     },
     {
       "role": "Unknown",
-      "count": 130,
-      "companies": 95,
+      "count": 107,
+      "companies": 82,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 100000,
-      "salary_max_median": 140000,
+      "salary_min_median": 80000,
+      "salary_max_median": 100000,
       "top_company": "Reddit",
       "top_tags": [
         "Full-Time",
