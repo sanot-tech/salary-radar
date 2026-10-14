@@ -5,9 +5,9 @@
   "by_source": {
     "jobicy": 200,
     "remoteok": 99,
-    "workingnomads": 46,
+    "workingnomads": 47,
     "aidevboard": 20,
-    "remotive": 16,
+    "remotive": 15,
     "nocodejobs": 14,
     "arcdev": 4,
     "himalayas": 3
@@ -24,23 +24,23 @@
       "top_company": "NoCodeJobs",
       "top_tags": [
         "Full-Time",
-        "ai agents",
-        "n8n",
-        "bubble",
-        "llm",
-        "prompt",
-        "rag",
-        "design"
+        "design",
+        "customer support",
+        "testing",
+        "exec",
+        "ops",
+        "marketing",
+        "sales"
       ]
     },
     {
       "role": "Engineering",
-      "count": 105,
+      "count": 102,
       "companies": 67,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 150000,
-      "salary_max_median": 200000,
+      "salary_max_median": 220000,
       "top_company": "Proxify",
       "top_tags": [
         "Full-Time",
@@ -49,28 +49,28 @@
         "dev",
         "digital nomad",
         "e",
-        "p",
-        "a"
+        "cloud",
+        "exec"
       ]
     },
     {
       "role": "QA / Testing",
-      "count": 10,
-      "companies": 7,
+      "count": 11,
+      "companies": 8,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 57780,
-      "salary_max_median": 68564,
+      "salary_min_median": 85560,
+      "salary_max_median": 97129,
       "top_company": "TELUS Digital",
       "top_tags": [
         "e",
         "n",
+        "Full-Time",
         "a",
         "r",
         "i",
         "g",
-        "s",
-        "h"
+        "s"
       ]
     },
     {
@@ -79,58 +79,58 @@
       "companies": 9,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 123500,
-      "salary_max_median": 158350,
+      "salary_min_median": 120000,
+      "salary_max_median": 150000,
       "top_company": "Launch Potato",
       "top_tags": [
         "Full-Time",
         "a",
         "d",
         "t",
-        "golang",
-        "Contract",
-        "sql",
-        "etl"
+        ".Net",
+        "android",
+        "C",
+        "C#"
       ]
     },
     {
       "role": "Business Analyst",
-      "count": 4,
-      "companies": 4,
+      "count": 5,
+      "companies": 5,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 126000,
-      "salary_max_median": 170000,
-      "top_company": "Liftoff",
+      "salary_min_median": 146500,
+      "salary_max_median": 168500,
+      "top_company": "SEAhub Asia",
       "top_tags": [
-        "a",
         "saas",
         "customer support",
         "marketing",
         "exec",
         "ops",
         "sales",
-        "analyst"
+        "analyst",
+        "virtual assistant"
       ]
     },
     {
       "role": "Support",
-      "count": 21,
-      "companies": 19,
+      "count": 16,
+      "companies": 16,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 80000,
-      "salary_max_median": 84000,
-      "top_company": "Ashby",
+      "salary_max_median": 115000,
+      "top_company": "QuickMail",
       "top_tags": [
         "Full-Time",
-        "c",
         "customer support",
+        "c",
         "exec",
         "travel",
+        "finance",
         "education",
-        "medical",
-        "m"
+        "medical"
       ]
     },
     {
@@ -139,8 +139,8 @@
       "companies": 6,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 240000,
-      "salary_max_median": 282000,
+      "salary_min_median": 220000,
+      "salary_max_median": 255000,
       "top_company": "Phantom",
       "top_tags": [
         "Full-Time",
@@ -155,122 +155,122 @@
     },
     {
       "role": "Cybersecurity",
-      "count": 21,
-      "companies": 18,
+      "count": 17,
+      "companies": 15,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 145000,
-      "salary_max_median": 180000,
-      "top_company": "Alimentiv",
+      "salary_min_median": 160000,
+      "salary_max_median": 195000,
+      "top_company": "Beyond Finance",
       "top_tags": [
         "Full-Time",
-        "c",
         "golang",
         "infosec",
         "engineer",
         "customer support",
         "exec",
-        "senior"
-      ]
-    },
-    {
-      "role": "Design (UI/UX)",
-      "count": 22,
-      "companies": 18,
-      "vibe_count": 1,
-      "vibe_share": 0.05,
-      "salary_min_median": 115000,
-      "salary_max_median": 137500,
-      "top_company": "NoCodeJobs",
-      "top_tags": [
-        "Full-Time",
-        "design",
-        "engineer",
-        "digital nomad",
-        "marketing",
         "senior",
-        "exec",
-        "medical"
-      ]
-    },
-    {
-      "role": "Product / PM",
-      "count": 6,
-      "companies": 6,
-      "vibe_count": 0,
-      "vibe_share": 0.0,
-      "salary_min_median": 68000,
-      "salary_max_median": 91000,
-      "top_company": "Mozilla",
-      "top_tags": [
-        "exec",
-        "marketing",
-        "product manager",
-        "design",
-        "engineer",
-        "digital nomad",
-        "Full-Time",
         "ops"
       ]
     },
     {
-      "role": "Sales / SDR",
-      "count": 43,
-      "companies": 33,
+      "role": "Design (UI/UX)",
+      "count": 21,
+      "companies": 17,
+      "vibe_count": 1,
+      "vibe_share": 0.05,
+      "salary_min_median": 165000,
+      "salary_max_median": 200000,
+      "top_company": "NoCodeJobs",
+      "top_tags": [
+        "design",
+        "digital nomad",
+        "marketing",
+        "engineer",
+        "designer",
+        "senior",
+        "customer support",
+        "testing"
+      ]
+    },
+    {
+      "role": "Product / PM",
+      "count": 12,
+      "companies": 11,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 145000,
-      "salary_max_median": 215000,
-      "top_company": "Ajax Systems",
+      "salary_min_median": 68000,
+      "salary_max_median": 91000,
+      "top_company": "Spotify",
+      "top_tags": [
+        "Full-Time",
+        "exec",
+        "product manager",
+        "engineer",
+        "ops",
+        "marketing",
+        "design",
+        "digital nomad"
+      ]
+    },
+    {
+      "role": "Sales / SDR",
+      "count": 41,
+      "companies": 31,
+      "vibe_count": 0,
+      "vibe_share": 0.0,
+      "salary_min_median": 150000,
+      "salary_max_median": 204700,
+      "top_company": "Algolia",
       "top_tags": [
         "Full-Time",
         "marketing",
-        "o",
         "exec",
         "sales",
-        "c",
+        "o",
         "customer support",
+        "c",
         "finance"
       ]
     },
     {
       "role": "Marketing",
-      "count": 20,
-      "companies": 17,
+      "count": 17,
+      "companies": 14,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 147125,
-      "salary_max_median": 185125,
+      "salary_min_median": 150000,
+      "salary_max_median": 190000,
       "top_company": "TELUS Digital",
       "top_tags": [
         "Full-Time",
         "customer support",
         "marketing",
         "exec",
-        "c",
-        "m",
-        "n",
-        "i"
+        "dev",
+        "content writing",
+        "ops",
+        "digital nomad"
       ]
     },
     {
       "role": "Unknown",
-      "count": 121,
-      "companies": 90,
+      "count": 131,
+      "companies": 100,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 123529,
-      "salary_max_median": 160000,
+      "salary_min_median": 130000,
+      "salary_max_median": 170000,
       "top_company": "ParcelHero",
       "top_tags": [
         "Full-Time",
         "exec",
-        "customer support",
         "education",
+        "customer support",
         "ops",
         "digital nomad",
-        "marketing",
-        "medical"
+        "medical",
+        "marketing"
       ]
     }
   ],
