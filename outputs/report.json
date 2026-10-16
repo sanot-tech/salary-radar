@@ -1,13 +1,13 @@
 {
-  "total": 402,
-  "vibe_total": 12,
+  "total": 401,
+  "vibe_total": 13,
   "vibe_share": 0.03,
   "by_source": {
     "jobicy": 200,
     "remoteok": 99,
     "workingnomads": 47,
     "aidevboard": 20,
-    "remotive": 15,
+    "remotive": 14,
     "nocodejobs": 14,
     "arcdev": 4,
     "himalayas": 3
@@ -15,33 +15,33 @@
   "roles": [
     {
       "role": "AI / Vibe Dev",
-      "count": 11,
-      "companies": 8,
-      "vibe_count": 11,
+      "count": 12,
+      "companies": 9,
+      "vibe_count": 12,
       "vibe_share": 1.0,
       "salary_min_median": 135000,
       "salary_max_median": 174500,
       "top_company": "NoCodeJobs",
       "top_tags": [
+        "Contract",
         "agents",
-        "Full-Time",
-        "ai agents",
-        "n8n",
-        "bubble",
-        "llm",
-        "prompt",
-        "rag"
+        "design",
+        "customer support",
+        "testing",
+        "exec",
+        "ops",
+        "marketing"
       ]
     },
     {
       "role": "Engineering",
-      "count": 97,
-      "companies": 63,
+      "count": 99,
+      "companies": 60,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 152500,
-      "salary_max_median": 212500,
-      "top_company": "Proxify",
+      "salary_min_median": 140900,
+      "salary_max_median": 196000,
+      "top_company": "Lemon.io",
       "top_tags": [
         "Full-Time",
         "engineer",
@@ -50,7 +50,7 @@
         "cloud",
         "digital nomad",
         "e",
-        "p"
+        "n"
       ]
     },
     {
@@ -59,49 +59,49 @@
       "companies": 7,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 240450,
-      "salary_max_median": 315850,
+      "salary_min_median": 30000,
+      "salary_max_median": 40000,
       "top_company": "TELUS Digital",
       "top_tags": [
         "e",
         "n",
-        "a",
-        "r",
-        "i",
-        "g",
         "s",
-        "h"
+        "a",
+        "i",
+        "h",
+        "g",
+        "r"
       ]
     },
     {
       "role": "Data",
-      "count": 13,
+      "count": 14,
       "companies": 9,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 125222,
-      "salary_max_median": 190500,
+      "salary_max_median": 196000,
       "top_company": "Affirm",
       "top_tags": [
         "Full-Time",
         "a",
+        "d",
+        "t",
         "llm",
         "agents",
         "fine-tuning",
-        "data-pipeline",
-        "d",
-        "t"
+        "data-pipeline"
       ]
     },
     {
       "role": "Business Analyst",
-      "count": 4,
-      "companies": 4,
+      "count": 3,
+      "companies": 3,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 167000,
-      "salary_max_median": 167000,
-      "top_company": "RevenueCat",
+      "salary_min_median": null,
+      "salary_max_median": null,
+      "top_company": "Peroptyx",
       "top_tags": [
         "a",
         "saas",
@@ -115,13 +115,13 @@
     },
     {
       "role": "Support",
-      "count": 21,
-      "companies": 21,
+      "count": 16,
+      "companies": 15,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 75000,
-      "salary_max_median": 92000,
-      "top_company": "Staples",
+      "salary_min_median": 50000,
+      "salary_max_median": 90000,
+      "top_company": "Veeam Software",
       "top_tags": [
         "Full-Time",
         "customer support",
@@ -129,19 +129,19 @@
         "Contract",
         "m",
         "exec",
-        "travel",
-        "finance"
+        "saas",
+        "sys admin"
       ]
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 3,
-      "companies": 3,
+      "count": 2,
+      "companies": 2,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 171650,
-      "salary_max_median": 207250,
-      "top_company": "Legion",
+      "salary_min_median": 123300,
+      "salary_max_median": 159500,
+      "top_company": "Thumbtack",
       "top_tags": [
         "Full-Time",
         "d",
@@ -155,13 +155,13 @@
     },
     {
       "role": "Cybersecurity",
-      "count": 13,
-      "companies": 11,
+      "count": 14,
+      "companies": 13,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 150000,
-      "salary_max_median": 182500,
-      "top_company": "BetterHelp",
+      "salary_min_median": 130000,
+      "salary_max_median": 170000,
+      "top_company": "Manay CPA Inc.",
       "top_tags": [
         "Full-Time",
         "c",
@@ -175,12 +175,12 @@
     },
     {
       "role": "Design (UI/UX)",
-      "count": 28,
-      "companies": 20,
+      "count": 27,
+      "companies": 21,
       "vibe_count": 1,
       "vibe_share": 0.04,
-      "salary_min_median": 145000,
-      "salary_max_median": 175000,
+      "salary_min_median": 90000,
+      "salary_max_median": 135000,
       "top_company": "NoCodeJobs",
       "top_tags": [
         "Full-Time",
@@ -195,80 +195,94 @@
     },
     {
       "role": "Product / PM",
-      "count": 13,
-      "companies": 12,
+      "count": 12,
+      "companies": 9,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 191000,
-      "salary_max_median": 253000,
-      "top_company": "Anduril",
+      "salary_min_median": 104200,
+      "salary_max_median": 143150,
+      "top_company": "EverAI",
       "top_tags": [
-        "Full-Time",
         "exec",
+        "Full-Time",
         "product manager",
         "engineer",
-        "cloud",
         "ops",
         "marketing",
-        "design"
+        "design",
+        "digital nomad"
       ]
     },
     {
       "role": "Sales / SDR",
-      "count": 33,
-      "companies": 25,
+      "count": 32,
+      "companies": 27,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 141800,
-      "salary_max_median": 165500,
-      "top_company": "PointClickCare",
+      "salary_min_median": 166000,
+      "salary_max_median": 220000,
+      "top_company": "Recorded Future, Inc.",
       "top_tags": [
         "Full-Time",
-        "marketing",
-        "o",
         "exec",
+        "marketing",
         "sales",
-        "c",
+        "o",
         "customer support",
-        "finance"
+        "finance",
+        "technical"
       ]
     },
     {
       "role": "Marketing",
       "count": 17,
-      "companies": 11,
+      "companies": 13,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 50000,
-      "salary_max_median": 65000,
-      "top_company": "EverAI",
+      "salary_min_median": 145000,
+      "salary_max_median": 170000,
+      "top_company": "TELUS Digital",
       "top_tags": [
         "Full-Time",
         "customer support",
         "marketing",
         "exec",
-        "c",
-        "m",
         "n",
-        "i"
+        "i",
+        "dev",
+        "content writing"
+      ]
+    },
+    {
+      "role": "HR",
+      "count": 2,
+      "companies": 2,
+      "vibe_count": 0,
+      "vibe_share": 0.0,
+      "salary_min_median": 50,
+      "salary_max_median": 75,
+      "top_company": "livingHR",
+      "top_tags": [
+        "Contract",
+        "Full-Time"
       ]
     },
     {
       "role": "Unknown",
-      "count": 139,
-      "companies": 97,
+      "count": 141,
+      "companies": 99,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 115000,
-      "salary_max_median": 166000,
-      "top_company": "Skillsoft",
+      "salary_min_median": 120000,
+      "salary_max_median": 160000,
+      "top_company": "Fleetio",
       "top_tags": [
         "Full-Time",
         "exec",
         "education",
         "customer support",
-        "ops",
         "digital nomad",
+        "ops",
         "medical",
         "marketing"
       ]
@@ -276,8 +290,8 @@
   ],
   "track_counts": {
     "ai_agents": {
-      "count": 8,
-      "vibe": 8,
+      "count": 9,
+      "vibe": 9,
       "enabled": true
     },
     "prompt_eng": {
