@@ -1,96 +1,96 @@
 {
-  "total": 401,
-  "vibe_total": 13,
+  "total": 398,
+  "vibe_total": 11,
   "vibe_share": 0.03,
   "by_source": {
     "jobicy": 200,
     "remoteok": 99,
-    "workingnomads": 47,
+    "workingnomads": 45,
     "aidevboard": 20,
-    "remotive": 14,
     "nocodejobs": 14,
+    "remotive": 13,
     "arcdev": 4,
     "himalayas": 3
   },
   "roles": [
     {
       "role": "AI / Vibe Dev",
-      "count": 12,
-      "companies": 9,
-      "vibe_count": 12,
+      "count": 10,
+      "companies": 7,
+      "vibe_count": 10,
       "vibe_share": 1.0,
       "salary_min_median": 135000,
       "salary_max_median": 174500,
       "top_company": "NoCodeJobs",
       "top_tags": [
-        "Contract",
         "agents",
         "design",
         "customer support",
         "testing",
         "exec",
         "ops",
-        "marketing"
+        "marketing",
+        "sales"
       ]
     },
     {
       "role": "Engineering",
-      "count": 99,
-      "companies": 60,
+      "count": 91,
+      "companies": 58,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 140900,
-      "salary_max_median": 196000,
+      "salary_min_median": 152500,
+      "salary_max_median": 225000,
       "top_company": "Lemon.io",
       "top_tags": [
         "Full-Time",
         "engineer",
-        "golang",
         "dev",
-        "cloud",
+        "golang",
         "digital nomad",
+        "cloud",
         "e",
-        "n"
+        "a"
       ]
     },
     {
       "role": "QA / Testing",
-      "count": 10,
-      "companies": 7,
+      "count": 9,
+      "companies": 6,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 30000,
-      "salary_max_median": 40000,
+      "salary_min_median": null,
+      "salary_max_median": null,
       "top_company": "TELUS Digital",
       "top_tags": [
         "e",
         "n",
-        "s",
         "a",
+        "r",
         "i",
-        "h",
         "g",
-        "r"
+        "s",
+        "h"
       ]
     },
     {
       "role": "Data",
-      "count": 14,
-      "companies": 9,
+      "count": 8,
+      "companies": 7,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 125222,
-      "salary_max_median": 196000,
-      "top_company": "Affirm",
+      "salary_min_median": 137445,
+      "salary_max_median": 215500,
+      "top_company": "Samsara",
       "top_tags": [
+        "python",
+        "flutter",
         "Full-Time",
-        "a",
-        "d",
-        "t",
         "llm",
         "agents",
         "fine-tuning",
-        "data-pipeline"
+        "data-pipeline",
+        "a"
       ]
     },
     {
@@ -101,7 +101,7 @@
       "vibe_share": 0.0,
       "salary_min_median": null,
       "salary_max_median": null,
-      "top_company": "Peroptyx",
+      "top_company": "SEAhub Asia",
       "top_tags": [
         "a",
         "saas",
@@ -115,33 +115,33 @@
     },
     {
       "role": "Support",
-      "count": 16,
+      "count": 15,
       "companies": 15,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 50000,
       "salary_max_median": 90000,
-      "top_company": "Veeam Software",
+      "top_company": "Voltus",
       "top_tags": [
         "Full-Time",
         "customer support",
         "c",
-        "Contract",
-        "m",
         "exec",
-        "saas",
-        "sys admin"
+        "sales",
+        "engineer",
+        "m",
+        "testing"
       ]
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 2,
-      "companies": 2,
+      "count": 5,
+      "companies": 5,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 123300,
-      "salary_max_median": 159500,
-      "top_company": "Thumbtack",
+      "salary_min_median": 90700,
+      "salary_max_median": 252200,
+      "top_company": "Supabase",
       "top_tags": [
         "Full-Time",
         "d",
@@ -155,39 +155,39 @@
     },
     {
       "role": "Cybersecurity",
-      "count": 14,
-      "companies": 13,
+      "count": 20,
+      "companies": 16,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 130000,
-      "salary_max_median": 170000,
-      "top_company": "Manay CPA Inc.",
+      "salary_min_median": 184000,
+      "salary_max_median": 225000,
+      "top_company": "Precision Medicine Group",
       "top_tags": [
         "Full-Time",
-        "c",
         "golang",
         "infosec",
         "engineer",
         "customer support",
         "exec",
-        "senior"
+        "senior",
+        "ops"
       ]
     },
     {
       "role": "Design (UI/UX)",
-      "count": 27,
-      "companies": 21,
+      "count": 24,
+      "companies": 19,
       "vibe_count": 1,
       "vibe_share": 0.04,
-      "salary_min_median": 90000,
-      "salary_max_median": 135000,
+      "salary_min_median": 125000,
+      "salary_max_median": 160000,
       "top_company": "NoCodeJobs",
       "top_tags": [
-        "Full-Time",
         "design",
         "digital nomad",
         "marketing",
         "engineer",
+        "Full-Time",
         "designer",
         "senior",
         "customer support"
@@ -195,51 +195,51 @@
     },
     {
       "role": "Product / PM",
-      "count": 12,
-      "companies": 9,
+      "count": 9,
+      "companies": 8,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 104200,
-      "salary_max_median": 143150,
-      "top_company": "EverAI",
+      "salary_min_median": 175500,
+      "salary_max_median": 253000,
+      "top_company": "Anduril",
       "top_tags": [
         "exec",
-        "Full-Time",
         "product manager",
-        "engineer",
         "ops",
-        "marketing",
-        "design",
-        "digital nomad"
+        "engineer",
+        "technical",
+        "testing",
+        "senior",
+        "marketing"
       ]
     },
     {
       "role": "Sales / SDR",
-      "count": 32,
-      "companies": 27,
+      "count": 43,
+      "companies": 36,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 166000,
-      "salary_max_median": 220000,
-      "top_company": "Recorded Future, Inc.",
+      "salary_min_median": 120000,
+      "salary_max_median": 156333,
+      "top_company": "Osano",
       "top_tags": [
         "Full-Time",
         "exec",
         "marketing",
         "sales",
-        "o",
         "customer support",
+        "o",
         "finance",
-        "technical"
+        "cloud"
       ]
     },
     {
       "role": "Marketing",
-      "count": 17,
-      "companies": 13,
+      "count": 18,
+      "companies": 15,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 145000,
+      "salary_min_median": 135500,
       "salary_max_median": 170000,
       "top_company": "TELUS Digital",
       "top_tags": [
@@ -247,40 +247,26 @@
         "customer support",
         "marketing",
         "exec",
-        "n",
-        "i",
         "dev",
-        "content writing"
-      ]
-    },
-    {
-      "role": "HR",
-      "count": 2,
-      "companies": 2,
-      "vibe_count": 0,
-      "vibe_share": 0.0,
-      "salary_min_median": 50,
-      "salary_max_median": 75,
-      "top_company": "livingHR",
-      "top_tags": [
-        "Contract",
-        "Full-Time"
+        "content writing",
+        "ops",
+        "digital nomad"
       ]
     },
     {
       "role": "Unknown",
-      "count": 141,
-      "companies": 99,
+      "count": 143,
+      "companies": 108,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 120000,
-      "salary_max_median": 160000,
-      "top_company": "Fleetio",
+      "salary_min_median": 101500,
+      "salary_max_median": 125000,
+      "top_company": "iMerit Technology",
       "top_tags": [
         "Full-Time",
         "exec",
-        "education",
         "customer support",
+        "education",
         "digital nomad",
         "ops",
         "medical",
@@ -290,8 +276,8 @@
   ],
   "track_counts": {
     "ai_agents": {
-      "count": 9,
-      "vibe": 9,
+      "count": 7,
+      "vibe": 7,
       "enabled": true
     },
     "prompt_eng": {
