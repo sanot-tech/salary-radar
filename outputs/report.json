@@ -1,11 +1,11 @@
 {
-  "total": 397,
-  "vibe_total": 11,
-  "vibe_share": 0.03,
+  "total": 389,
+  "vibe_total": 16,
+  "vibe_share": 0.04,
   "by_source": {
     "jobicy": 200,
     "remoteok": 99,
-    "workingnomads": 45,
+    "workingnomads": 37,
     "aidevboard": 20,
     "nocodejobs": 14,
     "remotive": 12,
@@ -15,33 +15,33 @@
   "roles": [
     {
       "role": "AI / Vibe Dev",
-      "count": 10,
-      "companies": 7,
-      "vibe_count": 10,
+      "count": 15,
+      "companies": 10,
+      "vibe_count": 15,
       "vibe_share": 1.0,
-      "salary_min_median": 135000,
-      "salary_max_median": 174500,
+      "salary_min_median": 200000,
+      "salary_max_median": 250000,
       "top_company": "NoCodeJobs",
       "top_tags": [
+        "Full-Time",
         "agents",
-        "ai agents",
-        "n8n",
-        "bubble",
-        "llm",
-        "prompt",
-        "rag",
-        "microservices"
+        "design",
+        "customer support",
+        "testing",
+        "exec",
+        "ops",
+        "marketing"
       ]
     },
     {
       "role": "Engineering",
-      "count": 97,
-      "companies": 62,
+      "count": 94,
+      "companies": 61,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 152000,
-      "salary_max_median": 200000,
-      "top_company": "Lemon.io",
+      "salary_min_median": 128000,
+      "salary_max_median": 178000,
+      "top_company": "Proxify",
       "top_tags": [
         "Full-Time",
         "engineer",
@@ -55,32 +55,32 @@
     },
     {
       "role": "QA / Testing",
-      "count": 13,
-      "companies": 7,
+      "count": 23,
+      "companies": 8,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 8,
-      "salary_max_median": 8,
-      "top_company": "TELUS Digital",
+      "salary_min_median": 10,
+      "salary_max_median": 12,
+      "top_company": "Welo Global",
       "top_tags": [
-        "e",
         "Contract",
-        "n",
-        "a",
-        "r",
-        "i",
-        "g",
-        "s"
+        "education",
+        "marketing",
+        "exec",
+        "excel",
+        "Full-Time",
+        "p",
+        "a"
       ]
     },
     {
       "role": "Data",
-      "count": 7,
-      "companies": 6,
+      "count": 8,
+      "companies": 7,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 137445,
-      "salary_max_median": 200000,
+      "salary_max_median": 198000,
       "top_company": "Samsara",
       "top_tags": [
         "Full-Time",
@@ -89,21 +89,22 @@
         "fine-tuning",
         "data-pipeline",
         "a",
-        "sql",
-        "etl"
+        "design",
+        "python"
       ]
     },
     {
       "role": "Business Analyst",
-      "count": 1,
-      "companies": 1,
+      "count": 2,
+      "companies": 2,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": null,
       "salary_max_median": null,
-      "top_company": "Peroptyx",
+      "top_company": "SmithRx",
       "top_tags": [
         "a",
+        "Full-Time",
         "n",
         "l",
         "y",
@@ -113,33 +114,33 @@
     },
     {
       "role": "Support",
-      "count": 11,
-      "companies": 11,
+      "count": 20,
+      "companies": 17,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 37500,
-      "salary_max_median": 52500,
-      "top_company": "Demandbase, Inc.",
+      "salary_min_median": 45000,
+      "salary_max_median": 72500,
+      "top_company": "Canonical",
       "top_tags": [
         "Full-Time",
         "customer support",
         "c",
-        "m",
         "exec",
         "sales",
         "engineer",
-        "support"
+        "m",
+        "testing"
       ]
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 9,
-      "companies": 9,
+      "count": 8,
+      "companies": 8,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 182500,
-      "salary_max_median": 251100,
-      "top_company": "Proxify",
+      "salary_min_median": 172500,
+      "salary_max_median": 207500,
+      "top_company": "Bayesian Health",
       "top_tags": [
         "Full-Time",
         "d",
@@ -153,32 +154,32 @@
     },
     {
       "role": "Cybersecurity",
-      "count": 12,
-      "companies": 12,
+      "count": 11,
+      "companies": 9,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 104500,
-      "salary_max_median": 150000,
-      "top_company": "CertiK",
+      "salary_min_median": 129000,
+      "salary_max_median": 190000,
+      "top_company": "Precision Medicine Group",
       "top_tags": [
         "Full-Time",
         "c",
-        "security",
-        "soc",
-        "english",
-        "a",
-        "o",
-        "u"
+        "golang",
+        "infosec",
+        "engineer",
+        "part time",
+        "supervisor",
+        "customer support"
       ]
     },
     {
       "role": "Design (UI/UX)",
-      "count": 23,
+      "count": 24,
       "companies": 18,
       "vibe_count": 1,
       "vibe_share": 0.04,
-      "salary_min_median": 75000,
-      "salary_max_median": 125000,
+      "salary_min_median": 153000,
+      "salary_max_median": 172000,
       "top_company": "NoCodeJobs",
       "top_tags": [
         "Full-Time",
@@ -188,7 +189,7 @@
         "testing",
         "marketing",
         "senior",
-        "designer"
+        "Contract"
       ]
     },
     {
@@ -197,7 +198,7 @@
       "companies": 11,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 166328,
+      "salary_min_median": 178664,
       "salary_max_median": 253000,
       "top_company": "Anduril",
       "top_tags": [
@@ -206,60 +207,60 @@
         "product manager",
         "ops",
         "engineer",
-        "computer-vision",
-        "cloud",
-        "payments"
+        "technical",
+        "testing",
+        "senior"
       ]
     },
     {
       "role": "Sales / SDR",
-      "count": 39,
-      "companies": 33,
+      "count": 30,
+      "companies": 27,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 115000,
-      "salary_max_median": 140000,
-      "top_company": "Osano",
+      "salary_min_median": 97500,
+      "salary_max_median": 138500,
+      "top_company": "Cribl",
       "top_tags": [
         "Full-Time",
         "exec",
         "marketing",
         "sales",
         "customer support",
-        "o",
         "technical",
-        "golang"
+        "golang",
+        "finance"
       ]
     },
     {
       "role": "Marketing",
-      "count": 18,
-      "companies": 14,
+      "count": 13,
+      "companies": 10,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 150000,
-      "salary_max_median": 170000,
+      "salary_min_median": 148500,
+      "salary_max_median": 214625,
       "top_company": "TELUS Digital",
       "top_tags": [
         "Full-Time",
-        "c",
-        "m",
-        "n",
-        "i",
         "customer support",
         "marketing",
-        "exec"
+        "exec",
+        "ops",
+        "c",
+        "m",
+        "n"
       ]
     },
     {
       "role": "Unknown",
-      "count": 145,
-      "companies": 104,
+      "count": 129,
+      "companies": 96,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 100000,
-      "salary_max_median": 130000,
-      "top_company": "Monzo",
+      "salary_min_median": 103250,
+      "salary_max_median": 147500,
+      "top_company": "Zscaler",
       "top_tags": [
         "Full-Time",
         "exec",
@@ -274,13 +275,13 @@
   ],
   "track_counts": {
     "ai_agents": {
-      "count": 7,
-      "vibe": 7,
+      "count": 9,
+      "vibe": 9,
       "enabled": true
     },
     "prompt_eng": {
-      "count": 1,
-      "vibe": 1,
+      "count": 4,
+      "vibe": 4,
       "enabled": true
     },
     "builders": {
