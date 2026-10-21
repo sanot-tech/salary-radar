@@ -1,11 +1,11 @@
 {
-  "total": 387,
-  "vibe_total": 12,
+  "total": 390,
+  "vibe_total": 11,
   "vibe_share": 0.03,
   "by_source": {
     "jobicy": 200,
     "remoteok": 99,
-    "workingnomads": 37,
+    "workingnomads": 40,
     "aidevboard": 20,
     "nocodejobs": 14,
     "remotive": 10,
@@ -15,32 +15,32 @@
   "roles": [
     {
       "role": "AI / Vibe Dev",
-      "count": 11,
-      "companies": 8,
-      "vibe_count": 11,
+      "count": 10,
+      "companies": 7,
+      "vibe_count": 10,
       "vibe_share": 1.0,
-      "salary_min_median": 70000,
-      "salary_max_median": 99000,
+      "salary_min_median": 135000,
+      "salary_max_median": 174500,
       "top_company": "NoCodeJobs",
       "top_tags": [
         "agents",
-        "Full-Time",
-        "ai agents",
-        "n8n",
-        "bubble",
-        "llm",
-        "prompt",
-        "rag"
+        "design",
+        "customer support",
+        "testing",
+        "exec",
+        "ops",
+        "marketing",
+        "sales"
       ]
     },
     {
       "role": "Engineering",
-      "count": 101,
-      "companies": 61,
+      "count": 102,
+      "companies": 67,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 147500,
-      "salary_max_median": 196000,
+      "salary_min_median": 190000,
+      "salary_max_median": 240900,
       "top_company": "Proxify",
       "top_tags": [
         "Full-Time",
@@ -50,37 +50,37 @@
         "digital nomad",
         "cloud",
         "e",
-        "a"
+        "n"
       ]
     },
     {
       "role": "QA / Testing",
-      "count": 14,
-      "companies": 13,
+      "count": 9,
+      "companies": 6,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 115600,
-      "salary_max_median": 160000,
-      "top_company": "Welo Global",
+      "salary_min_median": null,
+      "salary_max_median": null,
+      "top_company": "TELUS Digital",
       "top_tags": [
-        "Full-Time",
-        "p",
         "a",
-        "i",
         "s",
-        "education",
-        "marketing",
-        "exec"
+        "n",
+        "p",
+        "i",
+        "h",
+        "r",
+        "education"
       ]
     },
     {
       "role": "Data",
-      "count": 7,
-      "companies": 6,
+      "count": 11,
+      "companies": 10,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 137445,
-      "salary_max_median": 201250,
+      "salary_min_median": 152500,
+      "salary_max_median": 223995,
       "top_company": "Samsara",
       "top_tags": [
         "Full-Time",
@@ -89,8 +89,8 @@
         "fine-tuning",
         "data-pipeline",
         "a",
-        "sql",
-        "etl"
+        "design",
+        "python"
       ]
     },
     {
@@ -99,9 +99,9 @@
       "companies": 2,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 108000,
-      "salary_max_median": 157000,
-      "top_company": "SeatGeek",
+      "salary_min_median": null,
+      "salary_max_median": null,
+      "top_company": "Arlo Solutions",
       "top_tags": [
         "a",
         "Full-Time",
@@ -114,113 +114,113 @@
     },
     {
       "role": "Support",
-      "count": 14,
-      "companies": 13,
+      "count": 12,
+      "companies": 12,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 50000,
+      "salary_min_median": 60000,
       "salary_max_median": 90000,
-      "top_company": "Canonical",
+      "top_company": "SupportYourApp",
       "top_tags": [
         "Full-Time",
         "customer support",
+        "exec",
         "c",
         "m",
-        "support",
-        "customer success",
-        "o",
-        "u"
+        "consulting",
+        "saas",
+        "infosec"
       ]
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 3,
-      "companies": 3,
+      "count": 9,
+      "companies": 9,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 250000,
-      "salary_max_median": 349000,
-      "top_company": "Proxify",
+      "salary_min_median": 142000,
+      "salary_max_median": 196600,
+      "top_company": "Airtm",
       "top_tags": [
         "Full-Time",
+        "p",
         "d",
         "e",
         "v",
         "o",
-        "p",
         "s",
         "a"
       ]
     },
     {
       "role": "Cybersecurity",
-      "count": 14,
-      "companies": 13,
+      "count": 19,
+      "companies": 16,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 80000,
-      "salary_max_median": 110000,
-      "top_company": "Tenable",
+      "salary_min_median": 157000,
+      "salary_max_median": 200000,
+      "top_company": "Natera",
       "top_tags": [
         "Full-Time",
         "c",
-        "security",
-        "soc",
-        "english",
-        "a",
-        "o",
-        "u"
+        "golang",
+        "infosec",
+        "engineer",
+        "part time",
+        "supervisor",
+        "customer support"
       ]
     },
     {
       "role": "Design (UI/UX)",
-      "count": 19,
-      "companies": 15,
+      "count": 18,
+      "companies": 14,
       "vibe_count": 1,
-      "vibe_share": 0.05,
-      "salary_min_median": 110000,
-      "salary_max_median": 175000,
+      "vibe_share": 0.06,
+      "salary_min_median": 50000,
+      "salary_max_median": 65000,
       "top_company": "NoCodeJobs",
       "top_tags": [
         "design",
         "digital nomad",
         "engineer",
-        "Full-Time",
         "testing",
         "marketing",
         "senior",
-        "designer"
+        "designer",
+        "customer support"
       ]
     },
     {
       "role": "Product / PM",
-      "count": 12,
-      "companies": 11,
+      "count": 9,
+      "companies": 8,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 180000,
+      "salary_min_median": 184750,
       "salary_max_median": 253000,
       "top_company": "Anduril",
       "top_tags": [
-        "Full-Time",
         "exec",
         "product manager",
         "ops",
         "engineer",
-        "computer-vision",
-        "cloud",
-        "payments"
+        "Full-Time",
+        "technical",
+        "testing",
+        "senior"
       ]
     },
     {
       "role": "Sales / SDR",
-      "count": 40,
-      "companies": 32,
+      "count": 35,
+      "companies": 31,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 100000,
-      "salary_max_median": 110000,
-      "top_company": "Toptal",
+      "salary_min_median": 122500,
+      "salary_max_median": 135000,
+      "top_company": "Chainguard",
       "top_tags": [
         "Full-Time",
         "exec",
@@ -234,22 +234,22 @@
     },
     {
       "role": "Marketing",
-      "count": 30,
-      "companies": 17,
+      "count": 16,
+      "companies": 13,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 50000,
-      "salary_max_median": 65000,
-      "top_company": "EverAI",
+      "salary_min_median": 195800,
+      "salary_max_median": 230000,
+      "top_company": "TELUS Digital",
       "top_tags": [
         "Full-Time",
-        "Contract",
+        "customer support",
+        "marketing",
+        "exec",
+        "ops",
         "c",
         "m",
-        "n",
-        "i",
-        "customer support",
-        "marketing"
+        "n"
       ]
     },
     {
@@ -258,38 +258,38 @@
       "companies": 1,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 85000,
-      "salary_max_median": 110000,
-      "top_company": "Salesloft",
+      "salary_min_median": null,
+      "salary_max_median": null,
+      "top_company": "livingHR",
       "top_tags": [
-        "Full-Time"
+        "Contract"
       ]
     },
     {
       "role": "Unknown",
-      "count": 119,
-      "companies": 95,
+      "count": 137,
+      "companies": 102,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 111600,
-      "salary_max_median": 152000,
-      "top_company": "Precision Medicine Group",
+      "salary_min_median": 129800,
+      "salary_max_median": 169500,
+      "top_company": "iMerit Technology",
       "top_tags": [
         "Full-Time",
         "exec",
         "customer support",
         "digital nomad",
         "education",
-        "medical",
         "ops",
+        "medical",
         "marketing"
       ]
     }
   ],
   "track_counts": {
     "ai_agents": {
-      "count": 7,
-      "vibe": 7,
+      "count": 6,
+      "vibe": 6,
       "enabled": true
     },
     "prompt_eng": {
