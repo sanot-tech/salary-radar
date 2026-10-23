@@ -1,4 +1,9 @@
 source,role,vibe,title,company,salary_min_usd,salary_max_usd,location,url
+remoteok,Unknown,0,Senior Finance Manager Management Accountant,D2B,0,0,Remote,https://remoteOK.com/remote-jobs/remote-senior-finance-manager-management-accountant-d2b-1137556
+remoteok,Unknown,0,Accounting & Finance Manager,Political Asylum Lawyers,0,0,Remote,https://remoteOK.com/remote-jobs/remote-accounting-finance-manager-political-asylum-lawyers-1137555
+remoteok,Unknown,0,Accounting Operations,Plaid,110000,170000,Remote,https://remoteOK.com/remote-jobs/remote-accounting-operations-plaid-1137554
+remoteok,Unknown,0,lkjlkjxcv,scvsdv,60000,210000,Remote,https://remoteOK.com/remote-jobs/remote-lkjlkjxcv-scvsdv-1137553
+remoteok,Engineering,0,Senior Backend Engineer,DuckDuckGo,190000,190000,Remote,https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-duckduckgo-1137551
 remoteok,Unknown,0,Clinical Data Manager,Penumbra,0,0,Your Remote US Home Office,https://remoteOK.com/remote-jobs/remote-clinical-data-manager-penumbra-1137550
 remoteok,Unknown,0,Risk Analyst,Pavago,0,0,Remote,https://remoteOK.com/remote-jobs/remote-risk-analyst-pavago-1137548
 remoteok,Support,0,Customer Support Consultant hospitality,SupportYourApp,0,0,Remote,https://remoteOK.com/remote-jobs/remote-customer-support-consultant-hospitality-supportyourapp-1137547
@@ -54,7 +59,6 @@ remoteok,Unknown,0,MecÃ¡nico Automotriz DiagnÃ³stico y Presupuestos,Workana,
 remoteok,Unknown,0,Video Data Annotator,iMerit Technology,70000,80000,Remote,https://remoteOK.com/remote-jobs/remote-video-data-annotator-imerit-technology-1137428
 remoteok,Engineering,0,Software Engineer,Prenosis,0,0,Remote,https://remoteOK.com/remote-jobs/remote-software-engineer-prenosis-1137427
 remoteok,Product / PM,0,Technical Product Manager AI Stockbroking App,Bjak ,0,0,Germany,https://remoteOK.com/remote-jobs/remote-technical-product-manager-ai-stockbroking-app-bjak-1137421
-remoteok,Unknown,0,Freelance grabaciÃ³n de tareas cotidianas para proyecto de IA,Mindrift - Data annotation,0,0,Remote,https://remoteOK.com/remote-jobs/remote-freelance-grabacion-de-tareas-cotidianas-para-proyecto-de-ia-mindrift-data-annotation-1137415
 remoteok,Product / PM,0,Senior Growth Product Manager AI Native,Magic Eden,0,0,Melbourne,https://remoteOK.com/remote-jobs/remote-senior-growth-product-manager-ai-native-magic-eden-1137414
 remoteok,Unknown,0,People Operations Coordinator,Ashby,55000,80000,Remote,https://remoteOK.com/remote-jobs/remote-people-operations-coordinator-ashby-1137412
 remoteok,Engineering,0,Frontend Engineer,Bjak ,0,0,Ireland,https://remoteOK.com/remote-jobs/remote-frontend-engineer-bjak-1137410
@@ -94,10 +98,6 @@ remoteok,Unknown,0,Gardener Handyman Driver,NT Health,0,0,"Alice Springs, ",http
 remoteok,Unknown,0,Real Time Drilling Ops Centre Analyst,SLB,0,0,"Dehradun, ",https://remoteOK.com/remote-jobs/remote-real-time-drilling-ops-centre-analyst-slb-1136857
 remoteok,Engineering,0,Engineer Estimator,Crystalia Glass LLC,0,0,"Bishkek, Bishkek, Bishkek City, Kyrgyzstan",https://remoteOK.com/remote-jobs/remote-engineer-estimator-crystalia-glass-llc-1136878
 remoteok,Engineering,0,Software Engineer III Mobile,Stone,0,0,Remoto,https://remoteOK.com/remote-jobs/remote-software-engineer-iii-mobile-stone-1136570
-remoteok,Engineering,0,Software Engineer II Golang,Stone,0,0,Remoto,https://remoteOK.com/remote-jobs/remote-software-engineer-ii-golang-stone-1136569
-remoteok,Unknown,0,P2P BD Assistant,Bybit,0,0,LATAM,https://remoteOK.com/remote-jobs/remote-p2p-bd-assistant-bybit-1136568
-remoteok,Unknown,0,Surveyor I,American Bureau of Shipping (ABS),0,0,"Port of Spain, ",https://remoteOK.com/remote-jobs/remote-surveyor-i-american-bureau-of-shipping-abs-1136592
-remoteok,Engineering,0,Staff Software Engineer,Evolve,0,0,Remote - US,https://remoteOK.com/remote-jobs/remote-staff-software-engineer-evolve-1136447
 remotive,Engineering,0,"Software Engineer, AI Coding Tasks",Askable,,,Worldwide,https://remotive.com/remote-jobs/software-development/software-engineer-ai-coding-tasks-2091158
 remotive,Engineering,0,Tech Lead Full-Stack Rails Engineer,Mitre Media,,,"USA, Canada, USA timezones",https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746
 remotive,Unknown,0,Remote Office Assistant,Coalition Technologies ,,,Worldwide,https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495
@@ -107,207 +107,206 @@ remotive,Unknown,0,Freelance Writer,IAPWE,,,Worldwide,https://remotive.com/remot
 remotive,Unknown,0,Freelance Copywriter,Coalition Technologies ,,,Worldwide,https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306
 remotive,Engineering,0,Senior React Full-stack Developer,Lemon.io,,,"Europe, USA, Canada, APAC",https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091133
 remotive,Engineering,0,Senior back-end Engineer,Lemon.io,,,"Europe, USA, UK, Canada, Australia, Ireland, Switzerland, Singapore, Mexico, Iceland, Norway",https://remotive.com/remote-jobs/software-development/senior-back-end-engineer-2091132
-remotive,Marketing,0,Content Reviewer - United States,TELUS Digital,,,USA,https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091144
-jobicy,Sales / SDR,0,Business Development Manager,Thoughtworks,,,Singapore,https://jobicy.com/jobs/150754-business-development-manager
-jobicy,Engineering,0,"Software Engineer, AI Enablement",Tailscale,128770,178540,UK,https://jobicy.com/jobs/155051-software-engineer-ai-enablement
-jobicy,Design (UI/UX),0,Creative (Motion Design),Superside,,,Anywhere,https://jobicy.com/jobs/153812-creative-motion-design
-jobicy,Support,0,"Enterprise, Customer Success Manager",DeleteMe,,,USA,https://jobicy.com/jobs/153726-enterprise-customer-success-manager-7
-jobicy,Engineering,0,IT Engineer,Elevenlabs,,,USA,https://jobicy.com/jobs/155006-it-engineer-2
-jobicy,Unknown,0,"Account Executive, eComm",StackAdapt,46195,63518,UK,https://jobicy.com/jobs/153822-account-executive-ecomm
-jobicy,Sales / SDR,0,Sales Manager - Net New Sales,CoderPad,200000,220000,USA,https://jobicy.com/jobs/153777-sales-manager-net-new-sales
-jobicy,Engineering,0,"Design Engineer, Site",infisical,100000,180000,"Canada,  USA",https://jobicy.com/jobs/153829-design-engineer-site
-jobicy,Unknown,0,Enterprise Account Executive,infisical,,,USA,https://jobicy.com/jobs/153826-enterprise-account-executive-22
-jobicy,Unknown,0,"Director, AI Solutions",Wpromote,135000,165000,USA,https://jobicy.com/jobs/153842-director-ai-solutions
-jobicy,Unknown,0,"Director, Earned and Owned Strategy",Wpromote,118000,130000,USA,https://jobicy.com/jobs/153839-director-earned-and-owned-strategy
-jobicy,Unknown,0,Digital Media Planner (Direct IO - B2B),Wpromote,70000,80000,USA,https://jobicy.com/jobs/153802-digital-media-planner-direct-io-b2b
-jobicy,Sysadmin / DevOps,0,"Principal Software Engineer, Infrastructure Security",OpenAI,401000,510000,USA,https://jobicy.com/jobs/153845-principal-software-engineer-infrastructure-security
-jobicy,Sysadmin / DevOps,0,"Principal Security Engineer, Infrastructure Security",OpenAI,401000,510000,USA,https://jobicy.com/jobs/153841-principal-security-engineer-infrastructure-security
-jobicy,Unknown,0,Senior Integrated Campaign Manager,Feedzai,,,UK,https://jobicy.com/jobs/153831-senior-integrated-campaign-manager
-jobicy,Engineering,0,Principal AI Engineer,Able,,,LATAM,https://jobicy.com/jobs/153844-principal-ai-engineer
-jobicy,Unknown,0,"Account Director, Digital Native New Business",OpenAI,261000,290000,USA,https://jobicy.com/jobs/153838-account-director-digital-native-new-business
-jobicy,Sales / SDR,0,"Director, Sales (Middle East)",Ping Identity,,,France,https://jobicy.com/jobs/153834-director-sales-middle-east
-jobicy,Engineering,0,Solutions Engineer,infisical,,,USA,https://jobicy.com/jobs/153833-solutions-engineer
-jobicy,Unknown,0,"Director, Partner Programs, Enablement, and Operations",Ping Identity,149000,173000,USA,https://jobicy.com/jobs/153830-director-partner-programs-enablement-and-operations
-jobicy,Engineering,0,Senior Software Engineer,UpGuard,,,Australia,https://jobicy.com/jobs/153804-senior-software-engineer-5
-jobicy,Design (UI/UX),0,Senior Product Designer (Full Remote - UK),EverAI,75000,105000,UK,https://jobicy.com/jobs/153803-senior-product-designer-full-remote-uk
-jobicy,Design (UI/UX),0,Senior Product Designer (Full Remote - Netherlands),EverAI,75000,125000,Netherlands,https://jobicy.com/jobs/153798-senior-product-designer-full-remote-netherlands
-jobicy,Engineering,0,Software Engineer,UpGuard,,,Australia,https://jobicy.com/jobs/153799-software-engineer-10
-jobicy,Unknown,0,"Director, IT",Life360,167000,245000,USA,https://jobicy.com/jobs/153795-director-it
-jobicy,Product / PM,0,"Product Manager, AI Transformation & Salesforce",Goodleap,128800,160700,USA,https://jobicy.com/jobs/153824-product-manager-ai-transformation-salesforce
-jobicy,Sales / SDR,0,Business Development Representative,Kinsta,,,"EMEA,  Czechia",https://jobicy.com/jobs/151347-business-development-representative-8
-jobicy,Data,0,AWS Data Engineer (Associate),Mactores,,,USA,https://jobicy.com/jobs/151141-aws-data-engineer-associate
-jobicy,Marketing,0,"Marketing Specialist, Public Sector (Federal + SLED)",DeleteMe,65000,75000,USA,https://jobicy.com/jobs/153788-marketing-specialist-public-sector-federal-sled
-jobicy,Unknown,0,"Kansas- Remote Mental Health Licensed Therapist, 1099 Contractor",Headspace,69,74,USA,https://jobicy.com/jobs/153807-kansas-remote-mental-health-licensed-therapist-1099-contractor-2
-jobicy,QA / Testing,0,Scout Junior Quality Coordinator - Spanish (Mexico),Welo Global,,,Mexico,https://jobicy.com/jobs/151338-scout-junior-quality-coordinator-spanish-mexico
-jobicy,QA / Testing,0,Scout Junior Quality Coordinator - Portuguese (Brazil),Welo Global,,,Brazil,https://jobicy.com/jobs/151333-scout-junior-quality-coordinator-portuguese-brazil
-jobicy,Design (UI/UX),0,Creative (Graphic Designer),Superside,,,LATAM,https://jobicy.com/jobs/153808-creative-graphic-designer
-jobicy,Sales / SDR,0,Enterprise Account Manager,Spreedly,,,USA,https://jobicy.com/jobs/153787-enterprise-account-manager
-jobicy,Marketing,0,Lifecycle Marketing Manager,DeleteMe,,,USA,https://jobicy.com/jobs/153785-lifecycle-marketing-manager
-jobicy,Engineering,0,AI Software Engineer,Zone &#038; Co,,,Czechia,https://jobicy.com/jobs/153823-ai-software-engineer
-jobicy,Unknown,0,Account Executive,Zone &#038; Co,,,Australia,https://jobicy.com/jobs/153816-account-executive-22
-jobicy,Sales / SDR,0,Enterprise Solution Engineer (Pre-Sales),Zip,180000,265000,USA,https://jobicy.com/jobs/153786-enterprise-solution-engineer-pre-sales
-jobicy,Sales / SDR,0,Director of Business Development,Hello Alice,,,USA,https://jobicy.com/jobs/151336-director-of-business-development
-jobicy,Engineering,0,"Engineering Manager, Product Engineering",Boulevard,153500,216500,USA,https://jobicy.com/jobs/151329-engineering-manager-product-engineering
-jobicy,Support,0,Support Engineer (AMER),Supabase,,,"Canada,  USA",https://jobicy.com/jobs/151300-support-engineer-amer
-jobicy,Unknown,0,Licensed Psychiatric Nurse Practitioner,Headway.co,,,USA,https://jobicy.com/jobs/151292-licensed-psychiatric-nurse-practitioner
-jobicy,Unknown,0,Partner Business Manager,DeleteMe,,,USA,https://jobicy.com/jobs/153790-partner-business-manager
-jobicy,Unknown,0,Privacy Advisor,DeleteMe,20,21,USA,https://jobicy.com/jobs/153793-privacy-advisor
-jobicy,Unknown,0,Lead Revenue Operations Analyst,Spreedly,,,USA,https://jobicy.com/jobs/153789-lead-revenue-operations-analyst
-jobicy,Unknown,0,Strategic Enterprise Account Executive,Proof,250000,350000,USA,https://jobicy.com/jobs/151325-strategic-enterprise-account-executive
-jobicy,Unknown,0,Enterprise Account Executive - Central,Zip,250000,315000,USA,https://jobicy.com/jobs/153791-enterprise-account-executive-central-3
-jobicy,Unknown,0,Technical Lead Manager,Homebound,150000,200000,USA,https://jobicy.com/jobs/151337-technical-lead-manager
-jobicy,Engineering,0,"Director of Engineering, Data",Boulevard,220000,270000,USA,https://jobicy.com/jobs/151326-director-of-engineering-data
-jobicy,Unknown,0,International Tax Manager,Liftoff,113000,159000,USA,https://jobicy.com/jobs/151323-international-tax-manager
-jobicy,Engineering,0,Senior Software Engineer – Backend (USA Only - 100% Remote),Close,,,USA,https://jobicy.com/jobs/151308-senior-software-engineer-backend-usa-only-100-remote
-jobicy,Support,0,Support Engineer (APAC),Supabase,,,APAC,https://jobicy.com/jobs/151305-support-engineer-apac
-jobicy,Unknown,0,Account Executive,Valerie Health,225000,350000,USA,https://jobicy.com/jobs/151301-account-executive-8
-jobicy,Unknown,0,Licensed Psychiatrist,Headway.co,,,USA,https://jobicy.com/jobs/151296-licensed-psychiatrist
-jobicy,Engineering,0,Senior Software Engineer,Tremendous,150000,280000,"LATAM,  Canada,  USA",https://jobicy.com/jobs/151290-senior-software-engineer-3
-jobicy,Unknown,0,Licensed Mental Health Therapist,Headway.co,,,USA,https://jobicy.com/jobs/151287-licensed-mental-health-therapist
-jobicy,Business Analyst,0,Senior Data Analyst,Ruby Labs,,,Europe,https://jobicy.com/jobs/143979-senior-data-analyst-4
-jobicy,Unknown,0,VP Analyst - Analyst Relations Strategy,Gartner,,,USA,https://jobicy.com/jobs/143967-vp-analyst-analyst-relations-remote-western-europe
-jobicy,Sales / SDR,0,Account Manager - Japan,Elevenlabs,,,Japan,https://jobicy.com/jobs/143813-customer-success-japan
-jobicy,AI / Vibe Dev,1,AI Chatbot Product Manager,Binance,,,APAC,https://jobicy.com/jobs/147145-ai-chatbot-product-manager
-jobicy,Unknown,0,Senior Account Executive,CoderPad,200000,225000,USA,https://jobicy.com/jobs/153780-senior-account-executive-5
-jobicy,Support,0,"Senior Manager, Customer Success Operations",AlphaSense,177000,195000,USA,https://jobicy.com/jobs/150340-senior-manager-customer-success-operations
-jobicy,Support,0,"Senior Analyst, Customer Success Operations",AlphaSense,99000,110000,USA,https://jobicy.com/jobs/150339-senior-analyst-customer-success-operations
-jobicy,Unknown,0,Principal People Experience Partner,Articulate,137700,182426,USA,https://jobicy.com/jobs/153775-principal-people-experience-partner
-jobicy,Cybersecurity,0,Associate General Counsel,Rithum,185000,260000,USA,https://jobicy.com/jobs/151278-associate-general-counsel
-jobicy,Engineering,0,C++/Rust Graphics and Windowing System Software Engineer - Mir,Canonical,,,"APAC,  EMEA",https://jobicy.com/jobs/151197-c-rust-graphics-and-windowing-system-software-engineer-mir
-jobicy,Sales / SDR,0,Embedded Devices Software Solution Sales Manager (APAC),Canonical,,,APAC,https://jobicy.com/jobs/151196-embedded-devices-software-solution-sales-manager-apac
-jobicy,Support,0,Customer Support Engineer (Tier 1),Tailscale,49770,78210,UK,https://jobicy.com/jobs/151195-customer-support-engineer-tier-1
-jobicy,Support,0,Enterprise Customer Success Manager - Central,Sigma Computing,132000,165000,USA,https://jobicy.com/jobs/151191-enterprise-customer-success-manager-central
-jobicy,Engineering,0,"Staff Software Engineer, App Platform",Fieldguide,210000,265000,USA,https://jobicy.com/jobs/144040-staff-software-engineer-app-platform
-jobicy,Cybersecurity,0,"Senior Web Security Engineer, Browser Platform",DuckDuckGo,178500,178500,Anywhere,https://jobicy.com/jobs/151281-senior-web-security-engineer-browser-platform
-jobicy,Unknown,0,Mid-Market Account Executive,MaintainX,153000,210000,USA,https://jobicy.com/jobs/156261-mid-market-account-executive-7
-jobicy,Unknown,0,Legal Operations Manager,Amplitude,167000,261000,"Canada,  USA",https://jobicy.com/jobs/156262-legal-operations-manager
-jobicy,Engineering,0,"Senior Director, BSS Engineering & Product​",Vonage,,,Spain,https://jobicy.com/jobs/156257-senior-director-bss-engineering-product
-jobicy,Engineering,0,Enterprise Solution Engineer - South East / Mid Atlantic,Sigma Computing,,,USA,https://jobicy.com/jobs/156263-enterprise-solution-engineer-south-east-mid-atlantic
-jobicy,Unknown,0,Mid-Market Account Executive - EMEA,MaintainX,,,UK,https://jobicy.com/jobs/156260-mid-market-account-executive-emea-2
-jobicy,AI / Vibe Dev,1,Sr. Marketing Automation Specialist,Amplitude,121000,181000,"Canada,  USA",https://jobicy.com/jobs/156259-sr-marketing-automation-specialist
-jobicy,Sales / SDR,0,Inside Sales Representative - Enterprise,MaintainX,90000,130000,USA,https://jobicy.com/jobs/156258-inside-sales-representative-enterprise
-jobicy,Unknown,0,Partner Solutions Architect - AWS,Amplitude,222000,333000,"Canada,  USA",https://jobicy.com/jobs/156254-partner-solutions-architect-aws
-jobicy,Engineering,0,"Solutions Engineer, Singapore",Cribl,,,Singapore,https://jobicy.com/jobs/156253-solutions-engineer-singapore
-jobicy,Unknown,0,"Materials Sourcing Manager, Wool",Quince,,,"Australia,  China,  Hong Kong",https://jobicy.com/jobs/156251-materials-sourcing-manager-wool
-jobicy,Support,0,Database Support Engineer (Japanese Speaking),Supabase,,,APAC,https://jobicy.com/jobs/156249-database-support-engineer-japanese-speaking
-jobicy,Support,0,Product Support Engineer - APAC,Ashby,11950000,13750000,"Australia,  Japan,  New Zealand,  Singapore,  South Korea",https://jobicy.com/jobs/156252-product-support-engineer-apac
-jobicy,Sales / SDR,0,"Regional Sales Director, Singapore",Cribl,,,APAC,https://jobicy.com/jobs/156248-regional-sales-director-singapore
-jobicy,Sales / SDR,0,Technical Account Manager,ClickUp,,,Philippines,https://jobicy.com/jobs/156247-technical-account-manager-7
-jobicy,Unknown,0,"Enterprise Solutions Consultant, ANZ",Nash,,,"Australia,  New Zealand",https://jobicy.com/jobs/156246-enterprise-solutions-consultant-anz
-jobicy,Unknown,0,Accounts Receivable Clerk,Instructure,,,Philippines,https://jobicy.com/jobs/156250-accounts-receivable-clerk-2
-jobicy,Support,0,"Manager, Product Support - APAC",Ashby,161000,211000,"Australia,  Japan,  Philippines,  Singapore,  South Korea",https://jobicy.com/jobs/156244-manager-product-support-apac
-jobicy,Unknown,0,Functional Consultant - Contact Center,Caylent,,,Brazil,https://jobicy.com/jobs/156242-functional-consultant-contact-center
-jobicy,Unknown,0,Data Architect,Caylent,,,Argentina,https://jobicy.com/jobs/156241-data-architect-2
-jobicy,Unknown,0,Strategic Account Executive - Brazil,GitLab,,,Brazil,https://jobicy.com/jobs/156238-strategic-account-executive-brazil-3
-jobicy,AI / Vibe Dev,1,AI Automation Manager,"Acquia, Inc.",,,Costa Rica,https://jobicy.com/jobs/156234-ai-automation-manager
-jobicy,Unknown,0,Operations Analyst,Caylent,,,Argentina,https://jobicy.com/jobs/156243-operations-analyst
-jobicy,Unknown,0,Customer Experience Manager,Caylent,,,Brazil,https://jobicy.com/jobs/156240-customer-experience-manager-2
-jobicy,Unknown,0,"Strategic Account Executive, Financial Services - Brazil",GitLab,,,Brazil,https://jobicy.com/jobs/156239-strategic-account-executive-financial-services-brazil
-jobicy,Engineering,0,Senior SecOps Engineer,Tala,,,Mexico,https://jobicy.com/jobs/156237-senior-secops-engineer
-jobicy,Sales / SDR,0,"Regional Sales Director, Commercial - LATAM",GitLab,,,Brazil,https://jobicy.com/jobs/156236-regional-sales-director-commercial-latam
-jobicy,Business Analyst,0,Senior Product Analyst,Tala,,,Mexico,https://jobicy.com/jobs/156235-senior-product-analyst
-jobicy,Unknown,0,IT Operations Manager,Cordance,,,USA,https://jobicy.com/jobs/156233-it-operations-manager
-jobicy,HR,0,HR Business Partner,Cordance,,,USA,https://jobicy.com/jobs/156230-hr-business-partner
-jobicy,Unknown,0,Account Executive,Cordance,,,USA,https://jobicy.com/jobs/156225-account-executive-26
-jobicy,Engineering,0,Senior Platform Engineer - US Remote,PerfectServe,140000,160000,USA,https://jobicy.com/jobs/156231-senior-platform-engineer-us-remote
-jobicy,Unknown,0,Clinical Operations Lead,Alimentiv,,,Hungary,https://jobicy.com/jobs/156227-clinical-operations-lead-2
-jobicy,Engineering,0,Mobile Developer I - US Remote,PerfectServe,75000,100000,USA,https://jobicy.com/jobs/156228-mobile-developer-i-us-remote
-jobicy,Unknown,0,PMO & Portfolio Analyst,Rithum,65000,95000,USA,https://jobicy.com/jobs/156226-pmo-portfolio-analyst
-jobicy,Product / PM,0,Senior Outbound Product Manager,Harness,165000,215000,USA,https://jobicy.com/jobs/156222-senior-outbound-product-manager
-jobicy,Sales / SDR,0,Sales Engineer - San Francisco,Harness,265000,285000,USA,https://jobicy.com/jobs/156215-sales-engineer-san-francisco
-jobicy,Marketing,0,"Senior Field Marketing Manager, Events",Harness,,,USA,https://jobicy.com/jobs/156221-senior-field-marketing-manager-events
-jobicy,Unknown,0,Senior Customer Architect,Harness,180000,202000,USA,https://jobicy.com/jobs/156218-senior-customer-architect
-jobicy,Engineering,0,Sr. IT Systems Engineer,Carrot,150000,175000,USA,https://jobicy.com/jobs/156214-sr-it-systems-engineer-2
-jobicy,Unknown,0,Senior Enterprise Account Executive - Seattle,Harness,325000,325000,USA,https://jobicy.com/jobs/156219-senior-enterprise-account-executive-seattle
-jobicy,Marketing,0,"Sr. Content Marketing Manager, B2B SaaS",Gremlin,145000,165000,USA,https://jobicy.com/jobs/156213-sr-content-marketing-manager-b2b-saas
-jobicy,Sales / SDR,0,Sales Engineer - Seattle,Harness,220000,290000,USA,https://jobicy.com/jobs/156216-sales-engineer-seattle
-jobicy,Unknown,0,Solutions Architect,Fastly,122280,172632,USA,https://jobicy.com/jobs/156208-solutions-architect-3
-jobicy,Data,0,"Senior Director, Analytics and Data Science, Core Product & Growth",Life360,247000,366000,"Canada,  USA",https://jobicy.com/jobs/156203-senior-director-analytics-and-data-science-core-product-growth
-jobicy,Design (UI/UX),0,"Senior Product Designer II, Revenue Experimentation",Life360,152000,223000,"Canada,  USA",https://jobicy.com/jobs/156212-senior-product-designer-ii-revenue-experimentation
-jobicy,Sales / SDR,0,Commercial Account Manager,Motive,,,APAC,https://jobicy.com/jobs/156211-commercial-account-manager-2
-jobicy,Engineering,0,Partnership Development Manager,Fastly,184508,221409,USA,https://jobicy.com/jobs/156204-partnership-development-manager
-jobicy,Unknown,0,"Senior Manager, Strategic Finance",Life360,298022,298022,USA,https://jobicy.com/jobs/156210-senior-manager-strategic-finance
-jobicy,Unknown,0,Campaign Operations Manager (Individual Contributor),Motive,89000,111000,USA,https://jobicy.com/jobs/156209-campaign-operations-manager-individual-contributor
-jobicy,Unknown,0,Financial Crimes Analyst,Flex,80000,100000,USA,https://jobicy.com/jobs/156207-financial-crimes-analyst
-jobicy,Sales / SDR,0,Sales & Marketing Operations Specialist - Mexico,Brafton,,,Mexico,https://jobicy.com/jobs/156205-sales-marketing-operations-specialist-mexico
-jobicy,Unknown,0,Enterprise Account Executive - Singapore,GitLab,,,Singapore,https://jobicy.com/jobs/156198-enterprise-account-executive-singapore
-jobicy,Product / PM,0,Senior Product Manager,Envato,,,"Australia,  New Zealand",https://jobicy.com/jobs/156197-senior-product-manager-11
-jobicy,Sales / SDR,0,Senior Sales Manager,StackAdapt,133488,183546,Australia,https://jobicy.com/jobs/156196-senior-sales-manager-2
-jobicy,Support,0,"Customer Success Architect, Japan",GitLab,,,Japan,https://jobicy.com/jobs/156195-customer-success-architect-japan
-jobicy,Unknown,0,Senior Brand Lead,Envato,,,"Australia,  New Zealand",https://jobicy.com/jobs/156194-senior-brand-lead
-jobicy,Engineering,0,"Senior Manager, Inventory Development",StackAdapt,187872,258324,Australia,https://jobicy.com/jobs/156193-senior-manager-inventory-development
-jobicy,Unknown,0,Head of APAC Client Services,StackAdapt,182920,251515,"Australia,  Singapore",https://jobicy.com/jobs/156190-head-of-apac-client-services
-jobicy,Unknown,0,Commercial Account Executive - Australia,GitLab,,,Australia,https://jobicy.com/jobs/156189-commercial-account-executive-australia
-jobicy,Unknown,0,Commercial Account Executive - South Korea,GitLab,,,South Korea,https://jobicy.com/jobs/156192-commercial-account-executive-south-korea
-jobicy,Unknown,0,Legal Counsel,Masabi,,,UK,https://jobicy.com/jobs/156185-legal-counsel-2
-jobicy,Unknown,0,"Enterprise Account Executive, DACH",Astronomer,,,Germany,https://jobicy.com/jobs/156180-enterprise-account-executive-dach-5
-jobicy,Support,0,"Manager, Customer Success",Ping Identity,,,UK,https://jobicy.com/jobs/156188-manager-customer-success-4
-jobicy,Engineering,0,"Senior Software Engineer, Platform",Astronomer,105000,175000,Ireland,https://jobicy.com/jobs/156187-senior-software-engineer-platform-3
-jobicy,Engineering,0,Senior Web Engineer - Subscriptions,Spotify,,,EMEA,https://jobicy.com/jobs/156186-senior-web-engineer-subscriptions
-jobicy,Sysadmin / DevOps,0,"Staff Software Engineer, Platform Infrastructure",Astronomer,140000,215000,Ireland,https://jobicy.com/jobs/156184-staff-software-engineer-platform-infrastructure
-jobicy,QA / Testing,0,Senior Product Quality Analyst - AI Voice,Spotify,,,UK,https://jobicy.com/jobs/156183-senior-product-quality-analyst-ai-voice
-jobicy,Engineering,0,Staff Software Engineer,Cision,,,Bulgaria,https://jobicy.com/jobs/156181-staff-software-engineer-9
-jobicy,Unknown,0,Payroll & Expenses Specialist,Masabi,,,Romania,https://jobicy.com/jobs/156182-payroll-expenses-specialist
-jobicy,Product / PM,0,Senior Product Manager - Audiobooks Format Foundations,Spotify,,,"Sweden,  UK",https://jobicy.com/jobs/156179-senior-product-manager-audiobooks-format-foundations
-jobicy,Data,0,"Contract Sr Data Analyst (SQL,Telemetry,Browser Engine)",Mozilla,93450,124600,"Canada,  Germany,  UK",https://jobicy.com/jobs/156169-contract-sr-data-analyst-sqltelemetrybrowser-engine
-jobicy,Unknown,0,Solutions Architect,Vercel,,,"Germany,  UK",https://jobicy.com/jobs/156171-solutions-architect-2
-jobicy,Marketing,0,Growth Manager - Influencer Program,OKX,,,"France,  Germany,  Netherlands",https://jobicy.com/jobs/156170-growth-manager-influencer-program
-jobicy,Unknown,0,"Policy Communications Lead, Europe",Mozilla,,,UK,https://jobicy.com/jobs/156177-policy-communications-lead-europe
-jobicy,Engineering,0,"Contract Staff Software Engineer - (Firefox) C++,Storage Encryption",Mozilla,,,"Canada,  Germany,  UK",https://jobicy.com/jobs/156176-contract-staff-software-engineer-firefox-cstorage-encryption
-jobicy,Product / PM,0,Localisation Project Manager,Smartling,,,Ireland,https://jobicy.com/jobs/156175-localisation-project-manager
-jobicy,Sales / SDR,0,"Senior Affiliate Business Development Manager, Western Europe",OKX,,,Germany,https://jobicy.com/jobs/156173-senior-affiliate-business-development-manager-western-europe
-jobicy,Engineering,0,Senior Contract C++ / JavaScript Software Engineer Firefox (Browser Engine),Mozilla,,,Germany,https://jobicy.com/jobs/156178-senior-contract-c-javascript-software-engineer-firefox-browser-engine
-jobicy,Unknown,0,"VIP Relationship Manager, Poland",OKX,,,Poland,https://jobicy.com/jobs/156174-vip-relationship-manager-poland
-jobicy,Engineering,0,Contract Staff Software Engineer-Bug Burndown,Mozilla,,,Germany,https://jobicy.com/jobs/156172-contract-staff-software-engineer-bug-burndown
-jobicy,Cybersecurity,0,"Senior User Acquisition Manager, Paid Social Ads",Ruby Labs,,,Europe,https://jobicy.com/jobs/156150-senior-user-acquisition-manager-paid-social-ads
-jobicy,Unknown,0,"Director, Text-to-Speech Synthesis Research",Deepgram,,,UK,https://jobicy.com/jobs/156157-director-text-to-speech-synthesis-research
-jobicy,Unknown,0,"Commercial Account Executive, DACH",Algolia,120000,160000,Germany,https://jobicy.com/jobs/156154-commercial-account-executive-dach
-jobicy,Unknown,0,Senior Solutions Architect - Europe,Deepgram,,,"Austria,  Germany,  Ireland,  Netherlands,  Spain,  Switzerland,  UK",https://jobicy.com/jobs/156151-senior-solutions-architect-europe
-jobicy,Unknown,0,Senior Commercial Counsel,Deepgram,,,"Ireland,  UK",https://jobicy.com/jobs/156156-senior-commercial-counsel-2
-jobicy,Sales / SDR,0,"GM, Sales (EMEA)",Deepgram,,,UK,https://jobicy.com/jobs/156155-gm-sales-emea
-jobicy,Product / PM,0,Product Manager - 4 Day Week + Remote,Laminar Projects,,,"Poland,  Portugal",https://jobicy.com/jobs/156149-product-manager-4-day-week-remote-2
-jobicy,Support,0,Customer Success Engineer ( London),Deepgram,,,UK,https://jobicy.com/jobs/156153-customer-success-engineer-london
-jobicy,Unknown,0,Stagiaire Opérations Titres (f/h/d),Upvest,,,"France,  Germany",https://jobicy.com/jobs/156142-stagiaire-operations-titres-f-h-d
-jobicy,Unknown,0,"Senior All-Source Investigator, Severe Harms",TRM Labs,120000,168000,"UK,  USA",https://jobicy.com/jobs/156139-senior-all-source-investigator-severe-harms
-jobicy,Marketing,0,"Content Marketing Lead, Insights",TRM Labs,140000,188000,"UK,  USA",https://jobicy.com/jobs/156148-content-marketing-lead-insights
-jobicy,Unknown,0,IT Specialist,Chainguard,47501,55665,UK,https://jobicy.com/jobs/156145-it-specialist
-jobicy,Marketing,0,VP of Global Growth,TRM Labs,256060,272120,"UK,  USA",https://jobicy.com/jobs/156143-vp-of-global-growth
-jobicy,Sales / SDR,0,International Business Development Representative - Nordics,Chainguard,100000,100000,"Denmark,  Sweden,  UK",https://jobicy.com/jobs/156141-international-business-development-representative-nordics
-jobicy,Unknown,0,Securities Operations Intern (f/m/d),Upvest,,,"France,  Germany",https://jobicy.com/jobs/156147-securities-operations-intern-f-m-d
-jobicy,Unknown,0,Head of Product,Dune,,,"Europe,  USA",https://jobicy.com/jobs/156144-head-of-product-2
-jobicy,Engineering,0,Staff Software Engineer - Market Data,Dune,,,"Europe,  USA",https://jobicy.com/jobs/156140-staff-software-engineer-market-data
-jobicy,Engineering,0,Software Engineer (.NET),LastPass,,,Portugal,https://jobicy.com/jobs/156146-software-engineer-net
-jobicy,Sales / SDR,0,Sales Manager - Southeast Asia,StackAdapt,105179,144621,"Malaysia,  Singapore",https://jobicy.com/jobs/156137-sales-manager-southeast-asia
-jobicy,Engineering,0,Senior Detection Engineering & Threat Hunting Analyst,Huntress,150000,170000,Australia,https://jobicy.com/jobs/156136-senior-detection-engineering-threat-hunting-analyst
-jobicy,Sales / SDR,0,Sales Manager / Senior Sales Manager – Japan,StackAdapt,13456800,18503100,Japan,https://jobicy.com/jobs/156133-sales-manager-senior-sales-manager-japan
-jobicy,Sales / SDR,0,Programmatic Account Manager,StackAdapt,100606,138334,Singapore,https://jobicy.com/jobs/156130-programmatic-account-manager
-jobicy,Sales / SDR,0,Reseller Sales Manager,Huntress,,,Australia,https://jobicy.com/jobs/156129-reseller-sales-manager
-jobicy,Marketing,0,Creator Marketing Lead,Envato,,,"Australia,  New Zealand",https://jobicy.com/jobs/156128-creator-marketing-lead
-jobicy,Design (UI/UX),0,Product Designer - Visual Craft & AI,Envato,,,"Australia,  New Zealand",https://jobicy.com/jobs/156135-product-designer-visual-craft-ai
-jobicy,Cybersecurity,0,Senior Contracts and Budget Associate,Precision Medicine Group,,,South Korea,https://jobicy.com/jobs/156134-senior-contracts-and-budget-associate
-jobicy,Cybersecurity,0,Security Operations Analyst,Huntress,110000,140000,Australia,https://jobicy.com/jobs/156132-security-operations-analyst
-jobicy,AI / Vibe Dev,1,Lead Product Manager - GenAI,Envato,,,"Australia,  New Zealand",https://jobicy.com/jobs/156131-lead-product-manager-genai
-jobicy,Unknown,0,"Lead Machine Learning Scientist, Business Banking",Monzo,115000,150000,UK,https://jobicy.com/jobs/156127-lead-machine-learning-scientist-business-banking
-jobicy,Data,0,Lead Data Scientist,Monzo,95000,130000,UK,https://jobicy.com/jobs/156125-lead-data-scientist-3
-jobicy,Sales / SDR,0,"Sales Manager, eCommerce",StackAdapt,46195,63518,UK,https://jobicy.com/jobs/156126-sales-manager-ecommerce
-jobicy,Cybersecurity,0,Senior Product Security Engineer,AlphaSense,103000,141000,Ireland,https://jobicy.com/jobs/156123-senior-product-security-engineer
-jobicy,Engineering,0,Engineering Manager,Monzo,112000,145000,UK,https://jobicy.com/jobs/156122-engineering-manager-10
-jobicy,Engineering,0,Principal Software Engineer - Product Platforms,AlphaSense,,,UK,https://jobicy.com/jobs/156118-principal-software-engineer-product-platforms
-jobicy,Sales / SDR,0,"Sales Manager, B2B",StackAdapt,46195,63518,UK,https://jobicy.com/jobs/156124-sales-manager-b2b
-jobicy,Sales / SDR,0,Programmatic Sales Manager,StackAdapt,59027,81162,UK,https://jobicy.com/jobs/156121-programmatic-sales-manager
-jobicy,Marketing,0,Marketing Campaign Manager,Cordance,,,"UK,  USA",https://jobicy.com/jobs/156119-marketing-campaign-manager
-jobicy,Unknown,0,"Director, Technology Alliances",Apollo.io,190000,275000,USA,https://jobicy.com/jobs/156103-director-technology-alliances
-jobicy,Engineering,0,"Manager, Machine Learning Engineering",Tala,170000,210000,USA,https://jobicy.com/jobs/156097-manager-machine-learning-engineering
-jobicy,Unknown,0,Health Coach,Future PLC,30,40,USA,https://jobicy.com/jobs/156102-health-coach-2
-jobicy,Unknown,0,"Director, Data & Distribution Partnerships",Apollo.io,190000,275000,USA,https://jobicy.com/jobs/156100-director-data-distribution-partnerships
-jobicy,Engineering,0,Applied AI Engineer,Future PLC,215000,250000,USA,https://jobicy.com/jobs/156098-applied-ai-engineer-2
-jobicy,Unknown,0,People Business Partner,Salesloft,85000,95000,USA,https://jobicy.com/jobs/156099-people-business-partner-2
-jobicy,Unknown,0,Client Advisor,Toptal,,,"LATAM,  Canada",https://jobicy.com/jobs/153742-client-advisor
-jobicy,Engineering,0,Senior Software Enginner (Full-stack Node + React),Airtm,,,LATAM,https://jobicy.com/jobs/153741-senior-software-enginner-full-stack-node-react
-jobicy,Unknown,0,Account Executive,Toptal,,,"LATAM,  Canada,  USA",https://jobicy.com/jobs/153739-account-executive-21
-jobicy,Sysadmin / DevOps,0,Infrastructure Engineer,Airtm,,,LATAM,https://jobicy.com/jobs/153737-infrastructure-engineer-4
-jobicy,Cybersecurity,0,Security Engineering Manager,SkySlope,180000,200000,USA,https://jobicy.com/jobs/153718-security-engineering-manager
-jobicy,Sales / SDR,0,"Manager, Enterprise Business Development - APJ",Chainguard,,,APAC,https://jobicy.com/jobs/153765-manager-enterprise-business-development-apj
+jobicy,Engineering,0,Senior HPC Cluster Engineer,Nebius,,,Europe,https://jobicy.com/jobs/156540-senior-hpc-cluster-engineer
+jobicy,Engineering,0,"Senior HPC Engineer, GPU Compute",Nebius,,,Europe,https://jobicy.com/jobs/156543-senior-hpc-engineer-gpu-compute
+jobicy,Unknown,0,Partner Manager - German Speaker,Algolia,108000,150000,UK,https://jobicy.com/jobs/156542-partner-manager-german-speaker
+jobicy,Unknown,0,Partner Manager,Algolia,139500,174500,Germany,https://jobicy.com/jobs/156539-partner-manager
+jobicy,Unknown,0,Technical Manager (North),Ajax Systems,,,UK,https://jobicy.com/jobs/156541-technical-manager-north
+jobicy,Unknown,0,Technical Director,Ajax Systems,,,"Ireland,  UK",https://jobicy.com/jobs/156538-technical-director
+jobicy,Data,0,Senior Data Engineer,Nebius,,,"Europe,  Israel",https://jobicy.com/jobs/156537-senior-data-engineer-5
+jobicy,Engineering,0,Senior Customer AI Engineer - Token Factory,Nebius,,,Europe,https://jobicy.com/jobs/156535-senior-customer-ai-engineer-token-factory
+jobicy,Sales / SDR,0,Pre-Sales Engineer Romania (Timișoara),Ajax Systems,,,Romania,https://jobicy.com/jobs/156536-pre-sales-engineer-romania-timisoara
+jobicy,Sales / SDR,0,Pre-Sales Engineer (Sicilia),Ajax Systems,,,Italy,https://jobicy.com/jobs/156533-pre-sales-engineer-sicilia
+jobicy,Engineering,0,Senior Applied AI Solutions Engineer,Nebius,200000,350000,"Europe,  USA",https://jobicy.com/jobs/156532-senior-applied-ai-solutions-engineer
+jobicy,Unknown,0,Enterprise Account Executive,Algolia,172000,200000,Netherlands,https://jobicy.com/jobs/156531-enterprise-account-executive-24
+jobicy,Sales / SDR,0,Pre-Sales Engineer (Lombardia),Ajax Systems,,,Italy,https://jobicy.com/jobs/156530-pre-sales-engineer-lombardia
+jobicy,Cybersecurity,0,Security Solutions Engineer,Nebius,,,Europe,https://jobicy.com/jobs/156529-security-solutions-engineer
+jobicy,Sales / SDR,0,Pre-Sales Engineer (Emilia Romagna Region),Ajax Systems,,,Italy,https://jobicy.com/jobs/156527-pre-sales-engineer-emilia-romagna-region
+jobicy,Sales / SDR,0,Pre-Sales Engineer (Baltic States),Ajax Systems,,,"Estonia,  Latvia,  Lithuania",https://jobicy.com/jobs/156526-pre-sales-engineer-baltic-states
+jobicy,Product / PM,0,Product Manager - Anti Fraud,Nebius,,,Europe,https://jobicy.com/jobs/156525-product-manager-anti-fraud
+jobicy,Sales / SDR,0,"Key Account Manager Italy (Tuscany, Emilia-Romagna, Marche and Umbria)",Ajax Systems,,,Italy,https://jobicy.com/jobs/156524-key-account-manager-italy-tuscany-emilia-romagna-marche-and-umbria
+jobicy,Unknown,0,Commercial Sédentaire B2B (English/French),Ajax Systems,,,France,https://jobicy.com/jobs/156518-commercial-sedentaire-b2b-english-french
+jobicy,Sales / SDR,0,"Key Account Manager Italy (Lombardy, Piedmont, Liguria, Valle d’Aosta)",Ajax Systems,,,Italy,https://jobicy.com/jobs/156522-key-account-manager-italy-lombardy-piedmont-liguria-valle-daosta
+jobicy,Support,0,Support Trainer - EMEA,Ashby,64000,100000,"Belgium,  Czechia,  Denmark,  France,  Germany,  Ireland,  Italy,  Netherlands,  Poland,  Portugal,  Romania,  Spain,  UK",https://jobicy.com/jobs/156519-support-trainer-emea
+jobicy,Unknown,0,Compliance & Risk Lead (Maternity Cover),Paddle,,,UK,https://jobicy.com/jobs/156517-compliance-risk-lead-maternity-cover
+jobicy,Support,0,Mid-Market Customer Success Manager - EMEA,Ashby,85000,105000,Europe,https://jobicy.com/jobs/156516-mid-market-customer-success-manager-emea-3
+jobicy,Sales / SDR,0,Channel Sales Manager South Italy,Ajax Systems,,,Italy,https://jobicy.com/jobs/156515-channel-sales-manager-south-italy
+jobicy,Sales / SDR,0,Inside Sales Specialist - Paris,Ajax Systems,,,France,https://jobicy.com/jobs/156521-inside-sales-specialist-paris
+jobicy,Marketing,0,Content Writer,Paddle,,,UK,https://jobicy.com/jobs/156520-content-writer
+jobicy,Support,0,Customer Success Associate - Spanish & English speaker,Instructure,850000,875000,Hungary,https://jobicy.com/jobs/156514-customer-success-associate-spanish-english-speaker
+jobicy,Unknown,0,Model Validation Senior Manager,Monzo,85000,105000,UK,https://jobicy.com/jobs/156512-model-validation-senior-manager
+jobicy,Unknown,0,"Lead Machine Learning Scientist, Search",Monzo,115000,150000,UK,https://jobicy.com/jobs/156506-lead-machine-learning-scientist-search
+jobicy,Sales / SDR,0,Sales Development Representative | Netherlands | Remote,Grafana Labs,58750,61850,Netherlands,https://jobicy.com/jobs/156513-sales-development-representative-netherlands-remote
+jobicy,Design (UI/UX),0,"Lead Product Designer, Growth",Monzo,90000,110000,UK,https://jobicy.com/jobs/156510-lead-product-designer-growth
+jobicy,Sales / SDR,0,"Regional Sales Director, Enterprise Growth | UK | Remote",Grafana Labs,288500,319250,UK,https://jobicy.com/jobs/156509-regional-sales-director-enterprise-growth-uk-remote
+jobicy,Engineering,0,"Manager, Solutions Engineering | NorBen | Remote",Grafana Labs,145000,172000,Netherlands,https://jobicy.com/jobs/156505-manager-solutions-engineering-norben-remote
+jobicy,Sales / SDR,0,Sales Development Representative | Germany | Remote,Grafana Labs,58000,62000,Germany,https://jobicy.com/jobs/156511-sales-development-representative-germany-remote
+jobicy,Design (UI/UX),0,Lead Product Designer,Monzo,90000,120000,UK,https://jobicy.com/jobs/156508-lead-product-designer
+jobicy,Marketing,0,Generative Content Creator,Moon Active,,,Spain,https://jobicy.com/jobs/156507-generative-content-creator
+jobicy,Sales / SDR,0,"Sr Account Manager, EMEA",Customer.io,21200000,151700000,"Ireland,  UK",https://jobicy.com/jobs/156504-sr-account-manager-emea-2
+jobicy,Product / PM,0,"Principal Product Manager, Omnichannel CX",Nextiva,130000,230000,USA,https://jobicy.com/jobs/156496-principal-product-manager-omnichannel-cx-2
+jobicy,Design (UI/UX),0,Senior Product Designer,Nextiva,91000,160000,USA,https://jobicy.com/jobs/156503-senior-product-designer-16
+jobicy,Unknown,0,Head of Customer Operations,Happy Money,200000,225000,USA,https://jobicy.com/jobs/156494-head-of-customer-operations
+jobicy,Sales / SDR,0,"Regional Sales Manager, Financial Services",ExtraHop,155000,175000,USA,https://jobicy.com/jobs/156502-regional-sales-manager-financial-services
+jobicy,Design (UI/UX),0,Learning Experience Designer,ExtraHop,75000,85000,USA,https://jobicy.com/jobs/156499-learning-experience-designer-2
+jobicy,Sales / SDR,0,Sales Director (Credit Unions),Happy Money,175000,210000,USA,https://jobicy.com/jobs/156497-sales-director-credit-unions
+jobicy,Unknown,0,Compliance & Regulatory Counsel,ExtraHop,180000,200000,USA,https://jobicy.com/jobs/156495-compliance-regulatory-counsel
+jobicy,Sales / SDR,0,Senior Salesforce Business Systems Administrator,Salesloft,95000,110000,USA,https://jobicy.com/jobs/156501-senior-salesforce-business-systems-administrator
+jobicy,Engineering,0,Senior Software Engineer (Frontend),Happy Money,140000,160000,USA,https://jobicy.com/jobs/156500-senior-software-engineer-frontend-3
+jobicy,Unknown,0,Senior People Business Partner,Salesloft,105000,120000,USA,https://jobicy.com/jobs/156498-senior-people-business-partner
+jobicy,Unknown,0,"Director, People Operations",LaunchDarkly,163000,263670,USA,https://jobicy.com/jobs/156488-director-people-operations
+jobicy,Engineering,0,Engineering Manager,Tekmetric,,,USA,https://jobicy.com/jobs/156493-engineering-manager-11
+jobicy,Engineering,0,"Engineering Manager, Cloud Engineering",LaunchDarkly,163000,263670,USA,https://jobicy.com/jobs/156492-engineering-manager-cloud-engineering
+jobicy,Marketing,0,"Content Strategist, Contract (CA)",PointClickCare,91000,97000,Canada,https://jobicy.com/jobs/156486-content-strategist-contract-ca
+jobicy,Unknown,0,Capture Manager,Oddball,120000,160000,USA,https://jobicy.com/jobs/156487-capture-manager
+jobicy,Design (UI/UX),0,Senior Recruiter,Bayesian Health,155249,176055,USA,https://jobicy.com/jobs/156485-senior-recruiter
+jobicy,Sysadmin / DevOps,0,Senior DevOps/SRE Engineer,Oddball,120000,156000,USA,https://jobicy.com/jobs/156491-senior-devops-sre-engineer
+jobicy,Marketing,0,"Content Strategist, Contract (US)",PointClickCare,91000,98000,USA,https://jobicy.com/jobs/156490-content-strategist-contract-us
+jobicy,Marketing,0,Customer Results Manager - Marketing,Tekmetric,,,USA,https://jobicy.com/jobs/156489-customer-results-manager-marketing
+jobicy,Unknown,0,Customer Results Manager II,Tekmetric,,,USA,https://jobicy.com/jobs/156484-customer-results-manager-ii
+jobicy,Unknown,0,Influencer Outreach Specialist,Fresh Prints,1000,1400,Philippines,https://jobicy.com/jobs/156481-influencer-outreach-specialist
+jobicy,Sysadmin / DevOps,0,"Software Engineer, AI/ML Infrastructure (US-Based)",Thumbtack,123300,188100,USA,https://jobicy.com/jobs/156483-software-engineer-ai-ml-infrastructure-us-based
+jobicy,Unknown,0,Senior R&D Supply Chain Specialist,ICEYE,,,Germany,https://jobicy.com/jobs/156476-senior-rd-supply-chain-specialist
+jobicy,Marketing,0,Junior Content Editor,Inspira Education,55000,55000,Canada,https://jobicy.com/jobs/156475-junior-content-editor
+jobicy,Engineering,0,Engineering Supply Chain Manager (Mechanical),ICEYE,,,Germany,https://jobicy.com/jobs/156480-engineering-supply-chain-manager-mechanical
+jobicy,Sales / SDR,0,GTM Senior Solutions Consultant (Presales),Apollo.io,185000,205000,USA,https://jobicy.com/jobs/156478-gtm-senior-solutions-consultant-presales
+jobicy,Sales / SDR,0,GTM Solutions Consultant II (Presales),Apollo.io,175000,185000,USA,https://jobicy.com/jobs/156482-gtm-solutions-consultant-ii-presales
+jobicy,Unknown,0,Law School Admissions Consultant,Inspira Education,,,"Canada,  USA",https://jobicy.com/jobs/156479-law-school-admissions-consultant
+jobicy,Unknown,0,Employment Counsel,Apollo.io,175000,245000,USA,https://jobicy.com/jobs/156474-employment-counsel
+jobicy,Data,0,"Product Manager, New Content Initiatives and Analysis",AlphaSense,,,UK,https://jobicy.com/jobs/156120-product-manager-new-content-initiatives-and-analysis
+jobicy,Engineering,0,"Senior Software Engineer, Add-Ons",Mozilla,45000,60000,Finland,https://jobicy.com/jobs/153899-senior-software-engineer-add-ons
+jobicy,Unknown,0,International Audio/Video Remote Karen and Thai Interpreter,Language Services Associates,,,Anywhere,https://jobicy.com/jobs/153919-international-audio-video-remote-karen-and-thai-interpreter
+jobicy,Unknown,0,"CEO, AI Services - US-Based",Toptal,,,USA,https://jobicy.com/jobs/153884-ceo-ai-services-us-based
+jobicy,Unknown,0,Senior Counsel,Goodleap,150000,200000,USA,https://jobicy.com/jobs/153883-senior-counsel
+jobicy,Unknown,0,Account Executive - US-Based,Toptal,,,USA,https://jobicy.com/jobs/153880-account-executive-us-based
+jobicy,Unknown,0,International Audio/Video Remote Hakha Chin Interpreter,Language Services Associates,,,Anywhere,https://jobicy.com/jobs/153916-international-audio-video-remote-hakha-chin-interpreter
+jobicy,Engineering,0,Engineering Manager,NetBox Labs,195000,210000,USA,https://jobicy.com/jobs/153922-engineering-manager-8
+jobicy,Product / PM,0,"Staff/Principal Product Manager, Patient Experience",Wheel,201700,301700,USA,https://jobicy.com/jobs/153918-staff-principal-product-manager-patient-experience
+jobicy,Unknown,0,Account Executive,NetBox Labs,70000,85000,France,https://jobicy.com/jobs/153915-account-executive-23
+jobicy,Cybersecurity,0,Psychosociaal Therapeut,BetterHelp,,,Netherlands,https://jobicy.com/jobs/153910-psychosociaal-therapeut
+jobicy,Cybersecurity,0,Psychosociaal Medewerker,BetterHelp,,,Netherlands,https://jobicy.com/jobs/153908-psychosociaal-medewerker
+jobicy,Cybersecurity,0,Psychosociaal Counselor,BetterHelp,,,Netherlands,https://jobicy.com/jobs/153906-psychosociaal-counselor
+jobicy,Unknown,0,Psycholoog,BetterHelp,,,Netherlands,https://jobicy.com/jobs/153903-psycholoog
+jobicy,Unknown,0,Threat Detection Analyst (Japanese & English speaking),Fastly,,,APAC,https://jobicy.com/jobs/153871-threat-detection-analyst-japanese-english-speaking
+jobicy,Sales / SDR,0,Senior Technical Account Manager - Strategic Services (EMEA),ClickUp,,,"Ireland,  UK",https://jobicy.com/jobs/153902-senior-technical-account-manager-strategic-services-emea
+jobicy,Engineering,0,"Senior Manager, Solution Engineering - DocV",Socure,220000,250000,USA,https://jobicy.com/jobs/153882-senior-manager-solution-engineering-docv
+jobicy,Unknown,0,Chief Technology Officer - US-Based,Toptal,,,USA,https://jobicy.com/jobs/153888-chief-technology-officer-us-based
+jobicy,Cybersecurity,0,"Senior Security Engineer, Product Security",Goodleap,146000,169600,USA,https://jobicy.com/jobs/153887-senior-security-engineer-product-security
+jobicy,Unknown,0,Part-Time Psychotherapist (Saturday & Sunday),Athena,50000,100000,USA,https://jobicy.com/jobs/153850-part-time-psychotherapist-saturday-sunday
+jobicy,Engineering,0,Controls Engineer II,ICON plc,,,USA,https://jobicy.com/jobs/151368-controls-engineer-ii
+jobicy,Unknown,0,Psychotherapist,Athena,50000,100000,USA,https://jobicy.com/jobs/153857-psychotherapist
+jobicy,Engineering,0,Developer Advocate,Roboflow,,,USA,https://jobicy.com/jobs/151412-developer-advocate
+jobicy,Unknown,0,People Business Partner,Playson,,,Europe,https://jobicy.com/jobs/153897-people-business-partner
+jobicy,Unknown,0,Field Account Executive - München (w/m/d),Lightspeed Commerce,,,Germany,https://jobicy.com/jobs/153892-field-account-executive-munchen-w-m-d
+jobicy,Engineering,0,Full Stack Engineer,Roboflow,165000,195000,USA,https://jobicy.com/jobs/151415-full-stack-engineer
+jobicy,Unknown,0,Technical Program Manager,Playson,,,Europe,https://jobicy.com/jobs/153901-technical-program-manager-5
+jobicy,Engineering,0,Staff Backend Engineer,Socure,225000,265000,USA,https://jobicy.com/jobs/153889-staff-backend-engineer-3
+jobicy,Unknown,0,"Technical Consultant, Workday Financials",Ramp,212000,291000,"Canada,  USA",https://jobicy.com/jobs/153858-technical-consultant-workday-financials
+jobicy,Unknown,0,"Expansion Manager - (German speaking, Hamburg based, m/f/x)",Lightspeed Commerce,,,Germany,https://jobicy.com/jobs/153895-expansion-manager-german-speaking-hamburg-based-m-f-x
+jobicy,Data,0,Senior Data Engineer,Socure,160000,195000,USA,https://jobicy.com/jobs/153886-senior-data-engineer-4
+jobicy,Cybersecurity,0,Staff Product Security Engineer (Security),Phantom,200000,250000,"Canada,  UK,  USA",https://jobicy.com/jobs/153861-staff-product-security-engineer-security
+jobicy,Unknown,0,"Account Executive, Mid Market",Help Scout,100000,100000,USA,https://jobicy.com/jobs/153853-account-executive-mid-market-4
+jobicy,Engineering,0,"Staff Software Backend Engineer, Tech Lead - Foundations",NetBox Labs,215000,235000,"UK,  USA",https://jobicy.com/jobs/153647-staff-software-backend-engineer-tech-lead-foundations
+jobicy,Marketing,0,Head of Market Growth,PadSplit,175000,200000,USA,https://jobicy.com/jobs/153875-head-of-market-growth
+jobicy,Cybersecurity,0,"Audit Associate (Remote, USA-Based)",Manay CPA Inc.,,,Türkiye,https://jobicy.com/jobs/151411-audit-associate-remote-usa-based
+jobicy,Marketing,0,"Marketing Manager, Brazil",Ahrefs,,,Brazil,https://jobicy.com/jobs/153873-marketing-manager-brazil
+jobicy,Unknown,0,Client Finance Analyst I,Precision Medicine Group,50000,62000,USA,https://jobicy.com/jobs/153872-client-finance-analyst-i
+jobicy,Unknown,0,Chief Architect,Legion,300000,385000,USA,https://jobicy.com/jobs/151374-chief-architect
+jobicy,Engineering,0,Fullstack Engineer,Dispatch,,,USA,https://jobicy.com/jobs/151365-fullstack-engineer-2
+jobicy,Engineering,0,Senior Developer Success Engineer - West,Temporal Technologies,140000,180000,USA,https://jobicy.com/jobs/151357-senior-developer-success-engineer-west
+jobicy,Data,0,Data Analytics Engineer,Ruby Labs,,,Europe,https://jobicy.com/jobs/151318-data-analytics-engineer
+jobicy,Unknown,0,Clinical Data Team Lead,Thermo Fisher Scientific,,,Mexico,https://jobicy.com/jobs/149471-clinical-data-team-lead
+jobicy,Unknown,0,Customer Service Rep Up to 19/hour - No Degree Needed,NoGigiddy,38000,38000,USA,https://jobicy.com/jobs/149437-customer-service-rep-up-to-19-hour-no-degree-needed
+jobicy,Engineering,0,Senior AI Engineer,eMerchantPay,,,Bulgaria,https://jobicy.com/jobs/144139-senior-ai-engineer-3
+jobicy,Cybersecurity,0,Seasonal Customer Love Associate - (Remote - TX based),Reformation,34000,36000,USA,https://jobicy.com/jobs/143990-seasonal-customer-love-associate-remote-tx-based-2
+jobicy,Engineering,0,Senior Backend Engineer,Tala,,,APAC,https://jobicy.com/jobs/156465-senior-backend-engineer-11
+jobicy,Unknown,0,Medical Science Liaison,Veracyte,162000,196000,USA,https://jobicy.com/jobs/156472-medical-science-liaison
+jobicy,Sales / SDR,0,Technical Account Manager,Spreedly,,,USA,https://jobicy.com/jobs/156464-technical-account-manager-9
+jobicy,Unknown,0,Senior Manager Expansion Risk,Tala,,,APAC,https://jobicy.com/jobs/156469-senior-manager-expansion-risk
+jobicy,Engineering,0,Senior IT Operations Engineer,BigID,145000,165000,USA,https://jobicy.com/jobs/156467-senior-it-operations-engineer-2
+jobicy,QA / Testing,0,Manager Software Test Automation,Veracyte,147000,163000,USA,https://jobicy.com/jobs/156466-manager-software-test-automation
+jobicy,Support,0,Customer Success Manager II - EMEA,Tines,,,Ireland,https://jobicy.com/jobs/156468-customer-success-manager-ii-emea
+jobicy,Marketing,0,"Senior Manager, Marketing Strategy & Operations",GiveDirectly,120750,120750,"Canada,  Germany,  Netherlands,  Poland,  Portugal,  Spain,  Türkiye,  UK,  USA",https://jobicy.com/jobs/156454-senior-manager-marketing-strategy-operations
+jobicy,Unknown,0,Full-Time LSAT Tutor,Inspira Education,,,"Canada,  USA",https://jobicy.com/jobs/156459-full-time-lsat-tutor
+jobicy,Engineering,0,Software Development Manager,Lightspeed Commerce,170000,180000,Canada,https://jobicy.com/jobs/156457-software-development-manager
+jobicy,Engineering,0,Senior Software Engineer (PHP),NFQ,18260,24900,Poland,https://jobicy.com/jobs/156456-senior-software-engineer-php
+jobicy,Unknown,0,Full-Time MCAT Tutor,Inspira Education,,,"Canada,  USA",https://jobicy.com/jobs/156463-full-time-mcat-tutor
+jobicy,Unknown,0,Local Visibility Optimization,SOCi,49500,54000,Canada,https://jobicy.com/jobs/156461-local-visibility-optimization
+jobicy,AI / Vibe Dev,1,"Senior Director, Agentic Engineering",Lightspeed Commerce,300000,360000,USA,https://jobicy.com/jobs/156460-senior-director-agentic-engineering
+jobicy,Unknown,0,BS/MD Admissions Consultant,Inspira Education,,,"Canada,  USA",https://jobicy.com/jobs/156455-bs-md-admissions-consultant-2
+jobicy,Unknown,0,"Account Director, Private Sector (DACH)",TRM Labs,,,Germany,https://jobicy.com/jobs/156445-account-director-private-sector-dach
+jobicy,Unknown,0,Solutions Integration Architect - SAP,Zip,,,Germany,https://jobicy.com/jobs/156452-solutions-integration-architect-sap
+jobicy,Unknown,0,"Senior Manager, Professional Services - EMEA",Chainguard,,,EMEA,https://jobicy.com/jobs/156449-senior-manager-professional-services-emea
+jobicy,Sales / SDR,0,Business Development Representative,Zip,,,Germany,https://jobicy.com/jobs/156448-business-development-representative-19
+jobicy,Support,0,"Senior Manager, Customer Success Management - EMEA/APJ",Chainguard,,150000,EMEA,https://jobicy.com/jobs/156447-senior-manager-customer-success-management-emea-apj
+jobicy,Marketing,0,"Senior Field Marketing Manager, Middle East & Africa",Chainguard,,,EMEA,https://jobicy.com/jobs/156443-senior-field-marketing-manager-middle-east-africa
+jobicy,Engineering,0,Staff Engineer - Telematics,Samsara,,,UK,https://jobicy.com/jobs/156451-staff-engineer-telematics
+jobicy,Engineering,0,Software Engineer (Go),Paddle,,,"Ireland,  Portugal,  UK",https://jobicy.com/jobs/156450-software-engineer-go
+jobicy,Unknown,0,Senior ERP Solutions Consultant (German Fluency),Zip,,,Germany,https://jobicy.com/jobs/156446-senior-erp-solutions-consultant-german-fluency
+jobicy,Sales / SDR,0,Business Development Representative,Paddle,,,UK,https://jobicy.com/jobs/156444-business-development-representative-18
+jobicy,Unknown,0,Compensation & Total Rewards,Elevenlabs,,,"Canada,  Poland,  UK,  USA",https://jobicy.com/jobs/156439-compensation-total-rewards
+jobicy,Data,0,"Senior Manager, Client Analytics Partner",StackAdapt,114773,157758,UK,https://jobicy.com/jobs/156438-senior-manager-client-analytics-partner
+jobicy,Engineering,0,Research Engineer - Web Crawlers,Elevenlabs,,,"Bulgaria,  Poland,  UK,  USA",https://jobicy.com/jobs/156436-research-engineer-web-crawlers
+jobicy,Unknown,0,"Senior Analyst, GTM, Verticals, and Performance",StackAdapt,53894,74105,UK,https://jobicy.com/jobs/156435-senior-analyst-gtm-verticals-and-performance
+jobicy,Sales / SDR,0,Regional Director Sales - CEUR,Chainguard,,,Germany,https://jobicy.com/jobs/156434-regional-director-sales-ceur
+jobicy,Sales / SDR,0,Partner Sales Engineer,Chainguard,,,"France,  Germany",https://jobicy.com/jobs/156432-partner-sales-engineer
+jobicy,Support,0,Customer Support Specialist,Elevenlabs,,,"LATAM,  Bulgaria,  Canada,  Philippines,  Poland",https://jobicy.com/jobs/156431-customer-support-specialist-3
+jobicy,Support,0,Senior Customer Success Manager - Germany,Chainguard,,,Germany,https://jobicy.com/jobs/156437-senior-customer-success-manager-germany
+jobicy,Unknown,0,Senior Accountant,Elevenlabs,,,Poland,https://jobicy.com/jobs/156433-senior-accountant-4
+jobicy,Marketing,0,Senior Marketing Design Manager,Imprint,150000,200000,USA,https://jobicy.com/jobs/156427-senior-marketing-design-manager
+jobicy,Product / PM,0,"Staff Product Manager, Search and AI Visibility - US",Luxury Presence,170000,200000,USA,https://jobicy.com/jobs/156426-staff-product-manager-search-and-ai-visibility-us
+jobicy,Unknown,0,Enterprise Account Executive - Texas,DevRev,,,USA,https://jobicy.com/jobs/156420-enterprise-account-executive-texas
+jobicy,Unknown,0,Partner Business Manager,DevRev,,,USA,https://jobicy.com/jobs/156424-partner-business-manager-3
+jobicy,Design (UI/UX),0,Sr. Marketing Designer,Imprint,60,70,USA,https://jobicy.com/jobs/156423-sr-marketing-designer
+jobicy,Product / PM,0,"Staff Product Manager, Search and AI Visibility - CANADA",Luxury Presence,150000,180000,Canada,https://jobicy.com/jobs/156422-staff-product-manager-search-and-ai-visibility-canada
+jobicy,Sysadmin / DevOps,0,Senior DevOps Engineer - LATAM,Luxury Presence,,,LATAM,https://jobicy.com/jobs/156418-senior-devops-engineer-latam-2
+jobicy,Engineering,0,Staff Forward Deployed Engineer,hims &#038; hers,195000,240000,USA,https://jobicy.com/jobs/156425-staff-forward-deployed-engineer
+jobicy,Unknown,0,"Director, Strategic Finance - Planning Systems",hims &#038; hers,140000,170000,USA,https://jobicy.com/jobs/156421-director-strategic-finance-planning-systems
+jobicy,Unknown,0,Sr. Manager of CX Enablement,Imprint,150000,180000,USA,https://jobicy.com/jobs/156419-sr-manager-of-cx-enablement
+jobicy,Product / PM,0,Growth Product Manager,YipitData,170000,170000,USA,https://jobicy.com/jobs/156402-growth-product-manager-2
+jobicy,Engineering,0,Software Engineer (Engineer III to Principal) - Formal Methods,CertiK,115000,230000,USA,https://jobicy.com/jobs/156398-software-engineer-engineer-iii-to-principal-formal-methods
+jobicy,Marketing,0,Director of Product Marketing,Proof,190000,260000,USA,https://jobicy.com/jobs/156397-director-of-product-marketing-3
+jobicy,Marketing,0,Senior Manager of Marketing Operations,Proof,150000,215000,USA,https://jobicy.com/jobs/156401-senior-manager-of-marketing-operations
+jobicy,Product / PM,0,"Group Product Manager, Data Feeds",YipitData,190000,205000,USA,https://jobicy.com/jobs/156399-group-product-manager-data-feeds
+jobicy,Unknown,0,Trust & Integrity Specialist,Solace,30,31,USA,https://jobicy.com/jobs/156396-trust-integrity-specialist
+jobicy,Unknown,0,Director of Brand and Creative,Proof,180000,250000,USA,https://jobicy.com/jobs/156395-director-of-brand-and-creative
+jobicy,Unknown,0,Trust & Integrity Manager,Solace,90000,110000,USA,https://jobicy.com/jobs/156394-trust-integrity-manager
+jobicy,Unknown,0,Telehealth Physician (Missouri-Remote),Solace,220000,240000,USA,https://jobicy.com/jobs/156400-telehealth-physician-missouri-remote
+jobicy,Unknown,0,Principal Solutions Architect Middle East,Nebius,,,UAE,https://jobicy.com/jobs/156387-principal-solutions-architect-middle-east
+jobicy,Unknown,0,Firefox Enterprise Partnership Lead (France),Mozilla,58000,78000,France,https://jobicy.com/jobs/156384-firefox-enterprise-partnership-lead-france
+jobicy,Product / PM,0,Product Manager - Commercial Agreements & Pricing Mechanics,Nebius,,,Europe,https://jobicy.com/jobs/156388-product-manager-commercial-agreements-pricing-mechanics
+jobicy,Cybersecurity,0,Offensive Security Engineer,Nebius,,,Europe,https://jobicy.com/jobs/156386-offensive-security-engineer-2
+jobicy,Unknown,0,Key Customers Solutions Architect MEA,Nebius,,,UAE,https://jobicy.com/jobs/156382-key-customers-solutions-architect-mea
+jobicy,Cybersecurity,0,Product Manager - Security,Nebius,,,Europe,https://jobicy.com/jobs/156389-product-manager-security
+jobicy,Cybersecurity,0,Network Security Engineer,Nebius,,,Europe,https://jobicy.com/jobs/156385-network-security-engineer
+jobicy,Engineering,0,Software Engineer/C Developer-PGD,EDB,,,EMEA,https://jobicy.com/jobs/156380-software-engineer-c-developer-pgd
+jobicy,Unknown,0,Firefox Enterprise Partnership Lead (DACH),Mozilla,74000,99000,Germany,https://jobicy.com/jobs/156383-firefox-enterprise-partnership-lead-dach
+jobicy,Engineering,0,Staff Software Engineer-ClickHouse Committer,EDB,,,EMEA,https://jobicy.com/jobs/156381-staff-software-engineer-clickhouse-committer
+jobicy,Design (UI/UX),0,"Senior Enterprise Account Executive, Acquisition | Tokyo, Japan",Grafana Labs,,,Japan,https://jobicy.com/jobs/156377-senior-enterprise-account-executive-acquisition-tokyo-japan
+jobicy,Sales / SDR,0,Business Development Manager,ICEYE,,,Australia,https://jobicy.com/jobs/156378-business-development-manager-6
+jobicy,Data,0,Data Analytics & Revenue Reporting Specialist,LevelUp,,,Philippines,https://jobicy.com/jobs/156376-data-analytics-revenue-reporting-specialist
+jobicy,Sales / SDR,0,"VP of Sales, APAC",StackAdapt,263405,395107,APAC,https://jobicy.com/jobs/156372-vp-of-sales-apac
+jobicy,Sales / SDR,0,Sales Engineer | Thailand,ExtraHop,,,Thailand,https://jobicy.com/jobs/156371-sales-engineer-thailand
+jobicy,Support,0,Customer Support Specialist (Full Remote - Philippines),EverAI,15000,16000,Philippines,https://jobicy.com/jobs/156374-customer-support-specialist-full-remote-philippines
+jobicy,Marketing,0,"Growth Partnerships Manager, Korea",OpenAI,,,South Korea,https://jobicy.com/jobs/156373-growth-partnerships-manager-korea
+jobicy,Support,0,Founding Customer Success Manager - APAC,Ashby,135000,189000,"Australia,  Japan,  Philippines,  Singapore,  South Korea",https://jobicy.com/jobs/156370-founding-customer-success-manager-apac
+jobicy,Marketing,0,Content Creator,Envato,,,"Australia,  New Zealand",https://jobicy.com/jobs/156375-content-creator
+jobicy,Sales / SDR,0,Binance Accelerator Program - TradFI Business Development,Binance,,,"Hong Kong,  Malaysia,  UAE",https://jobicy.com/jobs/156369-binance-accelerator-program-tradfi-business-development
+jobicy,Unknown,0,"Lead Machine Learning Scientist, FinCrime",Monzo,115000,150000,UK,https://jobicy.com/jobs/156367-lead-machine-learning-scientist-fincrime
+jobicy,Unknown,0,Senior Capture Manager - UK,TRM Labs,,,UK,https://jobicy.com/jobs/156368-senior-capture-manager-uk
+jobicy,Unknown,0,Global Investigator (Triage),TRM Labs,,,"EMEA,  Singapore",https://jobicy.com/jobs/156364-global-investigator-triage
+jobicy,Unknown,0,"Lead Machine Learning Scientist, Customer Operations",Monzo,115000,150000,UK,https://jobicy.com/jobs/156363-lead-machine-learning-scientist-customer-operations
+jobicy,Unknown,0,Commercial Account Executive,Zip,,,Germany,https://jobicy.com/jobs/156366-commercial-account-executive-6
+jobicy,Sales / SDR,0,Senior Solution Engineer (Pre-Sales),Zip,,,"Germany,  UK",https://jobicy.com/jobs/156361-senior-solution-engineer-pre-sales
+jobicy,Design (UI/UX),0,Senior/Staff Product Designer,AlphaSense,,,UK,https://jobicy.com/jobs/156358-senior-staff-product-designer
+jobicy,Engineering,0,"Engineering Manager, Dedicated Integrations",GitLab,,,UK,https://jobicy.com/jobs/156359-engineering-manager-dedicated-integrations
+jobicy,Engineering,0,"Senior Staff Engineer, iOS",AlphaSense,,,UK,https://jobicy.com/jobs/156356-senior-staff-engineer-ios
+jobicy,Cybersecurity,0,"Associate Vice President, Pre-Sales, EMEA",Semperis,,,"France,  Germany,  UK",https://jobicy.com/jobs/156352-associate-vice-president-pre-sales-emea
+jobicy,Engineering,0,Principal Engineer - Core Cloud Platform,AlphaSense,,,UK,https://jobicy.com/jobs/156350-principal-engineer-core-cloud-platform
+jobicy,Design (UI/UX),0,"Engineering Manager, Build",GitLab,,,UK,https://jobicy.com/jobs/156357-engineering-manager-build
+jobicy,Engineering,0,Corporate Development Director,GitLab,,,"France,  Germany,  Ireland,  Israel,  Netherlands,  Spain,  UK",https://jobicy.com/jobs/156355-corporate-development-director-2
+jobicy,Sales / SDR,0,"Business Development Representative, German Speaking - UK/I",GitLab,,,"Ireland,  UK",https://jobicy.com/jobs/156351-business-development-representative-german-speaking-uk-i
+jobicy,Engineering,0,"Senior Staff Engineer, Android",AlphaSense,,,UK,https://jobicy.com/jobs/156354-senior-staff-engineer-android
 arcdev,Cybersecurity,0,Security Analyst (SOC),Guardrails AI,80000,110000,Remote,https://example.com/job/arc-221
 arcdev,Data,0,Data Engineer (SQL / ETL),Pipelineworks,95000,130000,Remote,https://example.com/job/arc-222
 arcdev,Engineering,0,Frontend Engineer (React),Nimbusdev,90000,120000,Remote,https://example.com/job/arc-223
@@ -387,4 +386,3 @@ workingnomads,Unknown,0,Storyteller: Freelance B2B Interviewer and Writer,Elite 
 workingnomads,Cybersecurity,0,Beekman Social - Account Manager,Beekman Social,,,"Remote, USA Only",https://www.workingnomads.com/job/go/1891955/
 workingnomads,Engineering,0,Stack .NET Developer / Algorithm Engineer – Backend Focus.,CloudGeometry,,,Brazil,https://www.workingnomads.com/job/go/1889808/
 workingnomads,Engineering,0,Senior back-end Engineer,Lemon.io,,,"EU, US, Canada, UK, Australia, Singapore, Ireland, Norway, Switzerland, Iceland, and Mexico",https://www.workingnomads.com/job/go/1885527/
-workingnomads,Unknown,0,Looking For Online ESL Teachers - Remote- Joining Rewards of up to USD $100,Polly English,,,North America,https://www.workingnomads.com/job/go/1884997/
