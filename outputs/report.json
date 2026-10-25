@@ -1,11 +1,11 @@
 {
-  "total": 387,
-  "vibe_total": 10,
+  "total": 385,
+  "vibe_total": 12,
   "vibe_share": 0.03,
   "by_source": {
     "jobicy": 200,
     "remoteok": 99,
-    "workingnomads": 37,
+    "workingnomads": 35,
     "aidevboard": 20,
     "nocodejobs": 14,
     "remotive": 10,
@@ -15,52 +15,52 @@
   "roles": [
     {
       "role": "AI / Vibe Dev",
-      "count": 9,
-      "companies": 6,
-      "vibe_count": 9,
+      "count": 11,
+      "companies": 8,
+      "vibe_count": 11,
       "vibe_share": 1.0,
       "salary_min_median": 135000,
       "salary_max_median": 174500,
       "top_company": "NoCodeJobs",
       "top_tags": [
+        "Full-Time",
         "agents",
         "design",
         "customer support",
         "testing",
         "exec",
         "ops",
-        "marketing",
-        "sales"
+        "marketing"
       ]
     },
     {
       "role": "Engineering",
-      "count": 114,
-      "companies": 53,
+      "count": 85,
+      "companies": 56,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 165000,
-      "salary_max_median": 215000,
-      "top_company": "Canonical",
+      "salary_min_median": 157500,
+      "salary_max_median": 190000,
+      "top_company": "Proxify",
       "top_tags": [
         "Full-Time",
         "engineer",
         "golang",
-        "a",
-        "n",
         "dev",
         "cloud",
-        "e"
+        "digital nomad",
+        "a",
+        "n"
       ]
     },
     {
       "role": "QA / Testing",
-      "count": 10,
-      "companies": 6,
+      "count": 11,
+      "companies": 7,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 9,
-      "salary_max_median": 9,
+      "salary_min_median": 13,
+      "salary_max_median": 13,
       "top_company": "TELUS Digital",
       "top_tags": [
         "a",
@@ -75,13 +75,13 @@
     },
     {
       "role": "Data",
-      "count": 9,
-      "companies": 8,
+      "count": 13,
+      "companies": 11,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 137445,
-      "salary_max_median": 195000,
-      "top_company": "Samsara",
+      "salary_max_median": 205000,
+      "top_company": "Cribl",
       "top_tags": [
         "Full-Time",
         "llm",
@@ -95,16 +95,16 @@
     },
     {
       "role": "Business Analyst",
-      "count": 3,
-      "companies": 3,
+      "count": 2,
+      "companies": 2,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 63858,
-      "salary_max_median": 81750,
-      "top_company": "Clover Health",
+      "salary_min_median": 85000,
+      "salary_max_median": 105000,
+      "top_company": "CentralReach",
       "top_tags": [
-        "Full-Time",
         "a",
+        "Full-Time",
         "n",
         "l",
         "y",
@@ -118,8 +118,8 @@
       "companies": 13,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 57500,
-      "salary_max_median": 82500,
+      "salary_min_median": 45000,
+      "salary_max_median": 60000,
       "top_company": "Aisles &amp; Abroad",
       "top_tags": [
         "customer support",
@@ -134,16 +134,16 @@
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 7,
-      "companies": 6,
+      "count": 5,
+      "companies": 4,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 174200,
-      "salary_max_median": 261200,
+      "salary_min_median": 50000,
+      "salary_max_median": 150000,
       "top_company": "Lemon.io",
       "top_tags": [
-        "Full-Time",
         "p",
+        "Full-Time",
         "d",
         "e",
         "v",
@@ -154,33 +154,33 @@
     },
     {
       "role": "Cybersecurity",
-      "count": 25,
-      "companies": 15,
+      "count": 21,
+      "companies": 17,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 67500,
-      "salary_max_median": 96000,
-      "top_company": "Canonical",
+      "salary_min_median": 78000,
+      "salary_max_median": 104500,
+      "top_company": "Zscaler",
       "top_tags": [
         "Full-Time",
         "Part-Time",
-        "c",
         "golang",
         "infosec",
         "engineer",
         "part time",
-        "supervisor"
+        "supervisor",
+        "customer support"
       ]
     },
     {
       "role": "Design (UI/UX)",
-      "count": 29,
-      "companies": 19,
+      "count": 25,
+      "companies": 21,
       "vibe_count": 1,
-      "vibe_share": 0.03,
-      "salary_min_median": 120000,
-      "salary_max_median": 150000,
-      "top_company": "Canonical",
+      "vibe_share": 0.04,
+      "salary_min_median": 70500,
+      "salary_max_median": 97500,
+      "top_company": "NoCodeJobs",
       "top_tags": [
         "Full-Time",
         "design",
@@ -189,17 +189,17 @@
         "testing",
         "marketing",
         "senior",
-        "designer"
+        "Contract"
       ]
     },
     {
       "role": "Product / PM",
-      "count": 11,
-      "companies": 10,
+      "count": 13,
+      "companies": 12,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 191000,
-      "salary_max_median": 242500,
+      "salary_max_median": 232500,
       "top_company": "Anduril",
       "top_tags": [
         "Full-Time",
@@ -214,33 +214,33 @@
     },
     {
       "role": "Sales / SDR",
-      "count": 30,
-      "companies": 22,
+      "count": 42,
+      "companies": 31,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 61500,
-      "salary_max_median": 72500,
-      "top_company": "Canonical",
+      "salary_min_median": 75000,
+      "salary_max_median": 94000,
+      "top_company": "Twilio",
       "top_tags": [
         "Full-Time",
         "exec",
         "marketing",
         "sales",
         "customer support",
-        "technical",
-        "golang",
-        "finance"
+        "finance",
+        "saas",
+        "medical"
       ]
     },
     {
       "role": "Marketing",
-      "count": 6,
-      "companies": 6,
+      "count": 12,
+      "companies": 11,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 100000,
-      "salary_max_median": 121000,
-      "top_company": "Copenhagen Optimization",
+      "salary_min_median": 100500,
+      "salary_max_median": 149250,
+      "top_company": "MaintainX",
       "top_tags": [
         "Full-Time",
         "customer support",
@@ -253,14 +253,28 @@
       ]
     },
     {
-      "role": "Unknown",
-      "count": 121,
-      "companies": 89,
+      "role": "HR",
+      "count": 3,
+      "companies": 2,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 129000,
-      "salary_max_median": 165500,
-      "top_company": "Canonical",
+      "salary_min_median": 35515,
+      "salary_max_median": 57525,
+      "top_company": "livingHR",
+      "top_tags": [
+        "Contract",
+        "Full-Time"
+      ]
+    },
+    {
+      "role": "Unknown",
+      "count": 129,
+      "companies": 97,
+      "vibe_count": 0,
+      "vibe_share": 0.0,
+      "salary_min_median": 101625,
+      "salary_max_median": 130000,
+      "top_company": "Twilio",
       "top_tags": [
         "Full-Time",
         "exec",
@@ -275,8 +289,8 @@
   ],
   "track_counts": {
     "ai_agents": {
-      "count": 6,
-      "vibe": 6,
+      "count": 7,
+      "vibe": 7,
       "enabled": true
     },
     "prompt_eng": {
@@ -295,8 +309,8 @@
       "enabled": true
     },
     "ai_product": {
-      "count": 0,
-      "vibe": 0,
+      "count": 1,
+      "vibe": 1,
       "enabled": true
     }
   }
