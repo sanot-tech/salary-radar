@@ -1,6 +1,6 @@
 {
   "total": 385,
-  "vibe_total": 12,
+  "vibe_total": 11,
   "vibe_share": 0.03,
   "by_source": {
     "jobicy": 200,
@@ -15,32 +15,32 @@
   "roles": [
     {
       "role": "AI / Vibe Dev",
-      "count": 11,
-      "companies": 8,
-      "vibe_count": 11,
+      "count": 10,
+      "companies": 7,
+      "vibe_count": 10,
       "vibe_share": 1.0,
       "salary_min_median": 135000,
       "salary_max_median": 174500,
       "top_company": "NoCodeJobs",
       "top_tags": [
-        "Full-Time",
         "agents",
-        "design",
-        "customer support",
-        "testing",
-        "exec",
-        "ops",
-        "marketing"
+        "ai agents",
+        "n8n",
+        "bubble",
+        "llm",
+        "prompt",
+        "rag",
+        "microservices"
       ]
     },
     {
       "role": "Engineering",
-      "count": 85,
-      "companies": 56,
+      "count": 91,
+      "companies": 53,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 157500,
-      "salary_max_median": 190000,
+      "salary_min_median": 180000,
+      "salary_max_median": 229950,
       "top_company": "Proxify",
       "top_tags": [
         "Full-Time",
@@ -48,19 +48,19 @@
         "golang",
         "dev",
         "cloud",
-        "digital nomad",
         "a",
+        "digital nomad",
         "n"
       ]
     },
     {
       "role": "QA / Testing",
-      "count": 11,
-      "companies": 7,
+      "count": 9,
+      "companies": 6,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 13,
-      "salary_max_median": 13,
+      "salary_min_median": null,
+      "salary_max_median": null,
       "top_company": "TELUS Digital",
       "top_tags": [
         "a",
@@ -70,18 +70,18 @@
         "i",
         "h",
         "r",
-        "education"
+        "e"
       ]
     },
     {
       "role": "Data",
-      "count": 13,
-      "companies": 11,
+      "count": 10,
+      "companies": 8,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 137445,
-      "salary_max_median": 205000,
-      "top_company": "Cribl",
+      "salary_max_median": 231000,
+      "top_company": "Samsara",
       "top_tags": [
         "Full-Time",
         "llm",
@@ -89,8 +89,8 @@
         "fine-tuning",
         "data-pipeline",
         "a",
-        "design",
-        "python"
+        "sql",
+        "etl"
       ]
     },
     {
@@ -99,87 +99,87 @@
       "companies": 2,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 85000,
-      "salary_max_median": 105000,
-      "top_company": "CentralReach",
+      "salary_min_median": null,
+      "salary_max_median": null,
+      "top_company": "Peroptyx",
       "top_tags": [
         "a",
-        "Full-Time",
         "n",
         "l",
         "y",
         "s",
-        "t"
+        "t",
+        "Full-Time"
       ]
     },
     {
       "role": "Support",
-      "count": 13,
-      "companies": 13,
+      "count": 22,
+      "companies": 18,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 45000,
-      "salary_max_median": 60000,
-      "top_company": "Aisles &amp; Abroad",
+      "salary_min_median": 65000,
+      "salary_max_median": 95000,
+      "top_company": "GitLab",
       "top_tags": [
-        "customer support",
         "Full-Time",
-        "travel",
-        "exec",
+        "customer support",
         "c",
         "m",
-        "education",
-        "non tech"
+        "travel",
+        "exec",
+        "support",
+        "customer success"
       ]
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 5,
-      "companies": 4,
+      "count": 7,
+      "companies": 6,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 50000,
-      "salary_max_median": 150000,
+      "salary_min_median": 120000,
+      "salary_max_median": 178000,
       "top_company": "Lemon.io",
       "top_tags": [
-        "p",
         "Full-Time",
+        "p",
         "d",
         "e",
         "v",
         "o",
         "s",
-        "devops"
+        "a"
       ]
     },
     {
       "role": "Cybersecurity",
-      "count": 21,
-      "companies": 17,
+      "count": 17,
+      "companies": 14,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 78000,
-      "salary_max_median": 104500,
-      "top_company": "Zscaler",
+      "salary_min_median": 100000,
+      "salary_max_median": 125000,
+      "top_company": "Alimentiv",
       "top_tags": [
         "Full-Time",
-        "Part-Time",
+        "security",
+        "soc",
+        "english",
         "golang",
         "infosec",
         "engineer",
-        "part time",
-        "supervisor",
-        "customer support"
+        "part time"
       ]
     },
     {
       "role": "Design (UI/UX)",
-      "count": 25,
-      "companies": 21,
+      "count": 21,
+      "companies": 17,
       "vibe_count": 1,
-      "vibe_share": 0.04,
-      "salary_min_median": 70500,
-      "salary_max_median": 97500,
+      "vibe_share": 0.05,
+      "salary_min_median": 133350,
+      "salary_max_median": 166900,
       "top_company": "NoCodeJobs",
       "top_tags": [
         "Full-Time",
@@ -189,7 +189,7 @@
         "testing",
         "marketing",
         "senior",
-        "Contract"
+        "designer"
       ]
     },
     {
@@ -199,7 +199,7 @@
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 191000,
-      "salary_max_median": 232500,
+      "salary_max_median": 247250,
       "top_company": "Anduril",
       "top_tags": [
         "Full-Time",
@@ -207,20 +207,20 @@
         "product manager",
         "ops",
         "engineer",
-        "technical",
-        "testing",
-        "senior"
+        "computer-vision",
+        "cloud",
+        "payments"
       ]
     },
     {
       "role": "Sales / SDR",
-      "count": 42,
-      "companies": 31,
+      "count": 39,
+      "companies": 32,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 75000,
-      "salary_max_median": 94000,
-      "top_company": "Twilio",
+      "salary_min_median": 100900,
+      "salary_max_median": 132000,
+      "top_company": "Toptal",
       "top_tags": [
         "Full-Time",
         "exec",
@@ -234,22 +234,22 @@
     },
     {
       "role": "Marketing",
-      "count": 12,
-      "companies": 11,
+      "count": 14,
+      "companies": 13,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 100500,
-      "salary_max_median": 149250,
-      "top_company": "MaintainX",
+      "salary_min_median": 135600,
+      "salary_max_median": 197500,
+      "top_company": "Kong Inc.",
       "top_tags": [
         "Full-Time",
+        "c",
+        "m",
         "customer support",
         "marketing",
         "exec",
         "ops",
-        "c",
-        "m",
-        "virtual assistant"
+        "o"
       ]
     },
     {
@@ -258,32 +258,31 @@
       "companies": 2,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 35515,
-      "salary_max_median": 57525,
-      "top_company": "livingHR",
+      "salary_min_median": 170000,
+      "salary_max_median": 190000,
+      "top_company": "Launch Potato",
       "top_tags": [
-        "Contract",
         "Full-Time"
       ]
     },
     {
       "role": "Unknown",
-      "count": 129,
+      "count": 127,
       "companies": 97,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 101625,
-      "salary_max_median": 130000,
-      "top_company": "Twilio",
+      "salary_min_median": 130000,
+      "salary_max_median": 170000,
+      "top_company": "Ping Identity",
       "top_tags": [
         "Full-Time",
         "exec",
         "customer support",
         "digital nomad",
-        "education",
         "marketing",
         "ops",
-        "medical"
+        "medical",
+        "education"
       ]
     }
   ],
@@ -309,8 +308,8 @@
       "enabled": true
     },
     "ai_product": {
-      "count": 1,
-      "vibe": 1,
+      "count": 0,
+      "vibe": 0,
       "enabled": true
     }
   }
