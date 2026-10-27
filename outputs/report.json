@@ -1,6 +1,6 @@
 {
   "total": 385,
-  "vibe_total": 11,
+  "vibe_total": 10,
   "vibe_share": 0.03,
   "by_source": {
     "jobicy": 200,
@@ -15,48 +15,48 @@
   "roles": [
     {
       "role": "AI / Vibe Dev",
-      "count": 10,
-      "companies": 7,
-      "vibe_count": 10,
+      "count": 9,
+      "companies": 6,
+      "vibe_count": 9,
       "vibe_share": 1.0,
       "salary_min_median": 135000,
       "salary_max_median": 174500,
       "top_company": "NoCodeJobs",
       "top_tags": [
         "agents",
-        "ai agents",
-        "n8n",
-        "bubble",
-        "llm",
-        "prompt",
-        "rag",
-        "microservices"
+        "microservices",
+        "healthcare",
+        "infrastructure",
+        "security",
+        "cloud",
+        "data-pipeline",
+        "platform"
       ]
     },
     {
       "role": "Engineering",
-      "count": 91,
-      "companies": 53,
+      "count": 86,
+      "companies": 55,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 180000,
-      "salary_max_median": 229950,
+      "salary_min_median": 160000,
+      "salary_max_median": 193000,
       "top_company": "Proxify",
       "top_tags": [
         "Full-Time",
         "engineer",
         "golang",
         "dev",
+        "digital nomad",
         "cloud",
         "a",
-        "digital nomad",
         "n"
       ]
     },
     {
       "role": "QA / Testing",
-      "count": 9,
-      "companies": 6,
+      "count": 8,
+      "companies": 5,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": null,
@@ -75,8 +75,8 @@
     },
     {
       "role": "Data",
-      "count": 10,
-      "companies": 8,
+      "count": 8,
+      "companies": 7,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 137445,
@@ -84,19 +84,19 @@
       "top_company": "Samsara",
       "top_tags": [
         "Full-Time",
+        "a",
         "llm",
         "agents",
         "fine-tuning",
         "data-pipeline",
-        "a",
-        "sql",
-        "etl"
+        "d",
+        "t"
       ]
     },
     {
       "role": "Business Analyst",
-      "count": 2,
-      "companies": 2,
+      "count": 3,
+      "companies": 3,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": null,
@@ -109,17 +109,18 @@
         "y",
         "s",
         "t",
-        "Full-Time"
+        "Full-Time",
+        "Internship"
       ]
     },
     {
       "role": "Support",
-      "count": 22,
-      "companies": 18,
+      "count": 24,
+      "companies": 23,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 65000,
-      "salary_max_median": 95000,
+      "salary_min_median": 95000,
+      "salary_max_median": 120000,
       "top_company": "GitLab",
       "top_tags": [
         "Full-Time",
@@ -128,22 +129,22 @@
         "m",
         "travel",
         "exec",
-        "support",
-        "customer success"
+        "o",
+        "u"
       ]
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 7,
-      "companies": 6,
+      "count": 6,
+      "companies": 5,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 120000,
-      "salary_max_median": 178000,
+      "salary_min_median": 125139,
+      "salary_max_median": 199820,
       "top_company": "Lemon.io",
       "top_tags": [
-        "Full-Time",
         "p",
+        "Full-Time",
         "d",
         "e",
         "v",
@@ -154,38 +155,38 @@
     },
     {
       "role": "Cybersecurity",
-      "count": 17,
-      "companies": 14,
+      "count": 15,
+      "companies": 11,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 100000,
-      "salary_max_median": 125000,
-      "top_company": "Alimentiv",
+      "salary_min_median": 95000,
+      "salary_max_median": 115000,
+      "top_company": "Wpromote",
       "top_tags": [
         "Full-Time",
-        "security",
-        "soc",
-        "english",
         "golang",
         "infosec",
         "engineer",
-        "part time"
+        "part time",
+        "supervisor",
+        "customer support",
+        "exec"
       ]
     },
     {
       "role": "Design (UI/UX)",
-      "count": 21,
-      "companies": 17,
+      "count": 20,
+      "companies": 16,
       "vibe_count": 1,
       "vibe_share": 0.05,
-      "salary_min_median": 133350,
-      "salary_max_median": 166900,
+      "salary_min_median": 129600,
+      "salary_max_median": 142800,
       "top_company": "NoCodeJobs",
       "top_tags": [
-        "Full-Time",
         "design",
         "digital nomad",
         "engineer",
+        "Full-Time",
         "testing",
         "marketing",
         "senior",
@@ -194,12 +195,12 @@
     },
     {
       "role": "Product / PM",
-      "count": 13,
-      "companies": 12,
+      "count": 14,
+      "companies": 13,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 191000,
-      "salary_max_median": 247250,
+      "salary_min_median": 162750,
+      "salary_max_median": 204000,
       "top_company": "Anduril",
       "top_tags": [
         "Full-Time",
@@ -207,20 +208,20 @@
         "product manager",
         "ops",
         "engineer",
-        "computer-vision",
-        "cloud",
-        "payments"
+        "technical",
+        "testing",
+        "senior"
       ]
     },
     {
       "role": "Sales / SDR",
-      "count": 39,
-      "companies": 32,
+      "count": 47,
+      "companies": 30,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 100900,
-      "salary_max_median": 132000,
-      "top_company": "Toptal",
+      "salary_min_median": 160000,
+      "salary_max_median": 225000,
+      "top_company": "Sierra",
       "top_tags": [
         "Full-Time",
         "exec",
@@ -234,13 +235,13 @@
     },
     {
       "role": "Marketing",
-      "count": 14,
+      "count": 18,
       "companies": 13,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 135600,
-      "salary_max_median": 197500,
-      "top_company": "Kong Inc.",
+      "salary_min_median": 117600,
+      "salary_max_median": 141120,
+      "top_company": "Grafana Labs",
       "top_tags": [
         "Full-Time",
         "c",
@@ -254,42 +255,42 @@
     },
     {
       "role": "HR",
-      "count": 3,
-      "companies": 2,
+      "count": 1,
+      "companies": 1,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 170000,
-      "salary_max_median": 190000,
-      "top_company": "Launch Potato",
+      "salary_min_median": 95000,
+      "salary_max_median": 120000,
+      "top_company": "Cologix, Inc.",
       "top_tags": [
         "Full-Time"
       ]
     },
     {
       "role": "Unknown",
-      "count": 127,
-      "companies": 97,
+      "count": 126,
+      "companies": 84,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 130000,
-      "salary_max_median": 170000,
-      "top_company": "Ping Identity",
+      "salary_min_median": 120000,
+      "salary_max_median": 158000,
+      "top_company": "GitLab",
       "top_tags": [
         "Full-Time",
         "exec",
-        "customer support",
         "digital nomad",
+        "customer support",
         "marketing",
         "ops",
-        "medical",
-        "education"
+        "education",
+        "medical"
       ]
     }
   ],
   "track_counts": {
     "ai_agents": {
-      "count": 7,
-      "vibe": 7,
+      "count": 6,
+      "vibe": 6,
       "enabled": true
     },
     "prompt_eng": {
