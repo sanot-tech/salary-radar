@@ -1,66 +1,66 @@
 {
   "total": 388,
-  "vibe_total": 15,
-  "vibe_share": 0.04,
+  "vibe_total": 11,
+  "vibe_share": 0.03,
   "by_source": {
     "jobicy": 200,
     "remoteok": 99,
-    "workingnomads": 37,
+    "workingnomads": 36,
     "aidevboard": 20,
     "nocodejobs": 14,
-    "remotive": 11,
+    "remotive": 12,
     "arcdev": 4,
     "himalayas": 3
   },
   "roles": [
     {
       "role": "AI / Vibe Dev",
-      "count": 14,
-      "companies": 10,
-      "vibe_count": 14,
+      "count": 10,
+      "companies": 7,
+      "vibe_count": 10,
       "vibe_share": 1.0,
-      "salary_min_median": 120000,
+      "salary_min_median": 135000,
       "salary_max_median": 174500,
       "top_company": "NoCodeJobs",
       "top_tags": [
-        "Full-Time",
         "agents",
-        "Contract",
-        "ai agents",
-        "n8n",
-        "bubble",
-        "llm",
-        "prompt"
+        "microservices",
+        "healthcare",
+        "infrastructure",
+        "security",
+        "cloud",
+        "data-pipeline",
+        "platform"
       ]
     },
     {
       "role": "Engineering",
-      "count": 91,
-      "companies": 58,
+      "count": 96,
+      "companies": 57,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 150000,
-      "salary_max_median": 188000,
-      "top_company": "Proxify",
+      "salary_min_median": 157000,
+      "salary_max_median": 200000,
+      "top_company": "Lemon.io",
       "top_tags": [
         "Full-Time",
         "engineer",
         "golang",
         "dev",
-        "digital nomad",
         "cloud",
         "a",
+        "digital nomad",
         "n"
       ]
     },
     {
       "role": "QA / Testing",
-      "count": 10,
-      "companies": 7,
+      "count": 12,
+      "companies": 8,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 50005,
-      "salary_max_median": 90005,
+      "salary_min_median": 27,
+      "salary_max_median": 27,
       "top_company": "TELUS Digital",
       "top_tags": [
         "a",
@@ -70,57 +70,57 @@
         "i",
         "h",
         "r",
-        "e"
+        "Contract"
       ]
     },
     {
       "role": "Data",
-      "count": 10,
-      "companies": 8,
+      "count": 12,
+      "companies": 10,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 137445,
-      "salary_max_median": 200000,
-      "top_company": "Samsara",
+      "salary_min_median": 153722,
+      "salary_max_median": 215000,
+      "top_company": "Binance",
       "top_tags": [
         "Full-Time",
+        "a",
         "llm",
         "agents",
         "fine-tuning",
         "data-pipeline",
-        "a",
-        "Contract",
-        "d"
+        "d",
+        "t"
       ]
     },
     {
       "role": "Business Analyst",
-      "count": 2,
+      "count": 3,
       "companies": 2,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 107000,
-      "salary_max_median": 130000,
-      "top_company": "Peroptyx",
+      "salary_min_median": 172500,
+      "salary_max_median": 195000,
+      "top_company": "YipitData",
       "top_tags": [
         "a",
+        "Full-Time",
         "n",
         "l",
         "y",
         "s",
-        "t",
-        "Full-Time"
+        "t"
       ]
     },
     {
       "role": "Support",
-      "count": 16,
+      "count": 14,
       "companies": 14,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 50000,
-      "salary_max_median": 90000,
-      "top_company": "Canonical",
+      "salary_min_median": 45000,
+      "salary_max_median": 72500,
+      "top_company": "ShyftOff",
       "top_tags": [
         "Full-Time",
         "customer support",
@@ -128,38 +128,38 @@
         "m",
         "travel",
         "exec",
-        "support",
-        "customer success"
+        "o",
+        "u"
       ]
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 4,
-      "companies": 3,
+      "count": 7,
+      "companies": 5,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 64000,
-      "salary_max_median": 140000,
+      "salary_min_median": 67500,
+      "salary_max_median": 128000,
       "top_company": "Lemon.io",
       "top_tags": [
+        "Full-Time",
         "p",
         "d",
         "e",
         "v",
         "o",
         "s",
-        "a",
-        "devops"
+        "a"
       ]
     },
     {
       "role": "Cybersecurity",
-      "count": 17,
+      "count": 16,
       "companies": 12,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 105750,
-      "salary_max_median": 136150,
+      "salary_min_median": 88000,
+      "salary_max_median": 127400,
       "top_company": "Precision Medicine Group",
       "top_tags": [
         "Full-Time",
@@ -174,12 +174,12 @@
     },
     {
       "role": "Design (UI/UX)",
-      "count": 25,
-      "companies": 19,
+      "count": 19,
+      "companies": 14,
       "vibe_count": 1,
-      "vibe_share": 0.04,
-      "salary_min_median": 124000,
-      "salary_max_median": 155000,
+      "vibe_share": 0.05,
+      "salary_min_median": 148000,
+      "salary_max_median": 150000,
       "top_company": "NoCodeJobs",
       "top_tags": [
         "Full-Time",
@@ -187,39 +187,39 @@
         "marketing",
         "digital nomad",
         "engineer",
-        "s",
-        "i",
-        "testing"
+        "testing",
+        "exec",
+        "sys admin"
       ]
     },
     {
       "role": "Product / PM",
-      "count": 12,
-      "companies": 11,
+      "count": 10,
+      "companies": 8,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 177160,
-      "salary_max_median": 221450,
-      "top_company": "Anduril",
+      "salary_min_median": 191000,
+      "salary_max_median": 253000,
+      "top_company": "AlertMedia",
       "top_tags": [
-        "Full-Time",
         "exec",
+        "Full-Time",
         "product manager",
         "ops",
         "engineer",
-        "computer-vision",
-        "cloud",
-        "payments"
+        "technical",
+        "testing",
+        "senior"
       ]
     },
     {
       "role": "Sales / SDR",
-      "count": 47,
-      "companies": 32,
+      "count": 46,
+      "companies": 30,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 130000,
-      "salary_max_median": 160000,
+      "salary_min_median": 96000,
+      "salary_max_median": 132000,
       "top_company": "Halter",
       "top_tags": [
         "Full-Time",
@@ -235,12 +235,12 @@
     {
       "role": "Marketing",
       "count": 17,
-      "companies": 14,
+      "companies": 12,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 82500,
-      "salary_max_median": 95000,
-      "top_company": "EverAI",
+      "salary_min_median": 97034,
+      "salary_max_median": 124800,
+      "top_company": "Grafana Labs",
       "top_tags": [
         "Full-Time",
         "c",
@@ -249,31 +249,31 @@
         "marketing",
         "exec",
         "ops",
-        "o"
+        "Internship"
       ]
     },
     {
       "role": "HR",
-      "count": 1,
-      "companies": 1,
+      "count": 2,
+      "companies": 2,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 95000,
-      "salary_max_median": 120000,
-      "top_company": "Cologix, Inc.",
+      "salary_min_median": 126700,
+      "salary_max_median": 201300,
+      "top_company": "Thumbtack",
       "top_tags": [
         "Full-Time"
       ]
     },
     {
       "role": "Unknown",
-      "count": 122,
-      "companies": 94,
+      "count": 124,
+      "companies": 87,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 116000,
-      "salary_max_median": 150000,
-      "top_company": "EverAI",
+      "salary_min_median": 158169,
+      "salary_max_median": 241250,
+      "top_company": "Databricks",
       "top_tags": [
         "Full-Time",
         "exec",
@@ -288,13 +288,13 @@
   ],
   "track_counts": {
     "ai_agents": {
-      "count": 11,
-      "vibe": 11,
+      "count": 6,
+      "vibe": 6,
       "enabled": true
     },
     "prompt_eng": {
-      "count": 1,
-      "vibe": 1,
+      "count": 2,
+      "vibe": 2,
       "enabled": true
     },
     "builders": {
