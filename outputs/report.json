@@ -1,55 +1,55 @@
 {
-  "total": 289,
-  "vibe_total": 11,
+  "total": 286,
+  "vibe_total": 12,
   "vibe_share": 0.04,
   "by_source": {
     "jobicy": 100,
     "remoteok": 99,
-    "workingnomads": 36,
+    "workingnomads": 34,
     "aidevboard": 20,
     "nocodejobs": 14,
-    "remotive": 13,
+    "remotive": 12,
     "arcdev": 4,
     "himalayas": 3
   },
   "roles": [
     {
       "role": "AI / Vibe Dev",
-      "count": 10,
-      "companies": 7,
-      "vibe_count": 10,
+      "count": 11,
+      "companies": 8,
+      "vibe_count": 11,
       "vibe_share": 1.0,
-      "salary_min_median": 135000,
-      "salary_max_median": 174500,
+      "salary_min_median": 200000,
+      "salary_max_median": 250000,
       "top_company": "NoCodeJobs",
       "top_tags": [
+        "Full-Time",
         "agents",
         "design",
         "customer support",
         "testing",
         "exec",
         "ops",
-        "marketing",
-        "sales"
+        "marketing"
       ]
     },
     {
       "role": "Engineering",
-      "count": 80,
-      "companies": 50,
+      "count": 75,
+      "companies": 43,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 148000,
-      "salary_max_median": 192000,
+      "salary_min_median": 159000,
+      "salary_max_median": 193500,
       "top_company": "Lemon.io",
       "top_tags": [
         "engineer",
-        "Full-Time",
         "golang",
-        "dev",
-        "cloud",
+        "Full-Time",
         "p",
         "a",
+        "dev",
+        "cloud",
         "javascript"
       ]
     },
@@ -75,13 +75,13 @@
     },
     {
       "role": "Data",
-      "count": 10,
-      "companies": 9,
+      "count": 9,
+      "companies": 7,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 137445,
-      "salary_max_median": 214203,
-      "top_company": "Samsara",
+      "salary_min_median": 120522,
+      "salary_max_median": 199265,
+      "top_company": "Elevenlabs",
       "top_tags": [
         "Full-Time",
         "llm",
@@ -95,16 +95,15 @@
     },
     {
       "role": "Business Analyst",
-      "count": 2,
-      "companies": 2,
+      "count": 1,
+      "companies": 1,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": null,
       "salary_max_median": null,
-      "top_company": "CoverGo",
+      "top_company": "Peroptyx",
       "top_tags": [
         "a",
-        "Full-Time",
         "d",
         "t",
         "n"
@@ -112,7 +111,7 @@
     },
     {
       "role": "Support",
-      "count": 15,
+      "count": 16,
       "companies": 14,
       "vibe_count": 0,
       "vibe_share": 0.0,
@@ -132,16 +131,16 @@
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 5,
-      "companies": 4,
+      "count": 9,
+      "companies": 6,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 140000,
-      "salary_max_median": 267500,
-      "top_company": "Lemon.io",
+      "salary_min_median": 113654,
+      "salary_max_median": 145560,
+      "top_company": "Grafana Labs",
       "top_tags": [
-        "p",
         "Full-Time",
+        "p",
         "d",
         "e",
         "v",
@@ -152,56 +151,56 @@
     },
     {
       "role": "Cybersecurity",
-      "count": 5,
+      "count": 6,
       "companies": 5,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 197200,
-      "salary_max_median": 346960,
-      "top_company": "RedMimicry",
+      "salary_min_median": 85220,
+      "salary_max_median": 121500,
+      "top_company": "Samsara",
       "top_tags": [
+        "Full-Time",
         "golang",
         "infosec",
         "engineer",
         "part time",
-        "supervisor",
-        "customer support",
-        "exec",
-        "senior"
+        "security",
+        "soc",
+        "english"
       ]
     },
     {
       "role": "Design (UI/UX)",
-      "count": 18,
-      "companies": 14,
+      "count": 15,
+      "companies": 11,
       "vibe_count": 1,
-      "vibe_share": 0.06,
-      "salary_min_median": 52500,
-      "salary_max_median": 75000,
+      "vibe_share": 0.07,
+      "salary_min_median": 122000,
+      "salary_max_median": 190000,
       "top_company": "NoCodeJobs",
       "top_tags": [
+        "engineer",
+        "sys admin",
+        "exec",
         "design",
         "marketing",
         "digital nomad",
-        "engineer",
-        "Full-Time",
-        "testing",
-        "exec",
-        "sys admin"
+        "technical",
+        "customer support"
       ]
     },
     {
       "role": "Product / PM",
-      "count": 11,
+      "count": 10,
       "companies": 9,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 194500,
+      "salary_min_median": 191000,
       "salary_max_median": 253000,
-      "top_company": "Dandy",
+      "top_company": "Anduril",
       "top_tags": [
-        "Full-Time",
         "exec",
+        "Full-Time",
         "product manager",
         "ops",
         "engineer",
@@ -212,32 +211,32 @@
     },
     {
       "role": "Sales / SDR",
-      "count": 21,
-      "companies": 19,
+      "count": 20,
+      "companies": 17,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 145000,
-      "salary_max_median": 210000,
-      "top_company": "Huzzle",
+      "salary_min_median": 109000,
+      "salary_max_median": 146500,
+      "top_company": "GitLab",
       "top_tags": [
         "exec",
         "marketing",
         "sales",
-        "Full-Time",
         "finance",
         "customer support",
+        "Full-Time",
         "saas",
         "medical"
       ]
     },
     {
       "role": "Marketing",
-      "count": 8,
-      "companies": 8,
+      "count": 7,
+      "companies": 7,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 50000,
-      "salary_max_median": 58500,
+      "salary_min_median": 204100,
+      "salary_max_median": 288675,
       "top_company": "Copenhagen Optimization",
       "top_tags": [
         "Full-Time",
@@ -245,20 +244,34 @@
         "marketing",
         "exec",
         "ops",
-        "c",
-        "m",
-        "virtual assistant"
+        "virtual assistant",
+        "strategy",
+        "dev"
+      ]
+    },
+    {
+      "role": "HR",
+      "count": 3,
+      "companies": 2,
+      "vibe_count": 0,
+      "vibe_share": 0.0,
+      "salary_min_median": null,
+      "salary_max_median": null,
+      "top_company": "Welo Global",
+      "top_tags": [
+        "Contract",
+        "Full-Time"
       ]
     },
     {
       "role": "Unknown",
       "count": 98,
-      "companies": 76,
+      "companies": 65,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 133295,
-      "salary_max_median": 170000,
-      "top_company": "iMerit Technology",
+      "salary_min_median": 140000,
+      "salary_max_median": 190000,
+      "top_company": "Welo Global",
       "top_tags": [
         "Full-Time",
         "exec",
@@ -267,14 +280,14 @@
         "ops",
         "education",
         "marketing",
-        "medical"
+        "dev"
       ]
     }
   ],
   "track_counts": {
     "ai_agents": {
-      "count": 7,
-      "vibe": 7,
+      "count": 8,
+      "vibe": 8,
       "enabled": true
     },
     "prompt_eng": {
