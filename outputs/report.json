@@ -1,167 +1,167 @@
 {
-  "total": 270,
-  "vibe_total": 16,
-  "vibe_share": 0.06,
+  "total": 287,
+  "vibe_total": 11,
+  "vibe_share": 0.04,
   "by_source": {
     "jobicy": 100,
     "remoteok": 99,
+    "workingnomads": 35,
     "aidevboard": 20,
-    "workingnomads": 17,
     "nocodejobs": 14,
-    "remotive": 13,
+    "remotive": 12,
     "arcdev": 4,
     "himalayas": 3
   },
   "roles": [
     {
       "role": "AI / Vibe Dev",
-      "count": 15,
+      "count": 10,
       "companies": 7,
-      "vibe_count": 15,
+      "vibe_count": 10,
       "vibe_share": 1.0,
       "salary_min_median": 135000,
       "salary_max_median": 174500,
-      "top_company": "Welo Global",
+      "top_company": "NoCodeJobs",
       "top_tags": [
-        "Contract",
         "cloud",
         "agents",
         "dev",
         "grafana",
         "infosec",
         "python",
-        "docker"
+        "docker",
+        "technical"
       ]
     },
     {
       "role": "Engineering",
-      "count": 64,
-      "companies": 48,
+      "count": 71,
+      "companies": 52,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 143000,
-      "salary_max_median": 190000,
+      "salary_min_median": 167800,
+      "salary_max_median": 215000,
       "top_company": "Lemon.io",
       "top_tags": [
         "engineer",
         "dev",
         "cloud",
-        "javascript",
         "Full-Time",
+        "a",
+        "javascript",
         "digital nomad",
-        "golang",
-        "python"
+        "golang"
       ]
     },
     {
       "role": "QA / Testing",
-      "count": 6,
-      "companies": 3,
-      "vibe_count": 0,
-      "vibe_share": 0.0,
-      "salary_min_median": null,
-      "salary_max_median": null,
-      "top_company": "TELUS Digital",
-      "top_tags": [
-        "a",
-        "n",
-        "s",
-        "h",
-        "r",
-        "e",
-        "testing",
-        "dev"
-      ]
-    },
-    {
-      "role": "Data",
       "count": 7,
       "companies": 4,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 136222,
-      "salary_max_median": 198000,
-      "top_company": "Truelogic",
+      "salary_min_median": 18,
+      "salary_max_median": 18,
+      "top_company": "TELUS Digital",
       "top_tags": [
+        "a",
+        "r",
+        "n",
+        "Contract",
+        "p",
+        "i",
+        "g",
+        "s"
+      ]
+    },
+    {
+      "role": "Data",
+      "count": 10,
+      "companies": 6,
+      "vibe_count": 0,
+      "vibe_share": 0.0,
+      "salary_min_median": 153322,
+      "salary_max_median": 231000,
+      "top_company": "Proxify",
+      "top_tags": [
+        "a",
         "Full-Time",
+        "d",
+        "t",
+        "e",
         "llm",
         "agents",
-        "fine-tuning",
-        "data-pipeline",
-        "sql",
-        "etl",
-        "dbt"
+        "fine-tuning"
       ]
     },
     {
       "role": "Business Analyst",
-      "count": 3,
-      "companies": 3,
+      "count": 5,
+      "companies": 4,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 149000,
-      "salary_max_median": 216000,
-      "top_company": "SEAhub Asia",
+      "salary_min_median": 142000,
+      "salary_max_median": 172500,
+      "top_company": "Peroptyx",
       "top_tags": [
+        "a",
         "Full-Time",
+        "n",
+        "e",
         "saas",
         "customer support",
         "marketing",
-        "exec",
-        "ops",
-        "sales",
-        "analyst"
+        "exec"
       ]
     },
     {
       "role": "Support",
-      "count": 9,
-      "companies": 8,
+      "count": 11,
+      "companies": 9,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 40000,
-      "salary_max_median": 55000,
+      "salary_min_median": 60000,
+      "salary_max_median": 75000,
       "top_company": "Destination Careers",
       "top_tags": [
         "customer support",
         "travel",
         "education",
         "non tech",
+        "Full-Time",
         "virtual assistant",
         "c",
-        "m",
-        "testing"
+        "m"
       ]
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 5,
-      "companies": 4,
+      "count": 7,
+      "companies": 5,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 137318,
       "salary_max_median": 192960,
       "top_company": "Lemon.io",
       "top_tags": [
+        "p",
         "dev",
         "engineer",
-        "design",
-        "exec",
-        "devops",
-        "cloud",
-        "sys admin",
-        "medical"
+        "d",
+        "e",
+        "v",
+        "o",
+        "s"
       ]
     },
     {
       "role": "Cybersecurity",
-      "count": 7,
-      "companies": 6,
+      "count": 10,
+      "companies": 10,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 150500,
-      "salary_max_median": 208000,
-      "top_company": "1Password",
+      "salary_min_median": 159500,
+      "salary_max_median": 180000,
+      "top_company": "RedMimicry",
       "top_tags": [
         "Full-Time",
         "golang",
@@ -175,22 +175,22 @@
     },
     {
       "role": "Design (UI/UX)",
-      "count": 18,
-      "companies": 11,
+      "count": 17,
+      "companies": 12,
       "vibe_count": 1,
       "vibe_share": 0.06,
-      "salary_min_median": 50000,
-      "salary_max_median": 65000,
+      "salary_min_median": 97500,
+      "salary_max_median": 105000,
       "top_company": "NoCodeJobs",
       "top_tags": [
         "engineer",
-        "Full-Time",
         "technical",
         "customer support",
         "exec",
         "ops",
         "senior",
-        "design"
+        "design",
+        "designer"
       ]
     },
     {
@@ -215,16 +215,16 @@
     },
     {
       "role": "Sales / SDR",
-      "count": 18,
-      "companies": 15,
+      "count": 21,
+      "companies": 16,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 62500,
-      "salary_max_median": 67500,
-      "top_company": "Elevenlabs",
+      "salary_min_median": 139000,
+      "salary_max_median": 175000,
+      "top_company": "Datadog",
       "top_tags": [
-        "exec",
         "Full-Time",
+        "exec",
         "marketing",
         "golang",
         "customer support",
@@ -235,42 +235,55 @@
     },
     {
       "role": "Marketing",
-      "count": 16,
-      "companies": 11,
+      "count": 10,
+      "companies": 8,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 40,
-      "salary_max_median": 40,
-      "top_company": "Welo Global",
+      "salary_min_median": 77760,
+      "salary_max_median": 100500,
+      "top_company": "Brafton",
       "top_tags": [
-        "Full-Time",
         "content writing",
         "customer support",
         "marketing",
         "exec",
+        "Contract",
         "a",
         "dev",
         "ops"
       ]
     },
     {
-      "role": "Unknown",
-      "count": 95,
-      "companies": 62,
+      "role": "HR",
+      "count": 2,
+      "companies": 1,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 80000,
-      "salary_max_median": 100000,
+      "salary_min_median": null,
+      "salary_max_median": null,
       "top_company": "Welo Global",
       "top_tags": [
-        "exec",
+        "Contract"
+      ]
+    },
+    {
+      "role": "Unknown",
+      "count": 99,
+      "companies": 77,
+      "vibe_count": 0,
+      "vibe_share": 0.0,
+      "salary_min_median": 126900,
+      "salary_max_median": 160000,
+      "top_company": "iMerit Technology",
+      "top_tags": [
         "Full-Time",
+        "exec",
         "customer support",
         "digital nomad",
-        "ops",
         "marketing",
+        "ops",
         "education",
-        "dev"
+        "technical"
       ]
     }
   ],
@@ -281,8 +294,8 @@
       "enabled": true
     },
     "prompt_eng": {
-      "count": 7,
-      "vibe": 7,
+      "count": 1,
+      "vibe": 1,
       "enabled": true
     },
     "builders": {
