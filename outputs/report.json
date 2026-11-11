@@ -1,11 +1,11 @@
 {
-  "total": 289,
-  "vibe_total": 10,
-  "vibe_share": 0.03,
+  "total": 291,
+  "vibe_total": 16,
+  "vibe_share": 0.05,
   "by_source": {
     "jobicy": 100,
     "remoteok": 99,
-    "workingnomads": 36,
+    "workingnomads": 38,
     "aidevboard": 20,
     "nocodejobs": 14,
     "remotive": 13,
@@ -15,42 +15,42 @@
   "roles": [
     {
       "role": "AI / Vibe Dev",
-      "count": 9,
-      "companies": 6,
-      "vibe_count": 9,
+      "count": 15,
+      "companies": 9,
+      "vibe_count": 15,
       "vibe_share": 1.0,
-      "salary_min_median": 135000,
-      "salary_max_median": 174500,
-      "top_company": "NoCodeJobs",
+      "salary_min_median": 149150,
+      "salary_max_median": 193750,
+      "top_company": "Appen",
       "top_tags": [
-        "agents",
-        "cloud",
-        "ai agents",
-        "n8n",
-        "bubble",
-        "llm",
-        "prompt",
-        "rag"
+        "Full-Time",
+        "infosec",
+        "python",
+        "docker",
+        "technical",
+        "dev",
+        "ops",
+        "engineer"
       ]
     },
     {
       "role": "Engineering",
-      "count": 75,
-      "companies": 52,
+      "count": 70,
+      "companies": 50,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 128000,
+      "salary_min_median": 130600,
       "salary_max_median": 180000,
       "top_company": "Lemon.io",
       "top_tags": [
-        "Full-Time",
         "engineer",
         "dev",
         "cloud",
-        "a",
+        "Full-Time",
         "digital nomad",
+        "a",
         "golang",
-        "javascript"
+        "design"
       ]
     },
     {
@@ -75,102 +75,102 @@
     },
     {
       "role": "Data",
-      "count": 10,
-      "companies": 6,
+      "count": 8,
+      "companies": 4,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 137445,
-      "salary_max_median": 178500,
+      "salary_min_median": 116222,
+      "salary_max_median": 180500,
       "top_company": "Proxify",
       "top_tags": [
         "a",
-        "Full-Time",
         "d",
         "t",
         "e",
         "llm",
         "agents",
-        "fine-tuning"
+        "fine-tuning",
+        "data-pipeline"
       ]
     },
     {
       "role": "Business Analyst",
-      "count": 2,
-      "companies": 1,
+      "count": 3,
+      "companies": 2,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": null,
-      "salary_max_median": null,
+      "salary_min_median": 165000,
+      "salary_max_median": 225000,
       "top_company": "Peroptyx",
       "top_tags": [
         "a",
         "n",
         "e",
+        "Full-Time",
         "j",
         "p",
         "s",
-        "d",
-        "t"
+        "d"
       ]
     },
     {
       "role": "Support",
-      "count": 17,
-      "companies": 13,
+      "count": 13,
+      "companies": 12,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 40000,
-      "salary_max_median": 55000,
-      "top_company": "Supabase",
+      "salary_min_median": 35000,
+      "salary_max_median": 52500,
+      "top_company": "Destination Careers",
       "top_tags": [
-        "Full-Time",
         "customer support",
+        "Full-Time",
+        "c",
         "travel",
         "education",
         "non tech",
-        "c",
-        "m",
-        "virtual assistant"
+        "exec",
+        "ops"
       ]
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 9,
-      "companies": 7,
+      "count": 6,
+      "companies": 4,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 118659,
-      "salary_max_median": 176480,
-      "top_company": "Proxify",
+      "salary_min_median": 137318,
+      "salary_max_median": 192960,
+      "top_company": "Lemon.io",
       "top_tags": [
         "p",
+        "dev",
+        "engineer",
         "d",
         "e",
         "v",
         "o",
-        "s",
-        "dev",
-        "engineer"
+        "s"
       ]
     },
     {
       "role": "Cybersecurity",
-      "count": 4,
-      "companies": 4,
+      "count": 19,
+      "companies": 12,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 80000,
-      "salary_max_median": 110000,
-      "top_company": "Guardrails AI",
+      "salary_min_median": 65000,
+      "salary_max_median": 85000,
+      "top_company": "EverAI",
       "top_tags": [
-        "security",
-        "soc",
-        "english",
+        "Full-Time",
         "golang",
         "infosec",
         "engineer",
+        "Contract",
         "part time",
-        "Full-Time"
+        "exec",
+        "design"
       ]
     },
     {
@@ -179,8 +179,8 @@
       "companies": 14,
       "vibe_count": 1,
       "vibe_share": 0.05,
-      "salary_min_median": 138000,
-      "salary_max_median": 185000,
+      "salary_min_median": 50000,
+      "salary_max_median": 65000,
       "top_company": "NoCodeJobs",
       "top_tags": [
         "customer support",
@@ -195,94 +195,107 @@
     },
     {
       "role": "Product / PM",
-      "count": 7,
-      "companies": 6,
+      "count": 13,
+      "companies": 7,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 191000,
       "salary_max_median": 253000,
-      "top_company": "Anduril",
+      "top_company": "Grafana Labs",
       "top_tags": [
+        "Full-Time",
         "product manager",
         "exec",
         "engineer",
         "design",
         "finance",
         "senior",
-        "digital nomad",
-        "computer-vision"
+        "digital nomad"
       ]
     },
     {
       "role": "Sales / SDR",
-      "count": 27,
-      "companies": 23,
+      "count": 18,
+      "companies": 17,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 127807,
-      "salary_max_median": 155549,
-      "top_company": "Huntress",
+      "salary_min_median": 87500,
+      "salary_max_median": 120000,
+      "top_company": "Datadog",
       "top_tags": [
         "Full-Time",
         "exec",
         "marketing",
-        "customer support",
-        "sales",
         "golang",
         "technical",
-        "ops"
+        "customer support",
+        "sales",
+        "senior"
       ]
     },
     {
       "role": "Marketing",
       "count": 13,
-      "companies": 12,
+      "companies": 9,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 115000,
-      "salary_max_median": 126000,
-      "top_company": "PubNub",
+      "salary_min_median": 80000,
+      "salary_max_median": 94003,
+      "top_company": "Grafana Labs",
       "top_tags": [
         "Full-Time",
         "a",
-        "n",
         "content writing",
         "customer support",
         "marketing",
         "exec",
-        "ops"
+        "ops",
+        "n"
+      ]
+    },
+    {
+      "role": "HR",
+      "count": 1,
+      "companies": 1,
+      "vibe_count": 0,
+      "vibe_share": 0.0,
+      "salary_min_median": 1000,
+      "salary_max_median": 1000,
+      "top_company": "Luxury Presence",
+      "top_tags": [
+        "Contract"
       ]
     },
     {
       "role": "Unknown",
-      "count": 92,
-      "companies": 75,
+      "count": 88,
+      "companies": 69,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 122700,
-      "salary_max_median": 160000,
-      "top_company": "Language Services Associates",
+      "salary_min_median": 85000,
+      "salary_max_median": 120000,
+      "top_company": "iMerit Technology",
       "top_tags": [
         "exec",
-        "Full-Time",
         "customer support",
-        "marketing",
-        "digital nomad",
-        "ops",
+        "Full-Time",
         "education",
+        "marketing",
+        "ops",
+        "digital nomad",
         "technical"
       ]
     }
   ],
   "track_counts": {
     "ai_agents": {
-      "count": 5,
-      "vibe": 5,
+      "count": 8,
+      "vibe": 8,
       "enabled": true
     },
     "prompt_eng": {
-      "count": 1,
-      "vibe": 1,
+      "count": 4,
+      "vibe": 4,
       "enabled": true
     },
     "builders": {
