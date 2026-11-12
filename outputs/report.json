@@ -1,66 +1,66 @@
 {
-  "total": 291,
-  "vibe_total": 16,
-  "vibe_share": 0.05,
+  "total": 290,
+  "vibe_total": 11,
+  "vibe_share": 0.04,
   "by_source": {
     "jobicy": 100,
-    "remoteok": 99,
-    "workingnomads": 38,
+    "remoteok": 98,
+    "workingnomads": 37,
     "aidevboard": 20,
     "nocodejobs": 14,
-    "remotive": 13,
+    "remotive": 14,
     "arcdev": 4,
     "himalayas": 3
   },
   "roles": [
     {
       "role": "AI / Vibe Dev",
-      "count": 15,
-      "companies": 9,
-      "vibe_count": 15,
+      "count": 10,
+      "companies": 7,
+      "vibe_count": 10,
       "vibe_share": 1.0,
-      "salary_min_median": 149150,
-      "salary_max_median": 193750,
-      "top_company": "Appen",
+      "salary_min_median": 135000,
+      "salary_max_median": 174500,
+      "top_company": "NoCodeJobs",
       "top_tags": [
-        "Full-Time",
+        "agents",
+        "cloud",
         "infosec",
         "python",
         "docker",
         "technical",
         "dev",
-        "ops",
-        "engineer"
+        "ops"
       ]
     },
     {
       "role": "Engineering",
       "count": 70,
-      "companies": 50,
+      "companies": 51,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 130600,
-      "salary_max_median": 180000,
+      "salary_min_median": 150000,
+      "salary_max_median": 185000,
       "top_company": "Lemon.io",
       "top_tags": [
         "engineer",
         "dev",
         "cloud",
-        "Full-Time",
-        "digital nomad",
         "a",
         "golang",
-        "design"
+        "digital nomad",
+        "Full-Time",
+        "javascript"
       ]
     },
     {
       "role": "QA / Testing",
-      "count": 5,
-      "companies": 3,
+      "count": 6,
+      "companies": 4,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": null,
-      "salary_max_median": null,
+      "salary_min_median": 85560,
+      "salary_max_median": 97129,
       "top_company": "TELUS Digital",
       "top_tags": [
         "a",
@@ -75,12 +75,12 @@
     },
     {
       "role": "Data",
-      "count": 8,
-      "companies": 4,
+      "count": 9,
+      "companies": 5,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 116222,
-      "salary_max_median": 180500,
+      "salary_min_median": 137445,
+      "salary_max_median": 231000,
       "top_company": "Proxify",
       "top_tags": [
         "a",
@@ -95,133 +95,133 @@
     },
     {
       "role": "Business Analyst",
-      "count": 3,
-      "companies": 2,
+      "count": 2,
+      "companies": 1,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 165000,
-      "salary_max_median": 225000,
+      "salary_min_median": null,
+      "salary_max_median": null,
       "top_company": "Peroptyx",
       "top_tags": [
         "a",
         "n",
         "e",
-        "Full-Time",
         "j",
         "p",
         "s",
-        "d"
+        "d",
+        "t"
       ]
     },
     {
       "role": "Support",
-      "count": 13,
-      "companies": 12,
+      "count": 16,
+      "companies": 14,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 35000,
-      "salary_max_median": 52500,
-      "top_company": "Destination Careers",
+      "salary_min_median": 40000,
+      "salary_max_median": 55000,
+      "top_company": "LevelUp",
       "top_tags": [
-        "customer support",
         "Full-Time",
-        "c",
+        "customer support",
         "travel",
         "education",
         "non tech",
         "exec",
-        "ops"
+        "ops",
+        "virtual assistant"
       ]
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 6,
-      "companies": 4,
+      "count": 9,
+      "companies": 7,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 137318,
       "salary_max_median": 192960,
-      "top_company": "Lemon.io",
+      "top_company": "Proxify",
       "top_tags": [
         "p",
-        "dev",
-        "engineer",
         "d",
         "e",
         "v",
         "o",
-        "s"
-      ]
-    },
-    {
-      "role": "Cybersecurity",
-      "count": 19,
-      "companies": 12,
-      "vibe_count": 0,
-      "vibe_share": 0.0,
-      "salary_min_median": 65000,
-      "salary_max_median": 85000,
-      "top_company": "EverAI",
-      "top_tags": [
-        "Full-Time",
-        "golang",
-        "infosec",
-        "engineer",
-        "Contract",
-        "part time",
-        "exec",
-        "design"
-      ]
-    },
-    {
-      "role": "Design (UI/UX)",
-      "count": 19,
-      "companies": 14,
-      "vibe_count": 1,
-      "vibe_share": 0.05,
-      "salary_min_median": 50000,
-      "salary_max_median": 65000,
-      "top_company": "NoCodeJobs",
-      "top_tags": [
-        "customer support",
-        "marketing",
-        "exec",
-        "design",
-        "senior",
-        "ops",
-        "digital nomad",
+        "s",
+        "dev",
         "engineer"
       ]
     },
     {
+      "role": "Cybersecurity",
+      "count": 17,
+      "companies": 12,
+      "vibe_count": 0,
+      "vibe_share": 0.0,
+      "salary_min_median": 110000,
+      "salary_max_median": 150000,
+      "top_company": "CertiK",
+      "top_tags": [
+        "Full-Time",
+        "Internship",
+        "Contract",
+        "security",
+        "soc",
+        "english",
+        "golang",
+        "infosec"
+      ]
+    },
+    {
+      "role": "Design (UI/UX)",
+      "count": 16,
+      "companies": 11,
+      "vibe_count": 1,
+      "vibe_share": 0.06,
+      "salary_min_median": 57025000,
+      "salary_max_median": 70032500,
+      "top_company": "NoCodeJobs",
+      "top_tags": [
+        "customer support",
+        "exec",
+        "i",
+        "marketing",
+        "senior",
+        "ops",
+        "engineer",
+        "s"
+      ]
+    },
+    {
       "role": "Product / PM",
-      "count": 13,
-      "companies": 7,
+      "count": 7,
+      "companies": 6,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 191000,
       "salary_max_median": 253000,
-      "top_company": "Grafana Labs",
+      "top_company": "Anduril",
       "top_tags": [
-        "Full-Time",
         "product manager",
         "exec",
         "engineer",
         "design",
         "finance",
         "senior",
-        "digital nomad"
+        "digital nomad",
+        "computer-vision"
       ]
     },
     {
       "role": "Sales / SDR",
-      "count": 18,
-      "companies": 17,
+      "count": 25,
+      "companies": 19,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 87500,
-      "salary_max_median": 120000,
-      "top_company": "Datadog",
+      "salary_min_median": 150000,
+      "salary_max_median": 200000,
+      "top_company": "Ajax Systems",
       "top_tags": [
         "Full-Time",
         "exec",
@@ -235,67 +235,54 @@
     },
     {
       "role": "Marketing",
-      "count": 13,
-      "companies": 9,
+      "count": 16,
+      "companies": 16,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 80000,
-      "salary_max_median": 94003,
-      "top_company": "Grafana Labs",
+      "salary_min_median": 146000,
+      "salary_max_median": 185000,
+      "top_company": "UpGuard",
       "top_tags": [
         "Full-Time",
         "a",
+        "n",
         "content writing",
         "customer support",
         "marketing",
         "exec",
-        "ops",
-        "n"
-      ]
-    },
-    {
-      "role": "HR",
-      "count": 1,
-      "companies": 1,
-      "vibe_count": 0,
-      "vibe_share": 0.0,
-      "salary_min_median": 1000,
-      "salary_max_median": 1000,
-      "top_company": "Luxury Presence",
-      "top_tags": [
-        "Contract"
+        "ops"
       ]
     },
     {
       "role": "Unknown",
-      "count": 88,
-      "companies": 69,
+      "count": 87,
+      "companies": 67,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 85000,
-      "salary_max_median": 120000,
+      "salary_min_median": 80000,
+      "salary_max_median": 102500,
       "top_company": "iMerit Technology",
       "top_tags": [
         "exec",
         "customer support",
         "Full-Time",
         "education",
-        "marketing",
-        "ops",
         "digital nomad",
-        "technical"
+        "ops",
+        "marketing",
+        "medical"
       ]
     }
   ],
   "track_counts": {
     "ai_agents": {
-      "count": 8,
-      "vibe": 8,
+      "count": 6,
+      "vibe": 6,
       "enabled": true
     },
     "prompt_eng": {
-      "count": 4,
-      "vibe": 4,
+      "count": 1,
+      "vibe": 1,
       "enabled": true
     },
     "builders": {
