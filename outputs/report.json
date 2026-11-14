@@ -1,96 +1,96 @@
 {
-  "total": 288,
-  "vibe_total": 11,
+  "total": 273,
+  "vibe_total": 12,
   "vibe_share": 0.04,
   "by_source": {
     "jobicy": 100,
-    "remoteok": 98,
-    "workingnomads": 35,
-    "aidevboard": 20,
-    "remotive": 14,
+    "remoteok": 97,
+    "workingnomads": 36,
+    "remotive": 16,
     "nocodejobs": 14,
     "arcdev": 4,
-    "himalayas": 3
+    "himalayas": 3,
+    "aidevboard": 3
   },
   "roles": [
     {
       "role": "AI / Vibe Dev",
-      "count": 10,
-      "companies": 7,
-      "vibe_count": 10,
+      "count": 11,
+      "companies": 8,
+      "vibe_count": 11,
       "vibe_share": 1.0,
-      "salary_min_median": 135000,
-      "salary_max_median": 174500,
+      "salary_min_median": 67500,
+      "salary_max_median": 94500,
       "top_company": "NoCodeJobs",
       "top_tags": [
+        "ai agents",
+        "c",
         "infosec",
         "python",
         "docker",
         "technical",
         "dev",
-        "ops",
-        "engineer",
-        "digital nomad"
+        "ops"
       ]
     },
     {
       "role": "Engineering",
-      "count": 77,
-      "companies": 51,
+      "count": 69,
+      "companies": 50,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 129300,
-      "salary_max_median": 180000,
+      "salary_min_median": 117700,
+      "salary_max_median": 174300,
       "top_company": "Lemon.io",
       "top_tags": [
         "Full-Time",
         "engineer",
         "dev",
-        "cloud",
-        "golang",
         "digital nomad",
+        "golang",
         "a",
-        "javascript"
+        "javascript",
+        "design"
       ]
     },
     {
       "role": "QA / Testing",
-      "count": 9,
-      "companies": 5,
+      "count": 4,
+      "companies": 2,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": null,
       "salary_max_median": null,
-      "top_company": "Testlio",
+      "top_company": "TELUS Digital",
       "top_tags": [
         "a",
-        "Contract",
         "r",
         "n",
         "p",
         "i",
         "g",
-        "s"
+        "s",
+        "h"
       ]
     },
     {
       "role": "Data",
-      "count": 11,
-      "companies": 7,
+      "count": 15,
+      "companies": 8,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 118472,
-      "salary_max_median": 181500,
-      "top_company": "Proxify",
+      "salary_min_median": 105479,
+      "salary_max_median": 132000,
+      "top_company": "Grafana Labs",
       "top_tags": [
-        "a",
         "Full-Time",
+        "a",
         "d",
         "t",
         "e",
-        "llm",
-        "agents",
-        "fine-tuning"
+        "apache",
+        "python",
+        "sql"
       ]
     },
     {
@@ -115,16 +115,16 @@
     },
     {
       "role": "Support",
-      "count": 11,
-      "companies": 10,
+      "count": 14,
+      "companies": 13,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 40000,
-      "salary_max_median": 55000,
+      "salary_min_median": 115000,
+      "salary_max_median": 130000,
       "top_company": "Destination Careers",
       "top_tags": [
-        "customer support",
         "Full-Time",
+        "customer support",
         "travel",
         "education",
         "non tech",
@@ -135,32 +135,32 @@
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 8,
-      "companies": 6,
+      "count": 6,
+      "companies": 4,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 98659,
+      "salary_min_median": 137318,
       "salary_max_median": 192960,
-      "top_company": "Lemon.io",
+      "top_company": "Proxify",
       "top_tags": [
         "p",
-        "dev",
-        "engineer",
         "d",
         "e",
         "v",
         "o",
-        "s"
+        "s",
+        "dev",
+        "engineer"
       ]
     },
     {
       "role": "Cybersecurity",
-      "count": 6,
-      "companies": 6,
+      "count": 9,
+      "companies": 9,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 105000,
-      "salary_max_median": 130000,
+      "salary_min_median": 160000,
+      "salary_max_median": 195000,
       "top_company": "RedMimicry",
       "top_tags": [
         "Full-Time",
@@ -175,100 +175,100 @@
     },
     {
       "role": "Design (UI/UX)",
-      "count": 17,
-      "companies": 12,
+      "count": 23,
+      "companies": 14,
       "vibe_count": 1,
-      "vibe_share": 0.06,
-      "salary_min_median": 57025000,
-      "salary_max_median": 70032500,
+      "vibe_share": 0.04,
+      "salary_min_median": 170000,
+      "salary_max_median": 210000,
       "top_company": "NoCodeJobs",
       "top_tags": [
+        "Full-Time",
+        "Contract",
+        "i",
         "customer support",
         "exec",
-        "marketing",
+        "golang",
         "senior",
-        "ops",
-        "engineer",
-        "i",
-        "golang"
+        "engineer"
       ]
     },
     {
       "role": "Product / PM",
-      "count": 11,
-      "companies": 9,
+      "count": 4,
+      "companies": 4,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 183000,
-      "salary_max_median": 231500,
-      "top_company": "Spotify",
+      "salary_min_median": null,
+      "salary_max_median": null,
+      "top_company": "Thyme Care",
       "top_tags": [
-        "Full-Time",
         "product manager",
         "exec",
         "engineer",
+        "senior",
         "design",
         "finance",
-        "senior",
-        "digital nomad"
+        "digital nomad",
+        "technical"
       ]
     },
     {
       "role": "Sales / SDR",
-      "count": 24,
-      "companies": 21,
+      "count": 21,
+      "companies": 18,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 129500,
-      "salary_max_median": 155000,
-      "top_company": "Firework",
+      "salary_min_median": 76000,
+      "salary_max_median": 90000,
+      "top_company": "PointClickCare",
       "top_tags": [
         "Full-Time",
         "exec",
         "marketing",
         "golang",
-        "technical",
         "customer support",
         "sales",
-        "senior"
+        "technical",
+        "ops"
       ]
     },
     {
       "role": "Marketing",
-      "count": 13,
-      "companies": 10,
+      "count": 9,
+      "companies": 9,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 115000,
-      "salary_max_median": 140000,
-      "top_company": "Later",
+      "salary_min_median": 137500,
+      "salary_max_median": 192500,
+      "top_company": "Copenhagen Optimization",
       "top_tags": [
         "Full-Time",
         "a",
-        "content writing",
         "customer support",
         "marketing",
         "exec",
+        "content writing",
         "ops",
         "n"
       ]
     },
     {
       "role": "Unknown",
-      "count": 89,
-      "companies": 77,
+      "count": 86,
+      "companies": 69,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 110000,
-      "salary_max_median": 150000,
-      "top_company": "Kaseya",
+      "salary_min_median": 90000,
+      "salary_max_median": 115000,
+      "top_company": "Nebius",
       "top_tags": [
-        "exec",
         "Full-Time",
+        "exec",
         "customer support",
-        "education",
         "digital nomad",
         "ops",
+        "education",
         "marketing",
         "medical"
       ]
@@ -276,8 +276,8 @@
   ],
   "track_counts": {
     "ai_agents": {
-      "count": 6,
-      "vibe": 6,
+      "count": 5,
+      "vibe": 5,
       "enabled": true
     },
     "prompt_eng": {
@@ -291,13 +291,13 @@
       "enabled": true
     },
     "ai_creative": {
-      "count": 0,
-      "vibe": 0,
+      "count": 1,
+      "vibe": 1,
       "enabled": true
     },
     "ai_product": {
-      "count": 1,
-      "vibe": 1,
+      "count": 2,
+      "vibe": 2,
       "enabled": true
     }
   }
