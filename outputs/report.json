@@ -1,12 +1,12 @@
 {
-  "total": 271,
-  "vibe_total": 11,
+  "total": 272,
+  "vibe_total": 12,
   "vibe_share": 0.04,
   "by_source": {
     "jobicy": 100,
     "remoteok": 97,
     "workingnomads": 34,
-    "remotive": 16,
+    "remotive": 17,
     "nocodejobs": 14,
     "arcdev": 4,
     "himalayas": 3,
@@ -15,12 +15,12 @@
   "roles": [
     {
       "role": "AI / Vibe Dev",
-      "count": 10,
-      "companies": 7,
-      "vibe_count": 10,
+      "count": 11,
+      "companies": 8,
+      "vibe_count": 11,
       "vibe_share": 1.0,
-      "salary_min_median": 67500,
-      "salary_max_median": 94500,
+      "salary_min_median": 70000,
+      "salary_max_median": 99000,
       "top_company": "NoCodeJobs",
       "top_tags": [
         "ai agents",
@@ -35,28 +35,28 @@
     },
     {
       "role": "Engineering",
-      "count": 69,
-      "companies": 48,
+      "count": 60,
+      "companies": 44,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 100000,
+      "salary_min_median": 86000,
       "salary_max_median": 140000,
       "top_company": "Lemon.io",
       "top_tags": [
-        "Full-Time",
         "engineer",
         "dev",
         "digital nomad",
         "golang",
         "a",
-        "javascript",
-        "design"
+        "Full-Time",
+        "design",
+        "javascript"
       ]
     },
     {
       "role": "QA / Testing",
-      "count": 4,
-      "companies": 2,
+      "count": 5,
+      "companies": 3,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": null,
@@ -75,22 +75,22 @@
     },
     {
       "role": "Data",
-      "count": 8,
-      "companies": 5,
+      "count": 10,
+      "companies": 7,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": 95000,
-      "salary_max_median": 130000,
+      "salary_max_median": 161000,
       "top_company": "Proxify",
       "top_tags": [
         "a",
         "d",
         "t",
         "e",
-        "python",
-        "apache",
-        "sql",
-        "n"
+        "Full-Time",
+        "n",
+        "g",
+        "i"
       ]
     },
     {
@@ -115,52 +115,52 @@
     },
     {
       "role": "Support",
-      "count": 12,
-      "companies": 11,
+      "count": 9,
+      "companies": 8,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 103900,
-      "salary_max_median": 129800,
+      "salary_min_median": 86000,
+      "salary_max_median": 105000,
       "top_company": "Destination Careers",
       "top_tags": [
         "customer support",
-        "Full-Time",
         "travel",
         "education",
         "non tech",
         "exec",
         "ops",
-        "virtual assistant"
+        "virtual assistant",
+        "Full-Time"
       ]
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 6,
-      "companies": 4,
+      "count": 9,
+      "companies": 7,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 137318,
-      "salary_max_median": 192960,
-      "top_company": "Lemon.io",
+      "salary_min_median": 130309,
+      "salary_max_median": 176230,
+      "top_company": "Proxify",
       "top_tags": [
         "p",
-        "dev",
-        "engineer",
         "d",
         "e",
         "v",
         "o",
-        "s"
+        "s",
+        "dev",
+        "engineer"
       ]
     },
     {
       "role": "Cybersecurity",
-      "count": 9,
-      "companies": 9,
+      "count": 7,
+      "companies": 7,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 94000,
-      "salary_max_median": 127500,
+      "salary_min_median": 140000,
+      "salary_max_median": 170000,
       "top_company": "RedMimicry",
       "top_tags": [
         "Full-Time",
@@ -168,63 +168,63 @@
         "infosec",
         "engineer",
         "part time",
+        "Internship",
         "security",
-        "soc",
-        "english"
+        "soc"
       ]
     },
     {
       "role": "Design (UI/UX)",
-      "count": 17,
-      "companies": 12,
+      "count": 20,
+      "companies": 15,
       "vibe_count": 1,
-      "vibe_share": 0.06,
-      "salary_min_median": 82500,
-      "salary_max_median": 137500,
+      "vibe_share": 0.05,
+      "salary_min_median": 89625,
+      "salary_max_median": 121250,
       "top_company": "NoCodeJobs",
       "top_tags": [
+        "Full-Time",
         "customer support",
         "exec",
+        "i",
         "marketing",
         "senior",
         "ops",
-        "engineer",
-        "Full-Time",
-        "i"
+        "engineer"
       ]
     },
     {
       "role": "Product / PM",
-      "count": 6,
-      "companies": 6,
+      "count": 11,
+      "companies": 11,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 130800,
-      "salary_max_median": 156000,
+      "salary_min_median": 135000,
+      "salary_max_median": 176250,
       "top_company": "Pencil",
       "top_tags": [
+        "Full-Time",
         "product manager",
         "exec",
         "engineer",
         "design",
         "finance",
         "senior",
-        "digital nomad",
-        "sys admin"
+        "digital nomad"
       ]
     },
     {
       "role": "Sales / SDR",
-      "count": 18,
-      "companies": 18,
+      "count": 28,
+      "companies": 20,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 100000,
-      "salary_max_median": 100000,
-      "top_company": "CertiK",
+      "salary_min_median": 90000,
+      "salary_max_median": 140000,
+      "top_company": "Zscaler",
       "top_tags": [
-        "exec",
         "Full-Time",
+        "exec",
         "marketing",
         "golang",
         "technical",
@@ -235,49 +235,49 @@
     },
     {
       "role": "Marketing",
-      "count": 10,
+      "count": 8,
       "companies": 8,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 60000,
-      "salary_max_median": 80000,
-      "top_company": "Reedsy",
+      "salary_min_median": 40008,
+      "salary_max_median": 45008,
+      "top_company": "iMerit Technology",
       "top_tags": [
-        "Full-Time",
         "a",
+        "n",
         "content writing",
         "customer support",
         "marketing",
         "exec",
         "ops",
-        "n"
+        "AI/ML"
       ]
     },
     {
       "role": "Unknown",
-      "count": 100,
-      "companies": 87,
+      "count": 92,
+      "companies": 74,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 95000,
+      "salary_min_median": 102000,
       "salary_max_median": 115000,
-      "top_company": "Veeam Software",
+      "top_company": "Zscaler",
       "top_tags": [
         "Full-Time",
         "exec",
         "customer support",
         "education",
-        "digital nomad",
-        "marketing",
         "ops",
+        "marketing",
+        "digital nomad",
         "medical"
       ]
     }
   ],
   "track_counts": {
     "ai_agents": {
-      "count": 5,
-      "vibe": 5,
+      "count": 6,
+      "vibe": 6,
       "enabled": true
     },
     "prompt_eng": {
