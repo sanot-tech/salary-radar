@@ -1,12 +1,12 @@
 {
-  "total": 273,
-  "vibe_total": 11,
+  "total": 275,
+  "vibe_total": 12,
   "vibe_share": 0.04,
   "by_source": {
+    "remoteok": 100,
     "jobicy": 100,
-    "remoteok": 98,
-    "workingnomads": 36,
-    "remotive": 15,
+    "workingnomads": 35,
+    "remotive": 16,
     "nocodejobs": 14,
     "arcdev": 4,
     "himalayas": 3,
@@ -15,42 +15,42 @@
   "roles": [
     {
       "role": "AI / Vibe Dev",
-      "count": 10,
-      "companies": 7,
-      "vibe_count": 10,
+      "count": 11,
+      "companies": 8,
+      "vibe_count": 11,
       "vibe_share": 1.0,
       "salary_min_median": 67500,
       "salary_max_median": 94500,
       "top_company": "NoCodeJobs",
       "top_tags": [
         "ai agents",
-        "design",
-        "react",
-        "sys admin",
-        "infosec",
-        "python",
-        "consulting",
-        "docker"
+        "exec",
+        "Full-Time",
+        "n8n",
+        "bubble",
+        "llm",
+        "prompt",
+        "rag"
       ]
     },
     {
       "role": "Engineering",
-      "count": 58,
-      "companies": 43,
+      "count": 59,
+      "companies": 39,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 100000,
-      "salary_max_median": 140000,
-      "top_company": "Lemon.io",
+      "salary_min_median": 126000,
+      "salary_max_median": 167500,
+      "top_company": "Proxify",
       "top_tags": [
-        "dev",
-        "engineer",
         "Full-Time",
-        "digital nomad",
         "a",
-        "javascript",
-        "design",
-        "python"
+        "programming",
+        "r",
+        "e",
+        "react",
+        "c",
+        "p"
       ]
     },
     {
@@ -59,8 +59,8 @@
       "companies": 3,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 28,
-      "salary_max_median": 28,
+      "salary_min_median": null,
+      "salary_max_median": null,
       "top_company": "TELUS Digital",
       "top_tags": [
         "a",
@@ -75,12 +75,12 @@
     },
     {
       "role": "Data",
-      "count": 11,
-      "companies": 7,
+      "count": 13,
+      "companies": 9,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 122500,
-      "salary_max_median": 130000,
+      "salary_min_median": 137500,
+      "salary_max_median": 185000,
       "top_company": "Proxify",
       "top_tags": [
         "a",
@@ -89,8 +89,8 @@
         "e",
         "n",
         "g",
-        "python",
-        "apache"
+        "programming",
+        "sql"
       ]
     },
     {
@@ -115,22 +115,22 @@
     },
     {
       "role": "Support",
-      "count": 21,
-      "companies": 18,
+      "count": 20,
+      "companies": 14,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 60000,
-      "salary_max_median": 77500,
+      "salary_min_median": 112500,
+      "salary_max_median": 147500,
       "top_company": "GitLab",
       "top_tags": [
         "customer support",
         "Full-Time",
-        "exec",
-        "ops",
-        "travel",
-        "education",
-        "virtual assistant",
-        "non tech"
+        "sales",
+        "azure",
+        "cisco",
+        "security",
+        "video",
+        "documentation"
       ]
     },
     {
@@ -139,18 +139,18 @@
       "companies": 4,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 137318,
-      "salary_max_median": 192960,
+      "salary_min_median": 140000,
+      "salary_max_median": 215000,
       "top_company": "Proxify",
       "top_tags": [
-        "dev",
-        "engineer",
-        "design",
-        "exec",
-        "devops",
-        "cloud",
-        "sys admin",
-        "medical"
+        "Full-Time",
+        "d",
+        "e",
+        "v",
+        "o",
+        "p",
+        "s",
+        "programming"
       ]
     },
     {
@@ -159,15 +159,14 @@
       "companies": 9,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 94367,
-      "salary_max_median": 118961,
-      "top_company": "RedMimicry",
+      "salary_min_median": 106500,
+      "salary_max_median": 138000,
+      "top_company": "Ensono",
       "top_tags": [
         "Full-Time",
-        "golang",
-        "infosec",
-        "engineer",
-        "part time",
+        "devops",
+        "customer support",
+        "Contract",
         "security",
         "soc",
         "english"
@@ -175,122 +174,115 @@
     },
     {
       "role": "Design (UI/UX)",
-      "count": 16,
+      "count": 14,
       "companies": 9,
       "vibe_count": 1,
-      "vibe_share": 0.06,
-      "salary_min_median": 86400,
-      "salary_max_median": 176400,
+      "vibe_share": 0.07,
+      "salary_min_median": 110000,
+      "salary_max_median": 223000,
       "top_company": "NoCodeJobs",
       "top_tags": [
-        "customer support",
-        "exec",
         "Full-Time",
         "i",
-        "marketing",
-        "recruiter",
-        "ops",
-        "ads"
+        "s",
+        "design",
+        "sales",
+        "recruiting",
+        "hr",
+        "sourcing"
       ]
     },
     {
       "role": "Product / PM",
       "count": 8,
-      "companies": 8,
+      "companies": 7,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 140060,
-      "salary_max_median": 201540,
-      "top_company": "Syner-G",
+      "salary_min_median": 165000,
+      "salary_max_median": 215000,
+      "top_company": "Reddit",
       "top_tags": [
         "Full-Time",
+        "product",
+        "project manager",
         "exec",
+        "consulting",
         "customer support",
         "marketing",
-        "finance",
-        "product manager",
-        "senior",
-        "medical"
+        "finance"
       ]
     },
     {
       "role": "Sales / SDR",
-      "count": 21,
-      "companies": 21,
+      "count": 27,
+      "companies": 23,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 135000,
-      "salary_max_median": 162500,
-      "top_company": "Bitwarden",
+      "salary_min_median": 176744,
+      "salary_max_median": 234273,
+      "top_company": "Natera",
       "top_tags": [
         "Full-Time",
-        "exec",
         "sales",
         "customer support",
+        "devops",
         "marketing",
-        "technical",
-        "golang",
-        "ops"
+        "s",
+        "finance",
+        "crypto"
       ]
     },
     {
       "role": "Marketing",
-      "count": 13,
-      "companies": 12,
+      "count": 18,
+      "companies": 15,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 117500,
-      "salary_max_median": 127500,
+      "salary_min_median": 198030,
+      "salary_max_median": 230060,
       "top_company": "TELUS Digital",
       "top_tags": [
         "Full-Time",
         "marketing",
-        "n",
-        "a",
         "customer support",
         "AI/ML",
-        "full stack",
-        "react"
+        "n",
+        "a",
+        "design",
+        "technical"
       ]
     },
     {
       "role": "HR",
-      "count": 2,
+      "count": 1,
       "companies": 1,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": null,
       "salary_max_median": null,
-      "top_company": "Clera",
+      "top_company": "Cribl",
       "top_tags": [
-        "exec",
-        "design",
-        "education",
-        "testing",
-        "travel",
-        "robotics",
-        "ops",
-        "digital nomad"
+        "exec"
       ]
     },
     {
       "role": "Unknown",
-      "count": 92,
-      "companies": 63,
+      "count": 83,
+      "companies": 62,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 115000,
-      "salary_max_median": 150000,
-      "top_company": "Wpromote",
+      "salary_min_median": 153000,
+      "salary_max_median": 210000,
+      "top_company": "GitLab",
       "top_tags": [
         "Full-Time",
-        "customer support",
         "exec",
-        "education",
-        "marketing",
-        "ops",
-        "medical",
-        "finance"
+        "sales",
+        "customer support",
+        "product",
+        "devops",
+        "other",
+        "marketing"
       ]
     }
   ],
@@ -316,8 +308,8 @@
       "enabled": true
     },
     "ai_product": {
-      "count": 1,
-      "vibe": 1,
+      "count": 2,
+      "vibe": 2,
       "enabled": true
     }
   }
