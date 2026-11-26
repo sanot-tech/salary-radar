@@ -1,11 +1,11 @@
 {
-  "total": 294,
-  "vibe_total": 14,
-  "vibe_share": 0.05,
+  "total": 293,
+  "vibe_total": 11,
+  "vibe_share": 0.04,
   "by_source": {
     "remoteok": 100,
     "jobicy": 100,
-    "workingnomads": 37,
+    "workingnomads": 36,
     "aidevboard": 20,
     "remotive": 16,
     "nocodejobs": 14,
@@ -15,42 +15,42 @@
   "roles": [
     {
       "role": "AI / Vibe Dev",
-      "count": 12,
-      "companies": 8,
-      "vibe_count": 12,
+      "count": 10,
+      "companies": 6,
+      "vibe_count": 10,
       "vibe_share": 1.0,
       "salary_min_median": 65000,
       "salary_max_median": 94500,
       "top_company": "NoCodeJobs",
       "top_tags": [
         "programming",
-        "Full-Time",
         "ai agents",
         "n8n",
         "bubble",
         "llm",
         "prompt",
-        "rag"
+        "rag",
+        "q"
       ]
     },
     {
       "role": "Engineering",
-      "count": 66,
-      "companies": 41,
+      "count": 51,
+      "companies": 33,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 188000,
-      "salary_max_median": 267100,
+      "salary_min_median": 215500,
+      "salary_max_median": 265000,
       "top_company": "Proxify",
       "top_tags": [
         "Full-Time",
         "a",
-        "cloud",
-        "agents",
         "r",
         "e",
         "programming",
-        "p"
+        "agents",
+        "p",
+        "n"
       ]
     },
     {
@@ -59,8 +59,8 @@
       "companies": 5,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 3000,
-      "salary_max_median": 4500,
+      "salary_min_median": 135000,
+      "salary_max_median": 170000,
       "top_company": "TELUS Digital",
       "top_tags": [
         "a",
@@ -75,28 +75,28 @@
     },
     {
       "role": "Data",
-      "count": 13,
-      "companies": 9,
+      "count": 18,
+      "companies": 13,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 170000,
-      "salary_max_median": 196000,
+      "salary_min_median": 185000,
+      "salary_max_median": 229000,
       "top_company": "Proxify",
       "top_tags": [
         "a",
         "e",
+        "data-science",
         "d",
         "t",
-        "i",
-        "n",
-        "g",
-        "sql"
+        "Full-Time",
+        "agents",
+        "llm"
       ]
     },
     {
       "role": "Business Analyst",
-      "count": 2,
-      "companies": 1,
+      "count": 4,
+      "companies": 3,
       "vibe_count": 0,
       "vibe_share": 0.0,
       "salary_min_median": null,
@@ -104,24 +104,24 @@
       "top_company": "Peroptyx",
       "top_tags": [
         "a",
+        "Full-Time",
         "n",
         "e",
         "j",
         "p",
         "s",
-        "d",
-        "t"
+        "d"
       ]
     },
     {
       "role": "Support",
-      "count": 6,
-      "companies": 6,
+      "count": 14,
+      "companies": 13,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 102500,
-      "salary_max_median": 130000,
-      "top_company": "Unio Digital",
+      "salary_min_median": 103500,
+      "salary_max_median": 137000,
+      "top_company": "GitLab",
       "top_tags": [
         "Full-Time",
         "customer support",
@@ -135,158 +135,156 @@
     },
     {
       "role": "Sysadmin / DevOps",
-      "count": 11,
-      "companies": 6,
+      "count": 5,
+      "companies": 3,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 200000,
-      "salary_max_median": 346000,
-      "top_company": "Decagon",
+      "salary_min_median": 225000,
+      "salary_max_median": 300000,
+      "top_company": "Reddit",
       "top_tags": [
-        "agents",
         "devops",
-        "distributed-systems",
-        "infrastructure",
-        "data-pipeline",
-        "llm",
-        "cloud",
-        "mlops"
+        "d",
+        "e",
+        "v",
+        "o",
+        "p",
+        "s",
+        "agents"
       ]
     },
     {
       "role": "Cybersecurity",
-      "count": 19,
-      "companies": 17,
+      "count": 20,
+      "companies": 16,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 132100,
-      "salary_max_median": 170000,
-      "top_company": "Harness",
+      "salary_min_median": 118000,
+      "salary_max_median": 150000,
+      "top_company": "GitLab",
       "top_tags": [
-        "devops",
         "Full-Time",
-        "customer support",
-        "security",
-        "llm",
-        "agents",
+        "devops",
         "programming",
-        "soc"
+        "security",
+        "sales",
+        "design",
+        "technical",
+        "customer support"
       ]
     },
     {
       "role": "Design (UI/UX)",
-      "count": 21,
-      "companies": 13,
+      "count": 12,
+      "companies": 8,
       "vibe_count": 1,
-      "vibe_share": 0.05,
-      "salary_min_median": 90000,
-      "salary_max_median": 132500,
+      "vibe_share": 0.08,
+      "salary_min_median": 50000,
+      "salary_max_median": 65000,
       "top_company": "NoCodeJobs",
       "top_tags": [
-        "Full-Time",
-        "i",
+        "marketing",
+        "sales",
+        "finance",
         "Contract",
-        "s",
-        "design",
-        "Part-Time",
+        "Full-Time",
         "recruiting",
-        "hr"
+        "hr",
+        "sourcing"
       ]
     },
     {
       "role": "Product / PM",
-      "count": 8,
-      "companies": 6,
+      "count": 5,
+      "companies": 5,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 173175,
-      "salary_max_median": 236325,
+      "salary_min_median": 175500,
+      "salary_max_median": 230000,
       "top_company": "Reddit",
       "top_tags": [
         "Full-Time",
-        "product",
-        "Contract"
+        "product"
       ]
     },
     {
       "role": "Sales / SDR",
-      "count": 29,
-      "companies": 22,
+      "count": 26,
+      "companies": 21,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 132500,
-      "salary_max_median": 161000,
-      "top_company": "GitLab",
+      "salary_min_median": 131000,
+      "salary_max_median": 145000,
+      "top_company": "Saviynt",
       "top_tags": [
-        "Full-Time",
         "sales",
+        "Full-Time",
         "s",
         "customer support",
-        "devops",
         "CRM",
         "google sheets",
-        "financial services"
+        "financial services",
+        "Inside Sales"
       ]
     },
     {
       "role": "Marketing",
-      "count": 9,
-      "companies": 6,
+      "count": 15,
+      "companies": 11,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": null,
-      "salary_max_median": null,
+      "salary_min_median": 87500,
+      "salary_max_median": 122500,
       "top_company": "TELUS Digital",
       "top_tags": [
+        "marketing",
+        "Full-Time",
         "AI/ML",
         "n",
         "a",
-        "product",
         "android",
         "ios",
-        "social media",
-        "research"
+        "social media"
       ]
     },
     {
       "role": "HR",
-      "count": 3,
-      "companies": 3,
+      "count": 1,
+      "companies": 1,
       "vibe_count": 0,
       "vibe_share": 0.0,
-      "salary_min_median": 100000,
-      "salary_max_median": 120000,
-      "top_company": "KnowBe4, Inc.",
+      "salary_min_median": null,
+      "salary_max_median": null,
+      "top_company": "GitLab",
       "top_tags": [
-        "exec",
-        "Full-Time"
+        "other"
       ]
     },
     {
       "role": "Unknown",
-      "count": 88,
-      "companies": 58,
-      "vibe_count": 1,
-      "vibe_share": 0.01,
-      "salary_min_median": 134345,
-      "salary_max_median": 156500,
-      "top_company": "Ping Identity",
+      "count": 105,
+      "companies": 75,
+      "vibe_count": 0,
+      "vibe_share": 0.0,
+      "salary_min_median": 120902,
+      "salary_max_median": 156049,
+      "top_company": "GitLab",
       "top_tags": [
         "Full-Time",
-        "exec",
-        "finance",
         "sales",
-        "other",
         "customer support",
-        "product",
+        "marketing",
+        "other",
+        "finance",
+        "exec",
         "insurance"
       ]
     }
   ],
   "track_counts": {
     "ai_agents": {
-      "count": 8,
-      "vibe": 8,
+      "count": 6,
+      "vibe": 6,
       "enabled": true
     },
     "prompt_eng": {
